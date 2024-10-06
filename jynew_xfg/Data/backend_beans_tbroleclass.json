@@ -1,0 +1,114 @@
+[
+  {
+    "Id": "未知",
+    "Name": {
+      "key": "i18n/class/name/unknown",
+      "text": "？？？"
+    },
+    "Desciption": {
+      "key": "i18n/class/desc/unknown",
+      "text": "好像发生了未知的错误"
+    },
+    "Icon": "0",
+    "AttrTemplate": "0",
+    "TalentPageId": "",
+    "CanChooseWhenCreateRole": false,
+    "AffixPoolId": ""
+  },
+  {
+    "Id": "铁卫",
+    "Name": {
+      "key": "i18n/class/name/iron_guard",
+      "text": "铁壁"
+    },
+    "Desciption": {
+      "key": "i18n/class/desc/iron_guard",
+      "text": "前排肉盾，皮糙肉厚，拳法精湛，擅长舞刀弄棒。"
+    },
+    "Icon": "1",
+    "AttrTemplate": "铁卫",
+    "TalentPageId": "铁卫专精",
+    "CanChooseWhenCreateRole": true,
+    "AffixPoolId": "防御角色"
+  },
+  {
+    "Id": "侠士",
+    "Name": {
+      "key": "i18n/class/name/warrior",
+      "text": "千刃"
+    },
+    "Desciption": {
+      "key": "i18n/class/desc/warrior",
+      "text": "样样武艺都有所涉略的多面手"
+    },
+    "Icon": "2",
+    "AttrTemplate": "侠士",
+    "TalentPageId": "侠士专精",
+    "CanChooseWhenCreateRole": true,
+    "AffixPoolId": "通用角色"
+  },
+  {
+    "Id": "刺客",
+    "Name": {
+      "key": "i18n/class/name/assassin",
+      "text": "诡影"
+    },
+    "Desciption": {
+      "key": "i18n/class/desc/assassin",
+      "text": "身法灵活、轻功高超的修武之人，精通刀剑，也能使用远程武器"
+    },
+    "Icon": "3",
+    "AttrTemplate": "刺客",
+    "TalentPageId": "刺客专精",
+    "CanChooseWhenCreateRole": true,
+    "AffixPoolId": "爆发角色"
+  },
+  {
+    "Id": "游侠",
+    "Name": {
+      "key": "i18n/class/name/ranger",
+      "text": "极目"
+    },
+    "Desciption": {
+      "key": "i18n/class/desc/ranger",
+      "text": "对远程类武器较为精通之人，也有一定剑术资质"
+    },
+    "Icon": "4",
+    "AttrTemplate": "游侠",
+    "TalentPageId": "游侠专精",
+    "CanChooseWhenCreateRole": true,
+    "AffixPoolId": "输出角色"
+  },
+  {
+    "Id": "医师",
+    "Name": {
+      "key": "i18n/class/name/healer",
+      "text": "百草"
+    },
+    "Desciption": {
+      "key": "i18n/class/desc/healer",
+      "text": "擅长治疗受伤的人，在内功武学方面较为突出，也能使棍"
+    },
+    "Icon": "5",
+    "AttrTemplate": "医师",
+    "TalentPageId": "医师专精",
+    "CanChooseWhenCreateRole": true,
+    "AffixPoolId": "治疗角色"
+  },
+  {
+    "Id": "木桩",
+    "Name": {
+      "key": "i19n/class/name/wooden_one",
+      "text": "木桩"
+    },
+    "Desciption": {
+      "key": "i19n/class/desc/wooden_one",
+      "text": "一个木桩"
+    },
+    "Icon": "0",
+    "AttrTemplate": "木桩",
+    "TalentPageId": "木桩专精",
+    "CanChooseWhenCreateRole": false,
+    "AffixPoolId": ""
+  }
+]

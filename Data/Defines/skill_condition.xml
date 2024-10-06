@@ -1,0 +1,18 @@
+<module name="Backend.Beans">
+
+	<bean name="SkillConditionBase" comment="武学学习条件基类" sep=",">
+	</bean>
+
+	<bean name="SC_RoleLearnedSkill" alias="角色已学会技能" parent="SkillConditionBase">
+		<var name="SkillId" type="string" comment="技能id"/>
+	</bean>
+
+	<bean name="SC_RoleAttr" alias="角色属性" parent="SkillConditionBase">
+		<var name="AttrId" type="string" comment="属性Id"/>
+		<var name="ValueToCompare" type="int" comment="比较数值"/>
+	</bean>
+
+	<bean name="SC_RoleLevel" alias="角色等级" parent="SkillConditionBase">
+		<var name="ValueToCompare" type="int" comment="比较数值"/>
+	</bean>
+</module>

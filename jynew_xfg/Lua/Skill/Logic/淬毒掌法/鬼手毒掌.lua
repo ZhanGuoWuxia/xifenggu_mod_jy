@@ -1,0 +1,1 @@
+return passive_define("鬼手毒掌", "鬼手毒掌")

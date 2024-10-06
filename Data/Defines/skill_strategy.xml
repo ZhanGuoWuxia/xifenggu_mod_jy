@@ -1,0 +1,83 @@
+<module name="Backend.Beans">
+
+	<enum name="SkillStrategyJudgeType" comment="判定类型">
+		<var name="NotTarget" alias="非目标判定" value="0"/>
+		<var name="TargetPriority" alias="目标优先" value="1" />
+		<var name="TargetFilter"  alias="目标过滤" value="2" />
+	</enum>
+
+	<enum name="STCondtionCheckType_YesOrNo" comment="是否判定">
+		<var name="Yes" alias="是" value="0"/>
+		<var name="No" alias="不是" value="1" />
+	</enum>
+
+	<enum name="StrategyClassType" comment="策略分类">
+		<var name="Default" alias="默认" value="0"/>
+		<var name="CasterStat" alias="施法者状态" value="1" />
+		<var name="RoleStat" alias="目标角色状态" value="2" />
+		<var name="RolePos"  alias="角色站位" value="3" />
+		<var name="RoleCount"  alias="角色数量" value="4" />
+	</enum>
+
+	<enum name="ST_BuffCountType" comment="Buff统计类型">
+		<var name="All" alias="所有" value="0"/>
+		<var name="Positive" alias="增益" value="1" />
+		<var name="Negative" alias="减益" value="2" />
+	</enum>
+
+	<bean name="SkillStrategyConditionBase" comment="策略条件基类" sep=",">
+	</bean>
+
+	<bean name="STCondition_HpPercent" alias="目标生命百分比" parent="SkillStrategyConditionBase">
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="ValueToCompare" type="float" comment="比较数值"/>
+	</bean>
+
+	<bean name="STCondition_TargetClass" alias="目标职业" parent="SkillStrategyConditionBase">
+		<var name="CheckType" type="STCondtionCheckType_YesOrNo" comment="是否判定"/>
+		<var name="RoleClassId" type="string" comment="职业Id"/>
+	</bean>
+
+	<bean name="STCondition_TargetSelf" alias="目标是否为自身" parent="SkillStrategyConditionBase">
+		<var name="CheckType" type="STCondtionCheckType_YesOrNo" comment="是否判定"/>
+	</bean>
+
+	<bean name="STCondition_MostTargetSameRow" alias="目标同行人数最多" parent="SkillStrategyConditionBase">
+		<var name="CheckType" type="STCondtionCheckType_YesOrNo" comment="是否判定"/>
+	</bean>
+
+	<bean name="STCondition_LeastTargetSameRow" alias="目标同行人数最少" parent="SkillStrategyConditionBase">
+		<var name="CheckType" type="STCondtionCheckType_YesOrNo" comment="是否判定"/>
+	</bean>
+
+	<bean name="STCondition_MostTargetSameCol" alias="目标同列人数最多" parent="SkillStrategyConditionBase">
+		<var name="CheckType" type="STCondtionCheckType_YesOrNo" comment="是否判定"/>
+	</bean>
+
+	<bean name="STCondition_LeastTargetSameCol" alias="目标同列人数最少" parent="SkillStrategyConditionBase">
+		<var name="CheckType" type="STCondtionCheckType_YesOrNo" comment="是否判定"/>
+	</bean>
+
+	<bean name="STCondition_TargetCol" alias="目标所在列" parent="SkillStrategyConditionBase">
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="ValueToCompare" type="float" comment="列数"/>
+	</bean>
+
+	<bean name="STCondition_TargetRow" alias="目标所在行" parent="SkillStrategyConditionBase">
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="ValueToCompare" type="int" comment="行数"/>
+	</bean>
+
+	<bean name="STCondition_TargetBuffNum" alias="目标Buff数量" parent="SkillStrategyConditionBase">
+		<var name="CountType" type="ST_BuffCountType" comment="统计类型"/>
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="ValueToCompare" type="int" comment="比较数量"/>
+	</bean>
+
+	<bean name="STCondition_TargetBuffPile" alias="目标Buff层数" parent="SkillStrategyConditionBase">
+		<var name="BuffId" type="string" comment="Buff的Id"/>
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="ValueToCompare" type="int" comment="比较数量"/>
+	</bean>
+
+</module>

@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "营地",
+    "Name": {
+      "key": "i18n/building/name/1",
+      "text": "营地"
+    },
+    "Pic": "0"
+  },
+  {
+    "Id": "堡垒",
+    "Name": {
+      "key": "i18n/building/name/2",
+      "text": "堡垒"
+    },
+    "Pic": "1"
+  },
+  {
+    "Id": "大本营",
+    "Name": {
+      "key": "i18n/building/name/3",
+      "text": "大本营"
+    },
+    "Pic": "2"
+  }
+]

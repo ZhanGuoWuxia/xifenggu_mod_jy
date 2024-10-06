@@ -1,0 +1,1 @@
+return passive_define("穿甲霜魄", "穿甲霜魄")

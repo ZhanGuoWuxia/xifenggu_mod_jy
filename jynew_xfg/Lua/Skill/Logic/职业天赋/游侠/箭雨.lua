@@ -1,0 +1,1 @@
+return simple_damage_skill_template("游侠_箭雨", stat_key.Attack, 0.5)

@@ -1,0 +1,728 @@
+[
+  {
+    "Id": "优先生命低于25%",
+    "Icon": "hp",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/1",
+      "text": "优先生命值<color=red>低于25%</color>的目标"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 1,
+      "ValueToCompare": 0.25,
+      "$type": "STCondition_HpPercent"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先生命低于50%",
+    "Icon": "hp",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/2",
+      "text": "优先生命值<color=red>低于50%</color>的目标"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 1,
+      "ValueToCompare": 0.5,
+      "$type": "STCondition_HpPercent"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先生命低于75%",
+    "Icon": "hp",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/3",
+      "text": "优先生命值<color=red>低于75%</color>的目标"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 1,
+      "ValueToCompare": 0.75,
+      "$type": "STCondition_HpPercent"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先生命低于100%",
+    "Icon": "hp",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/4",
+      "text": "优先生命值<color=red>低于100%</color>的目标"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 1,
+      "ValueToCompare": 1.0,
+      "$type": "STCondition_HpPercent"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "仅生命低于25%",
+    "Icon": "hp",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/5",
+      "text": "仅生命值<color=red>低于25%</color>的目标"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 1,
+      "ValueToCompare": 0.25,
+      "$type": "STCondition_HpPercent"
+    },
+    "JudgeType": 2,
+    "OnlyAI": true,
+    "ClassType": 2
+  },
+  {
+    "Id": "仅生命低于50%",
+    "Icon": "hp",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/6",
+      "text": "仅生命值<color=red>低于50%</color>的目标"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 1,
+      "ValueToCompare": 0.5,
+      "$type": "STCondition_HpPercent"
+    },
+    "JudgeType": 2,
+    "OnlyAI": true,
+    "ClassType": 2
+  },
+  {
+    "Id": "仅生命低于75%",
+    "Icon": "hp",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/7",
+      "text": "仅生命值<color=red>低于75%</color>的目标"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 1,
+      "ValueToCompare": 0.75,
+      "$type": "STCondition_HpPercent"
+    },
+    "JudgeType": 2,
+    "OnlyAI": true,
+    "ClassType": 2
+  },
+  {
+    "Id": "仅生命低于100%",
+    "Icon": "hp",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/8",
+      "text": "仅生命值<color=red>低于100%</color>的目标"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 1,
+      "ValueToCompare": 1.0,
+      "$type": "STCondition_HpPercent"
+    },
+    "JudgeType": 2,
+    "OnlyAI": true,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先生命不低于25%",
+    "Icon": "hp",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/9",
+      "text": "优先生命值<color=#15721A>不低于25%</color>的目标"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 6,
+      "ValueToCompare": 0.25,
+      "$type": "STCondition_HpPercent"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先生命不低于50%",
+    "Icon": "hp",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/10",
+      "text": "优先生命值<color=#15721A>不低于50%</color>的目标"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 6,
+      "ValueToCompare": 0.5,
+      "$type": "STCondition_HpPercent"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先生命不低于75%",
+    "Icon": "hp",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/11",
+      "text": "优先生命值<color=#15721A>不低于75%</color>的目标"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 6,
+      "ValueToCompare": 0.75,
+      "$type": "STCondition_HpPercent"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先生命不低于100%",
+    "Icon": "hp",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/12",
+      "text": "优先生命值<color=#15721A>不低于100%</color>的目标"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 6,
+      "ValueToCompare": 1.0,
+      "$type": "STCondition_HpPercent"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "仅生命不低于25%",
+    "Icon": "hp",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/13",
+      "text": "仅生命值<color=#15721A>不低于25%</color>的目标"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 6,
+      "ValueToCompare": 0.25,
+      "$type": "STCondition_HpPercent"
+    },
+    "JudgeType": 2,
+    "OnlyAI": true,
+    "ClassType": 2
+  },
+  {
+    "Id": "仅生命不低于50%",
+    "Icon": "hp",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/14",
+      "text": "仅生命值<color=#15721A>不低于50%</color>的目标"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 6,
+      "ValueToCompare": 0.5,
+      "$type": "STCondition_HpPercent"
+    },
+    "JudgeType": 2,
+    "OnlyAI": true,
+    "ClassType": 2
+  },
+  {
+    "Id": "仅生命不低于75%",
+    "Icon": "hp",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/15",
+      "text": "仅生命值<color=#15721A>不低于75%</color>的目标"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 6,
+      "ValueToCompare": 0.75,
+      "$type": "STCondition_HpPercent"
+    },
+    "JudgeType": 2,
+    "OnlyAI": true,
+    "ClassType": 2
+  },
+  {
+    "Id": "仅生命不低于100%",
+    "Icon": "hp",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/16",
+      "text": "仅生命值<color=#15721A>不低于100%</color>的目标"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 6,
+      "ValueToCompare": 1.0,
+      "$type": "STCondition_HpPercent"
+    },
+    "JudgeType": 2,
+    "OnlyAI": true,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先坦克",
+    "Icon": "职业_铁壁",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/17",
+      "text": "[铁壁]优先"
+    },
+    "StrategyCondition": {
+      "CheckType": 0,
+      "RoleClassId": "铁卫",
+      "$type": "STCondition_TargetClass"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先奶妈",
+    "Icon": "职业_百草",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/18",
+      "text": "[百草]优先"
+    },
+    "StrategyCondition": {
+      "CheckType": 0,
+      "RoleClassId": "医师",
+      "$type": "STCondition_TargetClass"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先刺客",
+    "Icon": "职业_诡影",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/19",
+      "text": "[诡影]优先"
+    },
+    "StrategyCondition": {
+      "CheckType": 0,
+      "RoleClassId": "刺客",
+      "$type": "STCondition_TargetClass"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先射手",
+    "Icon": "职业_极目",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/20",
+      "text": "[极目]优先"
+    },
+    "StrategyCondition": {
+      "CheckType": 0,
+      "RoleClassId": "游侠",
+      "$type": "STCondition_TargetClass"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先万金油",
+    "Icon": "职业_千刃",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/21",
+      "text": "[千刃]优先"
+    },
+    "StrategyCondition": {
+      "CheckType": 0,
+      "RoleClassId": "千刃",
+      "$type": "STCondition_TargetClass"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先人数最多的一行",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/22",
+      "text": "优先<color=#15721A>人数最多</color>的一行"
+    },
+    "StrategyCondition": {
+      "CheckType": 0,
+      "$type": "STCondition_MostTargetSameRow"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 4
+  },
+  {
+    "Id": "优先人数最少的一行",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/23",
+      "text": "优先<color=red>人数最少</color>的一行"
+    },
+    "StrategyCondition": {
+      "CheckType": 0,
+      "$type": "STCondition_LeastTargetSameRow"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 4
+  },
+  {
+    "Id": "优先人数最多的一列",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/24",
+      "text": "优先<color=#15721A>人数最多</color>的一列"
+    },
+    "StrategyCondition": {
+      "CheckType": 0,
+      "$type": "STCondition_MostTargetSameCol"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 4
+  },
+  {
+    "Id": "优先人数最少的一列",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/25",
+      "text": "优先<color=red>人数最少</color>的一列"
+    },
+    "StrategyCondition": {
+      "CheckType": 0,
+      "$type": "STCondition_LeastTargetSameCol"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 4
+  },
+  {
+    "Id": "优先第一列",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/26",
+      "text": "优先第一列"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 3,
+      "ValueToCompare": 0.0,
+      "$type": "STCondition_TargetCol"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 3
+  },
+  {
+    "Id": "优先第二列",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/27",
+      "text": "优先第二列"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 3,
+      "ValueToCompare": 1.0,
+      "$type": "STCondition_TargetCol"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 3
+  },
+  {
+    "Id": "优先第三列",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/28",
+      "text": "优先第三列"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 3,
+      "ValueToCompare": 2.0,
+      "$type": "STCondition_TargetCol"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 3
+  },
+  {
+    "Id": "优先第一行",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/29",
+      "text": "优先第一行"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 3,
+      "ValueToCompare": 0,
+      "$type": "STCondition_TargetRow"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 3
+  },
+  {
+    "Id": "优先第二行",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/30",
+      "text": "优先第二行"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 3,
+      "ValueToCompare": 1,
+      "$type": "STCondition_TargetRow"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 3
+  },
+  {
+    "Id": "优先第三行",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/31",
+      "text": "优先第三行"
+    },
+    "StrategyCondition": {
+      "CompareSymbol": 3,
+      "ValueToCompare": 2,
+      "$type": "STCondition_TargetRow"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 3
+  },
+  {
+    "Id": "优先自己",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/32",
+      "text": "优先<color=#15721A>[自己]</color>"
+    },
+    "StrategyCondition": {
+      "CheckType": 0,
+      "$type": "STCondition_TargetSelf"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先非自己",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/33",
+      "text": "优先<color=red>[非自己]</color>"
+    },
+    "StrategyCondition": {
+      "CheckType": 1,
+      "$type": "STCondition_TargetSelf"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先有增益的目标",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/34",
+      "text": "优先<color=#15721A>[有增益]</color>的目标"
+    },
+    "StrategyCondition": {
+      "CountType": 1,
+      "CompareSymbol": 5,
+      "ValueToCompare": 0,
+      "$type": "STCondition_TargetBuffNum"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先无减益的目标",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/35",
+      "text": "优先<color=#15721A>[无减益]</color>的目标"
+    },
+    "StrategyCondition": {
+      "CountType": 2,
+      "CompareSymbol": 2,
+      "ValueToCompare": 0,
+      "$type": "STCondition_TargetBuffNum"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先无增益的目标",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/36",
+      "text": "优先<color=red>[无增益]</color>的目标"
+    },
+    "StrategyCondition": {
+      "CountType": 1,
+      "CompareSymbol": 2,
+      "ValueToCompare": 0,
+      "$type": "STCondition_TargetBuffNum"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先有减益的目标",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/37",
+      "text": "优先<color=red>[有减益]</color>的目标"
+    },
+    "StrategyCondition": {
+      "CountType": 2,
+      "CompareSymbol": 5,
+      "ValueToCompare": 0,
+      "$type": "STCondition_TargetBuffNum"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先流血目标",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/38",
+      "text": "优先<color=#D01515>[流血]</color>的目标"
+    },
+    "StrategyCondition": {
+      "BuffId": "流血",
+      "CompareSymbol": 5,
+      "ValueToCompare": 0,
+      "$type": "STCondition_TargetBuffPile"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "优先中毒目标",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/39",
+      "text": "优先<color=#cccc00>[中毒]</color>的目标"
+    },
+    "StrategyCondition": {
+      "BuffId": "中毒",
+      "CompareSymbol": 5,
+      "ValueToCompare": 0,
+      "$type": "STCondition_TargetBuffPile"
+    },
+    "JudgeType": 1,
+    "OnlyAI": false,
+    "ClassType": 2
+  },
+  {
+    "Id": "仅有增益的目标",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/40",
+      "text": "仅<color=#15721A>[有增益]</color>的目标"
+    },
+    "StrategyCondition": {
+      "CountType": 1,
+      "CompareSymbol": 5,
+      "ValueToCompare": 0,
+      "$type": "STCondition_TargetBuffNum"
+    },
+    "JudgeType": 2,
+    "OnlyAI": true,
+    "ClassType": 2
+  },
+  {
+    "Id": "仅无减益的目标",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/41",
+      "text": "仅<color=#15721A>[无减益]</color>的目标"
+    },
+    "StrategyCondition": {
+      "CountType": 2,
+      "CompareSymbol": 2,
+      "ValueToCompare": 0,
+      "$type": "STCondition_TargetBuffNum"
+    },
+    "JudgeType": 2,
+    "OnlyAI": true,
+    "ClassType": 2
+  },
+  {
+    "Id": "仅无增益的目标",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/42",
+      "text": "仅<color=red>[无增益]</color>的目标"
+    },
+    "StrategyCondition": {
+      "CountType": 1,
+      "CompareSymbol": 2,
+      "ValueToCompare": 0,
+      "$type": "STCondition_TargetBuffNum"
+    },
+    "JudgeType": 2,
+    "OnlyAI": true,
+    "ClassType": 2
+  },
+  {
+    "Id": "仅有减益的目标",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/43",
+      "text": "仅<color=red>[有减益]</color>的目标"
+    },
+    "StrategyCondition": {
+      "CountType": 2,
+      "CompareSymbol": 5,
+      "ValueToCompare": 0,
+      "$type": "STCondition_TargetBuffNum"
+    },
+    "JudgeType": 2,
+    "OnlyAI": true,
+    "ClassType": 2
+  },
+  {
+    "Id": "仅流血目标",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/44",
+      "text": "仅<color=#D01515>[流血]</color>的目标"
+    },
+    "StrategyCondition": {
+      "BuffId": "流血",
+      "CompareSymbol": 5,
+      "ValueToCompare": 0,
+      "$type": "STCondition_TargetBuffPile"
+    },
+    "JudgeType": 2,
+    "OnlyAI": true,
+    "ClassType": 2
+  },
+  {
+    "Id": "仅中毒目标",
+    "Icon": "",
+    "StrategyDescription": {
+      "key": "i18n/skill_strategy/45",
+      "text": "仅<color=#cccc00>[中毒]</color>的目标"
+    },
+    "StrategyCondition": {
+      "BuffId": "中毒",
+      "CompareSymbol": 5,
+      "ValueToCompare": 0,
+      "$type": "STCondition_TargetBuffPile"
+    },
+    "JudgeType": 2,
+    "OnlyAI": true,
+    "ClassType": 2
+  }
+]

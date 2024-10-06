@@ -1,0 +1,16 @@
+<module name="Backend.Beans">
+
+	<bean name="TutorialStep" comment="教程步骤数据">
+		<var name="Pic" type="string" comment="教程图"/>
+		<var name="Description" type="text" comment="教程步骤描述"/>
+	</bean>
+
+	<enum name="TutorialType">
+		<var name="All" alias="全部" value="0" />
+		<var name="Map" alias="地图" value="1" />
+		<var name="Battle" alias="战斗" value="2" />
+		<var name="Role" alias="角色" value="3" />
+		<var name="Other" alias="其他" value="4" />
+	</enum>
+
+</module>

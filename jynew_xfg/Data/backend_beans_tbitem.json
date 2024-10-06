@@ -1,0 +1,7717 @@
+[
+  {
+    "Id": "金疮药",
+    "Name": {
+      "key": "i18/item/name/medicine1",
+      "text": "金疮药"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 1,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_23",
+    "Desc": {
+      "key": "i18/item/desc/medicine1",
+      "text": "专治跌打损伤，恢复<color=#00da2e>10%</color>的伤势"
+    },
+    "LuaCommandFile": "Item/item_cure",
+    "LuaCommandParam": [
+      [
+        "cure",
+        10.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 20,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "止血丹",
+    "Name": {
+      "key": "i18/item/name/medicine2",
+      "text": "止血丹"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_14",
+    "Desc": {
+      "key": "i18/item/desc/medicine2",
+      "text": "具有出色的止血功效，能够治疗并恢复<color=#00da2e>25%</color>的伤势"
+    },
+    "LuaCommandFile": "Item/item_cure",
+    "LuaCommandParam": [
+      [
+        "cure",
+        25.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "十全大补丸",
+    "Name": {
+      "key": "i18/item/name/medicine3",
+      "text": "十全大补丸"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_12",
+    "Desc": {
+      "key": "i18/item/desc/medicine3",
+      "text": "由千年灵芝和珍稀草药炼制而成，能够迅速治愈<color=#00da2e>50%</color>的的伤势"
+    },
+    "LuaCommandFile": "Item/item_cure",
+    "LuaCommandParam": [
+      [
+        "cure",
+        50.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "白玉断续膏",
+    "Name": {
+      "key": "i18/item/name/medicine4",
+      "text": "白玉断续膏"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 4,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_17",
+    "Desc": {
+      "key": "i18/item/desc/medicine4",
+      "text": "由古老秘方制成的神奇膏药，能够治愈并恢复<color=#00da2e>75%</color>的伤势并且不留伤痕"
+    },
+    "LuaCommandFile": "Item/item_cure",
+    "LuaCommandParam": [
+      [
+        "cure",
+        75.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "九转仙露",
+    "Name": {
+      "key": "i18/item/name/medicine5",
+      "text": "九转仙露"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 5,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_20",
+    "Desc": {
+      "key": "i18/item/desc/medicine5",
+      "text": "传闻中的皇家秘药，赋予武者超凡的恢复力，能完全治愈各种伤势。\n恢复受伤者<color=#00da2e>100%</color>的伤势"
+    },
+    "LuaCommandFile": "Item/item_cure",
+    "LuaCommandParam": [
+      [
+        "cure",
+        100.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "麦子",
+    "Name": {
+      "key": "i18/item/name/wheat",
+      "text": "麦子"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 1,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_1",
+    "Desc": {
+      "key": "i18/item/desc/wheat",
+      "text": "稻田里生长的麦子，可以生嚼。\n<color=green>使用</color>: 永久增加<color=green>1</color>点<color=#00D0FF>内力</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "mp",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 5,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "手镯",
+    "Name": {
+      "key": "i18/item/name/bracelet",
+      "text": "手镯"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 1,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_8",
+    "Desc": {
+      "key": "i18/item/desc/bracelet",
+      "text": "一副普通的手镯,。\n<color=green>使用</color>: 永久增加目标角色<color=green>1</color>点<color=green>好感度</color>"
+    },
+    "LuaCommandFile": "Item/add_favor",
+    "LuaCommandParam": [
+      [
+        "favor",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "金项链",
+    "Name": {
+      "key": "i18/item/name/golden_necklace",
+      "text": "金项链"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_10",
+    "Desc": {
+      "key": "i18/item/desc/golden_necklace",
+      "text": "珠宝店铺的常见首饰，有一定的赠送价值\n<color=green>使用</color>: 永久增加目标角色<color=green>2</color>点<color=green>好感度</color>"
+    },
+    "LuaCommandFile": "Item/add_favor",
+    "LuaCommandParam": [
+      [
+        "favor",
+        2.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "青玉壁",
+    "Name": {
+      "key": "i18/item/name/jade",
+      "text": "青玉壁"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_11",
+    "Desc": {
+      "key": "i18/item/desc/jade",
+      "text": "由价值连城的青玉打造而成的一对玉璧.\n<color=green>使用</color>:  永久增加目标角色<color=green>3</color>点<color=green>好感度</color>"
+    },
+    "LuaCommandFile": "Item/add_favor",
+    "LuaCommandParam": [
+      [
+        "favor",
+        3.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "测试洗髓丹",
+    "Name": {
+      "key": "i18/item/name/testPill",
+      "text": "无限洗髓丹"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 2,
+    "ItemLevel": 5,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_33",
+    "Desc": {
+      "key": "i18/item/desc/testPill",
+      "text": "能令人脱胎换骨的丹药。\n<color=green>使用</color>: 永久增加<color=green>100</color>点<color=green>全武学资质</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "拳法资质",
+        100.0
+      ],
+      [
+        "枪法资质",
+        100.0
+      ],
+      [
+        "棍法资质",
+        100.0
+      ],
+      [
+        "刀法资质",
+        100.0
+      ],
+      [
+        "剑法资质",
+        100.0
+      ],
+      [
+        "内功资质",
+        100.0
+      ],
+      [
+        "轻功资质",
+        100.0
+      ],
+      [
+        "射术资质",
+        100.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 0,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "三娘的肉包",
+    "Name": {
+      "key": "i18/item/name/meat_bun",
+      "text": "三娘的肉包"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 1,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_39",
+    "Desc": {
+      "key": "i18/item/desc/meat_bun",
+      "text": "朱三娘亲手做的肉包，皮薄肉多，鲜嫩多汁。\n<color=green>使用</color>: 永久增加<color=green>5</color>点<color=green>气血</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "hp",
+        5.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 20,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "肉排",
+    "Name": {
+      "key": "i18/item/name/steak",
+      "text": "肉排"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_4",
+    "Desc": {
+      "key": "i18/item/desc/steak",
+      "text": "肉排，肉质软烂入味，香气浓郁。\n<color=green>使用</color>: 永久增加<color=green>10</color>点<color=green>气血</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "hp",
+        10.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "烤串",
+    "Name": {
+      "key": "i18/item/name/skewer",
+      "text": "烤串"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_5",
+    "Desc": {
+      "key": "i18/item/desc/skewer",
+      "text": "烤串，麻辣、香辣、咸鲜，略带焦香。\n<color=green>使用</color>: 永久增加<color=green>20</color>点<color=green>气血</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "hp",
+        20.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "鸡腿",
+    "Name": {
+      "key": "i18/item/name/chicken_leg",
+      "text": "鸡腿"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 1,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_3",
+    "Desc": {
+      "key": "i18/item/desc/chicken_leg",
+      "text": "鸡腿，外皮酥脆，内部嫩滑。\n<color=green>使用</color>: 永久增加<color=green>3</color>点<color=green>内力</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "mp",
+        3.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 20,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "烧鱼",
+    "Name": {
+      "key": "i18/item/name/roasted_fish",
+      "text": "烧鱼"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_6",
+    "Desc": {
+      "key": "i18/item/desc/roasted_fish",
+      "text": "烧鱼，肉质鲜嫩，汤汁浓郁。\n<color=green>使用</color>: 永久增加<color=green>4</color>点<color=green>内力</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "mp",
+        4.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "高粱酒",
+    "Name": {
+      "key": "i18/item/name/sorghum wine",
+      "text": "高粱酒"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_7",
+    "Desc": {
+      "key": "i18/item/desc/sorghum wine",
+      "text": "高粱酒，口感醇厚，入口时可能略带烈性，但随后会感受到绵长的回甘。\n<color=green>使用</color>: 永久增加<color=green>5</color>点<color=green>内力</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "mp",
+        5.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "猛虎丹",
+    "Name": {
+      "key": "i18/item/name/tiger_pill",
+      "text": "猛虎丹"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 1,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_24",
+    "Desc": {
+      "key": "i18/item/desc/tiger_pill",
+      "text": "服用后让人如猛虎一般迅猛无比\n<color=green>使用</color>: 永久增加<color=green>3</color>点<color=green>攻击</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "atk",
+        3.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 20,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "灵龟丹",
+    "Name": {
+      "key": "i18/item/name/turtle_pill",
+      "text": "灵龟丹"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 1,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_25",
+    "Desc": {
+      "key": "i18/item/desc/turtle_pill",
+      "text": "服用后让人如灵龟一般坚固不移\n<color=green>使用</color>: 永久增加<color=green>3</color>点<color=green>防御</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "def",
+        3.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 20,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "升龙丹",
+    "Name": {
+      "key": "i18/item/name/dragon_pill",
+      "text": "升龙丹"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 1,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_13",
+    "Desc": {
+      "key": "i18/item/desc/dragon_pill",
+      "text": "服用后让人如升龙一般腾云而上\n<color=green>使用</color>: 永久增加<color=green>3</color>点<color=green>内劲</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "int",
+        3.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 20,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "苍狼丸",
+    "Name": {
+      "key": "i18/item/name/wolf_small_pill",
+      "text": "苍狼丸"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_42",
+    "Desc": {
+      "key": "i18/item/desc/wolf_small_pill",
+      "text": "服用后让人如苍狼一般敏捷狂野\n<color=green>使用</color>: 永久增加<color=green>2</color>点<color=green>暴击</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "crt",
+        2.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 20,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "影蛇丸",
+    "Name": {
+      "key": "i18/item/name/snake_small_pill",
+      "text": "影蛇丸"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_42",
+    "Desc": {
+      "key": "i18/item/desc/snake_small_pill",
+      "text": "服用后让人如影蛇一般无影无踪\n<color=green>使用</color>: 永久增加<color=green>2</color>点<color=green>闪避</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "dodge",
+        2.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 20,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "地羊丸",
+    "Name": {
+      "key": "i18/item/name/goat_small_pill",
+      "text": "地羊丸"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_42",
+    "Desc": {
+      "key": "i18/item/desc/goat_small_pill",
+      "text": "羚羊羊角磨制的粉末制成，有强骨增力之效用。\n<color=green>使用</color>: 永久增加<color=green>2</color>点<color=green>招架</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "parry",
+        2.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 20,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "豚牙丸",
+    "Name": {
+      "key": "i18/item/name/boar_small_pill",
+      "text": "豚牙丸"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_42",
+    "Desc": {
+      "key": "i18/item/desc/boar_small_pill",
+      "text": "野猪獠牙磨制的粉末制成，有明目之效\n<color=green>使用</color>: 永久增加<color=green>2</color>点<color=green>命中</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "antidodge",
+        2.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 20,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "熊骨丸",
+    "Name": {
+      "key": "i18/item/name/bear_small_pill",
+      "text": "熊骨丸"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_42",
+    "Desc": {
+      "key": "i18/item/desc/bear_small_pill",
+      "text": "服用后让人如巨熊一般强健雄壮\n<color=green>使用</color>: 永久增加<color=green>2</color>点<color=green>韧性</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "ten",
+        2.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "苍狼丹",
+    "Name": {
+      "key": "i18/item/name/wolf_pill",
+      "text": "苍狼丹"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_22",
+    "Desc": {
+      "key": "i18/item/desc/wolf_pill",
+      "text": "服用后让人如苍狼一般敏捷狂野\n<color=green>使用</color>: 永久增加<color=green>4</color>点<color=green>暴击</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "crt",
+        4.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 20,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "影蛇丹",
+    "Name": {
+      "key": "i18/item/name/snake_pill",
+      "text": "影蛇丹"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_22",
+    "Desc": {
+      "key": "i18/item/desc/snake_pill",
+      "text": "服用后让人如影蛇一般无影无踪\n<color=green>使用</color>: 永久增加<color=green>4</color>点<color=green>闪避</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "dodge",
+        4.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 20,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "地羊丹",
+    "Name": {
+      "key": "i18/item/name/goat_pill",
+      "text": "地羊丹"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_22",
+    "Desc": {
+      "key": "i18/item/desc/goat_pill",
+      "text": "羚羊羊角磨制的粉末制成，有强骨增力之效用。\n<color=green>使用</color>: 永久增加<color=green>4</color>点<color=green>招架</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "parry",
+        4.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 20,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "豚牙丹",
+    "Name": {
+      "key": "i18/item/name/boar_pill",
+      "text": "豚牙丹"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_22",
+    "Desc": {
+      "key": "i18/item/desc/boar_pill",
+      "text": "野猪獠牙磨制的粉末制成，有明目之效\n<color=green>使用</color>: 永久增加<color=green>4</color>点<color=green>命中</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "antidodge",
+        4.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 20,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "熊骨丹",
+    "Name": {
+      "key": "i18/item/name/bear_pill",
+      "text": "熊骨丹"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_22",
+    "Desc": {
+      "key": "i18/item/desc/bear_pill",
+      "text": "服用后让人如巨熊一般强健雄壮\n<color=green>使用</color>: 永久增加<color=green>4</color>点<color=green>韧性</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "ten",
+        4.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "武学札记",
+    "Name": {
+      "key": "i18/item/name/kungfu_notes",
+      "text": "武学札记"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_14",
+    "Desc": {
+      "key": "i18/item/desc/kungfu_notes",
+      "text": "记录武学修炼心得\n<color=green>使用</color>: 增加<color=green>100</color>点<color=green>武学常识</color>"
+    },
+    "LuaCommandFile": "Item/add_attr",
+    "LuaCommandParam": [
+      [
+        "武学常识",
+        100.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "绷带",
+    "Name": {
+      "key": "i18/item/name/bandage",
+      "text": "绷带"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_41",
+    "Desc": {
+      "key": "i18/item/desc/bandage",
+      "text": "使用后能让角色在接下来的<color=green>1场战斗</color>中携带绷带。\n在每回合结束时，若处于<color=red>流血</color>状态，则使用绷带包扎去除。\n每场战斗至多包扎10次，每包扎1层流血扣除1次。\n注：多次使用不会叠加\n"
+    },
+    "LuaCommandFile": "Item/add_affix",
+    "LuaCommandParam": [
+      [
+        "道具_绷带",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "大绷带",
+    "Name": {
+      "key": "i18/item/name/large_bandage",
+      "text": "大绷带"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_41",
+    "Desc": {
+      "key": "i18/item/desc/large_bandage",
+      "text": "使用后能让角色在接下来的<color=green>1场战斗</color>中携带。\n在每回合结束时，若处于<color=red>流血</color>状态，则使用绷带包扎去除。\n在每回合结束时，若处于<color=red>中毒</color>状态，则会移除当前一半的<color=#cccc00>中毒</color>层数,至少会移除<color=yellow>1</color>层<color=#cccc00>中毒</color>效果。\n注：多次使用不会叠加\n"
+    },
+    "LuaCommandFile": "Item/add_affix",
+    "LuaCommandParam": [
+      [
+        "道具_绷带",
+        3.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "蛇胆解毒丸",
+    "Name": {
+      "key": "i18/item/name/detoxification_pill",
+      "text": "蛇胆解毒丸"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_15",
+    "Desc": {
+      "key": "i18/item/desc/detoxification_pill",
+      "text": "使用后能让角色在接下来的<color=green>1场战斗</color>中携带解毒丸。\n效果：在每回合结束时，若处于<color=#cccc00>中毒</color>状态，则会移除当前一半的<color=#cccc00>中毒</color>层数,至少会移除<color=yellow>1</color>层<color=#cccc00>中毒</color>效果。\n注：多次使用不会叠加\n"
+    },
+    "LuaCommandFile": "Item/add_affix",
+    "LuaCommandParam": [
+      [
+        "道具_蛇胆解毒丸",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "测试_卸下伪装",
+    "Name": {
+      "key": "i18/item/name/cs1",
+      "text": "卸下伪装"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 2,
+    "ItemLevel": 5,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "FJ_42",
+    "Desc": {
+      "key": "i18/item/desc/cs1",
+      "text": "还原角色立绘"
+    },
+    "LuaCommandFile": "Item/appearance/restor_role_pic",
+    "LuaCommandParam": [],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "测试_还原身形",
+    "Name": {
+      "key": "i18/item/name/cs2",
+      "text": "还原身形"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 2,
+    "ItemLevel": 5,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "FJ_42",
+    "Desc": {
+      "key": "i18/item/desc/cs1",
+      "text": "还原角色模型"
+    },
+    "LuaCommandFile": "Item/appearance/restor_role_model",
+    "LuaCommandParam": [],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "测试_变山贼",
+    "Name": {
+      "key": "i18/item/name/cs3",
+      "text": "山贼行装"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 2,
+    "ItemLevel": 5,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "FJ_42",
+    "Desc": {
+      "key": "i18/item/desc/cs2",
+      "text": "变成山贼的模样(修改模型)"
+    },
+    "LuaCommandFile": "Item/appearance/set_role_model",
+    "LuaCommandParam": [
+      [
+        "山贼1",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "测试_变锦衣卫",
+    "Name": {
+      "key": "i18/item/name/cs4",
+      "text": "锦衣卫容貌"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 2,
+    "ItemLevel": 5,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "FJ_42",
+    "Desc": {
+      "key": "i18/item/desc/cs3",
+      "text": "变成锦衣卫的容貌(修改立绘)"
+    },
+    "LuaCommandFile": "Item/appearance/set_role_pic",
+    "LuaCommandParam": [
+      [
+        "pawn_JingYiWei_male_1",
+        2.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "测试_变潘麻子",
+    "Name": {
+      "key": "i18/item/name/cs5",
+      "text": "伪装潘麻子"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 2,
+    "ItemLevel": 5,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "FJ_42",
+    "Desc": {
+      "key": "i18/item/desc/cs4",
+      "text": "伪装成潘麻子(模型和立绘都改变)"
+    },
+    "LuaCommandFile": "Item/appearance/set_role_model_and_pic",
+    "LuaCommandParam": [
+      [
+        "潘麻子",
+        1.0
+      ],
+      [
+        "hero_PanMaZi",
+        2.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "紫电青霜",
+    "Name": {
+      "key": "i18/weapon/name/PurpleLightning_BlueFrost",
+      "text": "紫电青霜"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 2,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_blade_2",
+    "Desc": {
+      "key": "i18/weapon/desc/PurpleLightning_BlueFrost",
+      "text": "虎焰门老掌门的佩刀"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "紫电青霜",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "剑21_a"
+      ]
+    ],
+    "BaseBuffEffects": [
+      "武器_紫电残影"
+    ]
+  },
+  {
+    "Id": "紫电坠",
+    "Name": {
+      "key": "i18/accessory/name/PurpleLightning_necklace",
+      "text": "紫电坠"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_47",
+    "Desc": {
+      "key": "i18/accessory/desc/PurpleLightning_necklace",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "紫电坠",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [
+      [
+        "Body",
+        "紫电特效"
+      ]
+    ],
+    "BaseBuffEffects": [
+      "饰品_紫电残影"
+    ]
+  },
+  {
+    "Id": "鹿追的心意",
+    "Name": {
+      "key": "i18/accessory/name/love_of_luzhui",
+      "text": "少女心意"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 5,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_43",
+    "Desc": {
+      "key": "i18/accessory/desc/love_of_luzhui",
+      "text": "一簇由少女亲手编织的同心结，一眼仿佛能看到到少女对心上人的浓浓爱意。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "鹿追的心意",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 1000,
+    "ModelInfo": [
+      [
+        "LeftOrnament",
+        "笔1"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "天罡戒",
+    "Name": {
+      "key": "i18/accessory/name/heavenly_gang_ring",
+      "text": "天罡戒"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_39",
+    "Desc": {
+      "key": "i18/accessory/desc/heavenly_gang_ring",
+      "text": "师兄子瑾风的配戒。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "天罡戒",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "天罡戒"
+    ]
+  },
+  {
+    "Id": "流血刺戒",
+    "Name": {
+      "key": "i18/accessory/name/bleeding_thorn_ring",
+      "text": "流血刺戒"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_17",
+    "Desc": {
+      "key": "i18/accessory/desc/bleeding_thorn_ring",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良戒指",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "流血刺戒"
+    ]
+  },
+  {
+    "Id": "绝命刀",
+    "Name": {
+      "key": "i18/weapon/name/fatal_blade",
+      "text": "绝命刀"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 2,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_blade_50",
+    "Desc": {
+      "key": "i18/weapon/desc/fatal_blade",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良刀",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "剑14"
+      ]
+    ],
+    "BaseBuffEffects": [
+      "绝命刀_绝命"
+    ]
+  },
+  {
+    "Id": "野猪齿",
+    "Name": {
+      "key": "i18/accessory/name/boar_tusk",
+      "text": "野猪齿"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_41",
+    "Desc": {
+      "key": "i18/accessory/desc/boar_tusk",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "野猪齿",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "野猪齿_暴击"
+    ]
+  },
+  {
+    "Id": "豪猪甲",
+    "Name": {
+      "key": "i18/armor/name/porcupine_armor",
+      "text": "豪猪甲"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 102,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_93",
+    "Desc": {
+      "key": "i18/armor/desc/porcupine_armor",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良重甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "豪猪甲_减伤"
+    ]
+  },
+  {
+    "Id": "福豕镯",
+    "Name": {
+      "key": "i18/accessor/name/lucky_pig_bracelet",
+      "text": "福豕镯"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_13",
+    "Desc": {
+      "key": "i18/accessory/desc/lucky_pig_bracelet",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良手镯",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "福豕镯_受疗"
+    ]
+  },
+  {
+    "Id": "伊笠耽的眼罩",
+    "Name": {
+      "key": "i18/accessory/name/illidan_eye_mask",
+      "text": "伊笠耽的眼罩"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "DJ_38",
+    "Desc": {
+      "key": "i18/accessory/desc/illidan_eye_mask",
+      "text": "一代盲人大侠的眼罩"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "伊笠耽的眼罩",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [
+      [
+        "Mask",
+        "男眼罩1"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "削骨刀",
+    "Name": {
+      "key": "i18/weapon/name/bone_carving_knife",
+      "text": "削骨刀 "
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 2,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_blade_41",
+    "Desc": {
+      "key": "i18/weapon/desc/bone_carving_knife",
+      "text": "以其残忍的命名和惊人的斩击力而著称。刀身坚实，表面磨砺得锋利无比，仿佛能够轻松削断坚硬的骨头。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "普通刀",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "剑19"
+      ]
+    ],
+    "BaseBuffEffects": [
+      "削骨刀_剔骨"
+    ]
+  },
+  {
+    "Id": "炙热之握",
+    "Name": {
+      "key": "i18/weapon/name/fiery_grasp",
+      "text": "炙热之握"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 0,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_fist_1",
+    "Desc": {
+      "key": "i18/weapon/desc/fiery_grasp",
+      "text": "来自某个神秘家族的拳套，佩戴之后能感受到似有炙热的火焰在其中流转。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "炙热之握",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 500,
+    "ModelInfo": [
+      [
+        "LeftHand",
+        "拳头"
+      ],
+      [
+        "RightHand",
+        "拳头"
+      ]
+    ],
+    "BaseBuffEffects": [
+      "炙热之握"
+    ]
+  },
+  {
+    "Id": "族长的家传之戒",
+    "Name": {
+      "key": "i18/accessory/name/heirloom_ring_of_chieftain",
+      "text": "族长的家传之戒"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 5,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_2",
+    "Desc": {
+      "key": "i18/accessory/desc/heirloom_ring_of_chieftain",
+      "text": "女儿村族长的家传戒指，会时不时地会渗透一股股忽冷忽热的气息"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "族长的家传之戒",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 1000,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "阴阳双生"
+    ]
+  },
+  {
+    "Id": "蟠蛇剑",
+    "Name": {
+      "key": "i18/weapon/name/coiled_serpent_sword",
+      "text": "蟠蛇剑"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 3,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_sword_23",
+    "Desc": {
+      "key": "i18/weapon/desc/coiled_serpent_sword",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "普通剑",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "剑18"
+      ]
+    ],
+    "BaseBuffEffects": [
+      "蟠蛇剑_隐伏"
+    ]
+  },
+  {
+    "Id": "蚑龙爪",
+    "Name": {
+      "key": "i18/weapon/name/muddy_dragon_claw",
+      "text": "蚑龙爪"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 1,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_fist_12",
+    "Desc": {
+      "key": "i18/weapon/desc/muddy_dragon_claw",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良爪",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [
+      [
+        "LeftHand",
+        "拳头"
+      ],
+      [
+        "RightHand",
+        "拳头"
+      ]
+    ],
+    "BaseBuffEffects": [
+      "蚑龙爪_磨爪"
+    ]
+  },
+  {
+    "Id": "蝮蛇弓",
+    "Name": {
+      "key": "i18/weapon/name/viper_bow",
+      "text": "蝮蛇弓"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 6,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_bow_9",
+    "Desc": {
+      "key": "i18/weapon/desc/viper_bow",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "普通弓",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "弓9"
+      ]
+    ],
+    "BaseBuffEffects": [
+      "蝮蛇弓_蛇袭"
+    ]
+  },
+  {
+    "Id": "蛟龙枪",
+    "Name": {
+      "key": "i18/weapon/name/flood_dragon_spear",
+      "text": "蛟龙枪"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 4,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_spear_12",
+    "Desc": {
+      "key": "i18/weapon/desc/flood_dragon_spear",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良枪",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "长柄18"
+      ]
+    ],
+    "BaseBuffEffects": [
+      "蛟龙枪_蓄势待发"
+    ]
+  },
+  {
+    "Id": "龙蛇袍",
+    "Name": {
+      "key": "i18/weapon/name/dragon_and_serpent_robe",
+      "text": "龙蛇袍"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 100,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_14",
+    "Desc": {
+      "key": "i18/weapon/desc/dragon_and_serpent_robe",
+      "text": "龙湾门的修行长袍，有避水的神奇效果"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "龙蛇袍",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "水龙戒",
+    "Name": {
+      "key": "i18/weapon/name/water_dragon_ring",
+      "text": "水龙戒"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_5",
+    "Desc": {
+      "key": "i18/weapon/desc/water_dragon_ring",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "水龙戒",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "水龙戒_潜影"
+    ]
+  },
+  {
+    "Id": "麒麟甲",
+    "Name": {
+      "key": "i18/armor/name/kirin_armor",
+      "text": "麒麟甲"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 102,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_84",
+    "Desc": {
+      "key": "i18/armor/desc/kirin_armor",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良重甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "麒麟甲"
+    ]
+  },
+  {
+    "Id": "血麒麟甲",
+    "Name": {
+      "key": "i18/armor/name/blood_kirin_armor",
+      "text": "血麒麟甲"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 102,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_80",
+    "Desc": {
+      "key": "i18/armor/desc/blood_kirin_armor",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良重甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "血麒麟甲"
+    ]
+  },
+  {
+    "Id": "玉龙剑",
+    "Name": {
+      "key": "i18/weapon/name/jade_dragon_sword",
+      "text": "玉龙剑"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 3,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_sword_30",
+    "Desc": {
+      "key": "i18/weapon/desc/jade_dragon_sword",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "稀有剑",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "剑26"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "普通剑",
+    "Name": {
+      "key": "i18/weapon/name/sword1",
+      "text": "黑铁剑"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 3,
+    "UseType": 0,
+    "ItemLevel": 1,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_sword_25",
+    "Desc": {
+      "key": "i18/weapon/desc/sword1",
+      "text": "铸造于简陋的铁匠铺中的黑铁剑，适合剑法初学者磨练武艺"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "普通剑",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "剑6"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "精良剑",
+    "Name": {
+      "key": "i18/weapon/name/sword2",
+      "text": "拂云剑"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 3,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_sword_11",
+    "Desc": {
+      "key": "i18/weapon/desc/sword2",
+      "text": "剑身轻盈，随着挥动而荡漾，透着一股潇洒自如的气息。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良剑",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "剑8"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "稀有剑",
+    "Name": {
+      "key": "i18/weapon/name/sword3",
+      "text": "天云剑"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 3,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_sword_6",
+    "Desc": {
+      "key": "i18/weapon/desc/sword3",
+      "text": "剑刃纤薄而灵动，宛如穿越云层的清风。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "稀有剑",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "剑20"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "史诗剑",
+    "Name": {
+      "key": "i18/weapon/name/sword4",
+      "text": "龙吟剑"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 3,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_sword_18",
+    "Desc": {
+      "key": "i18/weapon/desc/sword4",
+      "text": "如同龙鳞般坚硬。剑刃龙吟，寓意着蕴含着巨龙之力的狂暴威能，透露出一股无可阻挡的气势。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "史诗剑",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "剑26"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "传说剑",
+    "Name": {
+      "key": "i18/weapon/name/sword5",
+      "text": "混元太虚剑"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 3,
+    "UseType": 0,
+    "ItemLevel": 5,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_sword_34",
+    "Desc": {
+      "key": "i18/weapon/desc/sword5",
+      "text": "剑刃幽幽，似乎连接了虚无之境。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "传说剑",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "剑27"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "普通刀",
+    "Name": {
+      "key": "i18/weapon/name/blade1",
+      "text": "黑铁刀"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 2,
+    "UseType": 0,
+    "ItemLevel": 1,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_blade_16",
+    "Desc": {
+      "key": "i18/weapon/desc/blade1",
+      "text": "铸造于简陋的铁匠铺中的黑铁刀，虽不起眼，却足以助你在江湖生存，适合刀法初学者磨练武艺"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "普通刀",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "剑10"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "精良刀",
+    "Name": {
+      "key": "i18/weapon/name/blade2",
+      "text": "铸铁刀"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 2,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_blade_41",
+    "Desc": {
+      "key": "i18/weapon/desc/blade2",
+      "text": "凝聚了精湛的铸铁工艺。刀锋锋利无比，刀身坚韧沉稳。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良刀",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "剑19"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "稀有刀",
+    "Name": {
+      "key": "i18/weapon/name/blade3",
+      "text": "黑风刀"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 2,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_blade_37",
+    "Desc": {
+      "key": "i18/weapon/desc/blade3",
+      "text": "夜幕中飘荡的黑风，神秘而凛冽。刀身漆黑如墨，吸收了周围光线，给人以深邃不见底的感觉。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "稀有刀",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "剑14"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "史诗刀",
+    "Name": {
+      "key": "i18/weapon/name/blade4",
+      "text": "金背刀"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 2,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_blade_39",
+    "Desc": {
+      "key": "i18/weapon/desc/blade4",
+      "text": "刀身笔直刃薄背宽，刀背镶金，其势凶猛有开山之威。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "史诗刀",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "剑10_a"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "传说刀",
+    "Name": {
+      "key": "i18/weapon/name/blade5",
+      "text": "乾坤霹雳刀"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 2,
+    "UseType": 0,
+    "ItemLevel": 5,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_blade_62",
+    "Desc": {
+      "key": "i18/weapon/desc/blade5",
+      "text": "宛如雷霆破空的利刃，散发着电光般的锋芒。刀身通体漆黑，似乎能够吞噬周围的光芒，使得这把刀在黑夜中更显神秘而强大。刀刃锐利如闪电，寸草不生，令人见之即知其无情之势。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "传说刀",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "剑15"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "普通枪",
+    "Name": {
+      "key": "i18/weapon/name/spear1",
+      "text": "铸铁枪"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 4,
+    "UseType": 0,
+    "ItemLevel": 1,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_spear_3",
+    "Desc": {
+      "key": "i18/weapon/desc/spear1",
+      "text": "枪身坚韧有力，由坚固的铸铁打造而成。枪尖锋利如刃，适合用来穿透敌人的防线。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "普通枪",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "长柄3"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "精良枪",
+    "Name": {
+      "key": "i18/weapon/name/spear2",
+      "text": "碧血枪"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 4,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_spear_18",
+    "Desc": {
+      "key": "i18/weapon/desc/spear2",
+      "text": "枪长九尺，枪尖利如刃，透露出一种冷峻的锋芒。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良枪",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "长柄7"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "稀有枪",
+    "Name": {
+      "key": "i18/weapon/name/spear3",
+      "text": "破阵枪"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 4,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_spear_14",
+    "Desc": {
+      "key": "i18/weapon/desc/spear3",
+      "text": "充满战意和突破力的武器。枪身雄壮有力，仿佛能够破开一切阻挡。枪尖尖锐而坚硬，透露出一种突破敌阵的坚定决心。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "稀有枪",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "长柄16"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "史诗枪",
+    "Name": {
+      "key": "i18/weapon/name/spear4",
+      "text": "梨花枪"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 4,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_spear_32",
+    "Desc": {
+      "key": "i18/weapon/desc/spear4",
+      "text": "枪头小巧细长，侧有尖钩，攻伐时十分灵动，一招出手犹如瑞雪飞舞、梨花纷飘，锋刃所过无人可挡。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "史诗枪",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "长柄21"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "传说枪",
+    "Name": {
+      "key": "i18/weapon/name/spear5",
+      "text": "暴雨黑龙枪"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 4,
+    "UseType": 0,
+    "ItemLevel": 5,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_spear_13",
+    "Desc": {
+      "key": "i18/weapon/desc/spear5",
+      "text": "枪身漆黑如夜，沉稳有力，仿佛蕴含着黑龙的威严。枪尖呈现锐利的银色，透露出一种无可阻挡的锋芒。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "传说枪",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "长柄25"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "普通棍",
+    "Name": {
+      "key": "i18/weapon/name/stick1",
+      "text": "烧火棍"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 5,
+    "UseType": 0,
+    "ItemLevel": 1,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_stick_3",
+    "Desc": {
+      "key": "i18/weapon/desc/stick1",
+      "text": "厨房烧火用的木棍，用来敲人还是有点疼的"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "普通棍",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "木棍1"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "精良棍",
+    "Name": {
+      "key": "i18/weapon/name/stick2",
+      "text": "阐木杖"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 5,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_stick_14",
+    "Desc": {
+      "key": "i18/weapon/desc/stick2",
+      "text": "阐木杖是一根坚硬的木材制成的武器，粗实的棍身可以用来狠狠地击打敌人"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良棍",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "木棍1"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "稀有棍",
+    "Name": {
+      "key": "i18/weapon/name/stick3",
+      "text": "盘花棍"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 5,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_stick_20",
+    "Desc": {
+      "key": "i18/weapon/desc/stick3",
+      "text": "因其棍身刻有花纹，故得其名。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "稀有棍",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "木棍1"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "史诗棍",
+    "Name": {
+      "key": "i18/weapon/name/stick4",
+      "text": "定天棍"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 5,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_stick_17",
+    "Desc": {
+      "key": "i18/weapon/desc/stick4",
+      "text": "棍身可能由坚固的金属打造，看似沉稳却充满了破天而来的气势。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "史诗棍",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "木棍1"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "传说棍",
+    "Name": {
+      "key": "i18/weapon/name/stick5",
+      "text": "青龙碧水棍"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 5,
+    "UseType": 0,
+    "ItemLevel": 5,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_stick_11",
+    "Desc": {
+      "key": "i18/weapon/desc/stick5",
+      "text": "如同龙威涌动，势如碧水澄澈。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "传说棍",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "木棍1"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "普通手套",
+    "Name": {
+      "key": "i18/weapon/name/fist1",
+      "text": "布手套"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 0,
+    "UseType": 0,
+    "ItemLevel": 1,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_fist_10",
+    "Desc": {
+      "key": "i18/weapon/desc/fist1",
+      "text": "由布料制成的手套，有一定的攻击力。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "普通手套",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [
+      [
+        "LeftHand",
+        "拳头"
+      ],
+      [
+        "RightHand",
+        "拳头"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "精良手套",
+    "Name": {
+      "key": "i18/weapon/name/fist2",
+      "text": "鳞纹手套"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 0,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_fist_4",
+    "Desc": {
+      "key": "i18/weapon/desc/fist2",
+      "text": "由蛇鳞制成的轻巧而滑腻的手套，在战斗中更卸掉敌人的进攻。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良手套",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [
+      [
+        "LeftHand",
+        "拳头"
+      ],
+      [
+        "RightHand",
+        "拳头"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "稀有手套",
+    "Name": {
+      "key": "i18/weapon/name/fist3",
+      "text": "排云手套"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 0,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_fist_3",
+    "Desc": {
+      "key": "i18/weapon/desc/fist3",
+      "text": "轻盈云絮的手套，它以其出奇不意的闪避和迅疾的动作而著称。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "稀有手套",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [
+      [
+        "LeftHand",
+        "拳头"
+      ],
+      [
+        "RightHand",
+        "拳头"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "史诗手套",
+    "Name": {
+      "key": "i18/weapon/name/fist4",
+      "text": "御武手套"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 0,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_fist_1",
+    "Desc": {
+      "key": "i18/weapon/desc/fist4",
+      "text": "传说中，御武手套有着神秘的力量，能够让武者在战斗中更上一层楼。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "史诗手套",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [
+      [
+        "LeftHand",
+        "拳头"
+      ],
+      [
+        "RightHand",
+        "拳头"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "传说手套",
+    "Name": {
+      "key": "i18/weapon/name/fist5",
+      "text": "流影暗殇拳套"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 0,
+    "UseType": 0,
+    "ItemLevel": 5,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_fist_17",
+    "Desc": {
+      "key": "i18/weapon/desc/fist5",
+      "text": "传说中是由一位天才铸造师为了守护家族而打造的神秘武器。拳套表面覆盖着深邃的暗影之纹。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "传说手套",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [
+      [
+        "LeftHand",
+        "拳头"
+      ],
+      [
+        "RightHand",
+        "拳头"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "普通爪",
+    "Name": {
+      "key": "i18/weapon/name/claw1",
+      "text": "兽骨爪"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 1,
+    "UseType": 0,
+    "ItemLevel": 1,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_fist_20",
+    "Desc": {
+      "key": "i18/weapon/desc/claw1",
+      "text": "用野兽的骨头制作而成，非常坚韧。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "普通爪",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [
+      [
+        "LeftHand",
+        "拳头"
+      ],
+      [
+        "RightHand",
+        "拳头"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "精良爪",
+    "Name": {
+      "key": "i18/weapon/name/claw2",
+      "text": "韧钢爪"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 1,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_fist_18",
+    "Desc": {
+      "key": "i18/weapon/desc/claw2",
+      "text": "采用了坚韧的钢铁材质，爪的形状简约而坚固，适合近身搏击。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良爪",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [
+      [
+        "LeftHand",
+        "拳头"
+      ],
+      [
+        "RightHand",
+        "拳头"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "稀有爪",
+    "Name": {
+      "key": "i18/weapon/name/claw3",
+      "text": "尖锋爪"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 1,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_fist_14",
+    "Desc": {
+      "key": "i18/weapon/desc/claw3",
+      "text": "爪的造型犹如锋利的匕首，锐利无比。每一爪尖都经过精雕细琢，使得它们如同尖锐的刃刀，具备卓越的穿透力。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "稀有爪",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [
+      [
+        "LeftHand",
+        "拳头"
+      ],
+      [
+        "RightHand",
+        "拳头"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "史诗爪",
+    "Name": {
+      "key": "i18/weapon/name/claw4",
+      "text": "天鹰爪"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 1,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_fist_12",
+    "Desc": {
+      "key": "i18/weapon/desc/claw4",
+      "text": "爪的造型宛如展翅欲飞的雄鹰之爪，锋利无比。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "史诗爪",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [
+      [
+        "LeftHand",
+        "拳头"
+      ],
+      [
+        "RightHand",
+        "拳头"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "传说爪",
+    "Name": {
+      "key": "i18/weapon/name/claw5",
+      "text": "金羽凤翎爪"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 1,
+    "UseType": 0,
+    "ItemLevel": 5,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_fist_11",
+    "Desc": {
+      "key": "i18/weapon/desc/claw5",
+      "text": "融合了轻巧坚固的钢铁和精致的雀翎，爪的形状优雅而锋利，仿佛一双翅膀。每一根爪尖上都嵌有小巧的雀翎，使得整个武器在挥动时飘动如羽翼。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "传说爪",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [
+      [
+        "LeftHand",
+        "拳头"
+      ],
+      [
+        "RightHand",
+        "拳头"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "普通弓",
+    "Name": {
+      "key": "i18/weapon/name/bow1",
+      "text": "狩猎弓"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 6,
+    "UseType": 0,
+    "ItemLevel": 1,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_bow_2",
+    "Desc": {
+      "key": "i18/weapon/desc/bow1",
+      "text": "由野兽之骨制成的弓弩，以其坚固的材质和精准的射击而受到猎手们的喜爱。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "普通弓",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [
+      [
+        "LeftHand",
+        "弓1"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "精良弓",
+    "Name": {
+      "key": "i18/weapon/name/bow2",
+      "text": "穿云弓"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 6,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_bow_4",
+    "Desc": {
+      "key": "i18/weapon/desc/bow2",
+      "text": "弓身由一根坚韧的云杉木打造，木质间散发着淡淡的清香。弓弦则采用了普通的蛇皮，精心编织而成，射程极远。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良弓",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [
+      [
+        "LeftHand",
+        "弓3"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "稀有弓",
+    "Name": {
+      "key": "i18/weapon/name/bow3",
+      "text": "追风弓"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 6,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_bow_10",
+    "Desc": {
+      "key": "i18/weapon/desc/bow3",
+      "text": "传说中，这弓曾被赋予追逐风的能力，使得射出的箭矢能够像疾风一般追踪目标，无论敌人身在何处也难以逃脱。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "稀有弓",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [
+      [
+        "LeftHand",
+        "弓8"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "史诗弓",
+    "Name": {
+      "key": "i18/weapon/name/bow4",
+      "text": "玉翎弓"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 6,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_bow_7",
+    "Desc": {
+      "key": "i18/weapon/desc/bow4",
+      "text": "玉翎弓的弓弦似乎由某种神秘的丝线编织而成，它散发出难以捉摸的微弱光芒，似乎承载了某种神秘的力量。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "史诗弓",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [
+      [
+        "LeftHand",
+        "弓16"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "传说弓",
+    "Name": {
+      "key": "i18/weapon/name/bow5",
+      "text": "百发玄机弓"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 6,
+    "UseType": 0,
+    "ItemLevel": 5,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_bow_15",
+    "Desc": {
+      "key": "i18/weapon/desc/bow5",
+      "text": "射出的箭矢在战斗中犹如暗器般难以防范。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "传说弓",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [
+      [
+        "LeftHand",
+        "弓17"
+      ]
+    ],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "普通轻甲",
+    "Name": {
+      "key": "i18/armor/name/LightArmor1",
+      "text": "布袍"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 100,
+    "UseType": 0,
+    "ItemLevel": 1,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_7",
+    "Desc": {
+      "key": "i18/armor/desc/LightArmor1",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "普通轻甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "精良轻甲",
+    "Name": {
+      "key": "i18/armor/name/LightArmor2",
+      "text": "燕雨袍"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 100,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_100",
+    "Desc": {
+      "key": "i18/armor/desc/LightArmor2",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良轻甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "稀有轻甲",
+    "Name": {
+      "key": "i18/armor/name/LightArmor3",
+      "text": "白鹤袍"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 100,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_62",
+    "Desc": {
+      "key": "i18/armor/desc/LightArmor3",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "稀有轻甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "史诗轻甲",
+    "Name": {
+      "key": "i18/armor/name/LightArmor4",
+      "text": "翡云袍"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 100,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_94",
+    "Desc": {
+      "key": "i18/armor/desc/LightArmor4",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "史诗轻甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "传说轻甲",
+    "Name": {
+      "key": "i18/armor/name/LightArmor5",
+      "text": "银甲玄锦袍"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 100,
+    "UseType": 0,
+    "ItemLevel": 5,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_41",
+    "Desc": {
+      "key": "i18/armor/desc/LightArmor5",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "传说轻甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "普通中甲",
+    "Name": {
+      "key": "i18/armor/name/MediumArmor1",
+      "text": "麻衣"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 101,
+    "UseType": 0,
+    "ItemLevel": 1,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_38",
+    "Desc": {
+      "key": "i18/armor/desc/MediumArmor1",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "普通中甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "精良中甲",
+    "Name": {
+      "key": "i18/armor/name/MediumArmor2",
+      "text": "金蛇衣"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 101,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_17",
+    "Desc": {
+      "key": "i18/armor/desc/MediumArmor2",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良中甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "稀有中甲",
+    "Name": {
+      "key": "i18/armor/name/MediumArmor3",
+      "text": "蛟鳞衣"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 101,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_50",
+    "Desc": {
+      "key": "i18/armor/desc/MediumArmor3",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "稀有中甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "史诗中甲",
+    "Name": {
+      "key": "i18/armor/name/MediumArmor4",
+      "text": "月夜衣"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 101,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_69",
+    "Desc": {
+      "key": "i18/armor/desc/MediumArmor4",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "史诗中甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "传说中甲",
+    "Name": {
+      "key": "i18/armor/name/MediumArmor5",
+      "text": "锦绣玉帛衣"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 101,
+    "UseType": 0,
+    "ItemLevel": 5,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_15",
+    "Desc": {
+      "key": "i18/armor/desc/MediumArmor5",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "传说中甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "普通重甲",
+    "Name": {
+      "key": "i18/armor/name/HeavyArmor1",
+      "text": "铁甲"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 102,
+    "UseType": 0,
+    "ItemLevel": 1,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_88",
+    "Desc": {
+      "key": "i18/armor/desc/HeavyArmor1",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "普通重甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "精良重甲",
+    "Name": {
+      "key": "i18/armor/name/HeavyArmor2",
+      "text": "银霜甲"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 102,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_84",
+    "Desc": {
+      "key": "i18/armor/desc/HeavyArmor2",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良重甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "稀有重甲",
+    "Name": {
+      "key": "i18/armor/name/HeavyArmor3",
+      "text": "吟月甲"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 102,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_59",
+    "Desc": {
+      "key": "i18/armor/desc/HeavyArmor3",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "稀有重甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "史诗重甲",
+    "Name": {
+      "key": "i18/armor/name/HeavyArmor4",
+      "text": "墨鸾甲"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 102,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_45",
+    "Desc": {
+      "key": "i18/armor/desc/HeavyArmor4",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "史诗重甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "传说重甲",
+    "Name": {
+      "key": "i18/armor/name/HeavyArmor5",
+      "text": "圣耀焚金甲"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 102,
+    "UseType": 0,
+    "ItemLevel": 5,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_80",
+    "Desc": {
+      "key": "i18/armor/desc/HeavyArmor5",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "传说重甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "普通项链",
+    "Name": {
+      "key": "i18/necklace/name/1",
+      "text": "骨坠"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 1,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_45",
+    "Desc": {
+      "key": "i18/necklace/desc/1",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "普通项链",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "精良项链",
+    "Name": {
+      "key": "i18/necklace/name/2",
+      "text": "狼牙坠"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_48",
+    "Desc": {
+      "key": "i18/necklace/desc/2",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良项链",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "稀有项链",
+    "Name": {
+      "key": "i18/necklace/name/3",
+      "text": "月叶坠"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_42",
+    "Desc": {
+      "key": "i18/necklace/desc/3",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "稀有项链",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "史诗项链",
+    "Name": {
+      "key": "i18/necklace/name/4",
+      "text": "紫露坠"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_47",
+    "Desc": {
+      "key": "i18/necklace/desc/4",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "史诗项链",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "传说项链",
+    "Name": {
+      "key": "i18/necklace/name/5",
+      "text": "祝融灼玉坠"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 5,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_43",
+    "Desc": {
+      "key": "i18/necklace/desc/5",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "传说项链",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "普通戒指",
+    "Name": {
+      "key": "i18/ring/name/Ring1",
+      "text": "骨戒"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 1,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_16",
+    "Desc": {
+      "key": "i18/ring/desc/Ring1",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "普通戒指",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "精良戒指",
+    "Name": {
+      "key": "i18/ring/name/Ring2",
+      "text": "熔锋戒"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_24",
+    "Desc": {
+      "key": "i18/ring/desc/Ring2",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良戒指",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "稀有戒指",
+    "Name": {
+      "key": "i18/ring/name/Ring3",
+      "text": "濯玉戒"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_18",
+    "Desc": {
+      "key": "i18/ring/desc/Ring3",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "稀有戒指",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "史诗戒指",
+    "Name": {
+      "key": "i18/ring/name/Ring4",
+      "text": "聆幽戒"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_14",
+    "Desc": {
+      "key": "i18/ring/desc/Ring4",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "史诗戒指",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "传说戒指",
+    "Name": {
+      "key": "i18/ring/name/Ring5",
+      "text": "炽火焚天戒"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 5,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_2",
+    "Desc": {
+      "key": "i18/ring/desc/Ring5",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "传说戒指",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "普通手镯",
+    "Name": {
+      "key": "i18/bracelet/name/1",
+      "text": "兽骨镯"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 1,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_56",
+    "Desc": {
+      "key": "i18/bracelet/desc/1",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "普通手镯",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "精良手镯",
+    "Name": {
+      "key": "i18/bracelet/name/2",
+      "text": "鸣鹤镯"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_53",
+    "Desc": {
+      "key": "i18/bracelet/desc/2",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良手镯",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "稀有手镯",
+    "Name": {
+      "key": "i18/bracelet/name/3",
+      "text": "赤鬼镯"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_17",
+    "Desc": {
+      "key": "i18/bracelet/desc/3",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "稀有手镯",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "史诗手镯",
+    "Name": {
+      "key": "i18/bracelet/name/4",
+      "text": "金虵镯"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_55",
+    "Desc": {
+      "key": "i18/bracelet/desc/4",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "史诗手镯",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "传说手镯",
+    "Name": {
+      "key": "i18/bracelet/name/5",
+      "text": "沁彩流玉镯"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 5,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_21",
+    "Desc": {
+      "key": "i18/bracelet/desc/5",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "传说手镯",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "普通护腕",
+    "Name": {
+      "key": "i18/wristband/name/1",
+      "text": "铜护腕"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 1,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_31",
+    "Desc": {
+      "key": "i18/wristband/desc/1",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "普通护腕",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "精良护腕",
+    "Name": {
+      "key": "i18/wristband/name/2",
+      "text": "蘅茉护腕"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_30",
+    "Desc": {
+      "key": "i18/wristband/desc/2",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "精良护腕",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "稀有护腕",
+    "Name": {
+      "key": "i18/wristband/name/3",
+      "text": "云星护腕"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_32",
+    "Desc": {
+      "key": "i18/wristband/desc/3",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "稀有护腕",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "史诗护腕",
+    "Name": {
+      "key": "i18/wristband/name/4",
+      "text": "紫珊护腕"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_29",
+    "Desc": {
+      "key": "i18/wristband/desc/4",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "史诗护腕",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "传说护腕",
+    "Name": {
+      "key": "i18/wristband/name/5",
+      "text": "明光乾阳护腕"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 5,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_34",
+    "Desc": {
+      "key": "i18/wristband/desc/5",
+      "text": ""
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "传说护腕",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "血河大法",
+    "Name": {
+      "key": "i18n/item/book/name/1",
+      "text": "血河大法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/1",
+      "text": "使用后习得[血河大法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "血河大法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "青木功法",
+    "Name": {
+      "key": "i18n/item/book/name/2",
+      "text": "青木功法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/2",
+      "text": "使用后习得[青木功法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "青木功法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "回春决",
+    "Name": {
+      "key": "i18n/item/book/name/3",
+      "text": "回春决"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/3",
+      "text": "使用后习得[回春决]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "回春决",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "寒玉诀",
+    "Name": {
+      "key": "i18n/item/book/name/4",
+      "text": "寒玉诀"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/4",
+      "text": "使用后习得[寒玉诀]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "寒玉诀",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "龟岩气功",
+    "Name": {
+      "key": "i18n/item/book/name/5",
+      "text": "龟岩气功"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/5",
+      "text": "使用后习得[龟岩气功]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "龟岩气功",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "水鳞真诀",
+    "Name": {
+      "key": "i18n/item/book/name/6",
+      "text": "水鳞真诀"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/6",
+      "text": "使用后习得[水鳞真诀]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "水鳞真诀",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "涵阳心法",
+    "Name": {
+      "key": "i18n/item/book/name/7",
+      "text": "涵阳心法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/7",
+      "text": "使用后习得[涵阳心法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "涵阳心法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "阴阳护体功",
+    "Name": {
+      "key": "i18n/item/book/name/8",
+      "text": "阴阳护体功"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/8",
+      "text": "使用后习得[阴阳护体功]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "阴阳护体功",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "基础内功",
+    "Name": {
+      "key": "i18n/item/book/name/9",
+      "text": "基础内功"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 2,
+    "ItemLevel": 1,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/9",
+      "text": "使用后习得[基础内功]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "基础内功",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "少林心法",
+    "Name": {
+      "key": "i18n/item/book/name/10",
+      "text": "少林心法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/10",
+      "text": "使用后习得[少林心法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "少林心法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "草木枯元功",
+    "Name": {
+      "key": "i18n/item/book/name/11",
+      "text": "草木枯元功"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/11",
+      "text": "使用后习得[草木枯元功]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "草木枯元功",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "降魔心法",
+    "Name": {
+      "key": "i18n/item/book/name/12",
+      "text": "降魔心法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/12",
+      "text": "使用后习得[降魔心法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "降魔心法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "罗汉伏魔心法",
+    "Name": {
+      "key": "i18n/item/book/name/13",
+      "text": "罗汉伏魔心法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 4,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/13",
+      "text": "使用后习得[罗汉伏魔心法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "罗汉伏魔心法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 500,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "易筋经",
+    "Name": {
+      "key": "i18n/item/book/name/14",
+      "text": "易筋经"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 5,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/14",
+      "text": "使用后习得[易筋经]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "易筋经",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 1000,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "潜龙心法",
+    "Name": {
+      "key": "i18n/item/book/name/15",
+      "text": "潜龙心法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/15",
+      "text": "使用后习得[潜龙心法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "潜龙心法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "从龙秘术",
+    "Name": {
+      "key": "i18n/item/book/name/16",
+      "text": "从龙秘术"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/16",
+      "text": "使用后习得[从龙秘术]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "从龙秘术",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "血海魔功",
+    "Name": {
+      "key": "i18n/item/book/name/17",
+      "text": "血海魔功"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/17",
+      "text": "使用后习得[血海魔功]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "血海魔功",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "浩然正气诀",
+    "Name": {
+      "key": "i18n/item/book/name/18",
+      "text": "浩然正气诀"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/18",
+      "text": "使用后习得[浩然正气诀]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "浩然正气诀",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "基础身法",
+    "Name": {
+      "key": "i18n/item/book/name/19",
+      "text": "基础身法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 2,
+    "ItemLevel": 1,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_shenFa_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/19",
+      "text": "使用后习得[基础身法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "基础身法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "轻身术",
+    "Name": {
+      "key": "i18n/item/book/name/20",
+      "text": "轻身术"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_shenFa_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/20",
+      "text": "使用后习得[轻身术]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "轻身术",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "少林身法",
+    "Name": {
+      "key": "i18n/item/book/name/21",
+      "text": "少林身法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_shenFa_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/21",
+      "text": "使用后习得[少林身法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "少林身法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "追风步法",
+    "Name": {
+      "key": "i18n/item/book/name/22",
+      "text": "追风步法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_shenFa_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/22",
+      "text": "使用后习得[追风步法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "追风步法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "醉蝶舞",
+    "Name": {
+      "key": "i18n/item/book/name/23",
+      "text": "醉蝶舞"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 5,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_shenFa_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/23",
+      "text": "使用后习得[醉蝶舞]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "醉蝶舞",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 1000,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "夜影身法",
+    "Name": {
+      "key": "i18n/item/book/name/24",
+      "text": "夜影身法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_shenFa_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/24",
+      "text": "使用后习得[夜影身法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "夜影身法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "基础拳法",
+    "Name": {
+      "key": "i18n/item/book/name/25",
+      "text": "基础拳法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 2,
+    "ItemLevel": 1,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_fist_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/25",
+      "text": "使用后习得[基础拳法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "基础拳法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "探云摘星手",
+    "Name": {
+      "key": "i18n/item/book/name/26",
+      "text": "探云摘星手"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_fist_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/26",
+      "text": "使用后习得[探云摘星手]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "探云摘星手",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "罗汉拳",
+    "Name": {
+      "key": "i18n/item/book/name/27",
+      "text": "罗汉拳"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_fist_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/27",
+      "text": "使用后习得[罗汉拳]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "罗汉拳",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "疯魔拳法",
+    "Name": {
+      "key": "i18n/item/book/name/28",
+      "text": "疯魔拳法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_fist_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/28",
+      "text": "使用后习得[疯魔拳法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "疯魔拳法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "伏虎掌法",
+    "Name": {
+      "key": "i18n/item/book/name/29",
+      "text": "伏虎掌法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 4,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_fist_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/29",
+      "text": "使用后习得[伏虎掌法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "伏虎掌法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 500,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "降魔袈裟掌",
+    "Name": {
+      "key": "i18n/item/book/name/30",
+      "text": "降魔袈裟掌"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 5,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_fist_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/30",
+      "text": "使用后习得[降魔袈裟掌]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "降魔袈裟掌",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 1000,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "疾风烈焰掌",
+    "Name": {
+      "key": "i18n/item/book/name/31",
+      "text": "疾风烈焰掌"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 4,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_fist_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/31",
+      "text": "使用后习得[疾风烈焰掌]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "疾风烈焰掌",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 500,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "淬毒掌法",
+    "Name": {
+      "key": "i18n/item/book/name/32",
+      "text": "淬毒掌法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_fist_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/32",
+      "text": "使用后习得[淬毒掌法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "淬毒掌法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "骤雨寒冰拳",
+    "Name": {
+      "key": "i18n/item/book/name/33",
+      "text": "骤雨寒冰拳"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 4,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_fist_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/33",
+      "text": "使用后习得[骤雨寒冰拳]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "骤雨寒冰拳",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 500,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "基础刀法",
+    "Name": {
+      "key": "i18n/item/book/name/34",
+      "text": "基础刀法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 2,
+    "ItemLevel": 1,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_blade_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/34",
+      "text": "使用后习得[基础刀法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "基础刀法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "血魔刀法",
+    "Name": {
+      "key": "i18n/item/book/name/35",
+      "text": "血魔刀法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 5,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_blade_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/35",
+      "text": "使用后习得[血魔刀法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "血魔刀法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 1000,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "破风刀法",
+    "Name": {
+      "key": "i18n/item/book/name/36",
+      "text": "破风刀法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_blade_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/36",
+      "text": "使用后习得[破风刀法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "破风刀法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "虎焰刀法",
+    "Name": {
+      "key": "i18n/item/book/name/37",
+      "text": "虎焰刀法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_blade_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/37",
+      "text": "使用后习得[虎焰刀法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "虎焰刀法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "杀猪刀法",
+    "Name": {
+      "key": "i18n/item/book/name/38",
+      "text": "杀猪刀法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_blade_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/38",
+      "text": "使用后习得[杀猪刀法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "杀猪刀法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "火钳刀法",
+    "Name": {
+      "key": "i18n/item/book/name/39",
+      "text": "火钳刀法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_blade_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/39",
+      "text": "使用后习得[火钳刀法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "火钳刀法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "断血刀法",
+    "Name": {
+      "key": "i18n/item/book/name/40",
+      "text": "断血刀法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_blade_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/40",
+      "text": "使用后习得[断血刀法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "断血刀法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "血戮刀法",
+    "Name": {
+      "key": "i18n/item/book/name/41",
+      "text": "血戮刀法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_blade_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/41",
+      "text": "使用后习得[血戮刀法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "血戮刀法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "基础剑法",
+    "Name": {
+      "key": "i18n/item/book/name/42",
+      "text": "基础剑法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 2,
+    "ItemLevel": 1,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_sword_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/42",
+      "text": "使用后习得[基础剑法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "基础剑法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "迷踪无影剑",
+    "Name": {
+      "key": "i18n/item/book/name/43",
+      "text": "迷踪无影剑"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 5,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_sword_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/43",
+      "text": "使用后习得[迷踪无影剑]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "迷踪无影剑",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 1000,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "寒阴剑法",
+    "Name": {
+      "key": "i18n/item/book/name/44",
+      "text": "寒阴剑法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_sword_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/44",
+      "text": "使用后习得[寒阴剑法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "寒阴剑法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "水蛇剑法",
+    "Name": {
+      "key": "i18n/item/book/name/45",
+      "text": "水蛇剑法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_sword_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/45",
+      "text": "使用后习得[水蛇剑法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "水蛇剑法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "基础枪法",
+    "Name": {
+      "key": "i18n/item/book/name/46",
+      "text": "基础枪法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 2,
+    "ItemLevel": 1,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_spear_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/46",
+      "text": "使用后习得[基础枪法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "基础枪法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "排云枪法",
+    "Name": {
+      "key": "i18n/item/book/name/47",
+      "text": "排云枪法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 5,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_spear_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/47",
+      "text": "使用后习得[排云枪法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "排云枪",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 1000,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "霸王枪法",
+    "Name": {
+      "key": "i18n/item/book/name/48",
+      "text": "霸王枪法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_spear_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/48",
+      "text": "使用后习得[霸王枪法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "霸王枪法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "基础棍法",
+    "Name": {
+      "key": "i18n/item/book/name/49",
+      "text": "基础棍法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 2,
+    "ItemLevel": 1,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_stick_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/49",
+      "text": "使用后习得[基础棍法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "基础棍法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "盘龙棍法",
+    "Name": {
+      "key": "i18n/item/book/name/50",
+      "text": "盘龙棍法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_stick_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/50",
+      "text": "使用后习得[盘龙棍法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "盘龙棍法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "蛟龙枪法",
+    "Name": {
+      "key": "i18n/item/book/name/51",
+      "text": "蛟龙枪法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_stick_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/51",
+      "text": "使用后习得[蛟龙枪法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "蛟龙枪法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "烧火棍法",
+    "Name": {
+      "key": "i18n/item/book/name/52",
+      "text": "烧火棍法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_stick_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/52",
+      "text": "使用后习得[烧火棍法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "烧火棍法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "回首棍法",
+    "Name": {
+      "key": "i18n/item/book/name/53",
+      "text": "回首棍法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_stick_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/53",
+      "text": "使用后习得[回首棍法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "回首棍法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "基础弓法",
+    "Name": {
+      "key": "i18n/item/book/name/54",
+      "text": "基础弓法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 2,
+    "ItemLevel": 1,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_bow_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/54",
+      "text": "使用后习得[基础弓法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "基础弓法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 50,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "猎鹰弓法",
+    "Name": {
+      "key": "i18n/item/book/name/55",
+      "text": "猎鹰弓法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_bow_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/55",
+      "text": "使用后习得[猎鹰弓法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "猎鹰弓法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "涟漪箭法",
+    "Name": {
+      "key": "i18n/item/book/name/56",
+      "text": "涟漪箭法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_bow_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/56",
+      "text": "使用后习得[涟漪箭法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "涟漪箭法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "破岳虎弓法",
+    "Name": {
+      "key": "i18n/item/book/name/57",
+      "text": "破岳虎弓法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_bow_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/57",
+      "text": "使用后习得[破岳虎弓法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "破岳虎弓法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "流云箭诀",
+    "Name": {
+      "key": "i18n/item/book/name/58",
+      "text": "流云箭诀"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_bow_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/58",
+      "text": "使用后习得[流云箭诀]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "流云箭诀",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "疾羽星霜",
+    "Name": {
+      "key": "i18n/item/book/name/59",
+      "text": "疾羽星霜"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 4,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_bow_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/59",
+      "text": "使用后习得[疾羽星霜]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "疾羽星霜",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 500,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "雀舞乾坤箭",
+    "Name": {
+      "key": "i18n/item/book/name/60",
+      "text": "雀舞乾坤箭"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 4,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_bow_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/60",
+      "text": "使用后习得[雀舞乾坤箭]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "雀舞乾坤箭",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 500,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "信",
+    "Name": {
+      "key": "i18/sundry/name/1",
+      "text": "信"
+    },
+    "ItemType": 4,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 2,
+    "ItemLevel": 1,
+    "CanFold": false,
+    "Dropable": false,
+    "Pic": "DJ_27",
+    "Desc": {
+      "key": "i18/sundry/desc/1",
+      "text": "开剧情的信件"
+    },
+    "LuaCommandFile": "Story/story1",
+    "LuaCommandParam": [],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "",
+    "SellPrice": 0,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "银两",
+    "Name": {
+      "key": "i18/sundry/name/2",
+      "text": "银两"
+    },
+    "ItemType": 4,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 1,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "DJ_31",
+    "Desc": {
+      "key": "i18/sundry/desc/2",
+      "text": "能使鬼推磨"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "",
+    "SellPrice": 1,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "疾风烈焰掌·残",
+    "Name": {
+      "key": "i18/sundry/name/3",
+      "text": "疾风烈焰掌·残"
+    },
+    "ItemType": 4,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": false,
+    "Pic": "MJ_2",
+    "Desc": {
+      "key": "i18/sundry/desc/4",
+      "text": "上面记着：其疾如风，侵略如火……"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "",
+    "SellPrice": 0,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "有点像钥匙的令牌",
+    "Name": {
+      "key": "i18/sundry/name/4",
+      "text": "有点像钥匙的令牌"
+    },
+    "ItemType": 4,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": true,
+    "Dropable": false,
+    "Pic": "SP_48",
+    "Desc": {
+      "key": "i18/sundry/desc/5",
+      "text": "有着岁炙叶的标志的钥匙一样的令牌"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "",
+    "SellPrice": 0,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "岁炙叶手稿",
+    "Name": {
+      "key": "i18/sundry/name/5",
+      "text": "岁炙叶手稿"
+    },
+    "ItemType": 4,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": false,
+    "Pic": "DJ_26",
+    "Desc": {
+      "key": "i18/sundry/desc/6",
+      "text": "上面记录着用岁炙叶来修炼《疾风烈焰掌》的方法"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "",
+    "SellPrice": 0,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "岁炙叶",
+    "Name": {
+      "key": "i18/sundry/name/6",
+      "text": "岁炙叶"
+    },
+    "ItemType": 4,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": true,
+    "Dropable": false,
+    "Pic": "DJ_37",
+    "Desc": {
+      "key": "i18/sundry/desc/7",
+      "text": "火神树上最红的叶子，传说集齐三百片便开启一段奇缘"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "",
+    "SellPrice": 0,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "八卦衣",
+    "Name": {
+      "key": "i18/armor/name/BaGua_Cloth",
+      "text": "八卦衣"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 100,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_103",
+    "Desc": {
+      "key": "i18/armor/desc/BaGua_Cloth",
+      "text": "这件衣服由细布制作，衣身上纹绣着阴阳八卦的图案，黑白相称，完美展现了和谐与平衡之道。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "八卦衣",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "八卦衣_八卦阵"
+    ]
+  },
+  {
+    "Id": "水火棍",
+    "Name": {
+      "key": "i18/weapon/name/water_fire_stick",
+      "text": "水火棍"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 5,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_stick_22",
+    "Desc": {
+      "key": "i18/weapon/desc/water_fire_stick",
+      "text": "黑红相间的铁棍，据说常用来审讯犯人或者俘虏"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "水火棍",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "木棍2"
+      ]
+    ],
+    "BaseBuffEffects": [
+      "水火棍_威慑"
+    ]
+  },
+  {
+    "Id": "桃木剑",
+    "Name": {
+      "key": "i18/weapon/name/peach_wooden_sword",
+      "text": "桃木剑"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 3,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_sword_44",
+    "Desc": {
+      "key": "i18/weapon/desc/peach_wooden_sword",
+      "text": "由百年桃木制成，民间传说其能辟邪驱鬼，被视为保护和净化的象征"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "桃木剑",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "剑5"
+      ]
+    ],
+    "BaseBuffEffects": [
+      "桃木剑_驱邪"
+    ]
+  },
+  {
+    "Id": "云纹冠",
+    "Name": {
+      "key": "i18/accessor/name/cloud_hat",
+      "text": "云纹冠"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_61",
+    "Desc": {
+      "key": "i18/accessor/desc/cloud_hat",
+      "text": "一顶精致的道士帽，用绸缎制成，表面绣有象征精神超脱的飘渺云纹。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "云纹冠",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "云纹冠_正气"
+    ]
+  },
+  {
+    "Id": "白玉双鱼佩",
+    "Name": {
+      "key": "i18/accessor/name/doulbe_fish_jade",
+      "text": "白玉双鱼佩"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_40",
+    "Desc": {
+      "key": "i18/accessor/desc/doulbe_fish_jade",
+      "text": "由两条相对的鱼形状组成，用清透白亮的漂亮玉石打磨而成"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "白玉双鱼佩",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "白玉双鱼佩_祈福"
+    ]
+  },
+  {
+    "Id": "两仪四象功",
+    "Name": {
+      "key": "i18n/item/book/name/Taiji_NeiGong",
+      "text": "两仪四象功"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 4,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/Taiji_NeiGong",
+      "text": "使用后习得[两仪四象功]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "两仪四象功",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 500,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "乾坤步法",
+    "Name": {
+      "key": "i18n/item/book/name/QianKun_move",
+      "text": "乾坤步法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_shenFa_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/QianKun_move",
+      "text": "使用后习得[乾坤步法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "乾坤步法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "风雷掌法",
+    "Name": {
+      "key": "i18n/item/book/name/windThunderFist",
+      "text": "风雷掌法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_fist_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/windThunderFist",
+      "text": "使用后习得[风雷掌法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "风雷掌法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "破岳剑法",
+    "Name": {
+      "key": "i18n/item/book/name/broken_mountain_sword",
+      "text": "破岳剑法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_sword_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/broken_mountain_sword",
+      "text": "使用后习得[破岳剑法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "破岳剑法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "八卦棍法",
+    "Name": {
+      "key": "i18n/item/book/name/bagua_stick",
+      "text": "八卦棍法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_stick_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/bagua_stick",
+      "text": "使用后习得[八卦棍法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "八卦棍法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "千蛛",
+    "Name": {
+      "key": "i18/weapon/name/ThousandSpider",
+      "text": "千蛛"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 0,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_fist_15",
+    "Desc": {
+      "key": "i18/weapon/desc/ThousandSpider",
+      "text": "由千只毒蜘蛛的丝线编织而成，每一根丝线都带有剧毒。可以让敌人在不知不觉中被毒素侵蚀，直至丧命。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "稀有手套",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "千蛛_千蛛缚毒"
+    ]
+  },
+  {
+    "Id": "毒牙龙杖",
+    "Name": {
+      "key": "i18/weapon/name/VenomToothStaff",
+      "text": "毒牙龙杖"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 5,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_stick_11",
+    "Desc": {
+      "key": "i18/weapon/desc/VenomToothStaff",
+      "text": "这根毒牙杖由江湖中最毒的蛇牙制成，散发着幽暗的光芒。能在无声无息中将敌人毒倒，令对手防不胜防。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "史诗棍",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "棍17"
+      ]
+    ],
+    "BaseBuffEffects": [
+      "毒牙龙杖_龙牙毒侵"
+    ]
+  },
+  {
+    "Id": "千足蜈蚣衣",
+    "Name": {
+      "key": "i18/armor/name/CentipedeArmor",
+      "text": "千足蜈蚣衣"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 100,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_27",
+    "Desc": {
+      "key": "i18/armor/desc/CentipedeArmor",
+      "text": "由千足蜈蚣的甲壳制成，表面隐隐泛着寒光。可以让攻击者感到无力和恐惧，仿佛被千足蜈蚣紧紧缠绕。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "千足蜈蚣衣",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "千足蜈蚣衣_千足封印"
+    ]
+  },
+  {
+    "Id": "血祭绝蝎甲",
+    "Name": {
+      "key": "i18/armor/name/BloodScorpionArmor",
+      "text": "血祭绝蝎甲"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 102,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_80",
+    "Desc": {
+      "key": "i18/armor/desc/BloodScorpionArmor",
+      "text": "由绝命毒蝎的毒壳打造，散发着血腥的气息。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "史诗重甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "血祭绝蝎甲_血毒再生"
+    ]
+  },
+  {
+    "Id": "剧毒蜘蛛",
+    "Name": {
+      "key": "i18/accessor/name/VenomSpider",
+      "text": "剧毒蜘蛛"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_62",
+    "Desc": {
+      "key": "i18/accessor/desc/VenomSpider",
+      "text": "临终一击能令敌人痛不欲生，即便在死亡之际也能为主人报仇雪恨。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "剧毒蜘蛛",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "剧毒蜘蛛_毒蛛临终"
+    ]
+  },
+  {
+    "Id": "黑水仙",
+    "Name": {
+      "key": "i18/accessor/name/BlackNarcissus",
+      "text": "黑水仙"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_63",
+    "Desc": {
+      "key": "i18/accessor/desc/BlackNarcissus",
+      "text": "散发着妖艳的光芒，带有强烈的毒性。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "黑水仙",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "黑水仙_黑水仙之毒"
+    ]
+  },
+  {
+    "Id": "姑获鸟之瓶",
+    "Name": {
+      "key": "i18/accessor/name/SpiritBirdBottle",
+      "text": "姑获鸟之瓶"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_64",
+    "Desc": {
+      "key": "i18/accessor/desc/SpiritBirdBottle",
+      "text": "传说中，这瓶中的力量能驱散世间所有毒素，给予持有者无上的庇护，让他们在武林中来去自如，无惧毒物侵袭。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "姑获鸟之瓶",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "姑获鸟之瓶_姑获鸟护佑"
+    ]
+  },
+  {
+    "Id": "寄生诀",
+    "Name": {
+      "key": "i18n/item/book/name/ParasiticTechnique",
+      "text": "寄生诀"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/name/ParasiticTechnique",
+      "text": "使用后习得[寄生诀]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "寄生诀",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 500,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "天仙万毒术",
+    "Name": {
+      "key": "i18n/item/book/name/CelestialPoisonArt",
+      "text": "天仙万毒术"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 4,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/name/CelestialPoisonArt",
+      "text": "使用后习得[天仙万毒术]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "天仙万毒术",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 500,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "迷魂步",
+    "Name": {
+      "key": "i18n/item/book/name/BewitchingSteps",
+      "text": "迷魂步"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_shenFa_1",
+    "Desc": {
+      "key": "i18n/item/book/name/BewitchingSteps",
+      "text": "使用后习得[迷魂步法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "迷魂步法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "蚀骨钩爪",
+    "Name": {
+      "key": "i18n/item/book/name/BoneErodingClaw",
+      "text": "蚀骨钩爪"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_fist_1",
+    "Desc": {
+      "key": "i18n/item/book/name/BoneErodingClaw",
+      "text": "使用后习得[蚀骨钩爪]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "蚀骨钩爪",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "万蛇嗜毒杖法",
+    "Name": {
+      "key": "i18n/item/book/name/MyriadSerpentsPoisonStaffTechnique",
+      "text": "万蛇嗜毒杖法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 4,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_stick_1",
+    "Desc": {
+      "key": "i18n/item/book/name/MyriadSerpentsPoisonStaffTechnique",
+      "text": "使用后习得[万蛇嗜毒杖法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "万蛇嗜毒杖法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "流云剑",
+    "Name": {
+      "key": "i18/weapon/name/SwordOfFlowingClouds",
+      "text": "流云剑"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 3,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_sword_22",
+    "Desc": {
+      "key": "i18/weapon/desc/SwordOfFlowingClouds",
+      "text": "轻盈如风，其剑身闪烁着蓝白色的光芒，似云霞般飘逸。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "流云剑",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "剑24"
+      ]
+    ],
+    "BaseBuffEffects": [
+      "流云剑_流云"
+    ]
+  },
+  {
+    "Id": "虎啸弓",
+    "Name": {
+      "key": "i18/weapon/name/TigerRoarBow",
+      "text": "虎啸弓"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 6,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_bow_9",
+    "Desc": {
+      "key": "i18/weapon/desc/TigerRoarBow",
+      "text": "由坚韧的虎骨和韧皮制成，弓身雕刻着猛虎图腾，显得威风凛凛。拉弓时，仿佛能听到虎啸之声，威慑敌胆。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "虎啸弓",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [
+      [
+        "LeftHand",
+        "wp_Bow12"
+      ]
+    ],
+    "BaseBuffEffects": [
+      "虎啸弓_虎啸"
+    ]
+  },
+  {
+    "Id": "灵鹿衣",
+    "Name": {
+      "key": "i18/armor/name/iverskin",
+      "text": "灵鹿衣"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 101,
+    "UseType": 0,
+    "ItemLevel": 5,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_65",
+    "Desc": {
+      "key": "i18/armor/desc/iverskin",
+      "text": "由灵鹿皮毛精制而成，柔软轻便，穿上后行动如灵鹿般敏捷。衣襟上绣有精美的灵鹿花纹，散发着淡淡的光辉。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "灵鹿衣",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "灵鹿衣_灵鹿"
+    ]
+  },
+  {
+    "Id": "蛤蟆功",
+    "Name": {
+      "key": "i18n/item/book/name/ToadGong",
+      "text": "蛤蟆功"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 4,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/name/ToadGong",
+      "text": "使用后习得[蛤蟆功]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "蛤蟆功",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 500,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "猴王拳",
+    "Name": {
+      "key": "i18n/item/book/name/MonkeyKingFist",
+      "text": "猴王拳"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 4,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_fist_1",
+    "Desc": {
+      "key": "i18n/item/book/name/MonkeyKingFist",
+      "text": "使用后习得[猴王拳]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "猴王拳",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 500,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "破甲枪",
+    "Name": {
+      "key": "i18/weapon/name/ArmorPiercingSpear",
+      "text": "破甲枪"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 4,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_spear_26",
+    "Desc": {
+      "key": "i18/weapon/desc/ArmorPiercingSpear",
+      "text": "长八尺，枪尖如雪，枪身黑铁铸造，重如千斤。此枪锋利无比，能破甲如纸，乃百战之兵。传说此枪曾随名将征战沙场，屡立奇功，所向披靡。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "稀有枪",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "长柄21"
+      ]
+    ],
+    "BaseBuffEffects": [
+      "破甲枪_破防"
+    ]
+  },
+  {
+    "Id": "重山护手",
+    "Name": {
+      "key": "i18/weapon/name/HeavyMountainGauntlets",
+      "text": "重山护手"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 0,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_fist_10",
+    "Desc": {
+      "key": "i18/weapon/desc/HeavyMountainGauntlets",
+      "text": "由重山铁匠打造，厚重坚固，宛如山岳。其外形如虎掌，镶嵌玄铁，佩戴后力大无穷，可挡利刃，护住双手不受伤害，乃近战勇士之利器。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "重山护手",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "重山护手_重山"
+    ]
+  },
+  {
+    "Id": "铁甲护胸",
+    "Name": {
+      "key": "i18/armor/name/IronArmorChestplate",
+      "text": "铁甲护胸"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 102,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_92",
+    "Desc": {
+      "key": "i18/armor/desc/IronArmorChestplate",
+      "text": "铸于铁城，精工细作，重如千钧。其外表覆以玄铁鳞片，坚不可摧，能抵挡刀剑斧钺。穿戴此甲，如披铁壁，身陷重围亦能安然无恙。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "史诗重甲",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "铁甲护胸_铁甲"
+    ]
+  },
+  {
+    "Id": "福运坠",
+    "Name": {
+      "key": "i18/armor/name/FortunePendant",
+      "text": "福运坠"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_46",
+    "Desc": {
+      "key": "i18/armor/desc/FortunePendant",
+      "text": "玉石雕琢，形如祥云，通体温润。佩戴此坠者，福运连连，厄运远离。传说此坠蕴含天地灵气，能助人趋吉避凶。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "福运坠",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "福运坠_福运"
+    ]
+  },
+  {
+    "Id": "贪狼戒",
+    "Name": {
+      "key": "i18/accessor/name/GreedyWolfRing",
+      "text": "贪狼戒"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 3,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_5",
+    "Desc": {
+      "key": "i18/accessor/desc/GreedyWolfRing",
+      "text": "银质锻造，镶嵌血红宝石，戒身刻有贪狼图案。此戒内含邪力，能增佩戴者的力量与速度，但需以佩戴者的心智为代价。此物为魔道中人所喜，亦为正道中人所忌。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "贪狼戒",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "霸绝功",
+    "Name": {
+      "key": "i18n/item/book/name/cha/1",
+      "text": "霸绝功"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 4,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/cha/1",
+      "text": "使用后习得[霸绝功]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "霸绝功",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 500,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "灵息回天功",
+    "Name": {
+      "key": "i18n/item/book/name/cha/2",
+      "text": "灵息回天功"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 4,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/cha/2",
+      "text": "使用后习得[灵息回天功]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "灵息回天功",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 500,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "铁壁玄功",
+    "Name": {
+      "key": "i18n/item/book/name/cha/3",
+      "text": "铁壁玄功"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/cha/3",
+      "text": "使用后习得[铁壁玄功]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "铁壁玄功",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "惊鸿诀",
+    "Name": {
+      "key": "i18n/item/book/name/cha/4",
+      "text": "惊鸿诀"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_neiGong_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/cha/4",
+      "text": "使用后习得[惊鸿诀]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "惊鸿诀",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "爱耍剑法",
+    "Name": {
+      "key": "i18n/item/book/name/cha/5",
+      "text": "爱耍剑法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 4,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_sword_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/cha/5",
+      "text": "使用后习得[爱耍剑法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "爱耍剑法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "血饮刀法",
+    "Name": {
+      "key": "i18n/item/book/name/cha/6",
+      "text": "血饮刀法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 4,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_blade_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/cha/6",
+      "text": "使用后习得[血饮刀法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "血饮刀法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "臭屁箭法",
+    "Name": {
+      "key": "i18n/item/book/name/cha/7",
+      "text": "臭屁箭法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_bow_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/cha/7",
+      "text": "使用后习得[臭屁箭法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "臭屁箭法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "猹影枪法",
+    "Name": {
+      "key": "i18n/item/book/name/cha/8",
+      "text": "猹影枪法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_spear_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/cha/8",
+      "text": "使用后习得[猹影枪法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "猹影枪法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "铁甲拳法",
+    "Name": {
+      "key": "i18n/item/book/name/cha/9",
+      "text": "铁甲拳法"
+    },
+    "ItemType": 2,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 3,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "MJ_fist_1",
+    "Desc": {
+      "key": "i18n/item/book/desc/cha/9",
+      "text": "使用后习得[铁甲拳法]"
+    },
+    "LuaCommandFile": "Item/learn_skill",
+    "LuaCommandParam": [
+      [
+        "铁甲拳法",
+        1.0
+      ]
+    ],
+    "AttrTemplate": "-1",
+    "CanSell": false,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 250,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "红烧熊掌",
+    "Name": {
+      "key": "i18/item/hunt/food/name/bear_claw",
+      "text": "红烧熊掌"
+    },
+    "ItemType": 1,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 1,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": true,
+    "Pic": "SL_1",
+    "Desc": {
+      "key": "i18/item/hunt/food/desc/bear_claw",
+      "text": "厚实多汁的美味熊掌, 食用后能恢复伤势(30%), 还能暂时让人拥有熊的强健之力。"
+    },
+    "LuaCommandFile": "Item/吃熊掌",
+    "LuaCommandParam": [],
+    "AttrTemplate": "True",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "苍狼冥月枪",
+    "Name": {
+      "key": "i18/item/name/hunt_boss_equip/1",
+      "text": "苍狼冥月枪"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 4,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_spear_32",
+    "Desc": {
+      "key": "i18/item/desc/hunt_boss_equip/1",
+      "text": "一代狼王的骨头与牙齿做成的长枪"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "苍狼冥月枪",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 500,
+    "ModelInfo": [
+      [
+        "RightHand",
+        "长柄21"
+      ]
+    ],
+    "BaseBuffEffects": [
+      "苍狼逐月"
+    ]
+  },
+  {
+    "Id": "刚鬃的坚定",
+    "Name": {
+      "key": "i18/item/name/hunt_boss_equip/2",
+      "text": "刚鬃的坚定"
+    },
+    "ItemType": 3,
+    "ItemSubType": 1,
+    "EquipType": 102,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "FJ_48",
+    "Desc": {
+      "key": "i18/item/desc/hunt_boss_equip/2",
+      "text": "用壮硕野猪的皮制成,坚硬又富有韧性"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "刚鬃的坚定",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 500,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "刚鬃的坚定"
+    ]
+  },
+  {
+    "Id": "守护兽的号角",
+    "Name": {
+      "key": "i18/item/name/hunt_boss_equip/3",
+      "text": "守护兽的号角"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 5,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "SP_48",
+    "Desc": {
+      "key": "i18/item/desc/hunt_boss_equip/3",
+      "text": "富有灵气的长角制作而成"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "守护兽的号角",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 1000,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "守护兽的祝福"
+    ]
+  },
+  {
+    "Id": "巨熊之握",
+    "Name": {
+      "key": "i18/item/name/hunt_boss_equip/4",
+      "text": "巨熊之握"
+    },
+    "ItemType": 3,
+    "ItemSubType": 0,
+    "EquipType": 0,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "WQ_fist_13",
+    "Desc": {
+      "key": "i18/item/desc/hunt_boss_equip/4",
+      "text": "一对硕大无比的熊掌制作而成"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "巨熊之握",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 500,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "巨熊之力"
+    ]
+  },
+  {
+    "Id": "冷牙的毒囊",
+    "Name": {
+      "key": "i18/item/name/hunt_boss_equip/5",
+      "text": "冷牙的毒囊"
+    },
+    "ItemType": 3,
+    "ItemSubType": 2,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 4,
+    "CanFold": false,
+    "Dropable": true,
+    "Pic": "DJ_18",
+    "Desc": {
+      "key": "i18/item/desc/hunt_boss_equip/5",
+      "text": "一条阴冷毒蛇的内胆"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "冷牙的毒囊",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 500,
+    "ModelInfo": [],
+    "BaseBuffEffects": [
+      "双面毒囊"
+    ]
+  },
+  {
+    "Id": "熊掌",
+    "Name": {
+      "key": "i18/item/hunt/material/name/1",
+      "text": "熊掌"
+    },
+    "ItemType": 4,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": false,
+    "Pic": "SL_9",
+    "Desc": {
+      "key": "i18/item/hunt/material/desc/1",
+      "text": "一对硕大的熊掌"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "羚羊皮",
+    "Name": {
+      "key": "i18/item/hunt/material/name/2",
+      "text": "羚羊皮"
+    },
+    "ItemType": 4,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": false,
+    "Pic": "SL_3",
+    "Desc": {
+      "key": "i18/item/hunt/material/desc/2",
+      "text": "羚羊皮柔软而轻便，是一些服饰衣物的首选."
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 150,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "野猪牙",
+    "Name": {
+      "key": "i18/item/hunt/material/name/3",
+      "text": "野猪牙"
+    },
+    "ItemType": 4,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": false,
+    "Pic": "SL_2",
+    "Desc": {
+      "key": "i18/item/hunt/material/desc/3",
+      "text": "锋利的野猪牙，常被武林中人用来制作短剑或雕刻精美的饰品，象征着野性与勇猛"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "蛇胆",
+    "Name": {
+      "key": "i18/item/hunt/material/name/4",
+      "text": "蛇胆"
+    },
+    "ItemType": 4,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": false,
+    "Pic": "SL_12",
+    "Desc": {
+      "key": "i18/item/hunt/material/desc/4",
+      "text": "珍贵的蛇胆，常说能解百毒，也是制作丹药的关键材料，备受武林高手的追捧。\n\n"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 200,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  },
+  {
+    "Id": "狼牙",
+    "Name": {
+      "key": "i18/item/hunt/material/name/5",
+      "text": "狼牙"
+    },
+    "ItemType": 4,
+    "ItemSubType": -1,
+    "EquipType": -1,
+    "UseType": 0,
+    "ItemLevel": 2,
+    "CanFold": true,
+    "Dropable": false,
+    "Pic": "SL_4",
+    "Desc": {
+      "key": "i18/item/hunt/material/desc/5",
+      "text": "狼牙锋利无比，是制作护身符和武器之类的好材料。佩戴狼牙的勇士，无不展现出狼一般的狡猾与凶猛。"
+    },
+    "LuaCommandFile": "",
+    "LuaCommandParam": [],
+    "AttrTemplate": "-1",
+    "CanSell": true,
+    "SellCurrencyItem": "银两",
+    "SellPrice": 100,
+    "ModelInfo": [],
+    "BaseBuffEffects": []
+  }
+]

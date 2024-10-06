@@ -1,0 +1,1 @@
+return simple_damage_skill_template("疯魔一击", stat_key.Attack, 1.2)

@@ -1,0 +1,1 @@
+return simple_damage_skill_template("嗜血魔刀", stat_key.Attack, 1, 0.1)

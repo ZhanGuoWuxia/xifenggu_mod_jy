@@ -1,0 +1,1 @@
+return passive_define("毒影随形", "毒影随形")

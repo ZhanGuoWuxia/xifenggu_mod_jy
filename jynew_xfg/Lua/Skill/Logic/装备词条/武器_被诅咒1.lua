@@ -1,0 +1,1 @@
+return passive_define("武器_被诅咒1", "武器_被诅咒1")

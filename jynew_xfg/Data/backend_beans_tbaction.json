@@ -1,0 +1,549 @@
+[
+  {
+    "Id": "序",
+    "Icon": "",
+    "Prefix": "",
+    "ImportanceType": 0,
+    "Name": {
+      "key": "i18n/action/name/gamestart1",
+      "text": "序"
+    },
+    "LuaCommandFile": "jy_序",
+    "CostActionCount": 0,
+    "ActionType": 3,
+    "ActionConditions": [
+      {
+        "CompareSymbol": 3,
+        "Round": 1,
+        "$type": "AC_Round"
+      }
+    ]
+  },
+  {
+    "Id": "AI思考回合",
+    "Icon": "",
+    "Prefix": "",
+    "ImportanceType": 2,
+    "Name": {
+      "key": "i18n/action/name/ai_turn",
+      "text": "AI过回合"
+    },
+    "LuaCommandFile": "AI/ai_map_round",
+    "CostActionCount": 0,
+    "ActionType": 3,
+    "ActionConditions": []
+  },
+  {
+    "Id": "进入玩家回合",
+    "Icon": "",
+    "Prefix": "",
+    "ImportanceType": 0,
+    "Name": {
+      "key": "i18n/action/name/player_turn",
+      "text": "进入玩家回合"
+    },
+    "LuaCommandFile": "Common/enter_player_turn",
+    "CostActionCount": 0,
+    "ActionType": 3,
+    "ActionConditions": []
+  },
+  {
+    "Id": "门派战斗前",
+    "Icon": "",
+    "Prefix": "",
+    "ImportanceType": 0,
+    "Name": {
+      "key": "i18n/action/name/before_battle",
+      "text": "AI战斗前"
+    },
+    "LuaCommandFile": "AI/ai_before_battle",
+    "CostActionCount": 0,
+    "ActionType": 3,
+    "ActionConditions": []
+  },
+  {
+    "Id": "门派战斗后",
+    "Icon": "",
+    "Prefix": "",
+    "ImportanceType": 0,
+    "Name": {
+      "key": "i18n/action/name/after_battle",
+      "text": "AI战斗后"
+    },
+    "LuaCommandFile": "AI/ai_after_battle",
+    "CostActionCount": 0,
+    "ActionType": 3,
+    "ActionConditions": []
+  },
+  {
+    "Id": "玩家失去所有据点",
+    "Icon": "",
+    "Prefix": "",
+    "ImportanceType": 0,
+    "Name": {
+      "key": "i18n/action/name/lose_all_node",
+      "text": "失去所有据点"
+    },
+    "LuaCommandFile": "Story/结局/丢失所有据点",
+    "CostActionCount": 0,
+    "ActionType": 3,
+    "ActionConditions": [
+      {
+        "MenpaiId": "玩家",
+        "CompareSymbol": 2,
+        "ValueToCompare": 0,
+        "$type": "AC_MenpaiAreaCount"
+      }
+    ]
+  },
+  {
+    "Id": "改善关系",
+    "Icon": "",
+    "Prefix": "<color=#2A5E36>[外交]</color>",
+    "ImportanceType": 1,
+    "Name": {
+      "key": "i18n/action/name/relation_up",
+      "text": "改善关系"
+    },
+    "LuaCommandFile": "Area/add_friendship",
+    "CostActionCount": 1,
+    "ActionType": 0,
+    "ActionConditions": [
+      {
+        "MenpaiId": "玩家",
+        "ExistCheckType": 2,
+        "AreaId": "当前地块",
+        "$type": "AC_MenpaiHasArea"
+      },
+      {
+        "ExistCheckType": 2,
+        "AreaId": "当前地块",
+        "$type": "AC_AreaLock"
+      },
+      {
+        "AreaId": "当前地块",
+        "ExistCheckType": 2,
+        "Relation": -1,
+        "MenpaiId": "玩家",
+        "$type": "AC_AreaOwnerRelationWithMenpai"
+      },
+      {
+        "AreaId": "当前地块",
+        "CompareSymbol": 1,
+        "ValueToCompare": 100,
+        "MenpaiId": "玩家",
+        "$type": "AC_MenpaiFriendship"
+      }
+    ]
+  },
+  {
+    "Id": "结盟",
+    "Icon": "",
+    "Prefix": "<color=#2A5E36>[外交]</color>",
+    "ImportanceType": 1,
+    "Name": {
+      "key": "i18n/action/name/ally",
+      "text": "缔结同盟"
+    },
+    "LuaCommandFile": "Area/add_relation",
+    "CostActionCount": 0,
+    "ActionType": 0,
+    "ActionConditions": [
+      {
+        "MenpaiId": "玩家",
+        "ExistCheckType": 2,
+        "AreaId": "当前地块",
+        "$type": "AC_MenpaiHasArea"
+      },
+      {
+        "ExistCheckType": 2,
+        "AreaId": "当前地块",
+        "$type": "AC_AreaLock"
+      },
+      {
+        "AreaId": "当前地块",
+        "ExistCheckType": 1,
+        "Relation": 0,
+        "MenpaiId": "玩家",
+        "$type": "AC_AreaOwnerRelationWithMenpai"
+      },
+      {
+        "AreaId": "当前地块",
+        "CompareSymbol": 6,
+        "ValueToCompare": 100,
+        "MenpaiId": "玩家",
+        "$type": "AC_MenpaiFriendship"
+      }
+    ]
+  },
+  {
+    "Id": "退盟",
+    "Icon": "",
+    "Prefix": "<color=#2A5E36>[外交]</color>",
+    "ImportanceType": 1,
+    "Name": {
+      "key": "i18n/action/name/neutral",
+      "text": "撕毁盟约"
+    },
+    "LuaCommandFile": "Area/reduce_relation",
+    "CostActionCount": 0,
+    "ActionType": 0,
+    "ActionConditions": [
+      {
+        "MenpaiId": "玩家",
+        "ExistCheckType": 2,
+        "AreaId": "当前地块",
+        "$type": "AC_MenpaiHasArea"
+      },
+      {
+        "ExistCheckType": 2,
+        "AreaId": "当前地块",
+        "$type": "AC_AreaLock"
+      },
+      {
+        "AreaId": "当前地块",
+        "ExistCheckType": 1,
+        "Relation": 1,
+        "MenpaiId": "玩家",
+        "$type": "AC_AreaOwnerRelationWithMenpai"
+      }
+    ]
+  },
+  {
+    "Id": "宣战",
+    "Icon": "",
+    "Prefix": "<color=red>[外交]</color>",
+    "ImportanceType": 1,
+    "Name": {
+      "key": "i18n/action/name/declare_war",
+      "text": "对其宣战"
+    },
+    "LuaCommandFile": "Area/declare_war",
+    "CostActionCount": 0,
+    "ActionType": 0,
+    "ActionConditions": [
+      {
+        "MenpaiId": "玩家",
+        "ExistCheckType": 2,
+        "AreaId": "当前地块",
+        "$type": "AC_MenpaiHasArea"
+      },
+      {
+        "ExistCheckType": 2,
+        "AreaId": "当前地块",
+        "$type": "AC_AreaLock"
+      },
+      {
+        "AreaId": "当前地块",
+        "ExistCheckType": 1,
+        "Relation": 0,
+        "MenpaiId": "玩家",
+        "$type": "AC_AreaOwnerRelationWithMenpai"
+      }
+    ]
+  },
+  {
+    "Id": "购买药品",
+    "Icon": "drug",
+    "Prefix": "<color=#2A5E36>[恢复]</color>",
+    "ImportanceType": 1,
+    "Name": {
+      "key": "i18n/action/name/apothecary",
+      "text": "药铺"
+    },
+    "LuaCommandFile": "Story/老郎中/购买药品",
+    "CostActionCount": 0,
+    "ActionType": 0,
+    "ActionConditions": [
+      {
+        "MenpaiId": "玩家",
+        "ExistCheckType": 1,
+        "AreaId": "当前地块",
+        "$type": "AC_MenpaiHasArea"
+      }
+    ]
+  },
+  {
+    "Id": "医馆治伤",
+    "Icon": "drug",
+    "Prefix": "<color=#2A5E36>[恢复]</color>",
+    "ImportanceType": 1,
+    "Name": {
+      "key": "i18n/action/name/clinic",
+      "text": "医馆"
+    },
+    "LuaCommandFile": "Story/老郎中/医馆治伤",
+    "CostActionCount": 0,
+    "ActionType": 0,
+    "ActionConditions": [
+      {
+        "MenpaiId": "玩家",
+        "ExistCheckType": 1,
+        "AreaId": "当前地块",
+        "$type": "AC_MenpaiHasArea"
+      },
+      {
+        "AreaId": "当前地块",
+        "CompareSymbol": 6,
+        "ValueToCompare": 30,
+        "$type": "AC_AreaDevelop"
+      }
+    ]
+  },
+  {
+    "Id": "大兴土木",
+    "Icon": "build",
+    "Prefix": "<color=#A65500>[发展]</color>",
+    "ImportanceType": 1,
+    "Name": {
+      "key": "i18n/action/name/build_area",
+      "text": "大兴土木"
+    },
+    "LuaCommandFile": "Area/build_area",
+    "CostActionCount": 1,
+    "ActionType": 0,
+    "ActionConditions": [
+      {
+        "MenpaiId": "玩家",
+        "ExistCheckType": 1,
+        "AreaId": "当前地块",
+        "$type": "AC_MenpaiHasArea"
+      }
+    ]
+  },
+  {
+    "Id": "攻击据点",
+    "Icon": "",
+    "Prefix": "<color=red>[战斗]</color>",
+    "ImportanceType": 1,
+    "Name": {
+      "key": "i18n/action/name/attack_area",
+      "text": "攻击据点"
+    },
+    "LuaCommandFile": "Area/attack_area",
+    "CostActionCount": 1,
+    "ActionType": 0,
+    "ActionConditions": [
+      {
+        "MenpaiId": "玩家",
+        "ExistCheckType": 2,
+        "AreaId": "当前地块",
+        "$type": "AC_MenpaiHasArea"
+      },
+      {
+        "ExistCheckType": 2,
+        "AreaId": "当前地块",
+        "$type": "AC_AreaLock"
+      },
+      {
+        "AreaId": "当前地块",
+        "ExistCheckType": 1,
+        "Relation": -1,
+        "MenpaiId": "玩家",
+        "$type": "AC_AreaOwnerRelationWithMenpai"
+      },
+      {
+        "AreaId": "当前地块",
+        "ExistCheckType": 1,
+        "MenpaiId": "玩家",
+        "$type": "AC_AreaNeighborWithMenpai"
+      }
+    ]
+  },
+  {
+    "Id": "据点夺回战",
+    "Icon": "",
+    "Prefix": "<color=red>[战斗]</color>",
+    "ImportanceType": 1,
+    "Name": {
+      "key": "i18n/action/name/recapture_building",
+      "text": "据点夺回战"
+    },
+    "LuaCommandFile": "Area/recapture_building",
+    "CostActionCount": 1,
+    "ActionType": 0,
+    "ActionConditions": [
+      {
+        "MenpaiId": "玩家",
+        "ExistCheckType": 1,
+        "AreaId": "当前地块",
+        "$type": "AC_MenpaiHasArea"
+      },
+      {
+        "AreaId": "当前地块",
+        "ExistCheckType": 1,
+        "$type": "AC_AreaLostAnyBuilding"
+      }
+    ]
+  },
+  {
+    "Id": "招贤纳士",
+    "Icon": "",
+    "Prefix": "<color=#DD4664>[招募]</color>",
+    "ImportanceType": 1,
+    "Name": {
+      "key": "i18n/action/name/recruit_random_role",
+      "text": "招贤纳士"
+    },
+    "LuaCommandFile": "Role/recruit_random_role",
+    "CostActionCount": 1,
+    "ActionType": 0,
+    "ActionConditions": [
+      {
+        "MenpaiId": "玩家",
+        "ExistCheckType": 1,
+        "AreaId": "当前地块",
+        "$type": "AC_MenpaiHasArea"
+      }
+    ]
+  },
+  {
+    "Id": "解锁奇遇商人",
+    "Icon": "sale",
+    "Prefix": "<color=#B42500>[奇遇]</color>",
+    "ImportanceType": 2,
+    "Name": {
+      "key": "i18n/action/name/strange_merchant",
+      "text": "奇怪的商人"
+    },
+    "LuaCommandFile": "Item/解锁奇遇商人",
+    "CostActionCount": 1,
+    "ActionType": 0,
+    "ActionConditions": [
+      {
+        "MenpaiId": "玩家",
+        "ExistCheckType": 1,
+        "AreaId": "当前地块",
+        "$type": "AC_MenpaiHasArea"
+      },
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "该回合已经购买过奇遇商人",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "掠夺破坏",
+    "Icon": "",
+    "Prefix": "<color=#550000>[掠夺]</color>",
+    "ImportanceType": 1,
+    "Name": {
+      "key": "i18n/action/name/loot_destroy",
+      "text": "掠夺破坏"
+    },
+    "LuaCommandFile": "Area/掠夺破坏",
+    "CostActionCount": 1,
+    "ActionType": 0,
+    "ActionConditions": [
+      {
+        "MenpaiId": "玩家",
+        "ExistCheckType": 2,
+        "AreaId": "当前地块",
+        "$type": "AC_MenpaiHasArea"
+      },
+      {
+        "AreaId": "当前地块",
+        "ExistCheckType": 1,
+        "$type": "AC_AreaLostAnyBuilding"
+      },
+      {
+        "AreaId": "当前地块",
+        "ExistCheckType": 1,
+        "MenpaiId": "玩家",
+        "$type": "AC_AreaBuildingsOwnerHasMenpai"
+      }
+    ]
+  },
+  {
+    "Id": "俘虏招募",
+    "Icon": "",
+    "Prefix": "",
+    "ImportanceType": 0,
+    "Name": {
+      "key": "i18n/action/name/role_recruit",
+      "text": "俘虏招募"
+    },
+    "LuaCommandFile": "Prison/common_recruit",
+    "CostActionCount": 0,
+    "ActionType": 1,
+    "ActionConditions": []
+  },
+  {
+    "Id": "俘虏释放",
+    "Icon": "",
+    "Prefix": "",
+    "ImportanceType": 0,
+    "Name": {
+      "key": "i18n/action/name/role_release",
+      "text": "俘虏释放"
+    },
+    "LuaCommandFile": "Prison/common_release",
+    "CostActionCount": 0,
+    "ActionType": 1,
+    "ActionConditions": []
+  },
+  {
+    "Id": "俘虏折磨",
+    "Icon": "",
+    "Prefix": "",
+    "ImportanceType": 0,
+    "Name": {
+      "key": "i18n/action/name/role_tortment",
+      "text": "俘虏审讯"
+    },
+    "LuaCommandFile": "Prison/common_tortment",
+    "CostActionCount": 0,
+    "ActionType": 1,
+    "ActionConditions": []
+  },
+  {
+    "Id": "踢出门派",
+    "Icon": "",
+    "Prefix": "",
+    "ImportanceType": 0,
+    "Name": {
+      "key": "i18n/action/name/role_leave",
+      "text": "踢出门派"
+    },
+    "LuaCommandFile": "Role/leave_menpai",
+    "CostActionCount": 0,
+    "ActionType": 1,
+    "ActionConditions": []
+  },
+  {
+    "Id": "修炼自身",
+    "Icon": "",
+    "Prefix": "",
+    "ImportanceType": 0,
+    "Name": {
+      "key": "i18n/action/name/role_exersice",
+      "text": "气运修炼"
+    },
+    "LuaCommandFile": "Role/修炼自身",
+    "CostActionCount": 0,
+    "ActionType": 1,
+    "ActionConditions": [
+      {
+        "RoleId": "当前角色",
+        "CompareSymbol": 5,
+        "ValueToCompare": 0,
+        "$type": "AC_RoleTalentPoint"
+      }
+    ]
+  },
+  {
+    "Id": "解雇",
+    "Icon": "",
+    "Prefix": "",
+    "ImportanceType": 0,
+    "Name": {
+      "key": "i18n/action/name/role_fired",
+      "text": "解雇"
+    },
+    "LuaCommandFile": "Role/fire",
+    "CostActionCount": 0,
+    "ActionType": 1,
+    "ActionConditions": []
+  }
+]

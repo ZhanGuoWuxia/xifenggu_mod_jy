@@ -1,0 +1,1 @@
+return passive_define("剑人", "剑人")

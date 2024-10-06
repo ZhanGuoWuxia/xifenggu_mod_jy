@@ -1,0 +1,53 @@
+show_stage("bg_39.png", "窑洞")
+light_scene(0.2)
+play_bgm("Music/决心_仗剑天涯.wav")
+
+local situ = actor("司徒来也")
+local tangbainiu = actor("汤白牛")
+local haozhu1 = actor("豪猪长垄弟子")
+local haozhu2 = actor("豪猪长垄弟子二")
+
+
+--初始化位置和朝向
+bright_all_actors()
+situ:setPos(1100, 2000)
+situ:face_left()
+tangbainiu:setPos(2500, 75)
+tangbainiu:face_left()
+haozhu1:setOverrideName("豪猪土匪")
+haozhu2:setOverrideName("豪猪土匪")
+haozhu1:setPos(200, -500)
+haozhu1:face_right()
+haozhu2:setPos(0, -500)
+haozhu2:face_right()
+
+wait_twn(situ:flip(), situ:jumpTo(1400, 600, 300, 3000), situ:flip(), situ:jumpTo(1100, 75, 300, 3000))
+wait_twn(tangbainiu:movetoX(800, 2500), tangbainiu:daze())
+tangbainiu:flip()
+tangbainiu:say("掌门，怎么此处空无一人？")
+situ:say("可能时辰未到，我们再等会儿。")
+stage_narration("许久后……")
+tangbainiu:say("阿嚏——")
+situ:say("看来是我估错时辰了，我们先撤离吧。")
+--一起跳出来
+wait_twn(haozhu1:jumpTo(500, 75), haozhu2:jumpTo(200, 75), haozhu2:daze())
+tangbainiu:flip()
+haozhu1:say("有刺客！警戒！警戒！")
+haozhu2:say("他奶奶的，把这些小贼围了！")
+hide_all_stage_bubble()
+local ret = start_preset_battle("解密失败之战")
+if ret == 1 then
+  situ:say("趁此时机，快撤！快撤！")
+  black_scene(0.25)
+  hide_stage()
+  set_flag("完成解密失败")
+  light_scene(0.25)
+else
+  tangbainiu:say("掌门，我们被围困于此，恐难生还。")
+  situ:say("可恶…就这么…结束了吗。")
+  situ:say("天要灭我虎焰门，我(player:fullname)不怕死，只是爹……娘……孩儿去了那边，又有什么脸面相聚啊！（拔剑自刎）")
+  situ:offsetY(-300)
+  black_scene(0.25)
+  hide_stage()
+  game_over()
+end

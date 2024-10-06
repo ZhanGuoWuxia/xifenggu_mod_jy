@@ -1,0 +1,1 @@
+return simple_damage_skill_template("苍狼逐月", stat_key.Attack, 0.75)

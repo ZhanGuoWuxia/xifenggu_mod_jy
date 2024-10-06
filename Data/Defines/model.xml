@@ -1,0 +1,42 @@
+<module name="Backend.Beans">
+	<enum name="GenderType" comment="性别">
+		<var name="Male" alias="男" value="0" />
+		<var name="Female" alias="女" value="1" />
+		<var name="Common" alias="通用" value="-1" />
+	</enum>
+	<enum name="ModelComponentType" comment="模型组件类型">
+		<var name="None" alias="无" value="0" />
+		<var name="Bone" alias="骨骼" value="1" />
+		<var name="Hair" alias="头发" value="2" />
+		<var name="Face" alias="脸部" value="3" />
+		<var name="Clothes" alias="衣服" value="4" />
+		<var name="Pants" alias="裤子" value="5" />
+		<var name="RightWeapon" alias="右手武器" value="6" />
+		<var name="LeftWeapon" alias="左手武器" value="7" />
+		<var name="BackWeapon" alias="背后饰品" value="8" />
+		<var name="Helmet" alias="头上饰品" value="9" />
+		<var name="Mask" alias="面具" value="10" />
+		<var name="RightOrnament" alias="右腰部饰品" value="11" />
+		<var name="LeftOrnament" alias="左腰部饰品" value="12" />
+	</enum>
+
+	<enum name="ModelType" comment="模型类型">
+		<var name="Combine" alias="拼装" value="1"/>
+		<var name="Whole" alias="整体" value="2"/>
+	</enum>
+
+	<enum name="ColorType" comment="颜色区域">
+		<var name="Color_R" alias="红区" value="0" />
+		<var name="Color_G" alias="绿区" value="1"  />
+		<var name="Color_B" alias="蓝区" value="2"  />
+		<var name="Color_C" alias="青区" value="3" />
+		<var name="Color_P" alias="紫区" value="4"  />
+		<var name="Color_Y" alias="黄区" value="5"  />
+	</enum>
+	<bean name="ModelColorBean">
+    <var name="Color" type="ColorType"/>
+    <var name="R" type="float"/>
+	<var name="G" type="float"/>
+	<var name="B" type="float"/>
+  </bean>
+</module>

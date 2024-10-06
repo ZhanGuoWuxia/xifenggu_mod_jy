@@ -1,0 +1,1 @@
+return passive_define("蛤蟆蓄势", "蛤蟆蓄势")

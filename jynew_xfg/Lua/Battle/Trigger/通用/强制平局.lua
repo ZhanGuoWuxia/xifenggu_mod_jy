@@ -1,0 +1,1 @@
+tgr_api:set_battle_premature_ret(tgr_api.battle_ret.Draw)

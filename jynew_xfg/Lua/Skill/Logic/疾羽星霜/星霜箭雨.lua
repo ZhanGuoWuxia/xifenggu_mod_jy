@@ -1,0 +1,1 @@
+return simple_damage_skill_template("星霜箭雨", stat_key.Attack, 0.5, 0.1)

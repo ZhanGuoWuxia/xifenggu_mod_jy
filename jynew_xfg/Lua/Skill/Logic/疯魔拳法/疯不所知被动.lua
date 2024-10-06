@@ -1,0 +1,1 @@
+return passive_define("疯不所知被动", "疯不所知")

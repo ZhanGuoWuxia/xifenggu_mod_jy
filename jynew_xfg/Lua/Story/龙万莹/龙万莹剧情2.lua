@@ -1,0 +1,47 @@
+
+show_stage("龙万莹的房间.png", "龙万莹的房间")
+play_bgm("Music/回忆.wav")
+light_scene(0.2)
+
+local situ = actor("司徒来也")
+local npc = actor("龙万莹")
+
+--初始化位置和朝向
+bright_all_actors()
+situ:setPos(-400, 75)
+npc:setPos(1100, 75)
+situ:face_right()
+npc:face_left()
+
+wait_twn(situ:movetoX(800), situ:daze())
+
+situ:say("夫人，上回的故事尚未听完，今日可否续谈？")
+npc:say("(player:fname)掌门，这些年的辛酸，我无处诉说，您愿意倾听，我自是感激不尽。")
+situ:say("夫人请讲，我洗耳恭听。")
+npc:say("那鹤岭门韩恭，因大徒弟铁驴子之死，誓要追杀我和宋郎。我们在逃亡中失散，我孤身一人，险象环生。")
+situ:say("夫人是如何脱险的？")
+npc:say("正当我走投无路之际，东方骤雨如天降神兵，救我于水深火热之中。")
+situ:say("原来如此，夫人与东方骤雨的缘分，便是从那时开始的。")
+npc:say("东方骤雨将我带至龙湾门，对我呵护备至，让我有了依托。不久，我便成为了他的夫人。但有一事，我未曾向他坦白。")
+situ:say("夫人所指是……")
+npc:say("其实那时，我已怀有宋郎的骨肉。")
+situ:say("那孩子便是东方鲨？")
+npc:say("正是。东方骤雨一直以为东方鲨是他的血脉，直到近几年，他才开始怀疑。")
+npc:say("自那以后，我再未见过宋郎，也不知他是生是死。夜夜难眠，心中牵挂。")
+situ:say("为何鹤岭门不追究那两个真正下手的书生，却对夫人和宋兄紧追不舍？")
+npc:say("这我也百思不得其解。我暗中调查，得知鹤岭门坚信是食为鲜所为，对宋郎的追杀从未停止。")
+situ:say("鹤岭门行事狠辣，宋兄恐怕难以逃脱。")
+npc:say("为了使鹤岭门不再追杀宋郎，我瞒着东方骤雨，做了一件我连自己都意想不到的事。")
+situ:say("夫人究竟做了何事？")
+npc:say("故事留到下次再续，掌门才会再次光临。今日，就到此为止吧。")
+situ:say("夫人果然擅长吊人胃口。")
+hide_all_stage_bubble()
+wait_twn(situ:flip(), situ:movetoX(-500))
+
+change_favor_by_id("龙万莹", 1)
+add_player_item("升龙丹", 2)
+
+black_scene(0.25)
+hide_stage()
+set_flag("完成龙万莹剧情2")
+light_scene(0.25)

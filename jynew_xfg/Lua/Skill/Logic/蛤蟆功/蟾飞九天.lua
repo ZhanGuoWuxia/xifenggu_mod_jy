@@ -1,0 +1,1 @@
+return passive_define("蟾飞九天", "蟾飞九天")

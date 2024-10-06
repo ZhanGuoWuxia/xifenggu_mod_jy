@@ -1,0 +1,1656 @@
+[
+  {
+    "Id": "司徒来也",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.3,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/SiTuLaiYe.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "刘明",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/LiuMing.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "鹿追",
+    "ControllerName": "Humanoid_F",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/LuZhui.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "朱三娘",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/ZhuSanNiang.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "齐六哥",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.3,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/QiLiuGe.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "苏半见",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/SuBanJian.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "西门香",
+    "ControllerName": "Humanoid_F",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/XiMenXiang.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "姬野蔓",
+    "ControllerName": "Humanoid_F",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/JiYeMan.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "朱鹮儿",
+    "ControllerName": "Humanoid_F",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/ZhuHuanEr.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "何猛",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/HeMeng.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "龙万莹",
+    "ControllerName": "Humanoid_F",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/LongWanYing.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "南宫燕",
+    "ControllerName": "Humanoid_F",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/NanGongYan.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "秋",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/Qiu.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "汤白牛",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/TangBaiNiu.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "汤彩蝶",
+    "ControllerName": "Humanoid_F",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/TangCaiDie.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "万壑成",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/WanHeCheng.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "东方骤雨",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/DongFangZhouYu.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "哑童",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/YaTong.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "獒",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/Ao.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "鲸",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/Jing.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "夜郎",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/YeLang.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "西门坡",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/XiMenPo.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "段小年",
+    "ControllerName": "Humanoid_F",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/DuanXiaoNian.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "潘麻子",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/PanMaZi.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "血魔老祖",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/XueMoLaoZu.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "狮",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/Shi.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "范道平",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/FanDaoPing.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "何惧风",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/HeJuFeng.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "子瑾风",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Hero/ZiJinFeng.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "女_占位",
+    "ControllerName": "Humanoid_F",
+    "ModelType": 1,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "",
+    "ModelComponents": [
+      [
+        1,
+        "女骨"
+      ],
+      [
+        2,
+        "女发1"
+      ],
+      [
+        3,
+        "女脸0"
+      ],
+      [
+        4,
+        "女衣3"
+      ],
+      [
+        5,
+        "女裤1"
+      ]
+    ],
+    "ModelColorList": [
+      {
+        "Color": 0,
+        "R": 0.9137256,
+        "G": 0.682353,
+        "B": 0.6784314
+      },
+      {
+        "Color": 1,
+        "R": 0.9137256,
+        "G": 0.682353,
+        "B": 0.6784314
+      },
+      {
+        "Color": 2,
+        "R": 0.9811321,
+        "G": 0.7891811,
+        "B": 0.6710573
+      },
+      {
+        "Color": 3,
+        "R": 0.8000001,
+        "G": 0.6,
+        "B": 0.5137255
+      },
+      {
+        "Color": 4,
+        "R": 0.8274511,
+        "G": 0.4313726,
+        "B": 0.3960785
+      },
+      {
+        "Color": 5,
+        "R": 0.6132076,
+        "G": 0.1867496,
+        "B": 0.1533019
+      }
+    ],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "女_橘长发1粉袍3",
+    "ControllerName": "Humanoid_F",
+    "ModelType": 1,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "",
+    "ModelComponents": [
+      [
+        1,
+        "女骨"
+      ],
+      [
+        2,
+        "女发1"
+      ],
+      [
+        3,
+        "女脸0"
+      ],
+      [
+        4,
+        "女衣3"
+      ],
+      [
+        5,
+        "女裤1"
+      ]
+    ],
+    "ModelColorList": [
+      {
+        "Color": 0,
+        "R": 0.9137256,
+        "G": 0.682353,
+        "B": 0.6784314
+      },
+      {
+        "Color": 1,
+        "R": 0.9137256,
+        "G": 0.682353,
+        "B": 0.6784314
+      },
+      {
+        "Color": 2,
+        "R": 0.9811321,
+        "G": 0.7891811,
+        "B": 0.6710573
+      },
+      {
+        "Color": 3,
+        "R": 0.8000001,
+        "G": 0.6,
+        "B": 0.5137255
+      },
+      {
+        "Color": 4,
+        "R": 0.8274511,
+        "G": 0.4313726,
+        "B": 0.3960785
+      },
+      {
+        "Color": 5,
+        "R": 0.6132076,
+        "G": 0.1867496,
+        "B": 0.1533019
+      }
+    ],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "女_深粉发2红袍4",
+    "ControllerName": "Humanoid_F",
+    "ModelType": 1,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "",
+    "ModelComponents": [
+      [
+        1,
+        "女骨"
+      ],
+      [
+        2,
+        "女发2"
+      ],
+      [
+        3,
+        "女脸0"
+      ],
+      [
+        4,
+        "女衣4"
+      ],
+      [
+        5,
+        "女裤1"
+      ]
+    ],
+    "ModelColorList": [
+      {
+        "Color": 0,
+        "R": 0.745,
+        "G": 0.322,
+        "B": 0.29
+      },
+      {
+        "Color": 1,
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0
+      },
+      {
+        "Color": 2,
+        "R": 0.991,
+        "G": 0.851,
+        "B": 0.771
+      },
+      {
+        "Color": 3,
+        "R": 0.482,
+        "G": 0.388,
+        "B": 0.42
+      },
+      {
+        "Color": 4,
+        "R": 0.659,
+        "G": 0.176,
+        "B": 0.212
+      },
+      {
+        "Color": 5,
+        "R": 0.757,
+        "G": 0.565,
+        "B": 0.392
+      }
+    ],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "女_黑发2蓝袍4",
+    "ControllerName": "Humanoid_F",
+    "ModelType": 1,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "",
+    "ModelComponents": [
+      [
+        1,
+        "女骨"
+      ],
+      [
+        2,
+        "女发2"
+      ],
+      [
+        3,
+        "女脸0"
+      ],
+      [
+        4,
+        "女衣4"
+      ],
+      [
+        5,
+        "女裤1"
+      ]
+    ],
+    "ModelColorList": [
+      {
+        "Color": 0,
+        "R": 0.641,
+        "G": 0.664,
+        "B": 0.726
+      },
+      {
+        "Color": 1,
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0
+      },
+      {
+        "Color": 2,
+        "R": 0.991,
+        "G": 0.851,
+        "B": 0.771
+      },
+      {
+        "Color": 3,
+        "R": 0.198,
+        "G": 0.198,
+        "B": 0.198
+      },
+      {
+        "Color": 4,
+        "R": 0.802,
+        "G": 0.802,
+        "B": 0.802
+      },
+      {
+        "Color": 5,
+        "R": 0.389,
+        "G": 0.407,
+        "B": 0.472
+      }
+    ],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "女_黑发1紫衣6",
+    "ControllerName": "Humanoid_F",
+    "ModelType": 1,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "",
+    "ModelComponents": [
+      [
+        1,
+        "女骨"
+      ],
+      [
+        2,
+        "女发1"
+      ],
+      [
+        3,
+        "女脸0"
+      ],
+      [
+        4,
+        "女衣6"
+      ],
+      [
+        5,
+        "女裤1"
+      ]
+    ],
+    "ModelColorList": [
+      {
+        "Color": 0,
+        "R": 0.424,
+        "G": 0.408,
+        "B": 0.525
+      },
+      {
+        "Color": 1,
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0
+      },
+      {
+        "Color": 2,
+        "R": 0.906,
+        "G": 0.711,
+        "B": 0.654
+      },
+      {
+        "Color": 3,
+        "R": 0.208,
+        "G": 0.208,
+        "B": 0.208
+      },
+      {
+        "Color": 4,
+        "R": 0.292,
+        "G": 0.292,
+        "B": 0.292
+      },
+      {
+        "Color": 5,
+        "R": 0.198,
+        "G": 0.198,
+        "B": 0.198
+      }
+    ],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "男_占位",
+    "ControllerName": "Humanoid",
+    "ModelType": 1,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "",
+    "ModelComponents": [
+      [
+        1,
+        "男骨"
+      ],
+      [
+        2,
+        "男发0"
+      ],
+      [
+        3,
+        "男脸0"
+      ],
+      [
+        4,
+        "男衣6"
+      ],
+      [
+        5,
+        "男裤1"
+      ]
+    ],
+    "ModelColorList": [
+      {
+        "Color": 0,
+        "R": 0.2862745,
+        "G": 0.3529412,
+        "B": 0.4784314
+      },
+      {
+        "Color": 1,
+        "R": 0.9411765,
+        "G": 0.8039216,
+        "B": 0.6117647
+      },
+      {
+        "Color": 2,
+        "R": 0.9843138,
+        "G": 0.8941177,
+        "B": 0.8000001
+      },
+      {
+        "Color": 3,
+        "R": 0.04705883,
+        "G": 0.03921569,
+        "B": 0.05490196
+      },
+      {
+        "Color": 4,
+        "R": 0.1372549,
+        "G": 0.1960784,
+        "B": 0.3176471
+      },
+      {
+        "Color": 5,
+        "R": 0.2078432,
+        "G": 0.2039216,
+        "B": 0.2078432
+      }
+    ],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "男_光头蓝衣6",
+    "ControllerName": "Humanoid",
+    "ModelType": 1,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "",
+    "ModelComponents": [
+      [
+        1,
+        "男骨"
+      ],
+      [
+        2,
+        "男发0"
+      ],
+      [
+        3,
+        "男脸0"
+      ],
+      [
+        4,
+        "男衣6"
+      ],
+      [
+        5,
+        "男裤1"
+      ]
+    ],
+    "ModelColorList": [
+      {
+        "Color": 0,
+        "R": 0.2862745,
+        "G": 0.3529412,
+        "B": 0.4784314
+      },
+      {
+        "Color": 1,
+        "R": 0.9411765,
+        "G": 0.8039216,
+        "B": 0.6117647
+      },
+      {
+        "Color": 2,
+        "R": 0.9843138,
+        "G": 0.8941177,
+        "B": 0.8000001
+      },
+      {
+        "Color": 3,
+        "R": 0.04705883,
+        "G": 0.03921569,
+        "B": 0.05490196
+      },
+      {
+        "Color": 4,
+        "R": 0.1372549,
+        "G": 0.1960784,
+        "B": 0.3176471
+      },
+      {
+        "Color": 5,
+        "R": 0.2078432,
+        "G": 0.2039216,
+        "B": 0.2078432
+      }
+    ],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "男_褐长发6黄衣5",
+    "ControllerName": "Humanoid",
+    "ModelType": 1,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "",
+    "ModelComponents": [
+      [
+        1,
+        "男骨"
+      ],
+      [
+        2,
+        "男发6"
+      ],
+      [
+        3,
+        "男脸2"
+      ],
+      [
+        4,
+        "男衣5"
+      ],
+      [
+        5,
+        "男裤1"
+      ]
+    ],
+    "ModelColorList": [
+      {
+        "Color": 0,
+        "R": 0.847,
+        "G": 0.651,
+        "B": 0.416
+      },
+      {
+        "Color": 1,
+        "R": 0.18,
+        "G": 0.153,
+        "B": 0.149
+      },
+      {
+        "Color": 2,
+        "R": 0.898,
+        "G": 0.788,
+        "B": 0.71
+      },
+      {
+        "Color": 3,
+        "R": 0.251,
+        "G": 0.2,
+        "B": 0.196
+      },
+      {
+        "Color": 4,
+        "R": 0.184,
+        "G": 0.153,
+        "B": 0.149
+      },
+      {
+        "Color": 5,
+        "R": 0.145,
+        "G": 0.118,
+        "B": 0.118
+      }
+    ],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "男_黑长发4蓝衣12",
+    "ControllerName": "Humanoid",
+    "ModelType": 1,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "",
+    "ModelComponents": [
+      [
+        1,
+        "男骨"
+      ],
+      [
+        2,
+        "男发4"
+      ],
+      [
+        3,
+        "男脸0"
+      ],
+      [
+        4,
+        "男衣12"
+      ],
+      [
+        5,
+        "男裤1"
+      ]
+    ],
+    "ModelColorList": [
+      {
+        "Color": 0,
+        "R": 0.349,
+        "G": 0.51,
+        "B": 0.678
+      },
+      {
+        "Color": 1,
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0
+      },
+      {
+        "Color": 2,
+        "R": 0.878,
+        "G": 0.765,
+        "B": 0.725
+      },
+      {
+        "Color": 3,
+        "R": 0.294,
+        "G": 0.282,
+        "B": 0.329
+      },
+      {
+        "Color": 4,
+        "R": 0.226,
+        "G": 0.226,
+        "B": 0.226
+      },
+      {
+        "Color": 5,
+        "R": 0.16,
+        "G": 0.16,
+        "B": 0.16
+      }
+    ],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "男_灰长发6灰衣7",
+    "ControllerName": "Humanoid",
+    "ModelType": 1,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "",
+    "ModelComponents": [
+      [
+        1,
+        "男骨"
+      ],
+      [
+        2,
+        "男发6"
+      ],
+      [
+        3,
+        "男脸2"
+      ],
+      [
+        4,
+        "男衣7"
+      ],
+      [
+        5,
+        "男裤1"
+      ]
+    ],
+    "ModelColorList": [
+      {
+        "Color": 0,
+        "R": 0.714,
+        "G": 0.725,
+        "B": 0.745
+      },
+      {
+        "Color": 1,
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0
+      },
+      {
+        "Color": 2,
+        "R": 0.934,
+        "G": 0.805,
+        "B": 0.745
+      },
+      {
+        "Color": 3,
+        "R": 0.706,
+        "G": 0.698,
+        "B": 0.737
+      },
+      {
+        "Color": 4,
+        "R": 0.294,
+        "G": 0.298,
+        "B": 0.369
+      },
+      {
+        "Color": 5,
+        "R": 0.188,
+        "G": 0.196,
+        "B": 0.267
+      }
+    ],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "男_紫发1灰衣9",
+    "ControllerName": "Humanoid",
+    "ModelType": 1,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "",
+    "ModelComponents": [
+      [
+        1,
+        "男骨"
+      ],
+      [
+        2,
+        "男发1"
+      ],
+      [
+        3,
+        "男脸2"
+      ],
+      [
+        4,
+        "男衣9"
+      ],
+      [
+        5,
+        "男裤1"
+      ]
+    ],
+    "ModelColorList": [
+      {
+        "Color": 0,
+        "R": 0.702,
+        "G": 0.714,
+        "B": 0.729
+      },
+      {
+        "Color": 1,
+        "R": 0.298,
+        "G": 0.298,
+        "B": 0.376
+      },
+      {
+        "Color": 2,
+        "R": 1.0,
+        "G": 0.765,
+        "B": 0.656
+      },
+      {
+        "Color": 3,
+        "R": 0.169,
+        "G": 0.153,
+        "B": 0.208
+      },
+      {
+        "Color": 4,
+        "R": 0.31,
+        "G": 0.314,
+        "B": 0.384
+      },
+      {
+        "Color": 5,
+        "R": 0.157,
+        "G": 0.149,
+        "B": 0.216
+      }
+    ],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "男_棕发1白衣6",
+    "ControllerName": "Humanoid",
+    "ModelType": 1,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "",
+    "ModelComponents": [
+      [
+        1,
+        "男骨"
+      ],
+      [
+        2,
+        "男发1"
+      ],
+      [
+        3,
+        "男脸0"
+      ],
+      [
+        4,
+        "男衣6"
+      ],
+      [
+        5,
+        "男裤1"
+      ]
+    ],
+    "ModelColorList": [
+      {
+        "Color": 0,
+        "R": 0.871,
+        "G": 0.831,
+        "B": 0.792
+      },
+      {
+        "Color": 1,
+        "R": 0.235,
+        "G": 0.196,
+        "B": 0.184
+      },
+      {
+        "Color": 2,
+        "R": 0.894,
+        "G": 0.737,
+        "B": 0.643
+      },
+      {
+        "Color": 3,
+        "R": 0.275,
+        "G": 0.216,
+        "B": 0.2
+      },
+      {
+        "Color": 4,
+        "R": 0.122,
+        "G": 0.098,
+        "B": 0.098
+      },
+      {
+        "Color": 5,
+        "R": 0.231,
+        "G": 0.196,
+        "B": 0.184
+      }
+    ],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "男_棕发6灰白衣10",
+    "ControllerName": "Humanoid",
+    "ModelType": 1,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "",
+    "ModelComponents": [
+      [
+        1,
+        "男骨"
+      ],
+      [
+        2,
+        "男发6"
+      ],
+      [
+        3,
+        "男脸2"
+      ],
+      [
+        4,
+        "男衣10"
+      ],
+      [
+        5,
+        "男裤1"
+      ]
+    ],
+    "ModelColorList": [
+      {
+        "Color": 0,
+        "R": 0.863,
+        "G": 0.82,
+        "B": 0.792
+      },
+      {
+        "Color": 1,
+        "R": 0.208,
+        "G": 0.208,
+        "B": 0.267
+      },
+      {
+        "Color": 2,
+        "R": 0.858,
+        "G": 0.723,
+        "B": 0.611
+      },
+      {
+        "Color": 3,
+        "R": 0.286,
+        "G": 0.239,
+        "B": 0.216
+      },
+      {
+        "Color": 4,
+        "R": 0.122,
+        "G": 0.098,
+        "B": 0.098
+      },
+      {
+        "Color": 5,
+        "R": 0.231,
+        "G": 0.196,
+        "B": 0.184
+      }
+    ],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "男_光头棕衣5",
+    "ControllerName": "Humanoid",
+    "ModelType": 1,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "",
+    "ModelComponents": [
+      [
+        1,
+        "男骨"
+      ],
+      [
+        2,
+        "男发0"
+      ],
+      [
+        3,
+        "男脸0"
+      ],
+      [
+        4,
+        "男衣5"
+      ],
+      [
+        5,
+        "男裤1"
+      ]
+    ],
+    "ModelColorList": [
+      {
+        "Color": 0,
+        "R": 0.4,
+        "G": 0.333,
+        "B": 0.314
+      },
+      {
+        "Color": 1,
+        "R": 0.349,
+        "G": 0.247,
+        "B": 0.231
+      },
+      {
+        "Color": 2,
+        "R": 0.745,
+        "G": 0.597,
+        "B": 0.496
+      },
+      {
+        "Color": 3,
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0
+      },
+      {
+        "Color": 4,
+        "R": 0.922,
+        "G": 0.898,
+        "B": 0.882
+      },
+      {
+        "Color": 5,
+        "R": 0.231,
+        "G": 0.196,
+        "B": 0.184
+      }
+    ],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "男_棕发4棕衣5",
+    "ControllerName": "Humanoid",
+    "ModelType": 1,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "",
+    "ModelComponents": [
+      [
+        1,
+        "男骨"
+      ],
+      [
+        2,
+        "男发4"
+      ],
+      [
+        3,
+        "男脸0"
+      ],
+      [
+        4,
+        "男衣5"
+      ],
+      [
+        5,
+        "男裤1"
+      ]
+    ],
+    "ModelColorList": [
+      {
+        "Color": 0,
+        "R": 0.349,
+        "G": 0.29,
+        "B": 0.271
+      },
+      {
+        "Color": 1,
+        "R": 0.263,
+        "G": 0.227,
+        "B": 0.22
+      },
+      {
+        "Color": 2,
+        "R": 0.981,
+        "G": 0.815,
+        "B": 0.708
+      },
+      {
+        "Color": 3,
+        "R": 0.239,
+        "G": 0.184,
+        "B": 0.176
+      },
+      {
+        "Color": 4,
+        "R": 0.404,
+        "G": 0.341,
+        "B": 0.302
+      },
+      {
+        "Color": 5,
+        "R": 0.231,
+        "G": 0.196,
+        "B": 0.184
+      }
+    ],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "男_棕发2棕衣5",
+    "ControllerName": "Humanoid",
+    "ModelType": 1,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "",
+    "ModelComponents": [
+      [
+        1,
+        "男骨"
+      ],
+      [
+        2,
+        "男发2"
+      ],
+      [
+        3,
+        "男脸0"
+      ],
+      [
+        4,
+        "男衣5"
+      ],
+      [
+        5,
+        "男裤1"
+      ]
+    ],
+    "ModelColorList": [
+      {
+        "Color": 0,
+        "R": 0.349,
+        "G": 0.29,
+        "B": 0.271
+      },
+      {
+        "Color": 1,
+        "R": 0.263,
+        "G": 0.227,
+        "B": 0.22
+      },
+      {
+        "Color": 2,
+        "R": 0.981,
+        "G": 0.815,
+        "B": 0.708
+      },
+      {
+        "Color": 3,
+        "R": 0.239,
+        "G": 0.184,
+        "B": 0.176
+      },
+      {
+        "Color": 4,
+        "R": 0.404,
+        "G": 0.341,
+        "B": 0.302
+      },
+      {
+        "Color": 5,
+        "R": 0.231,
+        "G": 0.196,
+        "B": 0.184
+      }
+    ],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "男_黑发6黑衣12",
+    "ControllerName": "Humanoid",
+    "ModelType": 1,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "",
+    "ModelComponents": [
+      [
+        1,
+        "男骨"
+      ],
+      [
+        2,
+        "男发6"
+      ],
+      [
+        3,
+        "男脸0"
+      ],
+      [
+        4,
+        "男衣12"
+      ],
+      [
+        5,
+        "男裤1"
+      ]
+    ],
+    "ModelColorList": [
+      {
+        "Color": 0,
+        "R": 0.282,
+        "G": 0.259,
+        "B": 0.251
+      },
+      {
+        "Color": 1,
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0
+      },
+      {
+        "Color": 2,
+        "R": 0.851,
+        "G": 0.725,
+        "B": 0.639
+      },
+      {
+        "Color": 3,
+        "R": 0.255,
+        "G": 0.247,
+        "B": 0.255
+      },
+      {
+        "Color": 4,
+        "R": 0.235,
+        "G": 0.216,
+        "B": 0.212
+      },
+      {
+        "Color": 5,
+        "R": 0.141,
+        "G": 0.118,
+        "B": 0.118
+      }
+    ],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "男_深蓝发6深蓝衣12",
+    "ControllerName": "Humanoid",
+    "ModelType": 1,
+    "ModelHeight": 1.4,
+    "CompleteModelPath": "",
+    "ModelComponents": [
+      [
+        1,
+        "男骨"
+      ],
+      [
+        2,
+        "男发6"
+      ],
+      [
+        3,
+        "男脸0"
+      ],
+      [
+        4,
+        "男衣12"
+      ],
+      [
+        5,
+        "男裤1"
+      ]
+    ],
+    "ModelColorList": [
+      {
+        "Color": 0,
+        "R": 0.4039216,
+        "G": 0.4980392,
+        "B": 0.5803922
+      },
+      {
+        "Color": 1,
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0
+      },
+      {
+        "Color": 2,
+        "R": 0.851,
+        "G": 0.725,
+        "B": 0.639
+      },
+      {
+        "Color": 3,
+        "R": 0.2117647,
+        "G": 0.2392157,
+        "B": 0.3098039
+      },
+      {
+        "Color": 4,
+        "R": 0.235,
+        "G": 0.216,
+        "B": 0.212
+      },
+      {
+        "Color": 5,
+        "R": 0.141,
+        "G": 0.118,
+        "B": 0.118
+      }
+    ],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "山羊",
+    "ControllerName": "anim_Goat",
+    "ModelType": 2,
+    "ModelHeight": 1.0,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Animal/anim_Goat_panda.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "熊",
+    "ControllerName": "anim_Bear",
+    "ModelType": 2,
+    "ModelHeight": 0.8,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Animal/anim_Bear_brown.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "野猪",
+    "ControllerName": "anim_Boar",
+    "ModelType": 2,
+    "ModelHeight": 0.8,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Animal/anim_Boar_Brown.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "狼",
+    "ControllerName": "anim_Wolf",
+    "ModelType": 2,
+    "ModelHeight": 0.8,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Animal/anim_Wolf_Blue.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "蛇",
+    "ControllerName": "anim_Snake",
+    "ModelType": 2,
+    "ModelHeight": 0.8,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Animal/anim_Snake.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.5
+  },
+  {
+    "Id": "咩咩",
+    "ControllerName": "anim_Goat",
+    "ModelType": 2,
+    "ModelHeight": 1.0,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Animal/anim_Goat_Boss.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.25
+  },
+  {
+    "Id": "熊大",
+    "ControllerName": "anim_Bear",
+    "ModelType": 2,
+    "ModelHeight": 1.0,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Animal/anim_Bear_Boss.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.25
+  },
+  {
+    "Id": "刚鬃",
+    "ControllerName": "anim_Boar",
+    "ModelType": 2,
+    "ModelHeight": 1.0,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Animal/anim_Boar_Boss.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.25
+  },
+  {
+    "Id": "狼王",
+    "ControllerName": "anim_Wolf",
+    "ModelType": 2,
+    "ModelHeight": 1.0,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Animal/anim_Wolf_Boss.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.25
+  },
+  {
+    "Id": "冷牙",
+    "ControllerName": "anim_Snake",
+    "ModelType": 2,
+    "ModelHeight": 0.8,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Animal/anim_Snake_Boss.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 2.5
+  },
+  {
+    "Id": "猴子",
+    "ControllerName": "anim_Monkey",
+    "ModelType": 2,
+    "ModelHeight": 0.8,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Animal/anim_monkey.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "机关兽",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 2.0,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Mech/SM_Veh_Mech_02.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "巨石傀儡",
+    "ControllerName": "Boss_GolemRock",
+    "ModelType": 2,
+    "ModelHeight": 2.0,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Boss/GolemRock.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  },
+  {
+    "Id": "山贼1",
+    "ControllerName": "Humanoid",
+    "ModelType": 2,
+    "ModelHeight": 1.35,
+    "CompleteModelPath": "Assets/BuildSource/Prefabs/Character/Pawn/ShanZei1.prefab",
+    "ModelComponents": [],
+    "ModelColorList": [],
+    "ModelScale": 1.0
+  }
+]

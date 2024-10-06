@@ -1,0 +1,1 @@
+return passive_define("银剑", "银剑")

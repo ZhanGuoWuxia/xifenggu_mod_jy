@@ -1,0 +1,1 @@
+return passive_define("饰品_狂暴", "饰品_狂暴")

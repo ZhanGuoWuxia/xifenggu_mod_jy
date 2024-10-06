@@ -1,0 +1,1828 @@
+[
+  {
+    "Id": "入口",
+    "Name": {
+      "key": "i18n/dungeon/trail_of_flames/event/name/1",
+      "text": "入口"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/trail_of_flames/event/desc/1",
+      "text": ""
+    },
+    "NodeIcon": "entry",
+    "Pic": "",
+    "MapPosition": {
+      "x": 250.0,
+      "y": 900.0
+    },
+    "LuaLogicFile": "Dungeon/烈焰之迹/入口",
+    "Conditions": [],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成入口",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "岔路",
+    "Name": {
+      "key": "i18n/dungeon/trail_of_flames/event/name/2",
+      "text": "岔路"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/trail_of_flames/event/desc/2",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 500.0,
+      "y": 700.0
+    },
+    "LuaLogicFile": "Dungeon/烈焰之迹/岔路",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成入口",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成岔路",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "神秘宝箱",
+    "Name": {
+      "key": "i18n/dungeon/trail_of_flames/event/name/3",
+      "text": "神秘宝箱"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/trail_of_flames/event/desc/3",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 600.0,
+      "y": 800.0
+    },
+    "LuaLogicFile": "Dungeon/烈焰之迹/神秘宝箱",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成岔路",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成神秘宝箱",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "神秘草药",
+    "Name": {
+      "key": "i18n/dungeon/trail_of_flames/event/name/4",
+      "text": "神秘草药"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/trail_of_flames/event/desc/4",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 550.0,
+      "y": 200.0
+    },
+    "LuaLogicFile": "Dungeon/烈焰之迹/神秘草药",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成岔路",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成神秘草药",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "村庄",
+    "Name": {
+      "key": "i18n/dungeon/trail_of_flames/event/name/5",
+      "text": "村庄"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/trail_of_flames/event/desc/5",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1000.0,
+      "y": 500.0
+    },
+    "LuaLogicFile": "Dungeon/烈焰之迹/村庄",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成岔路",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成村庄",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "神殿",
+    "Name": {
+      "key": "i18n/dungeon/trail_of_flames/event/name/6",
+      "text": "神殿"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/trail_of_flames/event/desc/6",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1400.0,
+      "y": 650.0
+    },
+    "LuaLogicFile": "Dungeon/烈焰之迹/神殿",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成村庄",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成神殿",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "鹿追家",
+    "Name": {
+      "key": "i18n/dungeon/trail_of_flames/event/name/7",
+      "text": "鹿追家"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/trail_of_flames/event/desc/7",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1050.0,
+      "y": 550.0
+    },
+    "LuaLogicFile": "Dungeon/烈焰之迹/鹿追家",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成神殿",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成鹿追家",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "陵墓",
+    "Name": {
+      "key": "i18n/dungeon/trail_of_flames/event/name/8",
+      "text": "陵墓"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/trail_of_flames/event/desc/8",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1200.0,
+      "y": 600.0
+    },
+    "LuaLogicFile": "Dungeon/烈焰之迹/陵墓",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成鹿追家",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成陵墓",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "遗忘之地",
+    "Name": {
+      "key": "i18n/dungeon/trail_of_flames/event/name/9",
+      "text": "遗忘之地"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/trail_of_flames/event/desc/9",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1600.0,
+      "y": 280.0
+    },
+    "LuaLogicFile": "Dungeon/烈焰之迹/遗忘之地",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成陵墓",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成遗忘之地",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "土路",
+    "Name": {
+      "key": "i18n/dungeon/village_of_daughters/event/name/1",
+      "text": "土路"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/village_of_daughters/event/desc/1",
+      "text": ""
+    },
+    "NodeIcon": "entry",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1830.0,
+      "y": 570.0
+    },
+    "LuaLogicFile": "Dungeon/女儿村/土路",
+    "Conditions": [],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成土路",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "路口",
+    "Name": {
+      "key": "i18n/dungeon/village_of_daughters/event/name/2",
+      "text": "路口"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/village_of_daughters/event/desc/2",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1730.0,
+      "y": 600.0
+    },
+    "LuaLogicFile": "Dungeon/女儿村/路口",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成土路",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成路口",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "湖心亭",
+    "Name": {
+      "key": "i18n/dungeon/village_of_daughters/event/name/3",
+      "text": "湖心亭"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/village_of_daughters/event/desc/3",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1510.0,
+      "y": 200.0
+    },
+    "LuaLogicFile": "Dungeon/女儿村/湖心亭",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成路口",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "DungeonId": "当前副本",
+        "ExistCheckType": 2,
+        "RoleId": "了空",
+        "$type": "AC_DungeonHasTeam"
+      }
+    ]
+  },
+  {
+    "Id": "茅草屋",
+    "Name": {
+      "key": "i18n/dungeon/village_of_daughters/event/name/4",
+      "text": "茅草屋"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/village_of_daughters/event/desc/4",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1140.0,
+      "y": 530.0
+    },
+    "LuaLogicFile": "Dungeon/女儿村/茅草屋",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成路口",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成茅草屋",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "马厩",
+    "Name": {
+      "key": "i18n/dungeon/village_of_daughters/event/name/5",
+      "text": "马厩"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/village_of_daughters/event/desc/5",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1100.0,
+      "y": 650.0
+    },
+    "LuaLogicFile": "Dungeon/女儿村/马厩",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "显示马厩",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成马厩",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "密林",
+    "Name": {
+      "key": "i18n/dungeon/village_of_daughters/event/name/6",
+      "text": "密林"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/village_of_daughters/event/desc/6",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1270.0,
+      "y": 750.0
+    },
+    "LuaLogicFile": "Dungeon/女儿村/密林",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "显示密林",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成密林",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "农田",
+    "Name": {
+      "key": "i18n/dungeon/village_of_daughters/event/name/7",
+      "text": "农田"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/village_of_daughters/event/desc/7",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1610.0,
+      "y": 850.0
+    },
+    "LuaLogicFile": "Dungeon/女儿村/农田",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成路口",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成农田",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "木桥",
+    "Name": {
+      "key": "i18n/dungeon/village_of_daughters/event/name/8",
+      "text": "木桥"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/village_of_daughters/event/desc/8",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 850.0,
+      "y": 540.0
+    },
+    "LuaLogicFile": "Dungeon/女儿村/木桥",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成茅草屋",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成木桥",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "村口",
+    "Name": {
+      "key": "i18n/dungeon/village_of_daughters/event/name/9",
+      "text": "村口"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/village_of_daughters/event/desc/9",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 700.0,
+      "y": 540.0
+    },
+    "LuaLogicFile": "Dungeon/女儿村/村口",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成木桥",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成捉迷藏",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "街道",
+    "Name": {
+      "key": "i18n/dungeon/village_of_daughters/event/name/10",
+      "text": "街道"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/village_of_daughters/event/desc/10",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 350.0,
+      "y": 540.0
+    },
+    "LuaLogicFile": "Dungeon/女儿村/街道",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成木桥",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成街道",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "客栈",
+    "Name": {
+      "key": "i18n/dungeon/village_of_daughters/event/name/11",
+      "text": "客栈"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/village_of_daughters/event/desc/11",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 680.0,
+      "y": 470.0
+    },
+    "LuaLogicFile": "Dungeon/女儿村/客栈",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成木桥",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成客栈",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "告示牌",
+    "Name": {
+      "key": "i18n/dungeon/village_of_daughters/event/name/12",
+      "text": "告示牌"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/village_of_daughters/event/desc/12",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 110.0,
+      "y": 500.0
+    },
+    "LuaLogicFile": "Dungeon/女儿村/告示牌",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成木桥",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成告示牌",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "民居",
+    "Name": {
+      "key": "i18n/dungeon/village_of_daughters/event/name/13",
+      "text": "民居"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/village_of_daughters/event/desc/13",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 200.0,
+      "y": 750.0
+    },
+    "LuaLogicFile": "Dungeon/女儿村/民居",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成木桥",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成民居",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "打谷场",
+    "Name": {
+      "key": "i18n/dungeon/village_of_daughters/event/name/14",
+      "text": "打谷场"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/village_of_daughters/event/desc/14",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 490.0,
+      "y": 870.0
+    },
+    "LuaLogicFile": "Dungeon/女儿村/打谷场",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成木桥",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成打谷场",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "祠堂",
+    "Name": {
+      "key": "i18n/dungeon/village_of_daughters/event/name/15",
+      "text": "祠堂"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/village_of_daughters/event/desc/15",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 430.0,
+      "y": 480.0
+    },
+    "LuaLogicFile": "Dungeon/女儿村/祠堂",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成木桥",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成祠堂",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "地牢",
+    "Name": {
+      "key": "i18n/dungeon/village_of_daughters/event/name/16",
+      "text": "地牢"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/village_of_daughters/event/desc/16",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 620.0,
+      "y": 800.0
+    },
+    "LuaLogicFile": "Dungeon/女儿村/地牢",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成民居",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成地牢",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "山脚",
+    "Name": {
+      "key": "i18n/dungeon/porcupine_fortress/event/name/1",
+      "text": "山脚"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/porcupine_fortress/event/desc/1",
+      "text": ""
+    },
+    "NodeIcon": "entry",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1820.0,
+      "y": 140.0
+    },
+    "LuaLogicFile": "Dungeon/豪猪寨/山脚",
+    "Conditions": [],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成山脚",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "乱石",
+    "Name": {
+      "key": "i18n/dungeon/porcupine_fortress/event/name/2",
+      "text": "乱石"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/porcupine_fortress/event/desc/2",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1650.0,
+      "y": 150.0
+    },
+    "LuaLogicFile": "Dungeon/豪猪寨/乱石",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成山脚",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成乱石",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "山路",
+    "Name": {
+      "key": "i18n/dungeon/porcupine_fortress/event/name/3",
+      "text": "山路"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/porcupine_fortress/event/desc/3",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1450.0,
+      "y": 160.0
+    },
+    "LuaLogicFile": "Dungeon/豪猪寨/山路",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成山脚",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成山路",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "小道",
+    "Name": {
+      "key": "i18n/dungeon/porcupine_fortress/event/name/4",
+      "text": "小道"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/porcupine_fortress/event/desc/4",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1530.0,
+      "y": 200.0
+    },
+    "LuaLogicFile": "Dungeon/豪猪寨/小道",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成山路",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成小道",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "山顶",
+    "Name": {
+      "key": "i18n/dungeon/porcupine_fortress/event/name/5",
+      "text": "山顶"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/porcupine_fortress/event/desc/5",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1520.0,
+      "y": 280.0
+    },
+    "LuaLogicFile": "Dungeon/豪猪寨/山顶",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成小道",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成山顶",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "断崖",
+    "Name": {
+      "key": "i18n/dungeon/porcupine_fortress/event/name/6",
+      "text": "断崖"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/porcupine_fortress/event/desc/6",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1600.0,
+      "y": 270.0
+    },
+    "LuaLogicFile": "Dungeon/豪猪寨/断崖",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成小道",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成断崖",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "寨门",
+    "Name": {
+      "key": "i18n/dungeon/porcupine_fortress/event/name/7",
+      "text": "寨门"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/porcupine_fortress/event/desc/7",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 900.0,
+      "y": 270.0
+    },
+    "LuaLogicFile": "Dungeon/豪猪寨/寨门",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成山顶",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成寨门",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "石洞",
+    "Name": {
+      "key": "i18n/dungeon/porcupine_fortress/event/name/8",
+      "text": "石洞"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/porcupine_fortress/event/desc/8",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 790.0,
+      "y": 600.0
+    },
+    "LuaLogicFile": "Dungeon/豪猪寨/石洞",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成寨门",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成石洞",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "走廊",
+    "Name": {
+      "key": "i18n/dungeon/porcupine_fortress/event/name/9",
+      "text": "走廊"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/porcupine_fortress/event/desc/9",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 600.0,
+      "y": 650.0
+    },
+    "LuaLogicFile": "Dungeon/豪猪寨/走廊",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成寨门",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成走廊",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "聚义堂",
+    "Name": {
+      "key": "i18n/dungeon/porcupine_fortress/event/name/10",
+      "text": "聚义堂"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/porcupine_fortress/event/desc/10",
+      "text": ""
+    },
+    "NodeIcon": "battle",
+    "Pic": "",
+    "MapPosition": {
+      "x": 410.0,
+      "y": 830.0
+    },
+    "LuaLogicFile": "Dungeon/豪猪寨/聚义堂",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成走廊",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成聚义堂",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "猪圈",
+    "Name": {
+      "key": "i18n/dungeon/porcupine_fortress/event/name/11",
+      "text": "猪圈"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/porcupine_fortress/event/desc/11",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 250.0,
+      "y": 750.0
+    },
+    "LuaLogicFile": "Dungeon/豪猪寨/猪圈",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成聚义堂",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成猪圈",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "日晷",
+    "Name": {
+      "key": "i18n/dungeon/ancient_ruins/event/name/1",
+      "text": "日晷"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/ancient_ruins/event/desc/1",
+      "text": ""
+    },
+    "NodeIcon": "entry",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1420.0,
+      "y": 650.0
+    },
+    "LuaLogicFile": "Dungeon/远古遗迹/日晷",
+    "Conditions": [],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成日晷",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "石碑",
+    "Name": {
+      "key": "i18n/dungeon/ancient_ruins/event/name/2",
+      "text": "石碑"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/ancient_ruins/event/desc/2",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 900.0,
+      "y": 830.0
+    },
+    "LuaLogicFile": "Dungeon/远古遗迹/石碑",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成日晷",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成石碑",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "房间",
+    "Name": {
+      "key": "i18n/dungeon/ancient_ruins/event/name/3",
+      "text": "房间"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/ancient_ruins/event/desc/3",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1200.0,
+      "y": 400.0
+    },
+    "LuaLogicFile": "Dungeon/远古遗迹/房间",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成日晷",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成房间",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "青铜器",
+    "Name": {
+      "key": "i18n/dungeon/ancient_ruins/event/name/4",
+      "text": "青铜器"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/ancient_ruins/event/desc/4",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 600.0,
+      "y": 600.0
+    },
+    "LuaLogicFile": "Dungeon/远古遗迹/青铜器",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成日晷",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成青铜器",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "雕像",
+    "Name": {
+      "key": "i18n/dungeon/ancient_ruins/event/name/5",
+      "text": "雕像"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/ancient_ruins/event/desc/5",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 350.0,
+      "y": 700.0
+    },
+    "LuaLogicFile": "Dungeon/远古遗迹/雕像",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成石碑",
+        "$type": "AC_FlagBool"
+      },
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成房间",
+        "$type": "AC_FlagBool"
+      },
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成青铜器",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成雕像",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "陵寝",
+    "Name": {
+      "key": "i18n/dungeon/ancient_ruins/event/name/6",
+      "text": "陵寝"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/ancient_ruins/event/desc/6",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 265.0,
+      "y": 900.0
+    },
+    "LuaLogicFile": "Dungeon/远古遗迹/陵寝",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成雕像",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成陵寝",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "石阶",
+    "Name": {
+      "key": "i18n/dungeon/bloody_array/event/name/1",
+      "text": "石阶"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/bloody _array/event/desc/1",
+      "text": ""
+    },
+    "NodeIcon": "entry",
+    "Pic": "",
+    "MapPosition": {
+      "x": 100.0,
+      "y": 750.0
+    },
+    "LuaLogicFile": "Dungeon/血色魔阵/石阶",
+    "Conditions": [],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成石阶",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "城门",
+    "Name": {
+      "key": "i18n/dungeon/bloody_array/event/name/2",
+      "text": "城门"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/bloody _array/event/desc/2",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 230.0,
+      "y": 760.0
+    },
+    "LuaLogicFile": "Dungeon/血色魔阵/城门",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成石阶",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成城门",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "吊桥",
+    "Name": {
+      "key": "i18n/dungeon/bloody_array/event/name/3",
+      "text": "吊桥"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/bloody _array/event/desc/3",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 140.0,
+      "y": 300.0
+    },
+    "LuaLogicFile": "Dungeon/血色魔阵/吊桥",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成石阶",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成吊桥",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "护城河",
+    "Name": {
+      "key": "i18n/dungeon/bloody_array/event/name/4",
+      "text": "护城河"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/bloody _array/event/desc/4",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 550.0,
+      "y": 250.0
+    },
+    "LuaLogicFile": "Dungeon/血色魔阵/护城河",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成吊桥",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成护城河",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "瓮城",
+    "Name": {
+      "key": "i18n/dungeon/bloody_array/event/name/5",
+      "text": "瓮城"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/bloody _array/event/desc/5",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 480.0,
+      "y": 550.0
+    },
+    "LuaLogicFile": "Dungeon/血色魔阵/瓮城",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成城门",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成瓮城",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "女墙",
+    "Name": {
+      "key": "i18n/dungeon/bloody_array/event/name/6",
+      "text": "女墙"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/bloody _array/event/desc/6",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 600.0,
+      "y": 850.0
+    },
+    "LuaLogicFile": "Dungeon/血色魔阵/女墙",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成瓮城",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成女墙",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "垛口",
+    "Name": {
+      "key": "i18n/dungeon/bloody_array/event/name/7",
+      "text": "垛口"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/bloody _array/event/desc/7",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 790.0,
+      "y": 900.0
+    },
+    "LuaLogicFile": "Dungeon/血色魔阵/垛口",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成女墙",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成垛口",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "闸楼",
+    "Name": {
+      "key": "i18n/dungeon/bloody_array/event/name/8",
+      "text": "闸楼"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/bloody _array/event/desc/8",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 750.0,
+      "y": 620.0
+    },
+    "LuaLogicFile": "Dungeon/血色魔阵/闸楼",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成垛口",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成闸楼",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "城楼",
+    "Name": {
+      "key": "i18n/dungeon/bloody_array/event/name/9",
+      "text": "城楼"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/bloody _array/event/desc/9",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1060.0,
+      "y": 650.0
+    },
+    "LuaLogicFile": "Dungeon/血色魔阵/城楼",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成闸楼",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成城楼",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "角楼",
+    "Name": {
+      "key": "i18n/dungeon/bloody_array/event/name/10",
+      "text": "角楼"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/bloody _array/event/desc/10",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1360.0,
+      "y": 890.0
+    },
+    "LuaLogicFile": "Dungeon/血色魔阵/角楼",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成城楼",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成角楼",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "望楼",
+    "Name": {
+      "key": "i18n/dungeon/bloody_array/event/name/11",
+      "text": "望楼"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/bloody _array/event/desc/11",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1500.0,
+      "y": 250.0
+    },
+    "LuaLogicFile": "Dungeon/血色魔阵/望楼",
+    "Conditions": [
+      {
+        "LuaFilePath": "Dungeon/血色魔阵/是否望楼",
+        "$type": "AC_LuaCondition"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成望楼",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "阁楼",
+    "Name": {
+      "key": "i18n/dungeon/bloody_array/event/name/12",
+      "text": "阁楼"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/bloody _array/event/desc/12",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1170.0,
+      "y": 220.0
+    },
+    "LuaLogicFile": "Dungeon/血色魔阵/阁楼",
+    "Conditions": [
+      {
+        "LuaFilePath": "Dungeon/血色魔阵/是否阁楼",
+        "$type": "AC_LuaCondition"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成阁楼",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "箭楼",
+    "Name": {
+      "key": "i18n/dungeon/bloody_array/event/name/13",
+      "text": "箭楼"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/bloody _array/event/desc/13",
+      "text": ""
+    },
+    "NodeIcon": "search",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1550.0,
+      "y": 840.0
+    },
+    "LuaLogicFile": "Dungeon/血色魔阵/箭楼",
+    "Conditions": [
+      {
+        "LuaFilePath": "Dungeon/血色魔阵/是否箭楼",
+        "$type": "AC_LuaCondition"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成箭楼",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  },
+  {
+    "Id": "禁地",
+    "Name": {
+      "key": "i18n/dungeon/bloody_array/event/name/14",
+      "text": "禁地"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/bloody _array/event/desc/14",
+      "text": ""
+    },
+    "NodeIcon": "talk",
+    "Pic": "",
+    "MapPosition": {
+      "x": 1770.0,
+      "y": 860.0
+    },
+    "LuaLogicFile": "Dungeon/血色魔阵/禁地",
+    "Conditions": [
+      {
+        "ExistCheckType": 1,
+        "FlagKey": "完成箭楼",
+        "$type": "AC_FlagBool"
+      }
+    ],
+    "EventType": 1,
+    "HighlightConditions": [
+      {
+        "ExistCheckType": 2,
+        "FlagKey": "完成禁地",
+        "$type": "AC_FlagBool"
+      }
+    ]
+  }
+]

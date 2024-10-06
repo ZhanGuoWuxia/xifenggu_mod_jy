@@ -1,0 +1,1 @@
+return passive_define("寄生蔓延", "寄生蔓延")

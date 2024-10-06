@@ -1,0 +1,1 @@
+tgr_api:tgr_bubble_text("鲸_残影", "让你见识一下真正的强者！")

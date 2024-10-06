@@ -1,0 +1,1 @@
+return passive_define("夜影步法", "夜影步法")

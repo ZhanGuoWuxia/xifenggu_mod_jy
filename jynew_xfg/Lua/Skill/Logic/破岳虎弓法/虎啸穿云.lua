@@ -1,0 +1,1 @@
+return passive_define("虎啸穿云", "虎啸穿云")

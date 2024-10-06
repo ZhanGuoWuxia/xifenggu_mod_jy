@@ -1,0 +1,13 @@
+[
+  {
+    "Id": "金庸乱斗",
+    "Name": {
+      "key": "i18n/scenario/name/1",
+      "text": "金庸乱斗"
+    },
+    "PlayerId": "小虾米",
+    "PlayerMenpaiId": "虾米帮",
+    "Desc": "",
+    "Flags": []
+  }
+]

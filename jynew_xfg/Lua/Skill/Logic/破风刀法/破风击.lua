@@ -1,0 +1,1 @@
+return simple_damage_skill_template("破风击", stat_key.Attack, 1)

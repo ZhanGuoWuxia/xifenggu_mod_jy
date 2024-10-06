@@ -1,0 +1,222 @@
+[
+  {
+    "Id": "远古遗迹副本掉落",
+    "FixedLoots": [
+      {
+        "ItemId": "疯魔拳法",
+        "Count": 1,
+        "Weight": 0,
+        "ItemParam": "无"
+      },
+      {
+        "ItemId": "银两",
+        "Count": 5000,
+        "Weight": 0,
+        "ItemParam": "无"
+      }
+    ],
+    "RandomLoots": [
+      {
+        "ItemId": "手镯",
+        "Count": 5,
+        "Weight": 60,
+        "ItemParam": "无"
+      },
+      {
+        "ItemId": "金项链",
+        "Count": 4,
+        "Weight": 35,
+        "ItemParam": "无"
+      },
+      {
+        "ItemId": "青玉壁",
+        "Count": 3,
+        "Weight": 5,
+        "ItemParam": "无"
+      }
+    ],
+    "RandomDropCount": 1
+  },
+  {
+    "Id": "烈焰之迹副本掉落",
+    "FixedLoots": [
+      {
+        "ItemId": "炙热之握",
+        "Count": 1,
+        "Weight": 0,
+        "ItemParam": "#(1-5)"
+      },
+      {
+        "ItemId": "银两",
+        "Count": 1000,
+        "Weight": 0,
+        "ItemParam": "无"
+      },
+      {
+        "ItemId": "猛虎丹",
+        "Count": 5,
+        "Weight": 0,
+        "ItemParam": "无"
+      }
+    ],
+    "RandomLoots": [
+      {
+        "ItemId": "手镯",
+        "Count": 5,
+        "Weight": 60,
+        "ItemParam": "无"
+      },
+      {
+        "ItemId": "金项链",
+        "Count": 4,
+        "Weight": 35,
+        "ItemParam": "无"
+      },
+      {
+        "ItemId": "青玉壁",
+        "Count": 3,
+        "Weight": 5,
+        "ItemParam": "无"
+      }
+    ],
+    "RandomDropCount": 1
+  },
+  {
+    "Id": "女儿村掉落",
+    "FixedLoots": [
+      {
+        "ItemId": "史诗戒指",
+        "Count": 1,
+        "Weight": 0,
+        "ItemParam": "#(1-4)"
+      },
+      {
+        "ItemId": "稀有项链",
+        "Count": 1,
+        "Weight": 0,
+        "ItemParam": "#(1-3)"
+      },
+      {
+        "ItemId": "精良戒指",
+        "Count": 1,
+        "Weight": 0,
+        "ItemParam": "#(1-2)"
+      },
+      {
+        "ItemId": "银两",
+        "Count": 3000,
+        "Weight": 0,
+        "ItemParam": "无"
+      }
+    ],
+    "RandomLoots": [
+      {
+        "ItemId": "手镯",
+        "Count": 5,
+        "Weight": 60,
+        "ItemParam": "无"
+      },
+      {
+        "ItemId": "金项链",
+        "Count": 4,
+        "Weight": 35,
+        "ItemParam": "无"
+      },
+      {
+        "ItemId": "青玉壁",
+        "Count": 3,
+        "Weight": 5,
+        "ItemParam": "无"
+      }
+    ],
+    "RandomDropCount": 1
+  },
+  {
+    "Id": "豪猪寨掉落",
+    "FixedLoots": [
+      {
+        "ItemId": "史诗刀",
+        "Count": 1,
+        "Weight": 0,
+        "ItemParam": "#(1-4)"
+      },
+      {
+        "ItemId": "豪猪甲",
+        "Count": 1,
+        "Weight": 0,
+        "ItemParam": "#(1-2)"
+      },
+      {
+        "ItemId": "银两",
+        "Count": 2000,
+        "Weight": 0,
+        "ItemParam": "无"
+      }
+    ],
+    "RandomLoots": [
+      {
+        "ItemId": "手镯",
+        "Count": 5,
+        "Weight": 60,
+        "ItemParam": "无"
+      },
+      {
+        "ItemId": "金项链",
+        "Count": 4,
+        "Weight": 35,
+        "ItemParam": "无"
+      },
+      {
+        "ItemId": "青玉壁",
+        "Count": 3,
+        "Weight": 5,
+        "ItemParam": "无"
+      }
+    ],
+    "RandomDropCount": 1
+  },
+  {
+    "Id": "血色魔阵掉落",
+    "FixedLoots": [
+      {
+        "ItemId": "史诗弓",
+        "Count": 1,
+        "Weight": 0,
+        "ItemParam": "#(1-4)"
+      },
+      {
+        "ItemId": "八卦衣",
+        "Count": 1,
+        "Weight": 0,
+        "ItemParam": "#(1-2)"
+      },
+      {
+        "ItemId": "银两",
+        "Count": 1000,
+        "Weight": 0,
+        "ItemParam": "无"
+      }
+    ],
+    "RandomLoots": [
+      {
+        "ItemId": "手镯",
+        "Count": 5,
+        "Weight": 60,
+        "ItemParam": "无"
+      },
+      {
+        "ItemId": "金项链",
+        "Count": 4,
+        "Weight": 35,
+        "ItemParam": "无"
+      },
+      {
+        "ItemId": "青玉壁",
+        "Count": 3,
+        "Weight": 5,
+        "ItemParam": "无"
+      }
+    ],
+    "RandomDropCount": 1
+  }
+]

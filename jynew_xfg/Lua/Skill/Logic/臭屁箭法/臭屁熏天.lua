@@ -1,0 +1,1 @@
+return passive_define("臭屁熏天", "臭屁熏天")

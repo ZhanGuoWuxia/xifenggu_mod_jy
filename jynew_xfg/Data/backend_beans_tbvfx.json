@@ -1,0 +1,1498 @@
+[
+  {
+    "Id": "流血",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Chest",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/EpicToonFX/Prefabs/Combat/Blood/Red/BloodDripping.prefab"
+  },
+  {
+    "Id": "Feet_loop_ArcaneAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_ArcaneAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_BloodAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_BloodAura.prefab"
+  },
+  {
+    "Id": "Body_loop_CrimsonAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Body",
+    "AlwaysAttach": false,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_CrimsonAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_CrimsonAura_Black",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_CrimsonAura_Black.prefab"
+  },
+  {
+    "Id": "Feet_loop_DarkAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_DarkAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_DarkAura_Purple",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_DarkAura_Purple.prefab"
+  },
+  {
+    "Id": "Body_loop_DarknessAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Body",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_DarknessAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_FairyAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_FairyAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_FireAyra",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_FireAyra.prefab"
+  },
+  {
+    "Id": "Feet_loop_FireAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_FireAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_FreezeAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_FreezeAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_FrostAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_FrostAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_GoldAura_RED",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_GoldAura_RED.prefab"
+  },
+  {
+    "Id": "Feet_loop_GoldAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_GoldAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_HealingAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_HealingAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_HealingAura_Blue",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_HealingAura_Blue.prefab"
+  },
+  {
+    "Id": "Feet_loop_HealingAura1",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_HealingAura1.prefab"
+  },
+  {
+    "Id": "Feet_loop_HealingAura_Blue1",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_HealingAura_Blue1.prefab"
+  },
+  {
+    "Id": "Feet_loop_HolyAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_HolyAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_LightAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_LightAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_LightningAura1",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_LightningAura1.prefab"
+  },
+  {
+    "Id": "Feet_loop_LightningAura2",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_LightningAura2.prefab"
+  },
+  {
+    "Id": "Feet_loop_LightningAura3",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_LightningAura3.prefab"
+  },
+  {
+    "Id": "Feet_loop_MeteorFire",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_MeteorFire.prefab"
+  },
+  {
+    "Id": "Feet_loop_MistAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_MistAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_NatureAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_NatureAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_ShineAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_ShineAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_ShockAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_ShockAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_ShockAura_Yellow",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_ShockAura_Yellow.prefab"
+  },
+  {
+    "Id": "Feet_loop_SleepAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_SleepAura.prefab"
+  },
+  {
+    "Id": "Head_loop_SleepAura2",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Head",
+    "AlwaysAttach": false,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_SleepyAura2.prefab"
+  },
+  {
+    "Id": "Feet_loop_SmokeAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_SmokeAura.prefab"
+  },
+  {
+    "Id": "Body_loop_SoapAyra1",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Body",
+    "AlwaysAttach": false,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_SoapAyra1.prefab"
+  },
+  {
+    "Id": "Feet_loop_SoapAyra_White",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_SoapAyra_White.prefab"
+  },
+  {
+    "Id": "Feet_loop_SoapAyra_Blue",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_SoapAyra_Blue.prefab"
+  },
+  {
+    "Id": "Feet_loop_UniverseAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_UniverseAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_WaterAura1",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_WaterAura1.prefab"
+  },
+  {
+    "Id": "Feet_loop_WaterAura2",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_WaterAura2.prefab"
+  },
+  {
+    "Id": "Feet_loop_WhiteAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_WhiteAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_WindAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_WindAura.prefab"
+  },
+  {
+    "Id": "Feet_loop_DongJie",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop_DongJie.prefab"
+  },
+  {
+    "Id": "Feet_loop1_ChengMo",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop1_ChengMo.prefab"
+  },
+  {
+    "Id": "Feet_loop1_HunLuan",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop1_HunLuan.prefab"
+  },
+  {
+    "Id": "Feet_loop1_JiaoXie",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop1_JiaoXie.prefab"
+  },
+  {
+    "Id": "Body_loop1_PoJia",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.168,
+      "z": 0.206
+    },
+    "LocalScale": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    },
+    "AttachNode": "Body",
+    "AlwaysAttach": false,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop1_PoJia.prefab"
+  },
+  {
+    "Id": "Feet_loop1_QiangLi",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop1_QiangLi.prefab"
+  },
+  {
+    "Id": "Feet_loop1_RanShao",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop1_RanShao.prefab"
+  },
+  {
+    "Id": "Feet_loop1_ShaShi",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop1_ShaShi.prefab"
+  },
+  {
+    "Id": "Feet_loop1_ShuiMian",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop1_ShuiMian.prefab"
+  },
+  {
+    "Id": "Head_loop1_XuanYun",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Head",
+    "AlwaysAttach": false,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop1_XuanYun.prefab"
+  },
+  {
+    "Id": "Feet_loop1_ZhongDu",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop1_ZhongDu.prefab"
+  },
+  {
+    "Id": "RightHand_loop1_ZhongDu1",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    },
+    "AttachNode": "RightHand",
+    "AlwaysAttach": false,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop1_ZhongDu1.prefab"
+  },
+  {
+    "Id": "Feet_loop1_ZuZhou",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop1_ZuZhou.prefab"
+  },
+  {
+    "Id": "Feet_loop2_KiHeroic",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop2_KiHeroic.prefab"
+  },
+  {
+    "Id": "Feet_loop2_GroundFire",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop2_GroundFire.prefab"
+  },
+  {
+    "Id": "Feet_loop2_KiArcane",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop2_KiArcane.prefab"
+  },
+  {
+    "Id": "Feet_loop2_KiBasic",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop2_KiBasic.prefab"
+  },
+  {
+    "Id": "Feet_loop2_KiCelestial",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop2_KiCelestial.prefab"
+  },
+  {
+    "Id": "Feet_loop2_KiDivine",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop2_KiDivine.prefab"
+  },
+  {
+    "Id": "Feet_loop2_KiDivineTM",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop2_KiDivineTM.prefab"
+  },
+  {
+    "Id": "Feet_loop2_KiEpic",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop2_KiEpic.prefab"
+  },
+  {
+    "Id": "Feet_loop2_KiGrand",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop2_KiGrand.prefab"
+  },
+  {
+    "Id": "Feet_loop2_KiRare",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop2_KiRare.prefab"
+  },
+  {
+    "Id": "Feet_loop2_ShaQi1",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop2_ShaQi1.prefab"
+  },
+  {
+    "Id": "Body_loop2_ShaQi2",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 0.7,
+      "y": 0.7,
+      "z": 0.7
+    },
+    "AttachNode": "Body",
+    "AlwaysAttach": false,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop2_ShaQi2.prefab"
+  },
+  {
+    "Id": "Feet_loop2_XGCF1_Blue",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop2_XGCF1_BluehaQi2.prefab"
+  },
+  {
+    "Id": "Feet_loop2_XGCF1_Yellow",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop2_XGCF1_Yellow.prefab"
+  },
+  {
+    "Id": "Body_loop2_XGCF2_Red",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": -0.363,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 0.7,
+      "y": 0.7,
+      "z": 0.7
+    },
+    "AttachNode": "Body",
+    "AlwaysAttach": false,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop2_XGCF2_Red.prefab"
+  },
+  {
+    "Id": "Feet_loop3_BloodAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop3_BloodAura.prefab"
+  },
+  {
+    "Id": "Feet_loop3_ConfettiAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop3_ConfettiAura.prefab"
+  },
+  {
+    "Id": "Feet_loop3_FastWind",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop3_FastWind.prefab"
+  },
+  {
+    "Id": "Body_loop3_FastWind1",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 0.8,
+      "y": 0.8,
+      "z": 0.8
+    },
+    "AttachNode": "Body",
+    "AlwaysAttach": false,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop3_FastWind1.prefab"
+  },
+  {
+    "Id": "Feet_loop3_FireAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.7,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop3_FireAura.prefab"
+  },
+  {
+    "Id": "Feet_loop3_ForestAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.8,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop3_ForestAura.prefab"
+  },
+  {
+    "Id": "Feet_loop3_HealAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop3_HealAura.prefab"
+  },
+  {
+    "Id": "Feet_loop3_IceAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop3_IceAura.prefab"
+  },
+  {
+    "Id": "Feet_loop3_InYang",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.8,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop3_InYang.prefab"
+  },
+  {
+    "Id": "Body_loop3_InYang1",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": false,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop3_InYang1.prefab"
+  },
+  {
+    "Id": "Feet_loop3_LoveAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.7,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop3_LoveAura.prefab"
+  },
+  {
+    "Id": "Feet_loop3_PoisonAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.87,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop3_PoisonAura.prefab"
+  },
+  {
+    "Id": "Feet_loop3_StarAura",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop3_StarAura.prefab"
+  },
+  {
+    "Id": "Body_loop4_HuDun",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 0.7,
+      "y": 0.7,
+      "z": 0.7
+    },
+    "AttachNode": "Body",
+    "AlwaysAttach": false,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop4_HuDun.prefab"
+  },
+  {
+    "Id": "Feet_loop4_JingGu",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.45,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop4_JingGu.prefab"
+  },
+  {
+    "Id": "Body_loop4_LiuXue",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "AttachNode": "Body",
+    "AlwaysAttach": false,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop4_LiuXue.prefab"
+  },
+  {
+    "Id": "Head_loop4_PoJia",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.3,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 0.6,
+      "y": 0.6,
+      "z": 0.6
+    },
+    "AttachNode": "Head",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop4_PoJia.prefab"
+  },
+  {
+    "Id": "Feet_loop4_ZhongDu",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.289,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 0.7,
+      "y": 0.7,
+      "z": 0.7
+    },
+    "AttachNode": "Feet",
+    "AlwaysAttach": true,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop4_ZhongDu.prefab"
+  },
+  {
+    "Id": "Body_loop4_ZhongDu1",
+    "DefaultDuration": 0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "LocalScale": {
+      "x": 0.7,
+      "y": 0.7,
+      "z": 0.7
+    },
+    "AttachNode": "Body",
+    "AlwaysAttach": false,
+    "EffectPrefabPath": "Assets/BuildSource/Effects/Prefabs/BuffControl/loop4_ZhongDu1.prefab"
+  }
+]

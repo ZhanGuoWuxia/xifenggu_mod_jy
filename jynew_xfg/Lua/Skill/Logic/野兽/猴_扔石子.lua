@@ -1,0 +1,1 @@
+return simple_damage_skill_template("猴_扔石子", stat_key.Attack, 1.5)

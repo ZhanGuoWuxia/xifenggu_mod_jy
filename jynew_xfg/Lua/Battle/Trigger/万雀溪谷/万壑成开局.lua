@@ -1,0 +1,1 @@
+tgr_api:tgr_bubble_text("万壑成", "风水轮流转，今日到我家！")

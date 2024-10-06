@@ -1,0 +1,1 @@
+return passive_define("金刚护体", "金刚护体")

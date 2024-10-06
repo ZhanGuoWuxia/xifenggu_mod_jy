@@ -1,0 +1,1 @@
+return simple_damage_skill_template("羽箭轻舞", stat_key.Attack, 1, 0.1)

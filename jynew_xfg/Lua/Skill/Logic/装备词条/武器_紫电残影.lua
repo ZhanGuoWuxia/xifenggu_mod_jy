@@ -1,0 +1,1 @@
+return passive_define("武器_紫电残影", "武器_紫电残影")

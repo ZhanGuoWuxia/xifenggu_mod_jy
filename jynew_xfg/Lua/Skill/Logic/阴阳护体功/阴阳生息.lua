@@ -1,0 +1,1 @@
+return passive_define("阴阳生息", "阴阳生息")

@@ -1,0 +1,6 @@
+<module name="Backend.Beans">
+        <enum name="RoleNameType" comment="角色随机名字类型">
+                <var name="FamilyName" alias="姓" value="0" />
+                <var name="GivenName" alias="名" value="1" />
+        </enum>
+</module>

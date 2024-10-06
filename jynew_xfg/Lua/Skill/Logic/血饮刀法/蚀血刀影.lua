@@ -1,0 +1,1 @@
+return passive_define("蚀血刀影", "蚀血刀影")

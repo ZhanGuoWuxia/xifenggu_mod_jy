@@ -1,0 +1,55 @@
+<module name="Backend.Beans">
+
+	<enum name="ItemType" comment="道具类型">
+		<var name="None" alias="无" value="0"/>
+		<var name="Consume" alias="消耗品" value="1" />
+		<var name="Book" alias="秘籍" value="2" />
+		<var name="Equipment" alias="装备" value="3" />
+		<var name="Other" alias="其他" value="4" />
+	</enum>
+
+	<enum name="ItemSubType" comment="道具子类型">
+		<var name="None" alias="无" value="-1" />
+		<var name="Weapon" alias="武器" value="0" />
+		<var name="Armor" alias="防具" value="1" />
+		<var name="Accessory" alias="饰品" value="2" />
+	</enum>
+
+	<enum name="EquipType" comment="装备类型">
+		<var name="None" alias="无" value="-1" />
+		<var name="Fist" alias="拳套" value="0" />
+		<var name="Claw" alias="爪" value="1" />
+		<var name="Blade" alias="刀" value="2" />
+		<var name="Sword" alias="剑" value="3" />
+		<var name="Spear" alias="枪" value="4" />
+		<var name="Stick" alias="棍" value="5" />
+		<var name="Bow" alias="弓" value="6" />
+		<var name="LightArmor" alias="轻甲" value="100" />
+		<var name="MediumArmor" alias="中甲" value="101" />
+		<var name="HeavyArmor" alias="重甲" value="102" />
+	</enum>
+
+	<enum name="ItemLevel" comment="道具品质">
+		<var name="Common" alias="普通" value="1" />
+		<var name="Advanced" alias="精良" value="2" />
+		<var name="Rare" alias="稀有" value="3" />
+		<var name="Epic" alias="史诗" value="4" />
+		<var name="Legendary" alias="传说" value="5" />
+	</enum>
+
+	<enum name="UseType" comment="道具使用类型">
+		<var name="None" alias="不能使用" value="0" />
+		<var name="Consume" alias="使用消耗" value="1" />
+		<var name="Infinite" alias="无限使用" value="2" />
+	</enum>
+
+  <bean name="EquipmentPartialBean">
+    <var name="Id" type="string"/>
+	<var name="AffixFormula" type="string"/>
+  </bean>
+
+	<bean name="ItemPartialBean">
+    <var name="Id" type="string"/>
+	<var name="Count" type="int"/>
+  </bean>
+</module>

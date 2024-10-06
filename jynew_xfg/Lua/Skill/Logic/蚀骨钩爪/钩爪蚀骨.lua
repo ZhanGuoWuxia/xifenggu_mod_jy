@@ -1,0 +1,1 @@
+return passive_define("钩爪蚀骨", "钩爪蚀骨")

@@ -1,0 +1,1 @@
+return passive_define("迷魂步", "迷魂步")

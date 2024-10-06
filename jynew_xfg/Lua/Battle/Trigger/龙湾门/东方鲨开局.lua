@@ -1,0 +1,1 @@
+tgr_api:tgr_bubble_text("东方鲨", "你是鳖是龙，我一尝变知！")

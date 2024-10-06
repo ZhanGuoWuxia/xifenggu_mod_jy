@@ -1,0 +1,1 @@
+return passive_define("霸绝内劲", "霸绝内劲")

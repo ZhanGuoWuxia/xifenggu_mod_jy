@@ -1,0 +1,1 @@
+return simple_damage_skill_template("虎鹤无形", stat_key.Attack, 0.8)

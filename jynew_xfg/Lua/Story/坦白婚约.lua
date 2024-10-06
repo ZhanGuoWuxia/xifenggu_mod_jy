@@ -1,0 +1,36 @@
+show_stage("bg_186.png", "鹿追的房间")
+play_bgm("Music/少女鹿追.wav")
+light_scene(0.2)
+
+local situ = actor("司徒来也")
+local luzhui = actor("鹿追")
+
+--初始化位置和朝向
+dark_all_actors()
+situ:setPos(-400, 75)
+situ:face_right()
+luzhui:setPos(1100, 75)
+luzhui:face_left()
+
+wait_twn(situ:movetoX(800), situ:daze())
+
+luzhui:say("夫君，你特地寻我，可是有何要事？")
+situ:say("是的，有一件事，我先前未曾与你提起，若是不说，心里总觉得有愧于你。")
+luzhui:say("有何事让你如此为难？")
+situ:say("我说出来，只怕你会不高兴。")
+luzhui:say("既如此，你就快说吧，我若是生气，也是因为你隐瞒了实情。")
+situ:say("我曾与一位姑娘订下婚约。")
+luzhui:say("……")
+situ:say("你……你说句话呀。")
+luzhui:say("那位与你订婚的姑娘，是何许人也？")
+situ:say("她是鹤岭门掌门西门坡的千金，名叫西门香。")
+luzhui:say("听起来，她出身不凡，你们是何时订下的婚约？")
+situ:say("我并非有意隐瞒，只是那一切都已成为过去。我与西门香的婚约，因种种原因并未成真。")
+luzhui:say("那么，你为何要与我说这些？")
+situ:say("我只是觉得，我与你之间，应该没有任何隐瞒。")
+
+hide_all_stage_bubble()
+black_scene(0.25)
+hide_stage()
+set_flag("完成坦白婚约")
+light_scene(0.25)

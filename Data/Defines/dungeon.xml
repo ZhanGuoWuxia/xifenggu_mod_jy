@@ -1,0 +1,23 @@
+<module name="Backend.Beans">
+
+	<enum name="DungeonType" comment="副本类型">
+		<var name="Once" alias="一次性" value="0" />
+		<var name="Again" alias="可重复" value="1" />
+	</enum>
+
+	<enum name="DungeonTaskType" comment="副本任务类型">
+		<var name="Count" alias="计数" value="0" />
+		<var name="Check" alias="判断" value="1" />
+	</enum>
+
+	<enum name="DungeonLineType" comment="副本路线类型">
+		<var name="Main" alias="主线" value="0" />
+		<var name="Side" alias="支线" value="1" />
+	</enum>
+
+	<enum name="DungeonEventType" comment="副本事件类型">
+		<var name="Preview" alias="预览" value="0" />
+		<var name="Click" alias="点击" value="1" />
+	</enum>
+
+</module>

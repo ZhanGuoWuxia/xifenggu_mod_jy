@@ -1,0 +1,45 @@
+
+show_stage("西门香的房间.png", "虎苇地厢房")
+light_scene(0.2)
+play_bgm("Music/西门香.wav", 0.1)
+
+local situ = actor("司徒来也")
+local npc = actor("西门香")
+
+--初始化位置和朝向
+bright_all_actors()
+situ:setPos(-400, 75)
+npc:setPos(1200, 75)
+situ:face_right()
+npc:face_right()
+
+wait_twn(situ:movetoX(900), situ:daze())
+npc:flip()
+npc:say("我……我这是在哪儿？")
+situ:say("西门小姐，你现在在虎苇地的这间厢房里。你的身子还需静养，待你好了，我再送你回鹤岭门。")
+npc:flip()
+npc:say("……")
+npc:say("(player:fullname)，我……我都这样了，你还要坚持送人家回去？")
+situ:say("是啊，你终究是鹤岭门的人，而且女孩子家一个人在外头，怕你父亲担心。")
+npc:flip()
+
+npc:jump()
+npc:say("哼！我…… 我不过是内力暂时不济，既然你如此无情，那我现在就走给你看！")
+npc:flip()
+wait_twn(npc:movetoX(1500), situ:movetoX(1100), situ:daze())
+situ:say("香儿！你……")
+npc:flip()
+situ:say("香儿，你现在身体虚弱。就把虎焰门当你的家吧，我们都会保护你的。")
+wait_twn(npc:movetoX(1220, 2500), situ:shake(), situ:standfront())
+npc:say("你是说……我可以留下来？")
+situ:say("是的，我会尽力保护你。")
+npc:say("好！那我就暂时加入虎焰门。至于我爹那里，我会找个合适的时机向他说明。")
+situ:say("好的，香儿你只管安心在此休养，其他事情都先不用想了。")
+hide_all_stage_bubble()
+
+player_add_disciple("西门香")
+
+black_scene(0.25)
+hide_stage()
+set_flag("完成青梅竹马")
+light_scene(0.25)

@@ -1,0 +1,8719 @@
+[
+  {
+    "Id": "小虾米",
+    "Name": {
+      "key": "i18/role/main/name/0",
+      "text": "小虾米"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 2,
+    "Level": 1,
+    "RoleClass": "侠士",
+    "RoleType": 0,
+    "Pic": "0",
+    "SkillList": [
+      {
+        "Id": "虎焰刀法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通中甲",
+        "AffixFormula": "#(0-1)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [],
+    "ModelId": "司徒来也",
+    "ActionTemplate": "自己",
+    "PrisonActionTemplate": "",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "方证",
+    "Name": {
+      "key": "i18/role/main/name/2",
+      "text": "方证"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 1,
+    "RoleClass": "侠士",
+    "RoleType": 2,
+    "Pic": "70",
+    "SkillList": [
+      {
+        "Id": "探云摘星手",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通手套",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "普通重甲",
+        "AffixFormula": "#(0-1)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [],
+    "ModelId": "齐六哥",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male3_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male3_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male3_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male3_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male3_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male3_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male3_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male3_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male3_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male3_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male3_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male3_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male3_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male3_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male3_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male3_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "张三丰",
+    "Name": {
+      "key": "i18/role/main/name/3",
+      "text": "张三丰"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 2,
+    "RoleClass": "刺客",
+    "RoleType": 2,
+    "Pic": "5",
+    "SkillList": [
+      {
+        "Id": "狼爪功",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通爪",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "普通轻甲",
+        "AffixFormula": "#(0-1)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [],
+    "ModelId": "秋",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "岳不群",
+    "Name": {
+      "key": "i18/role/main/name/4",
+      "text": "岳不群"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 1,
+    "RoleClass": "铁卫",
+    "RoleType": 2,
+    "Pic": "19",
+    "SkillList": [
+      {
+        "Id": "火钳刀法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通刀",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "普通中甲",
+        "AffixFormula": "#(0-1)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [],
+    "ModelId": "刘明",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "完颜烈",
+    "Name": {
+      "key": "i18/role/main/name/5",
+      "text": "完颜烈"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 1,
+    "RoleClass": "医师",
+    "RoleType": 2,
+    "Pic": "12",
+    "SkillList": [
+      {
+        "Id": "烧火棍法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "扔肉包",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通棍",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "普通中甲",
+        "AffixFormula": "#(0-1)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [],
+    "ModelId": "朱三娘",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "余沧海",
+    "Name": {
+      "key": "i18/role/main/name/6",
+      "text": "余沧海"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 10,
+    "RoleClass": "游侠",
+    "RoleType": 2,
+    "Pic": "24",
+    "SkillList": [
+      {
+        "Id": "朱鹮箭语",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "朱雀灵焰诀",
+        "Level": 5,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "稀有弓",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "稀有轻甲",
+        "AffixFormula": "#(0-1)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [],
+    "ModelId": "朱鹮儿",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "蓝凤凰",
+    "Name": {
+      "key": "i18/role/main/name/7",
+      "text": "蓝凤凰"
+    },
+    "Gender": 1,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 5,
+    "RoleClass": "侠士",
+    "RoleType": 2,
+    "Pic": "25new",
+    "SkillList": [
+      {
+        "Id": "血戮刀法",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "草木枯元功",
+        "Level": 6,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "夜影身法",
+        "Level": 4,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "精良刀",
+        "AffixFormula": "#(3-3)"
+      },
+      {
+        "Id": "豪猪甲",
+        "AffixFormula": "#(3-3)"
+      },
+      {
+        "Id": "流血刺戒",
+        "AffixFormula": "#(3-3)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [
+      "1_1",
+      "2_2"
+    ],
+    "ModelId": "何猛",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "莫大",
+    "Name": {
+      "key": "i18/role/main/name/8",
+      "text": "莫大"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 4,
+    "RoleClass": "刺客",
+    "RoleType": 2,
+    "Pic": "20",
+    "SkillList": [
+      {
+        "Id": "断血刀法",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "夜影身法",
+        "Level": 8,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "绝命刀",
+        "AffixFormula": "#(2-2)"
+      },
+      {
+        "Id": "精良轻甲",
+        "AffixFormula": "#(2-2)"
+      },
+      {
+        "Id": "野猪齿",
+        "AffixFormula": "#(2-2)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [
+      "1_1"
+    ],
+    "ModelId": "潘麻子",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "东方不败",
+    "Name": {
+      "key": "i18/role/main/name/9",
+      "text": "东方不败"
+    },
+    "Gender": 1,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 4,
+    "RoleClass": "铁卫",
+    "RoleType": 2,
+    "Pic": "27",
+    "SkillList": [
+      {
+        "Id": "罗汉拳",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "草木枯元功",
+        "Level": 7,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通手套",
+        "AffixFormula": "#(2-2)"
+      },
+      {
+        "Id": "豪猪甲",
+        "AffixFormula": "#(2-2)"
+      },
+      {
+        "Id": "福豕镯",
+        "AffixFormula": "#(2-2)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [
+      "1_2"
+    ],
+    "ModelId": "男_褐长发6黄衣5",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "洪大猛",
+    "Name": {
+      "key": "i18/role/main/name/10",
+      "text": "洪大猛"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "铁卫",
+    "RoleType": 2,
+    "Pic": "40",
+    "SkillList": [
+      {
+        "Id": "罗汉拳",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "少林心法",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通手套",
+        "AffixFormula": "#(1-1)"
+      },
+      {
+        "Id": "精良重甲",
+        "AffixFormula": "#(1-1)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [],
+    "ModelId": "汤白牛",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male3_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male3_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male3_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male3_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male3_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male3_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male3_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male3_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male3_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male3_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male3_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male3_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male3_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male3_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male3_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male3_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "洪通天",
+    "Name": {
+      "key": "i18/role/main/name/11",
+      "text": "洪通天"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 8,
+    "RoleClass": "医师",
+    "RoleType": 2,
+    "Pic": "39",
+    "SkillList": [
+      {
+        "Id": "春风化雨掌",
+        "Level": 5,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "百草心经",
+        "Level": 6,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "精良手套",
+        "AffixFormula": "#(1-1)"
+      },
+      {
+        "Id": "精良中甲",
+        "AffixFormula": "#(1-1)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [],
+    "ModelId": "汤彩蝶",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "徐小侠",
+    "Name": {
+      "key": "i18/role/main/name/12",
+      "text": "徐小侠"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 4,
+    "RoleClass": "侠士",
+    "RoleType": 2,
+    "Pic": "48",
+    "SkillList": [
+      {
+        "Id": "神女剑法",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "神女心经",
+        "Level": 5,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "精良剑",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "精良中甲",
+        "AffixFormula": "#(1-2)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [],
+    "ModelId": "鹿追",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "沙通天",
+    "Name": {
+      "key": "i18/role/main/name/13",
+      "text": "沙通天"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 15,
+    "RoleClass": "铁卫",
+    "RoleType": 2,
+    "Pic": "32",
+    "SkillList": [
+      {
+        "Id": "血戮刀法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "龟岩气功",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "夜影身法",
+        "Level": 8,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "绝命刀",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有重甲",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "流血刺戒",
+        "AffixFormula": "#(1-1)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [
+      "1_2",
+      "2_1",
+      "3_1"
+    ],
+    "ModelId": "鲸",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "段正淳",
+    "Name": {
+      "key": "i18/role/main/name/14",
+      "text": "段正淳"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 20,
+    "RoleClass": "游侠",
+    "RoleType": 2,
+    "Pic": "11",
+    "SkillList": [
+      {
+        "Id": "基础拳法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [],
+    "Affixes": [],
+    "InitialTalents": [
+      "1_3",
+      "2_2",
+      "3_1"
+    ],
+    "ModelId": "獒",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male3_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male3_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male3_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male3_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male3_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male3_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male3_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male3_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male3_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male3_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male3_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male3_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male3_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male3_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male3_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male3_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "何足道",
+    "Name": {
+      "key": "i18/role/main/name/15",
+      "text": "狮"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 20,
+    "RoleClass": "游侠",
+    "RoleType": 2,
+    "Pic": "7",
+    "SkillList": [
+      {
+        "Id": "基础拳法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [],
+    "Affixes": [],
+    "InitialTalents": [
+      "1_3",
+      "2_2",
+      "3_1"
+    ],
+    "ModelId": "狮",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "天山童姥",
+    "Name": {
+      "key": "i18/role/main/name/16",
+      "text": "夜郎"
+    },
+    "Gender": 1,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 20,
+    "RoleClass": "游侠",
+    "RoleType": 2,
+    "Pic": "47",
+    "SkillList": [
+      {
+        "Id": "基础拳法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [],
+    "Affixes": [],
+    "InitialTalents": [
+      "1_1",
+      "2_2",
+      "3_1"
+    ],
+    "ModelId": "夜郎",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "司空玄",
+    "Name": {
+      "key": "i18/role/main/name/17",
+      "text": "东方鲨"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 5,
+    "RoleClass": "铁卫",
+    "RoleType": 2,
+    "Pic": "75",
+    "SkillList": [
+      {
+        "Id": "盘龙棍法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "潜龙心法",
+        "Level": 6,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "轻身术",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "精良棍",
+        "AffixFormula": "#(1-1)"
+      },
+      {
+        "Id": "精良重甲",
+        "AffixFormula": "#(1-1)"
+      },
+      {
+        "Id": "精良护腕",
+        "AffixFormula": "#(1-1)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [
+      "1_2"
+    ],
+    "ModelId": "男_黑长发4蓝衣12",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "史火龙",
+    "Name": {
+      "key": "i18/role/main/name/18",
+      "text": "东方豚"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 5,
+    "RoleClass": "刺客",
+    "RoleType": 2,
+    "Pic": "72",
+    "SkillList": [
+      {
+        "Id": "蛟龙枪法",
+        "Level": 6,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "潜龙心法",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "轻身术",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "精良枪",
+        "AffixFormula": "#(1-1)"
+      },
+      {
+        "Id": "精良轻甲",
+        "AffixFormula": "#(1-1)"
+      },
+      {
+        "Id": "精良项链",
+        "AffixFormula": "#(1-1)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [
+      "1_3"
+    ],
+    "ModelId": "男_灰长发6灰衣7",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "丘处机",
+    "Name": {
+      "key": "i18/role/main/name/19",
+      "text": "东方狸"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 6,
+    "RoleClass": "侠士",
+    "RoleType": 2,
+    "Pic": "68",
+    "SkillList": [
+      {
+        "Id": "骤雨寒冰拳",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "水鳞真诀",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "轻身术",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "精良手套",
+        "AffixFormula": "#(1-1)"
+      },
+      {
+        "Id": "精良重甲",
+        "AffixFormula": "#(1-1)"
+      },
+      {
+        "Id": "精良戒指",
+        "AffixFormula": "#(1-1)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [
+      "1_3"
+    ],
+    "ModelId": "男_紫发1灰衣9",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "金轮法王",
+    "Name": {
+      "key": "i18/role/main/name/20",
+      "text": "东方骤雨"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "",
+      "text": ""
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 8,
+    "RoleClass": "侠士",
+    "RoleType": 2,
+    "Pic": "62",
+    "SkillList": [
+      {
+        "Id": "骤雨寒冰拳",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "水鳞真诀",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "轻身术",
+        "Level": 4,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "精良手套",
+        "AffixFormula": "#(3-3)"
+      },
+      {
+        "Id": "精良重甲",
+        "AffixFormula": "#(3-3)"
+      },
+      {
+        "Id": "精良戒指",
+        "AffixFormula": "#(3-3)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [
+      "1_3",
+      "2_1"
+    ],
+    "ModelId": "东方骤雨",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male3_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male3_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male3_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male3_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male3_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male3_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male3_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male3_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male3_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male3_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male3_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male3_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male3_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male3_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male3_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male3_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "随机坦克",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/1",
+      "text": "随机坦克"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/1",
+      "text": "一名坦克路人甲…"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 1,
+    "RoleClass": "铁卫",
+    "RoleType": 1,
+    "Pic": "ai2_male_19",
+    "SkillList": [
+      {
+        "Id": "基础拳法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 4,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通手套",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "普通重甲",
+        "AffixFormula": "#(0-1)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [],
+    "ModelId": "男_紫发1灰衣9",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male3_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male3_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male3_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male3_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male3_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male3_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male3_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male3_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male3_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male3_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male3_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male3_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male3_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male3_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male3_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male3_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "随机医师",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/2",
+      "text": "随机医师"
+    },
+    "Gender": 1,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/2",
+      "text": "一名奶妈路人甲…"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 1,
+    "RoleClass": "医师",
+    "RoleType": 1,
+    "Pic": "ai2_female_8",
+    "SkillList": [
+      {
+        "Id": "基础棍法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 4,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通棍",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "普通中甲",
+        "AffixFormula": "#(0-1)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [],
+    "ModelId": "女_橘长发1粉袍3",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female3_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female3_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female3_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female3_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female3_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female3_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female3_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female3_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female3_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female3_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female3_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female3_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female3_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female3_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female3_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female3_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "随机刺客",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/3",
+      "text": "随机刺客"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/3",
+      "text": "一名刺客路人甲…"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 1,
+    "RoleClass": "刺客",
+    "RoleType": 1,
+    "Pic": "ai2_male_27",
+    "SkillList": [
+      {
+        "Id": "基础刀法",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通刀",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "普通轻甲",
+        "AffixFormula": "#(0-1)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [],
+    "ModelId": "男_棕发6灰白衣10",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "随机侠士",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/4",
+      "text": "随机侠士"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/4",
+      "text": "一名侠士路人甲…"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 1,
+    "RoleClass": "侠士",
+    "RoleType": 1,
+    "Pic": "ai2_male_28",
+    "SkillList": [
+      {
+        "Id": "基础剑法",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通剑",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "普通中甲",
+        "AffixFormula": "#(0-1)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [],
+    "ModelId": "男_棕发4棕衣5",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "随机游侠",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/5",
+      "text": "随机游侠"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/5",
+      "text": "一名射箭的路人甲…"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 1,
+    "RoleClass": "游侠",
+    "RoleType": 1,
+    "Pic": "ai2_male_30",
+    "SkillList": [
+      {
+        "Id": "基础弓法",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通弓",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "普通轻甲",
+        "AffixFormula": "#(0-1)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [],
+    "ModelId": "男_黑发6黑衣12",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "豪猪长垄弟子",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/6",
+      "text": "豪猪长垄弟子"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/6",
+      "text": "豪猪长垄弟子1号酱油"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 1,
+    "RoleClass": "铁卫",
+    "RoleType": 1,
+    "Pic": "pawn_HaoZhuChangLong_male_1",
+    "SkillList": [
+      {
+        "Id": "基础拳法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通重甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [],
+    "ModelId": "山贼1",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male3_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male3_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male3_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male3_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male3_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male3_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male3_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male3_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male3_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male3_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male3_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male3_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male3_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male3_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male3_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male3_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "豪猪长垄弟子二",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/7",
+      "text": "豪猪长垄弟子二"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/7",
+      "text": "豪猪长垄弟子2号酱油"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "铁卫",
+    "RoleType": 1,
+    "Pic": "pawn_HaoZhuChangLong_male_2",
+    "SkillList": [
+      {
+        "Id": "基础拳法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通手套",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "普通重甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [
+      "1_3"
+    ],
+    "ModelId": "山贼1",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "豪猪长垄弟子三",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/8",
+      "text": "豪猪长垄弟子三"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/8",
+      "text": "豪猪长垄弟子3号酱油"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 1,
+    "RoleClass": "游侠",
+    "RoleType": 1,
+    "Pic": "pawn_HaoZhuChangLong_male_3",
+    "SkillList": [],
+    "EquipmentList": [],
+    "Affixes": [],
+    "InitialTalents": [],
+    "ModelId": "山贼1",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "豪猪弓箭手",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/9",
+      "text": "豪猪射手"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/9",
+      "text": "豪猪长垄打猎的人"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "游侠",
+    "RoleType": 1,
+    "Pic": "pawn_HaoZhuChangLong_male_2",
+    "SkillList": [
+      {
+        "Id": "基础弓法",
+        "Level": 4,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通弓",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "普通轻甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [
+      "荆棘者"
+    ],
+    "InitialTalents": [
+      "1_3"
+    ],
+    "ModelId": "山贼1",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "豪猪弓箭手_精",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/10",
+      "text": "豪猪狩猎者"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/10",
+      "text": "豪猪长垄射箭很猛的人"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "游侠",
+    "RoleType": 1,
+    "Pic": "pawn_HaoZhuChangLong_male_2",
+    "SkillList": [
+      {
+        "Id": "涟漪箭法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通弓",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "普通轻甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [
+      "1_3"
+    ],
+    "ModelId": "山贼1",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "豪猪土匪",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/11",
+      "text": "豪猪土匪"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/11",
+      "text": "豪猪长垄土匪"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "侠士",
+    "RoleType": 1,
+    "Pic": "pawn_HaoZhuChangLong_male_3",
+    "SkillList": [
+      {
+        "Id": "杀猪刀法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 4,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 4,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通刀",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "普通中甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [
+      "放血者"
+    ],
+    "InitialTalents": [
+      "1_1"
+    ],
+    "ModelId": "山贼1",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male3_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male3_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male3_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male3_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male3_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male3_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male3_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male3_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male3_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male3_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male3_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male3_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male3_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male3_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male3_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male3_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "豪猪刺客",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/12",
+      "text": "豪猪刺客"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/12",
+      "text": "豪猪长垄的杀手"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "刺客",
+    "RoleType": 1,
+    "Pic": "pawn_HaoZhuChangLong_male_1",
+    "SkillList": [
+      {
+        "Id": "基础刀法",
+        "Level": 7,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 7,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通刀",
+        "AffixFormula": "刀1_精良B"
+      },
+      {
+        "Id": "普通轻甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [
+      "觅血者"
+    ],
+    "InitialTalents": [
+      "1_1"
+    ],
+    "ModelId": "山贼1",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "被玩坏的女子",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/13",
+      "text": "屈服淫威的女子"
+    },
+    "Gender": 1,
+    "RoleGenType": 1,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/13",
+      "text": "屈服于豪猪长垄的女子"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "医师",
+    "RoleType": 1,
+    "Pic": "ai2_female_16",
+    "SkillList": [
+      {
+        "Id": "基础拳法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "回春决_弱",
+        "Level": 5,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通手套",
+        "AffixFormula": "拳套1_普通C"
+      },
+      {
+        "Id": "普通中甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [
+      "娇艳欲滴"
+    ],
+    "InitialTalents": [
+      "1_1"
+    ],
+    "ModelId": "女_深粉发2红袍4",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "豪猪堂主",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/14",
+      "text": "豪猪堂主"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/14",
+      "text": "豪猪长垄的土匪头子"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "铁卫",
+    "RoleType": 1,
+    "Pic": "pawn_HaoZhuChangLong_male_1",
+    "SkillList": [
+      {
+        "Id": "基础刀法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "草木枯元功",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通刀",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "普通重甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [
+      "血之报偿"
+    ],
+    "InitialTalents": [
+      "1_1"
+    ],
+    "ModelId": "山贼1",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "豪猪弓箭手_模板",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/15",
+      "text": "豪猪射手"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/15",
+      "text": "豪猪长垄射箭很猛的人"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "游侠",
+    "RoleType": 1,
+    "Pic": "pawn_HaoZhuChangLong_male_2",
+    "SkillList": [
+      {
+        "Id": "基础弓法",
+        "Level": 4,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通弓",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "普通轻甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [
+      "荆棘者"
+    ],
+    "InitialTalents": [
+      "1_3"
+    ],
+    "ModelId": "男_灰长发6灰衣7",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "豪猪土匪_模板",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/16",
+      "text": "豪猪土匪"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/16",
+      "text": "洗心革面的豪猪长垄土匪"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "侠士",
+    "RoleType": 1,
+    "Pic": "pawn_HaoZhuChangLong_male_3",
+    "SkillList": [
+      {
+        "Id": "杀猪刀法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 4,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 4,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通刀",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "普通中甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [
+      "放血者"
+    ],
+    "InitialTalents": [
+      "1_1"
+    ],
+    "ModelId": "男_黑长发4蓝衣12",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male3_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male3_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male3_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male3_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male3_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male3_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male3_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male3_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male3_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male3_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male3_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male3_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male3_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male3_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male3_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male3_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "豪猪刺客_模板",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/17",
+      "text": "豪猪刺客"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/17",
+      "text": "洗心革面的豪猪长垄杀手"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "刺客",
+    "RoleType": 1,
+    "Pic": "pawn_HaoZhuChangLong_male_1",
+    "SkillList": [
+      {
+        "Id": "基础刀法",
+        "Level": 7,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 7,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通刀",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "普通轻甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [
+      "觅血者"
+    ],
+    "InitialTalents": [
+      "1_1"
+    ],
+    "ModelId": "男_紫发1灰衣9",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "被解救的女子_模板",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/18",
+      "text": "被解救的女子"
+    },
+    "Gender": 1,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/18",
+      "text": "从豪猪长垄解救出来的失足妇女"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "医师",
+    "RoleType": 1,
+    "Pic": "ai2_female_16",
+    "SkillList": [
+      {
+        "Id": "基础拳法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "回春决_弱",
+        "Level": 5,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通手套",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "普通中甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [
+      "娇艳欲滴"
+    ],
+    "InitialTalents": [
+      "1_1"
+    ],
+    "ModelId": "女_深粉发2红袍4",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "豪猪堂主_模板",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/19",
+      "text": "豪猪堂主"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/19",
+      "text": "洗心革面的豪猪长垄土匪头子"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "铁卫",
+    "RoleType": 1,
+    "Pic": "pawn_HaoZhuChangLong_male_1",
+    "SkillList": [
+      {
+        "Id": "基础刀法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通刀",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "普通重甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [
+      "血之报偿"
+    ],
+    "InitialTalents": [
+      "1_1"
+    ],
+    "ModelId": "男_棕发4棕衣5",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "龙湾突袭者",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/20",
+      "text": "龙湾暗哨"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/20",
+      "text": "龙湾门的杀手"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "刺客",
+    "RoleType": 1,
+    "Pic": "pawn_LongWanMen_male_2",
+    "SkillList": [
+      {
+        "Id": "基础拳法",
+        "Level": 9,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "潜龙心法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "蚑龙爪",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "龙蛇袍",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "精良手镯",
+        "AffixFormula": "#(0-1)"
+      }
+    ],
+    "Affixes": [
+      "伺机待发"
+    ],
+    "InitialTalents": [
+      "4_1"
+    ],
+    "ModelId": "男_褐长发6黄衣5",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "龙湾门下人",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/21",
+      "text": "龙湾门下人"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/21",
+      "text": "龙湾门下人"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "铁卫",
+    "RoleType": 1,
+    "Pic": "pawn_LongWanMen_male_1",
+    "SkillList": [
+      {
+        "Id": "基础棍法",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "潜龙心法",
+        "Level": 7,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通棍",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "龙蛇袍",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "精良戒指",
+        "AffixFormula": "#(0-1)"
+      }
+    ],
+    "Affixes": [
+      "闪转挪腾"
+    ],
+    "InitialTalents": [
+      "1_1"
+    ],
+    "ModelId": "男_黑长发4蓝衣12",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "龙湾舞女",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/22",
+      "text": "龙湾舞女"
+    },
+    "Gender": 1,
+    "RoleGenType": 1,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/22",
+      "text": "龙湾门擅长跳舞的女子"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "侠士",
+    "RoleType": 1,
+    "Pic": "pawn_LongWanMen_female_3",
+    "SkillList": [
+      {
+        "Id": "水蛇剑法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "潜龙心法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 8,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "蟠蛇剑",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "龙蛇袍",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "水龙戒",
+        "AffixFormula": "#(0-1)"
+      }
+    ],
+    "Affixes": [
+      "机不可失"
+    ],
+    "InitialTalents": [
+      "2_1"
+    ],
+    "ModelId": "女_黑发2蓝袍4",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female3_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female3_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female3_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female3_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female3_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female3_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female3_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female3_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female3_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female3_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female3_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female3_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female3_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female3_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female3_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female3_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "龙湾重弓手",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/23",
+      "text": "龙湾重弓手"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/23",
+      "text": "龙湾门的用弓熟手"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "游侠",
+    "RoleType": 1,
+    "Pic": "pawn_LongWanMen_male_3",
+    "SkillList": [
+      {
+        "Id": "基础弓法",
+        "Level": 8,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "潜龙心法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 7,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "蝮蛇弓",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "龙蛇袍",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "精良手镯",
+        "AffixFormula": "#(0-1)"
+      }
+    ],
+    "Affixes": [
+      "前有依仗"
+    ],
+    "InitialTalents": [
+      "4_2"
+    ],
+    "ModelId": "男_紫发1灰衣9",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "龙湾大厨",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/24",
+      "text": "龙湾大厨"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/24",
+      "text": "龙湾门厨师"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "医师",
+    "RoleType": 1,
+    "Pic": "pawn_LongWanMen_male_1",
+    "SkillList": [
+      {
+        "Id": "烧火棍法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "从龙秘术",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 5,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "精良棍",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "龙蛇袍",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "精良护腕",
+        "AffixFormula": "#(0-1)"
+      }
+    ],
+    "Affixes": [
+      "奉献者"
+    ],
+    "InitialTalents": [
+      "1_2"
+    ],
+    "ModelId": "男_棕发1白衣6",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male3_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male3_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male3_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male3_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male3_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male3_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male3_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male3_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male3_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male3_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male3_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male3_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male3_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male3_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male3_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male3_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "龙湾突袭者_模板",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/25",
+      "text": "龙湾暗哨"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/25",
+      "text": "归顺的龙湾门杀手"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "刺客",
+    "RoleType": 1,
+    "Pic": "pawn_LongWanMen_male_2",
+    "SkillList": [
+      {
+        "Id": "基础拳法",
+        "Level": 7,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "潜龙心法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 7,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通爪",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "普通轻甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [
+      "伺机待发"
+    ],
+    "InitialTalents": [
+      "4_1"
+    ],
+    "ModelId": "男_褐长发6黄衣5",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "龙湾门下人_模板",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/26",
+      "text": "龙湾门下人"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/26",
+      "text": "归顺的龙湾门下人"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "铁卫",
+    "RoleType": 1,
+    "Pic": "pawn_LongWanMen_male_1",
+    "SkillList": [
+      {
+        "Id": "基础棍法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "潜龙心法",
+        "Level": 4,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通棍",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "普通重甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [
+      "闪转挪腾"
+    ],
+    "InitialTalents": [
+      "1_1"
+    ],
+    "ModelId": "男_黑长发4蓝衣12",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "龙湾舞女_模板",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/27",
+      "text": "龙湾舞女"
+    },
+    "Gender": 1,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/27",
+      "text": "归顺的龙湾门舞女"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "侠士",
+    "RoleType": 1,
+    "Pic": "pawn_LongWanMen_female_3",
+    "SkillList": [
+      {
+        "Id": "基础剑法",
+        "Level": 6,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "潜龙心法",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 4,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通剑",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "普通中甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [
+      "机不可失"
+    ],
+    "InitialTalents": [
+      "2_1"
+    ],
+    "ModelId": "女_黑发2蓝袍4",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female3_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female3_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female3_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female3_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female3_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female3_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female3_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female3_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female3_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female3_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female3_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female3_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female3_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female3_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female3_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female3_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "龙湾重弓手_模板",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/28",
+      "text": "龙湾重弓手"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/28",
+      "text": "归顺的龙湾门用弓熟手"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "游侠",
+    "RoleType": 1,
+    "Pic": "pawn_LongWanMen_male_3",
+    "SkillList": [
+      {
+        "Id": "基础弓法",
+        "Level": 6,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "潜龙心法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通弓",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "普通轻甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [
+      "前有依仗"
+    ],
+    "InitialTalents": [
+      "4_2"
+    ],
+    "ModelId": "男_紫发1灰衣9",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "龙湾大厨_模板",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/29",
+      "text": "龙湾大厨"
+    },
+    "Gender": 0,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/29",
+      "text": "归顺的龙湾门厨师"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "医师",
+    "RoleType": 1,
+    "Pic": "pawn_LongWanMen_male_1",
+    "SkillList": [
+      {
+        "Id": "基础棍法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "从龙秘术",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通棍",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "普通中甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [
+      "奉献者"
+    ],
+    "InitialTalents": [
+      "1_2"
+    ],
+    "ModelId": "男_棕发1白衣6",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male3_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male3_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male3_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male3_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male3_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male3_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male3_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male3_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male3_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male3_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male3_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male3_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male3_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male3_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male3_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male3_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "万雀溪谷风水师",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/30",
+      "text": "万雀溪谷风水师"
+    },
+    "Gender": 1,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/30",
+      "text": "万雀溪谷测风水的大师"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 12,
+    "RoleClass": "侠士",
+    "RoleType": 1,
+    "Pic": "pawn_WanQueXiGu_female_3",
+    "SkillList": [
+      {
+        "Id": "基础棍法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "精良棍",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有重甲",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有护腕",
+        "AffixFormula": "#(1-2)"
+      }
+    ],
+    "Affixes": [
+      "风水师"
+    ],
+    "InitialTalents": [
+      "1_3",
+      "2_1"
+    ],
+    "ModelId": "女_橘长发1粉袍3",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "万雀溪谷侍女",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/31",
+      "text": "万雀溪谷侍女"
+    },
+    "Gender": 1,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/31",
+      "text": "万雀溪谷服侍谷主的妙龄少女"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 12,
+    "RoleClass": "铁卫",
+    "RoleType": 1,
+    "Pic": "pawn_WanQueXiGu_female_1",
+    "SkillList": [
+      {
+        "Id": "基础棍法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "阴阳护体功",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "精良棍",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有轻甲",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有手镯",
+        "AffixFormula": "#(1-2)"
+      }
+    ],
+    "Affixes": [
+      "服侍主人"
+    ],
+    "InitialTalents": [
+      "1_2",
+      "2_1"
+    ],
+    "ModelId": "女_深粉发2红袍4",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "万雀溪谷祭司",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/32",
+      "text": "万雀溪谷祭司"
+    },
+    "Gender": 1,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/32",
+      "text": "万雀溪谷当神棍的人才"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 12,
+    "RoleClass": "医师",
+    "RoleType": 1,
+    "Pic": "pawn_WanQueXiGu_female_2",
+    "SkillList": [
+      {
+        "Id": "基础棍法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "回春决",
+        "Level": 7,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "精良棍",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有中甲",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有戒指",
+        "AffixFormula": "#(1-2)"
+      }
+    ],
+    "Affixes": [
+      "唤雷"
+    ],
+    "InitialTalents": [
+      "1_2",
+      "2_2"
+    ],
+    "ModelId": "女_黑发2蓝袍4",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "万雀溪谷温泉师",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/33",
+      "text": "万雀溪谷温泉师"
+    },
+    "Gender": 1,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/33",
+      "text": "万雀溪谷修温泉的人才"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 12,
+    "RoleClass": "医师",
+    "RoleType": 1,
+    "Pic": "pawn_WanQueXiGu_female_1",
+    "SkillList": [
+      {
+        "Id": "基础棍法",
+        "Level": 5,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "回春决",
+        "Level": 7,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "精良棍",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有重甲",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有护腕",
+        "AffixFormula": "#(1-2)"
+      }
+    ],
+    "Affixes": [
+      "温泉师"
+    ],
+    "InitialTalents": [
+      "1_3",
+      "2_1"
+    ],
+    "ModelId": "女_橘长发1粉袍3",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female3_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female3_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female3_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female3_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female3_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female3_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female3_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female3_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female3_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female3_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female3_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female3_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female3_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female3_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female3_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female3_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "万雀溪谷秘阵师",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/34",
+      "text": "万雀溪谷秘阵师"
+    },
+    "Gender": 1,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/34",
+      "text": "万雀溪谷摆阵法的人才"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 12,
+    "RoleClass": "铁卫",
+    "RoleType": 1,
+    "Pic": "pawn_WanQueXiGu_female_2",
+    "SkillList": [
+      {
+        "Id": "八卦棍法",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "精良棍",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有重甲",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有护腕",
+        "AffixFormula": "#(1-2)"
+      }
+    ],
+    "Affixes": [
+      "阵法师"
+    ],
+    "InitialTalents": [
+      "1_3",
+      "2_1"
+    ],
+    "ModelId": "女_深粉发2红袍4",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female3_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female3_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female3_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female3_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female3_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female3_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female3_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female3_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female3_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female3_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female3_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female3_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female3_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female3_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female3_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female3_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "万雀溪谷风水师_模板",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/35",
+      "text": "万雀溪谷风水师"
+    },
+    "Gender": 1,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/35",
+      "text": "归顺的万雀溪谷风水师"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 12,
+    "RoleClass": "侠士",
+    "RoleType": 1,
+    "Pic": "pawn_WanQueXiGu_female_3",
+    "SkillList": [
+      {
+        "Id": "基础棍法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "精良棍",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有重甲",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有护腕",
+        "AffixFormula": "#(1-2)"
+      }
+    ],
+    "Affixes": [
+      "风水师"
+    ],
+    "InitialTalents": [
+      "1_3",
+      "2_1"
+    ],
+    "ModelId": "女_橘长发1粉袍3",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "万雀溪谷侍女_模板",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/36",
+      "text": "万雀溪谷侍女"
+    },
+    "Gender": 1,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/36",
+      "text": "归顺的万雀溪谷侍女"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 12,
+    "RoleClass": "铁卫",
+    "RoleType": 1,
+    "Pic": "pawn_WanQueXiGu_female_1",
+    "SkillList": [
+      {
+        "Id": "基础棍法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "阴阳护体功",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "精良棍",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有轻甲",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有手镯",
+        "AffixFormula": "#(1-2)"
+      }
+    ],
+    "Affixes": [
+      "服侍主人"
+    ],
+    "InitialTalents": [
+      "1_2",
+      "2_1"
+    ],
+    "ModelId": "女_深粉发2红袍4",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "万雀溪谷祭司_模板",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/37",
+      "text": "万雀溪谷祭司"
+    },
+    "Gender": 1,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/37",
+      "text": "归顺的万雀溪谷祭司"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 12,
+    "RoleClass": "医师",
+    "RoleType": 1,
+    "Pic": "pawn_WanQueXiGu_female_2",
+    "SkillList": [
+      {
+        "Id": "基础棍法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "回春决",
+        "Level": 7,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "精良棍",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有中甲",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有戒指",
+        "AffixFormula": "#(1-2)"
+      }
+    ],
+    "Affixes": [
+      "唤雷"
+    ],
+    "InitialTalents": [
+      "1_2",
+      "2_2"
+    ],
+    "ModelId": "女_黑发2蓝袍4",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "万雀溪谷温泉师_模板",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/38",
+      "text": "万雀溪谷温泉师"
+    },
+    "Gender": 1,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/38",
+      "text": "归顺的万雀溪谷温泉师"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 12,
+    "RoleClass": "医师",
+    "RoleType": 1,
+    "Pic": "pawn_WanQueXiGu_female_1",
+    "SkillList": [
+      {
+        "Id": "基础棍法",
+        "Level": 5,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "回春决",
+        "Level": 7,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "精良棍",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有重甲",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有护腕",
+        "AffixFormula": "#(1-2)"
+      }
+    ],
+    "Affixes": [
+      "温泉师"
+    ],
+    "InitialTalents": [
+      "1_3",
+      "2_1"
+    ],
+    "ModelId": "女_橘长发1粉袍3",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female3_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female3_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female3_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female3_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female3_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female3_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female3_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female3_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female3_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female3_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female3_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female3_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female3_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female3_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female3_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female3_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "万雀溪谷秘阵师_模板",
+    "Name": {
+      "key": "i18/role/menpai_npc/name/39",
+      "text": "万雀溪谷秘阵师"
+    },
+    "Gender": 1,
+    "RoleGenType": 1,
+    "IsRandomGen": true,
+    "Story": {
+      "key": "i18/role/menpai_npc/story/39",
+      "text": "归顺的万雀溪谷秘阵师"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 12,
+    "RoleClass": "铁卫",
+    "RoleType": 1,
+    "Pic": "pawn_WanQueXiGu_female_2",
+    "SkillList": [
+      {
+        "Id": "八卦棍法",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "精良棍",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有重甲",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有护腕",
+        "AffixFormula": "#(1-2)"
+      }
+    ],
+    "Affixes": [
+      "阵法师"
+    ],
+    "InitialTalents": [
+      "1_3",
+      "2_1"
+    ],
+    "ModelId": "女_深粉发2红袍4",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female3_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female3_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female3_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female3_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female3_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female3_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female3_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female3_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female3_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female3_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female3_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female3_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female3_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female3_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female3_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female3_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "梁胜_新手关",
+    "Name": {
+      "key": "i18/role/grunt/name/1",
+      "text": "梁胜"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/grunt/story/1",
+      "text": "梁胜的弱化版"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 1,
+    "RoleClass": "铁卫",
+    "RoleType": 2,
+    "Pic": "hero_LiangSheng",
+    "SkillList": [
+      {
+        "Id": "基础拳法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [],
+    "Affixes": [
+      "一成功力"
+    ],
+    "InitialTalents": [],
+    "ModelId": "男_褐长发6黄衣5",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "潘麻子_新手关",
+    "Name": {
+      "key": "i18/role/grunt/name/2",
+      "text": "潘麻子"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/grunt/story/2",
+      "text": "潘麻子的弱化版"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 1,
+    "RoleClass": "刺客",
+    "RoleType": 2,
+    "Pic": "hero_PanMaZi",
+    "SkillList": [
+      {
+        "Id": "基础刀法",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 5,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "夜影身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [],
+    "Affixes": [
+      "一成功力"
+    ],
+    "InitialTalents": [],
+    "ModelId": "潘麻子",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "豪猪堂主_新手关",
+    "Name": {
+      "key": "i18/role/grunt/name/3",
+      "text": "豪猪堂主"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/grunt/story/3",
+      "text": "豪猪长垄的堂主"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 1,
+    "RoleClass": "铁卫",
+    "RoleType": 1,
+    "Pic": "pawn_HaoZhuChangLong_male_1",
+    "SkillList": [
+      {
+        "Id": "基础刀法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 7,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [],
+    "Affixes": [
+      "一成功力"
+    ],
+    "InitialTalents": [],
+    "ModelId": "山贼1",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "豪猪土匪_新手关",
+    "Name": {
+      "key": "i18/role/grunt/name/4",
+      "text": "豪猪土匪"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/grunt/story/4",
+      "text": "豪猪长垄的杂兵土匪"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 1,
+    "RoleClass": "侠士",
+    "RoleType": 1,
+    "Pic": "pawn_HaoZhuChangLong_male_3",
+    "SkillList": [
+      {
+        "Id": "基础刀法",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 4,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [],
+    "Affixes": [
+      "一成功力"
+    ],
+    "InitialTalents": [],
+    "ModelId": "山贼1",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male3_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male3_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male3_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male3_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male3_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male3_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male3_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male3_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male3_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male3_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male3_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male3_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male3_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male3_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male3_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male3_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "豪猪弓箭手_新手关",
+    "Name": {
+      "key": "i18/role/grunt/name/5",
+      "text": "豪猪射手"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/grunt/story/5",
+      "text": "豪猪长垄的猎手"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 1,
+    "RoleClass": "游侠",
+    "RoleType": 1,
+    "Pic": "pawn_HaoZhuChangLong_male_2",
+    "SkillList": [
+      {
+        "Id": "基础弓法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [],
+    "Affixes": [
+      "一成功力"
+    ],
+    "InitialTalents": [],
+    "ModelId": "山贼1",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "司徒来也_控制",
+    "Name": {
+      "key": "i18/role/grunt/name/6",
+      "text": "司徒来也"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/grunt/story/6",
+      "text": "被血魔控制的主角"
+    },
+    "MaxRoundBattleCount": 2,
+    "Level": 30,
+    "RoleClass": "侠士",
+    "RoleType": 0,
+    "Pic": "hero_SiTuLaiYe",
+    "SkillList": [
+      {
+        "Id": "血魔刀法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "血河大法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "少林身法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "稀有刀",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "稀有中甲",
+        "AffixFormula": "#(4-4)"
+      },
+      {
+        "Id": "稀有护腕",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [
+      "气海浩荡",
+      "乘胜追击",
+      "血气旺盛"
+    ],
+    "InitialTalents": [],
+    "ModelId": "司徒来也",
+    "ActionTemplate": "自己",
+    "PrisonActionTemplate": "",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "司徒来也_心魔",
+    "Name": {
+      "key": "i18/role/grunt/name/7",
+      "text": "司徒来也"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/grunt/story/7",
+      "text": "被心魔控制的主角"
+    },
+    "MaxRoundBattleCount": 2,
+    "Level": 2,
+    "RoleClass": "侠士",
+    "RoleType": 0,
+    "Pic": "hero_SiTuLaiYe",
+    "SkillList": [
+      {
+        "Id": "虎焰刀法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [],
+    "Affixes": [
+      "身负血仇",
+      "走火入魔"
+    ],
+    "InitialTalents": [],
+    "ModelId": "司徒来也",
+    "ActionTemplate": "自己",
+    "PrisonActionTemplate": "",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "鲸_残影",
+    "Name": {
+      "key": "i18/role/grunt/name/8",
+      "text": "强壮的黑衣人"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/grunt/story/8",
+      "text": "鲸的残影"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 10,
+    "RoleClass": "铁卫",
+    "RoleType": 2,
+    "Pic": "hero_Jing",
+    "SkillList": [
+      {
+        "Id": "血戮刀法",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "龟岩气功",
+        "Level": 10,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "夜影身法",
+        "Level": 8,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "绝命刀",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "稀有重甲",
+        "AffixFormula": "#(1-2)"
+      },
+      {
+        "Id": "流血刺戒",
+        "AffixFormula": "#(1-1)"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [
+      "1_2",
+      "2_1",
+      "3_1"
+    ],
+    "ModelId": "鲸",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "屈服的女子",
+    "Name": {
+      "key": "i18/role/grunt/name/13",
+      "text": "屈服的女子"
+    },
+    "Gender": 1,
+    "RoleGenType": 1,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/grunt/story/13",
+      "text": "被豪猪长垄玷污后失去自我的女子"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "医师",
+    "RoleType": 1,
+    "Pic": "ai2_female_16",
+    "SkillList": [
+      {
+        "Id": "基础棍法",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "回春决",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通棍",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "普通中甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [],
+    "InitialTalents": [],
+    "ModelId": "女_深粉发2红袍4",
+    "ActionTemplate": "Template",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female2_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female2_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female2_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female2_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female2_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female2_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female2_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female2_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female2_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female2_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female2_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female2_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female2_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female2_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female2_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female2_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "愤怒的农妇",
+    "Name": {
+      "key": "i18/role/grunt/name/14",
+      "text": "愤怒的农妇"
+    },
+    "Gender": 1,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/grunt/story/14",
+      "text": "饱受豪猪长垄欺压的农妇"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "医师",
+    "RoleType": 1,
+    "Pic": "pawn_CunMing_female_2",
+    "SkillList": [
+      {
+        "Id": "基础棍法",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "回春决_弱",
+        "Level": 5,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通棍",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "普通中甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [
+      "气海浩荡"
+    ],
+    "InitialTalents": [
+      "1_2",
+      "4_1"
+    ],
+    "ModelId": "女_黑发1紫衣6",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Female1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Female1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Female1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Female1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Female1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Female1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Female1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Female1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Female1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Female1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Female1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Female1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Female1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Female1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Female1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Female1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "愤怒的农夫",
+    "Name": {
+      "key": "i18/role/grunt/name/15",
+      "text": "愤怒的农夫"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/grunt/story/15",
+      "text": "饱受豪猪长垄欺压的农夫"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "铁卫",
+    "RoleType": 1,
+    "Pic": "pawn_CunMing_male_3",
+    "SkillList": [
+      {
+        "Id": "基础拳法",
+        "Level": 2,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 7,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通手套",
+        "AffixFormula": "无"
+      },
+      {
+        "Id": "普通重甲",
+        "AffixFormula": "无"
+      }
+    ],
+    "Affixes": [
+      "坚如磐石",
+      "罡气护体"
+    ],
+    "InitialTalents": [
+      "1_2"
+    ],
+    "ModelId": "男_棕发2棕衣5",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": [
+      {
+        "VoiceId": "攻击1",
+        "VoiceAssetPath": "Voice/Male1_Attack_1.wav"
+      },
+      {
+        "VoiceId": "攻击2",
+        "VoiceAssetPath": "Voice/Male1_Attack_2.wav"
+      },
+      {
+        "VoiceId": "攻击3",
+        "VoiceAssetPath": "Voice/Male1_Attack_3.wav"
+      },
+      {
+        "VoiceId": "攻击4",
+        "VoiceAssetPath": "Voice/Male1_Attack_4.wav"
+      },
+      {
+        "VoiceId": "呐喊1",
+        "VoiceAssetPath": "Voice/Male1_Shout_1.wav"
+      },
+      {
+        "VoiceId": "呐喊2",
+        "VoiceAssetPath": "Voice/Male1_Shout_2.wav"
+      },
+      {
+        "VoiceId": "受伤1",
+        "VoiceAssetPath": "Voice/Male1_Hurt_1.wav"
+      },
+      {
+        "VoiceId": "受伤2",
+        "VoiceAssetPath": "Voice/Male1_Hurt_2.wav"
+      },
+      {
+        "VoiceId": "死亡1",
+        "VoiceAssetPath": "Voice/Male1_Death_1.wav"
+      },
+      {
+        "VoiceId": "死亡2",
+        "VoiceAssetPath": "Voice/Male1_Death_2.wav"
+      },
+      {
+        "VoiceId": "叹息1",
+        "VoiceAssetPath": "Voice/Male1_Sigh_1.wav"
+      },
+      {
+        "VoiceId": "叹息2",
+        "VoiceAssetPath": "Voice/Male1_Sigh_2.wav"
+      },
+      {
+        "VoiceId": "大笑1",
+        "VoiceAssetPath": "Voice/Male1_Laugh_1.wav"
+      },
+      {
+        "VoiceId": "大笑2",
+        "VoiceAssetPath": "Voice/Male1_Laugh_2.wav"
+      },
+      {
+        "VoiceId": "呻吟1",
+        "VoiceAssetPath": "Voice/Male1_Groan_1.wav"
+      },
+      {
+        "VoiceId": "呻吟2",
+        "VoiceAssetPath": "Voice/Male1_Groan_2.wav"
+      }
+    ]
+  },
+  {
+    "Id": "测试木桩",
+    "Name": {
+      "key": "i18/role/grunt/name/16",
+      "text": "测试木桩"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/grunt/story/16",
+      "text": "开发者测试用的木桩角色，往死里揍不用留手"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 1,
+    "RoleClass": "木桩",
+    "RoleType": 1,
+    "Pic": "hero_HeMeng",
+    "SkillList": [
+      {
+        "Id": "基础拳法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [],
+    "Affixes": [
+      "木头人"
+    ],
+    "InitialTalents": [],
+    "ModelId": "男_占位",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": []
+  },
+  {
+    "Id": "石像战士",
+    "Name": {
+      "key": "i18/role/grunt/name/17",
+      "text": "熊"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/grunt/story/17",
+      "text": "行走的石像怪物"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "铁卫",
+    "RoleType": 1,
+    "Pic": "anim_Xiong",
+    "SkillList": [
+      {
+        "Id": "基础拳法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [],
+    "Affixes": [],
+    "InitialTalents": [
+      "1_2",
+      "2_1"
+    ],
+    "ModelId": "熊",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": []
+  },
+  {
+    "Id": "骨兵",
+    "Name": {
+      "key": "i18/role/grunt/name/18",
+      "text": "熊"
+    },
+    "Gender": 0,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/grunt/story/18",
+      "text": "骷髅兵"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 3,
+    "RoleClass": "铁卫",
+    "RoleType": 1,
+    "Pic": "anim_Xiong",
+    "SkillList": [
+      {
+        "Id": "基础拳法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础内功",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [],
+    "Affixes": [],
+    "InitialTalents": [
+      "1_2",
+      "2_1"
+    ],
+    "ModelId": "熊",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": []
+  },
+  {
+    "Id": "朱鹮儿_初识",
+    "Name": {
+      "key": "i18/role/grunt/name/19",
+      "text": "背弓少女"
+    },
+    "Gender": 1,
+    "RoleGenType": 0,
+    "IsRandomGen": false,
+    "Story": {
+      "key": "i18/role/main/story/6",
+      "text": "女，十九岁，因旱灾流离至虎焰山一带的农家少女。虽不算绝色佳人，但灵气十足，略带野性，瓜子小脸蛋，睫毛长密，双眸灵动，皮肤不是特别白。"
+    },
+    "MaxRoundBattleCount": 1,
+    "Level": 8,
+    "RoleClass": "游侠",
+    "RoleType": 2,
+    "Pic": "hero_ZhuHuanEr",
+    "SkillList": [
+      {
+        "Id": "朱鹮箭语",
+        "Level": 3,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "朱雀灵焰诀",
+        "Level": 5,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      },
+      {
+        "Id": "基础身法",
+        "Level": 1,
+        "MaxLevel": 10,
+        "IsEquipped": true
+      }
+    ],
+    "EquipmentList": [
+      {
+        "Id": "普通弓",
+        "AffixFormula": "#(0-1)"
+      },
+      {
+        "Id": "普通轻甲",
+        "AffixFormula": "#(0-1)"
+      }
+    ],
+    "Affixes": [
+      "心比天高"
+    ],
+    "InitialTalents": [],
+    "ModelId": "朱鹮儿",
+    "ActionTemplate": "Disciple",
+    "PrisonActionTemplate": "Prisoner",
+    "RoleVoices": []
+  }
+]

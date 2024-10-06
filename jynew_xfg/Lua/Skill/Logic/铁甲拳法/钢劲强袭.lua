@@ -1,0 +1,1 @@
+return passive_define("钢劲强袭", "钢劲强袭")

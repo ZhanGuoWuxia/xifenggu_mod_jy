@@ -1,0 +1,51 @@
+<module name="Backend.Beans">
+	<enum name="BattleRoleSourceType" comment="战斗角色来源类型">
+		<var name="Runtime" alias="实时" value="1" />
+		<var name="Temp" alias="临时" value="2" />
+	</enum>
+
+	<bean name="BattleRolePresetData" comment="战斗配置预设上场角色" sep=",">
+		<var name="RoleId" type="string" comment="角色的BeanId"/>
+        <var name="Pos" type="int" comment="角色位置"/>
+        <var name="RoleSourceType" type="BattleRoleSourceType" comment="数据来源"/>
+	</bean>
+
+	<enum name="BattleEventNodeType" comment="战斗触发器事件节点类型">
+		<var name="OnRoundStart" alias="回合开始" value="1" />
+		<var name="OnRoundEnd" alias="回合结束" value="2" />
+		<var name="OnRoleBeforeDeath" alias="角色即将死亡" value="3" />
+		<var name="OnSkillAfterCoolDown" alias="技能完成冷却" value="4" />
+		<var name="OnSkillBeforeCast" alias="技能即将释放" value="5" />
+	</enum>
+
+	<bean name="BattleConditionBase" comment="战斗事件触发条件" sep=",">
+	</bean>
+
+	<bean name="BC_Round" alias="回合数" parent="BattleConditionBase">
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="Round" type="int" comment="比较回合数"/>
+	</bean>
+
+	<bean name="BC_RoleHealthPercent" alias="角色生命百分比" parent="BattleConditionBase">
+		<var name="RoleId" type="string" comment="角色表BeanId"/>
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="PercentToCompare" type="float" comment="百分比范围(0-1)"/>
+	</bean>
+
+	<bean name="BC_TriggerCount" alias="触发器已生效次数" parent="BattleConditionBase">
+		<var name="TriggerId" type="string" comment="战斗触发器Id"/>
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="CountToCompare" type="float" comment="比较次数"/>
+	</bean>
+
+	<bean name="BC_TriggerRole" alias="触发角色" parent="BattleConditionBase">
+		<var name="CheckType" type="AC_ExistCheckType"/>
+		<var name="RoleId" type="string" comment="角色唯一Id"/>
+	</bean>
+
+	<bean name="BC_TriggerSkill" alias="触发技能" parent="BattleConditionBase">
+		<var name="CheckType" type="AC_ExistCheckType"/>
+		<var name="SkillId" type="string" comment="技能唯一Id"/>
+	</bean>
+	
+</module>

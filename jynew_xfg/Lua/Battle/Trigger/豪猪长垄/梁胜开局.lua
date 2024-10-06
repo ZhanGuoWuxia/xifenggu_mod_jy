@@ -1,0 +1,1 @@
+tgr_api:tgr_bubble_text("梁胜", "敢在太岁头上动土，看我不宰了你！")

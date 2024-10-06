@@ -1,0 +1,33 @@
+show_stage("殿内.png", "??")
+light_scene(0.2)
+play_bgm("Music/密谋_夜郎.wav")
+
+local jing = actor("鲸")
+local yelang = actor("夜郎")
+
+--初始化位置和朝向
+dark_all_actors()
+jing:setOverrideName("??")
+jing:stylize("Silhouette")
+jing:setPos(700, 75)
+jing:face_right()
+yelang:setOverrideName("??")
+yelang:stylize("Silhouette")
+yelang:setPos(1100, 75)
+yelang:face_left()
+
+jing:say("大人，虎焰门把豪猪长垄灭掉了。")
+yelang:say("看来，(player:fname)那小子还有点能耐。")
+yelang:say("对于豪猪长垄的灭亡，你，没有丝毫感觉吗？")
+jing:say("当然。")
+yelang:say("没记错的话，那个地方，有你的亲弟弟吧。")
+jing:say("只是个不中用的废物而已。")
+yelang:say("桌上这杯酒是特意留给你的，喝了它吧。")
+jing:stylize()
+wait_twn(jing:offsetY(-100), jing:daze())
+jing:say("谢大人赏赐。")
+
+black_scene(0.25)
+hide_stage()
+set_flag("完成鲸登场")
+light_scene(0.25)

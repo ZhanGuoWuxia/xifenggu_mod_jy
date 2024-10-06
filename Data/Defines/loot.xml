@@ -1,0 +1,10 @@
+<module name="Backend.Beans">
+
+	<bean name="LootData" comment="掉落道具数据" sep="," >
+		<var name="ItemId" type="string" comment="比较类型"/>
+		<var name="Count" type="int" comment="数量"/>
+		<var name="Weight" type="int" comment="权重"/>
+		<var name="ItemParam" type="string" comment="附加参数"/>
+	</bean>
+
+</module>

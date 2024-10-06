@@ -1,0 +1,1 @@
+return passive_define("伏虎威压", "伏虎威压暴击修正")

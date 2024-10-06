@@ -1,0 +1,1 @@
+return passive_define("仇深血海", "仇深血海")

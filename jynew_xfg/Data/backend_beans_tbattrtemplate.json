@@ -1,0 +1,6825 @@
+[
+  {
+    "Id": "-1",
+    "AttrValues": []
+  },
+  {
+    "Id": "无",
+    "AttrValues": []
+  },
+  {
+    "Id": "jin",
+    "AttrValues": []
+  },
+  {
+    "Id": "mu",
+    "AttrValues": []
+  },
+  {
+    "Id": "shui",
+    "AttrValues": []
+  },
+  {
+    "Id": "huo",
+    "AttrValues": []
+  },
+  {
+    "Id": "tu",
+    "AttrValues": []
+  },
+  {
+    "Id": "铁卫",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_role_hp",
+        "Scale": 1.5,
+        "AttrId": "hp",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.4,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.3,
+        "AttrId": "int",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.5,
+        "AttrId": "ten",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 2.0,
+        "AttrId": "def",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.1,
+        "AttrId": "crt",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.2,
+        "AttrId": "spd",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "AttrValue": 1.0,
+        "AttrId": "mp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 1.0,
+        "AttrId": "sp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 200.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 10.0,
+        "AttrId": "拳法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 10.0,
+        "AttrId": "棍法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 5.0,
+        "AttrId": "刀法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 1.0,
+        "AttrId": "剑法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "射术资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 9.0,
+        "AttrId": "内功资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 4.0,
+        "AttrId": "轻功资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "侠士",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_role_hp",
+        "Scale": 1.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.9,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.7,
+        "AttrId": "int",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.2,
+        "AttrId": "ten",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 1.0,
+        "AttrId": "def",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.8,
+        "AttrId": "crt",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 1.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "AttrValue": 1.0,
+        "AttrId": "mp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 1.0,
+        "AttrId": "sp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 5.0,
+        "AttrId": "拳法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 5.0,
+        "AttrId": "棍法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 5.0,
+        "AttrId": "刀法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 5.0,
+        "AttrId": "剑法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 5.0,
+        "AttrId": "射术资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 5.0,
+        "AttrId": "内功资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 5.0,
+        "AttrId": "轻功资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "刺客",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_role_hp",
+        "Scale": 0.4,
+        "AttrId": "hp",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 1.5,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.1,
+        "AttrId": "int",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.2,
+        "AttrId": "def",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 1.5,
+        "AttrId": "crt",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 1.7,
+        "AttrId": "spd",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "AttrValue": 1.0,
+        "AttrId": "mp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 1.0,
+        "AttrId": "sp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 100.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 1.0,
+        "AttrId": "拳法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "棍法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 10.0,
+        "AttrId": "刀法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 10.0,
+        "AttrId": "剑法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 4.0,
+        "AttrId": "射术资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 2.0,
+        "AttrId": "内功资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 13.0,
+        "AttrId": "轻功资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "游侠",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_role_hp",
+        "Scale": 1.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 1.15,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.1,
+        "AttrId": "int",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 1.0,
+        "AttrId": "def",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.7,
+        "AttrId": "crt",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 1.3,
+        "AttrId": "spd",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "AttrValue": 1.0,
+        "AttrId": "mp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 1.0,
+        "AttrId": "sp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 220.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 2.0,
+        "AttrId": "拳法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "棍法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 2.0,
+        "AttrId": "刀法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 9.0,
+        "AttrId": "剑法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 11.0,
+        "AttrId": "射术资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 7.0,
+        "AttrId": "内功资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 9.0,
+        "AttrId": "轻功资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "医师",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_role_hp",
+        "Scale": 0.8,
+        "AttrId": "hp",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.25,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 1.5,
+        "AttrId": "int",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.7,
+        "AttrId": "def",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.3,
+        "AttrId": "crt",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_role_common",
+        "Scale": 0.9,
+        "AttrId": "spd",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "AttrValue": 5.0,
+        "AttrId": "mp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 2.0,
+        "AttrId": "sp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 1.0,
+        "AttrId": "拳法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 11.0,
+        "AttrId": "棍法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 1.0,
+        "AttrId": "刀法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 4.0,
+        "AttrId": "剑法资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 2.0,
+        "AttrId": "射术资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 13.0,
+        "AttrId": "内功资质",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 7.0,
+        "AttrId": "轻功资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "木桩",
+    "AttrValues": [
+      {
+        "AttrValue": 10000.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通剑",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 22.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 11.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良剑",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 38.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 17.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有剑",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 78.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 38.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗剑",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 111.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 50.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说剑",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 158.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 70.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通刀",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 22.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 22.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良刀",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 38.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 38.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有刀",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 78.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 78.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗刀",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 111.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 111.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说刀",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 158.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 158.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通枪",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 22.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 22.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良枪",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 38.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 38.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有枪",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 78.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 78.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗枪",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 111.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 111.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说枪",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 158.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 158.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通棍",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 15.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 29.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良棍",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 27.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 49.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有棍",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 55.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 101.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗棍",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 78.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 144.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说棍",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 111.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 205.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通手套",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 22.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 22.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良手套",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 38.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 38.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有手套",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 78.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 78.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗手套",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 111.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 111.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说手套",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 158.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 158.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通爪",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 22.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 11.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 11.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良爪",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 38.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 19.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 19.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有爪",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 78.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 39.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 39.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗爪",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 111.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 56.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 56.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说爪",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 158.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 79.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 79.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通弓",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 22.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 11.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良弓",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 38.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 19.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有弓",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 78.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 39.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗弓",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 111.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 55.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说弓",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 158.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 79.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通轻甲",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 4.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 15.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 24.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良轻甲",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 8.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 27.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 42.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有轻甲",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 16.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 55.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 86.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗轻甲",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 22.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 78.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 122.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说轻甲",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 32.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 111.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 174.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通中甲",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 22.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 22.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良中甲",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 38.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 38.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有中甲",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 78.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 78.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗中甲",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 111.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 111.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说中甲",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 158.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 158.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通重甲",
+    "AttrValues": [
+      {
+        "AttrValue": 19.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 48.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 33.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": -22.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": -22.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良重甲",
+    "AttrValues": [
+      {
+        "AttrValue": 40.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 84.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 57.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": -38.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": -38.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有重甲",
+    "AttrValues": [
+      {
+        "AttrValue": 101.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 172.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 117.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": -78.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": -78.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗重甲",
+    "AttrValues": [
+      {
+        "AttrValue": 137.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 244.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 167.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": -111.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": -111.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说重甲",
+    "AttrValues": [
+      {
+        "AttrValue": 175.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 348.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 237.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": -158.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": -158.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通项链",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.02,
+        "AttrId": "被治疗修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良项链",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.04,
+        "AttrId": "被治疗修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有项链",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.06,
+        "AttrId": "被治疗修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗项链",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.08,
+        "AttrId": "被治疗修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说项链",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.1,
+        "AttrId": "被治疗修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通戒指",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.02,
+        "AttrId": "伤害修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良戒指",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.04,
+        "AttrId": "伤害修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有戒指",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.06,
+        "AttrId": "伤害修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗戒指",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.08,
+        "AttrId": "伤害修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说戒指",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.1,
+        "AttrId": "伤害修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通手镯",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.02,
+        "AttrId": "治疗修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良手镯",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.04,
+        "AttrId": "治疗修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有手镯",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.06,
+        "AttrId": "治疗修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗手镯",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.08,
+        "AttrId": "治疗修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说手镯",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.1,
+        "AttrId": "治疗修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通护腕",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.02,
+        "AttrId": "被伤害修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良护腕",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.04,
+        "AttrId": "被伤害修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有护腕",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.06,
+        "AttrId": "被伤害修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗护腕",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.08,
+        "AttrId": "被伤害修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说护腕",
+    "AttrValues": [
+      {
+        "AttrValue": 0.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "crd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.1,
+        "AttrId": "被伤害修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "紫电青霜",
+    "AttrValues": [
+      {
+        "AttrValue": 24.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.03,
+        "AttrId": "atkper",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 24.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 24.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 10.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 24.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.05,
+        "AttrId": "伤害修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "炙热之握",
+    "AttrValues": [
+      {
+        "AttrValue": 96.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 96.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "苍狼冥月枪",
+    "AttrValues": [
+      {
+        "AttrValue": 120.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 60.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 60.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.1,
+        "AttrId": "atkper",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "巨熊之握",
+    "AttrValues": [
+      {
+        "AttrValue": 90.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.1,
+        "AttrId": "hp_percent",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 45.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "鹿追的心意",
+    "AttrValues": [
+      {
+        "AttrValue": 0.052,
+        "AttrId": "被伤害修正",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.1314,
+        "AttrId": "被治疗修正",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.052,
+        "AttrId": "伤害修正",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.1314,
+        "AttrId": "治疗修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "野猪齿",
+    "AttrValues": [
+      {
+        "AttrValue": 0.1,
+        "AttrId": "spdper",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "伊笠耽的眼罩",
+    "AttrValues": [
+      {
+        "AttrValue": 120.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "紫电坠",
+    "AttrValues": [
+      {
+        "AttrValue": 150.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "天罡戒",
+    "AttrValues": [
+      {
+        "AttrValue": 0.1,
+        "AttrId": "被伤害修正",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 50.0,
+        "AttrId": "mp",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "族长的家传之戒",
+    "AttrValues": [
+      {
+        "AttrValue": 0.1,
+        "AttrId": "被伤害修正",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.05,
+        "AttrId": "hp_percent",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.05,
+        "AttrId": "defper",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "水龙戒",
+    "AttrValues": [
+      {
+        "AttrValue": 0.05,
+        "AttrId": "spdper",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "龙蛇袍",
+    "AttrValues": [
+      {
+        "AttrValue": 120.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 15.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": -0.15,
+        "AttrId": "hp_percent",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "八卦衣",
+    "AttrValues": [
+      {
+        "AttrValue": 20.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 45.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 90.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "水火棍",
+    "AttrValues": [
+      {
+        "AttrValue": 55.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 55.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 55.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "桃木剑",
+    "AttrValues": [
+      {
+        "AttrValue": 39.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 39.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 78.0,
+        "AttrId": "int",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "云纹冠",
+    "AttrValues": [
+      {
+        "AttrValue": 0.05,
+        "AttrId": "intper",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 5.0,
+        "AttrId": "startmp",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "白玉双鱼佩",
+    "AttrValues": [
+      {
+        "AttrValue": 0.05,
+        "AttrId": "hp_percent",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.05,
+        "AttrId": "atkper",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "剧毒蜘蛛",
+    "AttrValues": [
+      {
+        "AttrValue": 100.0,
+        "AttrId": "antiparry",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": -0.1,
+        "AttrId": "被治疗修正",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.05,
+        "AttrId": "被伤害修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "黑水仙",
+    "AttrValues": [
+      {
+        "AttrValue": 0.1,
+        "AttrId": "intper",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.1,
+        "AttrId": "tenper",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": -0.2,
+        "AttrId": "被伤害修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "姑获鸟之瓶",
+    "AttrValues": [
+      {
+        "AttrValue": 0.2,
+        "AttrId": "intper",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 1.0,
+        "AttrId": "sp",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.25,
+        "AttrId": "被治疗修正",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "千足蜈蚣衣",
+    "AttrValues": [
+      {
+        "AttrValue": 88.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 50.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "守护兽的号角",
+    "AttrValues": [
+      {
+        "AttrValue": 0.2,
+        "AttrId": "被伤害修正",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.2,
+        "AttrId": "defper",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 120.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "冷牙的毒囊",
+    "AttrValues": [
+      {
+        "AttrValue": 0.25,
+        "AttrId": "修正中毒伤害",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.1,
+        "AttrId": "intper",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "刚鬃的坚定",
+    "AttrValues": [
+      {
+        "AttrValue": 158.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 158.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 0.25,
+        "AttrId": "hp_percent",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通剑法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c1",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "精良剑法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c2",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "稀有剑法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c3",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "史诗剑法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c4",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "传说剑法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c5",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "普通刀法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c1",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "精良刀法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c2",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "稀有刀法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c3",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "史诗刀法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c4",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "传说刀法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c5",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "普通拳法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c1",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "精良拳法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c2",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "稀有拳法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c3",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "史诗拳法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c4",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "传说拳法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c5",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "普通爪法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c1",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "精良爪法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c2",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "稀有爪法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c3",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "史诗爪法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c4",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "传说爪法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c5",
+        "Scale": 1.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "普通棍法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c1",
+        "Scale": 0.9,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "精良棍法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c2",
+        "Scale": 0.9,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "稀有棍法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c3",
+        "Scale": 0.9,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "史诗棍法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c4",
+        "Scale": 0.9,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "传说棍法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c5",
+        "Scale": 0.9,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "普通枪法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c1",
+        "Scale": 0.8,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "精良枪法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c2",
+        "Scale": 0.8,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "稀有枪法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c3",
+        "Scale": 0.8,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "史诗枪法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c4",
+        "Scale": 0.8,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "传说枪法模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c5",
+        "Scale": 0.8,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "普通射术模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c1",
+        "Scale": 0.8,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "精良射术模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c2",
+        "Scale": 0.8,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "稀有射术模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c3",
+        "Scale": 0.8,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "史诗射术模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c4",
+        "Scale": 0.8,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "传说射术模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c5",
+        "Scale": 0.8,
+        "AttrId": "atk",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "普通内功模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_hp1",
+        "Scale": 1.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_skill_mp1",
+        "Scale": 1.0,
+        "AttrId": "mp",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "精良内功模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_hp2",
+        "Scale": 1.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_skill_mp2",
+        "Scale": 1.0,
+        "AttrId": "mp",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "稀有内功模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_hp3",
+        "Scale": 1.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_skill_mp3",
+        "Scale": 1.0,
+        "AttrId": "mp",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "史诗内功模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_hp4",
+        "Scale": 1.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_skill_mp4",
+        "Scale": 1.0,
+        "AttrId": "mp",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "传说内功模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_hp5",
+        "Scale": 1.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_skill_mp5",
+        "Scale": 1.0,
+        "AttrId": "mp",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "普通治疗内功模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_hp1",
+        "Scale": 0.8,
+        "AttrId": "hp",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_skill_c1",
+        "Scale": 1.0,
+        "AttrId": "int",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_skill_mp1",
+        "Scale": 1.0,
+        "AttrId": "mp",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "精良治疗内功模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_hp2",
+        "Scale": 0.8,
+        "AttrId": "hp",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_skill_c2",
+        "Scale": 1.0,
+        "AttrId": "int",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_skill_mp2",
+        "Scale": 1.0,
+        "AttrId": "mp",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "稀有治疗内功模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_hp3",
+        "Scale": 0.8,
+        "AttrId": "hp",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_skill_c3",
+        "Scale": 1.0,
+        "AttrId": "int",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_skill_mp3",
+        "Scale": 1.0,
+        "AttrId": "mp",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "史诗治疗内功模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_hp4",
+        "Scale": 0.8,
+        "AttrId": "hp",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_skill_c4",
+        "Scale": 1.0,
+        "AttrId": "int",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_skill_mp4",
+        "Scale": 1.0,
+        "AttrId": "mp",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "传说治疗内功模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_hp5",
+        "Scale": 0.8,
+        "AttrId": "hp",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_skill_c5",
+        "Scale": 1.0,
+        "AttrId": "int",
+        "$type": "AttrItem_LevelGrow"
+      },
+      {
+        "LuaFormulaFunction": "af_skill_mp5",
+        "Scale": 1.0,
+        "AttrId": "mp",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "普通轻功模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c1",
+        "Scale": 1.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "精良轻功模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c2",
+        "Scale": 1.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "稀有轻功模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c3",
+        "Scale": 1.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "史诗轻功模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c4",
+        "Scale": 1.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "传说轻功模板",
+    "AttrValues": [
+      {
+        "LuaFormulaFunction": "af_skill_c5",
+        "Scale": 1.0,
+        "AttrId": "spd",
+        "$type": "AttrItem_LevelGrow"
+      }
+    ]
+  },
+  {
+    "Id": "普通剑法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 1.0,
+        "AttrId": "剑法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良剑法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 2.0,
+        "AttrId": "剑法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有剑法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 3.0,
+        "AttrId": "剑法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗剑法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 4.0,
+        "AttrId": "剑法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说剑法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 5.0,
+        "AttrId": "剑法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通拳法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 1.0,
+        "AttrId": "拳法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良拳法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 2.0,
+        "AttrId": "拳法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有拳法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 3.0,
+        "AttrId": "拳法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗拳法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 4.0,
+        "AttrId": "拳法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说拳法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 5.0,
+        "AttrId": "拳法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通棍法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 1.0,
+        "AttrId": "棍法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良棍法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 2.0,
+        "AttrId": "棍法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有棍法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 3.0,
+        "AttrId": "棍法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗棍法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 4.0,
+        "AttrId": "棍法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说棍法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 5.0,
+        "AttrId": "棍法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通刀法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 1.0,
+        "AttrId": "刀法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良刀法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 2.0,
+        "AttrId": "刀法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有刀法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 3.0,
+        "AttrId": "刀法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗刀法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 4.0,
+        "AttrId": "刀法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说刀法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 5.0,
+        "AttrId": "刀法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通枪法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 1.0,
+        "AttrId": "棍法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良枪法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 2.0,
+        "AttrId": "棍法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有枪法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 3.0,
+        "AttrId": "棍法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗枪法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 4.0,
+        "AttrId": "棍法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说枪法每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 5.0,
+        "AttrId": "棍法资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通射术每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 1.0,
+        "AttrId": "射术资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良射术每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 2.0,
+        "AttrId": "射术资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有射术每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 3.0,
+        "AttrId": "射术资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗射术每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 4.0,
+        "AttrId": "射术资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说射术每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 5.0,
+        "AttrId": "射术资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通内功每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 1.0,
+        "AttrId": "内功资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良内功每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 2.0,
+        "AttrId": "内功资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有内功每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 3.0,
+        "AttrId": "内功资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗内功每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 4.0,
+        "AttrId": "内功资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说内功每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 5.0,
+        "AttrId": "内功资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "普通轻功每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 1.0,
+        "AttrId": "轻功资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "精良轻功每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 2.0,
+        "AttrId": "轻功资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "稀有轻功每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 3.0,
+        "AttrId": "轻功资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "史诗轻功每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 4.0,
+        "AttrId": "轻功资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "传说轻功每级资质成长",
+    "AttrValues": [
+      {
+        "AttrValue": 5.0,
+        "AttrId": "轻功资质",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "流云剑",
+    "AttrValues": [
+      {
+        "AttrValue": 90.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 60.0,
+        "AttrId": "dodge",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "虎啸弓",
+    "AttrValues": [
+      {
+        "AttrValue": 125.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 60.0,
+        "AttrId": "antidodge",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "灵鹿衣",
+    "AttrValues": [
+      {
+        "AttrValue": 120.0,
+        "AttrId": "def",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 100.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 50.0,
+        "AttrId": "hp",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "重山护手",
+    "AttrValues": [
+      {
+        "AttrValue": 78.0,
+        "AttrId": "atk",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": 50.0,
+        "AttrId": "parry",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "福运坠",
+    "AttrValues": [
+      {
+        "AttrValue": 100.0,
+        "AttrId": "ten",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  },
+  {
+    "Id": "贪狼戒",
+    "AttrValues": [
+      {
+        "AttrValue": 200.0,
+        "AttrId": "crt",
+        "$type": "AttrItem_Fix"
+      },
+      {
+        "AttrValue": -0.2,
+        "AttrId": "hp_percent",
+        "$type": "AttrItem_Fix"
+      }
+    ]
+  }
+]

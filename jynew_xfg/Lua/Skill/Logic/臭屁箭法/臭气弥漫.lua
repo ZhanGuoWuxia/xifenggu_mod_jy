@@ -1,0 +1,1 @@
+return passive_define("臭气弥漫", "臭气弥漫")

@@ -1,0 +1,1 @@
+return passive_define("刺客_以牙还牙", "刺客_以牙还牙")

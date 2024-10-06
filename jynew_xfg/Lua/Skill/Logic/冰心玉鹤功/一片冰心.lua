@@ -1,0 +1,1 @@
+return passive_define("一片冰心", "一片冰心")

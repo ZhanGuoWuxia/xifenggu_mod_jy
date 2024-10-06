@@ -1,0 +1,188 @@
+{
+  "DynamicElements": [
+    {
+      "MoveLength": 1439.5,
+      "MoveDuration": 19.6,
+      "FadeDuration": 0.5,
+      "DirectionAngle": 318.0,
+      "LookAtMoveDirection": true,
+      "PrefabPath": "Assets/BuildSource/Prefabs/UI/MapElements/bird_group.prefab",
+      "SpawnPosition": {
+        "x": -674.0,
+        "y": 477.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    },
+    {
+      "MoveLength": 215,
+      "MoveDuration": 25.0,
+      "FadeDuration": 0.5,
+      "DirectionAngle": 26,
+      "LookAtMoveDirection": false,
+      "PrefabPath": "Assets/BuildSource/Prefabs/UI/MapElements/ship1.prefab",
+      "SpawnPosition": {
+        "x": 636.1,
+        "y": -509.9,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    },
+    {
+      "MoveLength": 1000.0,
+      "MoveDuration": 16.0,
+      "FadeDuration": 0.5,
+      "DirectionAngle": 69.0,
+      "LookAtMoveDirection": true,
+      "PrefabPath": "Assets/BuildSource/Prefabs/UI/MapElements/bird_group2.prefab",
+      "SpawnPosition": {
+        "x": 419.0,
+        "y": -449.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    },
+    {
+      "MoveLength": 86,
+      "MoveDuration": 40.0,
+      "FadeDuration": 0.5,
+      "DirectionAngle": 178.0,
+      "LookAtMoveDirection": false,
+      "PrefabPath": "Assets/BuildSource/Prefabs/UI/MapElements/ship2.prefab",
+      "SpawnPosition": {
+        "x": 130.81,
+        "y": -505.1,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    },
+    {
+      "MoveLength": 1000.0,
+      "MoveDuration": 16.0,
+      "FadeDuration": 0.5,
+      "DirectionAngle": 3.0,
+      "LookAtMoveDirection": true,
+      "PrefabPath": "Assets/BuildSource/Prefabs/UI/MapElements/bird_group3.prefab",
+      "SpawnPosition": {
+        "x": -383.17,
+        "y": 380.3,
+        "z": 470.7
+      },
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    },
+    {
+      "MoveLength": 20.0,
+      "MoveDuration": 30.0,
+      "FadeDuration": 3.0,
+      "DirectionAngle": 0.0,
+      "LookAtMoveDirection": false,
+      "PrefabPath": "Assets/BuildSource/Prefabs/UI/MapElements/cloud_sand.prefab",
+      "SpawnPosition": {
+        "x": 653.0,
+        "y": 380.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    },
+    {
+      "MoveLength": 10.0,
+      "MoveDuration": 25.0,
+      "FadeDuration": 3.0,
+      "DirectionAngle": 0.0,
+      "LookAtMoveDirection": false,
+      "PrefabPath": "Assets/BuildSource/Prefabs/UI/MapElements/CloudMist_1.prefab",
+      "SpawnPosition": {
+        "x": 211.0,
+        "y": 52.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    }
+  ],
+  "StaticElements": [
+    {
+      "PrefabPath": "Assets/BuildSource/Prefabs/UI/MapElements/CloudMist_5.prefab",
+      "SpawnPosition": {
+        "x": -630.0,
+        "y": -369.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      }
+    },
+    {
+      "PrefabPath": "Assets/BuildSource/Prefabs/UI/MapElements/CloudMist_3.prefab",
+      "SpawnPosition": {
+        "x": -630.0,
+        "y": 212.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      }
+    },
+    {
+      "PrefabPath": "Assets/BuildSource/Prefabs/UI/MapElements/CloudMist_6.prefab",
+      "SpawnPosition": {
+        "x": 82.0,
+        "y": 456.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 1.3,
+        "y": 1.3,
+        "z": 1.3
+      }
+    },
+    {
+      "PrefabPath": "Assets/BuildSource/Prefabs/UI/MapElements/CloudMist_1_yellow.prefab",
+      "SpawnPosition": {
+        "x": 426.67,
+        "y": 211.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      }
+    }
+  ],
+  "IsOverWrite": true,
+  "MinDynamicAppearInterval": 2.0,
+  "MaxDynamicAppearInterval": 10.0,
+  "MaxActiveDynamicElementCount": 3
+}

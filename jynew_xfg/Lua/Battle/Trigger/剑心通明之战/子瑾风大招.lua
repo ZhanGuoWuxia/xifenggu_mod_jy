@@ -1,0 +1,1 @@
+tgr_api:tgr_bubble_text("子瑾风", "生存还是毁灭由我来定！")

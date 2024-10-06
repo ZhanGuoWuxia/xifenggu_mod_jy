@@ -1,0 +1,2056 @@
+[
+  {
+    "Id": "熊之战",
+    "BattleName": {
+      "key": "i18/battle/name/bear",
+      "text": "熊之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_2",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": true,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "熊",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "熊",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "熊",
+        "Pos": 5,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "野猪之战",
+    "BattleName": {
+      "key": "i18/battle/name/boar",
+      "text": "野猪之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_4",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": true,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "野猪",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "野猪",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "野猪",
+        "Pos": 7,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "野猪",
+        "Pos": 5,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "羊之战",
+    "BattleName": {
+      "key": "i18/battle/name/goat",
+      "text": "羊之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_2",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": true,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "羊",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "羊",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "羊",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "羊",
+        "Pos": 7,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "狼之战",
+    "BattleName": {
+      "key": "i18/battle/name/wolf",
+      "text": "狼之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_2",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": true,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "狼",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "狼",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "狼",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "狼",
+        "Pos": 7,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "蛇之战",
+    "BattleName": {
+      "key": "i18/battle/name/snake",
+      "text": "蛇之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_2",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": true,
+    "IsAskForPlayerFormation": true,
+    "Team1": [],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "蛇",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "蛇",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "蛇",
+        "Pos": 2,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "蛇",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "蛇",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "蛇",
+        "Pos": 7,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "蛇",
+        "Pos": 8,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "Boss_熊大",
+    "BattleName": {
+      "key": "i18/battle/name/bear_boss",
+      "text": "熊大的洞穴"
+    },
+    "MaxTurn": 10,
+    "Scene": "jyx2_Cave1",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "熊",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "熊",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "熊",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "熊",
+        "Pos": 7,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "熊大",
+        "Pos": 4,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 15
+  },
+  {
+    "Id": "Boss_刚鬃",
+    "BattleName": {
+      "key": "i18/battle/name/bear_boss",
+      "text": "刚鬃的树林"
+    },
+    "MaxTurn": 10,
+    "Scene": "jyx2_2",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "野猪",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "野猪",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "野猪",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "野猪",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "刚鬃",
+        "Pos": 5,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 8
+  },
+  {
+    "Id": "Boss_狼王",
+    "BattleName": {
+      "key": "i18/battle/name/black_wolf_king",
+      "text": "狼群的伏击"
+    },
+    "MaxTurn": 10,
+    "Scene": "jyx2_2",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "狼",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "狼",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "狼",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "狼",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "狼",
+        "Pos": 7,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "狼王",
+        "Pos": 5,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 15
+  },
+  {
+    "Id": "Boss_咩咩",
+    "BattleName": {
+      "key": "i18/battle/name/goat_boss",
+      "text": "羚羊之首"
+    },
+    "MaxTurn": 10,
+    "Scene": "jyx2_4",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "羊",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "羊",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "羊",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "羊",
+        "Pos": 7,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "咩咩",
+        "Pos": 5,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 20
+  },
+  {
+    "Id": "Boss_冷牙",
+    "BattleName": {
+      "key": "i19/battle/name/snake_boss",
+      "text": "密林毒蛇"
+    },
+    "MaxTurn": 10,
+    "Scene": "jyx2_5",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "蛇",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "蛇",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "冷牙",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "蛇",
+        "Pos": 7,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "蛇",
+        "Pos": 2,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "蛇",
+        "Pos": 8,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 15
+  },
+  {
+    "Id": "马厩之战",
+    "BattleName": {
+      "key": "i18/battle/name/5",
+      "text": "马厩之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_5",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪堂主",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪弓箭手_精",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪弓箭手_精",
+        "Pos": 7,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 2
+  },
+  {
+    "Id": "客栈之战",
+    "BattleName": {
+      "key": "i18/battle/name/6",
+      "text": "客栈之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_6",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "短衣男",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "长衫男",
+        "Pos": 4,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 2
+  },
+  {
+    "Id": "民居之战",
+    "BattleName": {
+      "key": "i18/battle/name/7",
+      "text": "民居之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_1",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪堂主",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "被玩坏的女子",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "被玩坏的女子",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪弓箭手",
+        "Pos": 7,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪刺客",
+        "Pos": 8,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 2
+  },
+  {
+    "Id": "地牢之战",
+    "BattleName": {
+      "key": "i18/battle/name/8",
+      "text": "地牢之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_3",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "梁胜",
+        "Pos": 3,
+        "RoleSourceType": 1
+      },
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪弓箭手_精",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪弓箭手_精",
+        "Pos": 7,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 3
+  },
+  {
+    "Id": "山路之战",
+    "BattleName": {
+      "key": "i18/battle/name/9",
+      "text": "山路之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_1",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "豪猪堂主",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪堂主",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 5,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 4
+  },
+  {
+    "Id": "小道之战",
+    "BattleName": {
+      "key": "i18/battle/name/10",
+      "text": "小道之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_4",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "熊",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "熊",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "熊",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "熊",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "熊",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "熊",
+        "Pos": 2,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "熊",
+        "Pos": 8,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 4
+  },
+  {
+    "Id": "寨门之战",
+    "BattleName": {
+      "key": "i18/battle/name/11",
+      "text": "寨门之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_2",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "潘麻子",
+        "Pos": 0,
+        "RoleSourceType": 1
+      },
+      {
+        "RoleId": "梁胜",
+        "Pos": 3,
+        "RoleSourceType": 1
+      },
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪刺客",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪弓箭手",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪弓箭手",
+        "Pos": 2,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪弓箭手",
+        "Pos": 8,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 5
+  },
+  {
+    "Id": "岔路之战",
+    "BattleName": {
+      "key": "i18/battle/name/12",
+      "text": "岔路之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_2",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      },
+      {
+        "RoleId": "齐六哥",
+        "Pos": 3,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "野猪",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "野猪",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "野猪",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "野猪",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "野猪",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "野猪",
+        "Pos": 2,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "野猪",
+        "Pos": 8,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 5
+  },
+  {
+    "Id": "陵墓之战",
+    "BattleName": {
+      "key": "i18/battle/name/13",
+      "text": "陵墓之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_3",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      },
+      {
+        "RoleId": "齐六哥",
+        "Pos": 3,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "羊",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "羊",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "羊",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "羊",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "羊",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "羊",
+        "Pos": 2,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "羊",
+        "Pos": 8,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 6
+  },
+  {
+    "Id": "虎苇地收复战",
+    "BattleName": {
+      "key": "i18/battle/name/14",
+      "text": "虎苇地收复战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_2",
+    "BGM": "Music/战斗1.wav",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [
+      "愤怒的农夫",
+      "愤怒的农妇"
+    ],
+    "IsTempRoleLevelMatchPlayer": true,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "愤怒的农夫",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "愤怒的农妇",
+        "Pos": 2,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "愤怒的农妇",
+        "Pos": 8,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪刺客",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪堂主",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "被玩坏的女子",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪刺客",
+        "Pos": 8,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "虎苇地收复战2",
+    "BattleName": {
+      "key": "i18/battle/name/15",
+      "text": "虎苇地收复战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_2",
+    "BGM": "Music/战斗1.wav",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [
+      "子瑾风"
+    ],
+    "IsTempRoleLevelMatchPlayer": true,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "子瑾风",
+        "Pos": 3,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪刺客",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪堂主",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "被玩坏的女子",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪刺客",
+        "Pos": 8,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "酒香亭收复战",
+    "BattleName": {
+      "key": "i18/battle/name/16",
+      "text": "酒香亭收复战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_6",
+    "BGM": "Music/战斗1.wav",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [
+      "愤怒的农夫",
+      "愤怒的农妇"
+    ],
+    "IsTempRoleLevelMatchPlayer": true,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "愤怒的农夫",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "愤怒的农妇",
+        "Pos": 2,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "愤怒的农妇",
+        "Pos": 8,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪刺客",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪堂主",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "被玩坏的女子",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪刺客",
+        "Pos": 8,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "酒香亭收复战2",
+    "BattleName": {
+      "key": "i18/battle/name/17",
+      "text": "酒香亭收复战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_6",
+    "BGM": "Music/战斗1.wav",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [
+      "子瑾风"
+    ],
+    "IsTempRoleLevelMatchPlayer": true,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "子瑾风",
+        "Pos": 3,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪刺客",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪堂主",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "被玩坏的女子",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪刺客",
+        "Pos": 8,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "火神树林收复战",
+    "BattleName": {
+      "key": "i18/battle/name/18",
+      "text": "火神树林收复战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_4",
+    "BGM": "Music/战斗1.wav",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [
+      "愤怒的农夫",
+      "愤怒的农妇"
+    ],
+    "IsTempRoleLevelMatchPlayer": true,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "愤怒的农夫",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "愤怒的农妇",
+        "Pos": 2,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "愤怒的农妇",
+        "Pos": 8,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪弓箭手_精",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪堂主",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "被玩坏的女子",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪弓箭手_精",
+        "Pos": 8,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "火神树林收复战2",
+    "BattleName": {
+      "key": "i18/battle/name/19",
+      "text": "火神树林收复战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_4",
+    "BGM": "Music/战斗1.wav",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [
+      "子瑾风"
+    ],
+    "IsTempRoleLevelMatchPlayer": true,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "子瑾风",
+        "Pos": 3,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪弓箭手_精",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪堂主",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "被玩坏的女子",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪弓箭手_精",
+        "Pos": 8,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "阻止梁胜",
+    "BattleName": {
+      "key": "i18/battle/name/20",
+      "text": "阻止梁胜"
+    },
+    "MaxTurn": 99,
+    "Scene": "HuYanMen_0",
+    "BGM": "",
+    "BattleTriggers": [
+      "梁胜开局",
+      "梁胜大招"
+    ],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "梁胜",
+        "Pos": 3,
+        "RoleSourceType": 1
+      },
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪弓箭手_精",
+        "Pos": 5,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "罪恶之瓶之战",
+    "BattleName": {
+      "key": "i18/battle/name/21",
+      "text": "罪恶之瓶之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_4",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "仙竹门翠竹使",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "仙竹门金竹卫",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "芍药",
+        "Pos": 5,
+        "RoleSourceType": 1
+      },
+      {
+        "RoleId": "仙竹门影竹客",
+        "Pos": 7,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "陵寝之战",
+    "BattleName": {
+      "key": "i18/battle/name/22",
+      "text": "陵寝之战"
+    },
+    "MaxTurn": 30,
+    "Scene": "jyx2_1",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "机关兽",
+        "Pos": 3,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "夜刺豪猪之战",
+    "BattleName": {
+      "key": "i18/battle/name/23",
+      "text": "夜刺豪猪之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "HuYanMen_0",
+    "BGM": "Music/战斗1.wav",
+    "BattleTriggers": [
+      "何猛开局",
+      "何猛大招",
+      "潘麻子开局",
+      "潘麻子大招",
+      "梁胜开局",
+      "梁胜大招"
+    ],
+    "AIMustRoleIds": [
+      "汤彩蝶"
+    ],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "汤彩蝶",
+        "Pos": 2,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "梁胜",
+        "Pos": 3,
+        "RoleSourceType": 1
+      },
+      {
+        "RoleId": "何猛",
+        "Pos": 4,
+        "RoleSourceType": 1
+      },
+      {
+        "RoleId": "潘麻子",
+        "Pos": 5,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "解密失败之战",
+    "BattleName": {
+      "key": "i18/battle/name/24",
+      "text": "解密失败之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "HuYanMen_0",
+    "BGM": "Music/战斗1.wav",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪弓箭手_精",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪堂主",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "被玩坏的女子",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪土匪",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "豪猪弓箭手_精",
+        "Pos": 8,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "城门之战",
+    "BattleName": {
+      "key": "i18/battle/name/25",
+      "text": "城门之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_4",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "万雀溪谷秘阵师",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷风水师",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷温泉师",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷秘阵师",
+        "Pos": 7,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "吊桥之战",
+    "BattleName": {
+      "key": "i18/battle/name/26",
+      "text": "吊桥之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_2",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "蛇",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "蛇",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "蛇",
+        "Pos": 2,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "蛇",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "蛇",
+        "Pos": 7,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "瓮城之战",
+    "BattleName": {
+      "key": "i18/battle/name/27",
+      "text": "瓮城之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_4",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "万雀溪谷秘阵师",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷秘阵师",
+        "Pos": 2,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷秘阵师",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷秘阵师",
+        "Pos": 7,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷秘阵师",
+        "Pos": 6,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "阴影之战",
+    "BattleName": {
+      "key": "i18/battle/name/28",
+      "text": "阴影之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_4",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "万雀溪谷侍女",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷秘阵师",
+        "Pos": 2,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷秘阵师",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "丁宣",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷温泉师",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷温泉师",
+        "Pos": 7,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "垛口之战",
+    "BattleName": {
+      "key": "i18/battle/name/29",
+      "text": "垛口之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_4",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "万雀溪谷祭司",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷祭司",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷祭司",
+        "Pos": 6,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷祭司",
+        "Pos": 7,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "闸楼之战",
+    "BattleName": {
+      "key": "i18/battle/name/30",
+      "text": "闸楼之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_4",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "万雀溪谷温泉师",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷温泉师",
+        "Pos": 2,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷秘阵师",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷秘阵师",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷祭司",
+        "Pos": 5,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "箭楼之战",
+    "BattleName": {
+      "key": "i18/battle/name/31",
+      "text": "箭楼之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_4",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "万雀溪谷秘阵师",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷温泉师",
+        "Pos": 1,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷风水师",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷祭司",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷秘阵师",
+        "Pos": 7,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷风水师",
+        "Pos": 4,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "禁地之战",
+    "BattleName": {
+      "key": "i18/battle/name/32",
+      "text": "禁地之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "HuYanMen_0",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "万雀溪谷风水师",
+        "Pos": 0,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷秘阵师",
+        "Pos": 2,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "丁宣",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万壑成",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷温泉师",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷祭司",
+        "Pos": 7,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "路见不平之战",
+    "BattleName": {
+      "key": "i18/battle/name/33",
+      "text": "路见不平之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_4",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      },
+      {
+        "RoleId": "朱鹮儿_初识",
+        "Pos": 2,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "万雀溪谷秘阵师",
+        "Pos": 2,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "丁宣",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷温泉师",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷祭司",
+        "Pos": 7,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  },
+  {
+    "Id": "万雀救难之战",
+    "BattleName": {
+      "key": "i18/battle/name/34",
+      "text": "万雀救难之战"
+    },
+    "MaxTurn": 99,
+    "Scene": "jyx2_4",
+    "BGM": "",
+    "BattleTriggers": [],
+    "AIMustRoleIds": [],
+    "IsTempRoleLevelMatchPlayer": false,
+    "IsAskForPlayerFormation": true,
+    "Team1": [
+      {
+        "RoleId": "司徒来也",
+        "Pos": 0,
+        "RoleSourceType": 1
+      },
+      {
+        "RoleId": "朱鹮儿_初识",
+        "Pos": 2,
+        "RoleSourceType": 1
+      }
+    ],
+    "Team1TempRoleLevel": 0,
+    "Team2": [
+      {
+        "RoleId": "万雀溪谷秘阵师",
+        "Pos": 2,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "丁宣",
+        "Pos": 3,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万壑成",
+        "Pos": 4,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷温泉师",
+        "Pos": 5,
+        "RoleSourceType": 2
+      },
+      {
+        "RoleId": "万雀溪谷祭司",
+        "Pos": 7,
+        "RoleSourceType": 2
+      }
+    ],
+    "Team2TempRoleLevel": 0
+  }
+]

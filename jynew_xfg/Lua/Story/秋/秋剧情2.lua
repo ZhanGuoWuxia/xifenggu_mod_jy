@@ -1,0 +1,40 @@
+show_stage("bg_15.png", "虎焰堂")
+light_scene(0.2)
+play_bgm("Music/秋.wav")
+
+local situ = actor("司徒来也")
+local qiu = actor("秋")
+local qiliuge = actor("齐六哥")
+
+--初始化位置和朝向
+dark_all_actors()
+situ:setPos(-400, 75)
+situ:face_right()
+qiu:setPos(1300, 75)
+qiu:face_left()
+qiliuge:bright()
+qiliuge:setPos(-600, 75)
+qiliuge:face_right()
+
+wait_twn(situ:movetoX(900), situ:daze())
+
+situ:say("秋兄，你的名字里藏着四季的风华，真是意境深远。")
+qiu:say("……")
+situ:say("你这性子，真是让人琢磨不透。")
+qiu:say("……")
+situ:say("我看你是不擅长言辞，这可不行，江湖险恶，不会说话如何立足？")
+situ:say("六哥！六哥！")
+wait_twn(qiliuge:offsetX(900), qiliuge:daze())
+qiliuge:say("掌门，我在。")
+situ:say("我看这孩子说话有障碍，你去给他上上课，教教他如何与人交流。")
+qiliuge:say("掌门，这……")
+situ:say("你还学富五车呢，快把你那本诗经拿出来，教教秋念诗。")
+qiliuge:say("是……掌门。")
+situ:say("就从那关关雎鸠开始教起，让秋也感受一下诗中的美好，别总是皱着眉头，对生活要有向往嘛，老弟。")
+
+change_favor_by_id("秋", 1)
+
+black_scene(0.25)
+set_flag("完成秋剧情2")
+hide_stage()
+light_scene(0.25)

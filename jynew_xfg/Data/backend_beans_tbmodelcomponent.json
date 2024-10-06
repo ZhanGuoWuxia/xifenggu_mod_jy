@@ -1,0 +1,4820 @@
+[
+  {
+    "Id": "男骨",
+    "ModelNote": "男默认骨骼",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Bone/Bone_male.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女骨",
+    "ModelNote": "女默认骨骼",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Bone/Bone_female.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男发0",
+    "ModelNote": "男性光头",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Hair/hair_male_0.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男发1",
+    "ModelNote": "头发",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Hair/hair_male_1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男发2",
+    "ModelNote": "头发",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Hair/hair_male_2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男发3",
+    "ModelNote": "头发",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Hair/hair_male_3.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男发4",
+    "ModelNote": "头发",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Hair/hair_male_4.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男发5",
+    "ModelNote": "头发",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Hair/hair_male_5.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男发6",
+    "ModelNote": "头发",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Hair/hair_male_6.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男发11",
+    "ModelNote": "头发",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Hair/hair_male_11.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女发0",
+    "ModelNote": "女性光头",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Hair/hair_female_0.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女发1",
+    "ModelNote": "头发",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Hair/hair_female_1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女发2",
+    "ModelNote": "头发",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Hair/hair_female_2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女发11",
+    "ModelNote": "头发",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Hair/hair_female_11.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男脸0",
+    "ModelNote": "脸部",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Face/face_male_0.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男脸2",
+    "ModelNote": "脸部",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Face/face_male_2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女脸0",
+    "ModelNote": "脸部",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Face/face_female_0.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男衣1",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_male_1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男衣2",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_male_2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男衣3",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_male_3.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男衣4",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_male_4.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男衣5",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_male_5.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男衣6",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_male_6.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男衣7",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_male_7.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男衣8",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_male_8.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男衣9",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_male_9.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男衣10",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_male_10.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男衣11",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_male_11.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男衣12",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_male_12.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女衣1",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_female_1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女衣2",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_female_2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女衣3",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_female_3.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女衣4",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_female_4.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女衣5",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_female_5.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女衣6",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_female_6.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女衣7",
+    "ModelNote": "衣服",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Clothes/clothes_female_7.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男裤1",
+    "ModelNote": "裤子",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Pants/pants_male_1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女裤1",
+    "ModelNote": "裤子",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Pants/pants_female_1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "拳头",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_0.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头1",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Axe1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头2",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Axe2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头3",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Axe3.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头4",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Axe4.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头5",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Axe5.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头6",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Axe6.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头6_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Axe6_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头7",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Axe7.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头8",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Axe8.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头9",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Axe9.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头10",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Axe10.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头11",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Axe11.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头12",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Axe12.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头13",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Axe13.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头14",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Axe14.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头15",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Axe15.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头16",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Axe16.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头17",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Axe17.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头TH_1",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Axe1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头TH_2",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Axe2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头TH_3",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Axe3.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头TH_3_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Axe3_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头TH_4",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Axe4.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头TH_5",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Axe5.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头TH_5_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Axe5_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头TH_6",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Axe6.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头TH_7",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Axe7.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头TH_8",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Axe8.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头TH_9",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Axe9.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头TH_10",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Axe10.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头TH_10_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Axe10_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头TH_11",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Axe11.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头TH_11_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Axe11_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头TH_12",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Axe12.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头TH_13",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Axe13.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斧头TH_13_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Axe13_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓1",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓1_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow1_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓2",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓2_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow2_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓3",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow3.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓3_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow3_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓3_b",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow3_b.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓3_c",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow3_c.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓4",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow4.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓4_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow4_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓5",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow5.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓5_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow5_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓6",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow6.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓6_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow6_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓6_b",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow6_b.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓6_c",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow6_c.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓7",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow7.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓7_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow7_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓8",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow8.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓8_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow8_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓8_b",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow8_b.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓8_c",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow8_c.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓9",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow9.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓9_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow9_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓9_b",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow9_b.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓9_c",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow9_c.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓10",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow10.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓10_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow10_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓11",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow11.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓11_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow11_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓11_b",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow11_b.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓11_c",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow11_c.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓12",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow12.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓12_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow12_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓12_b",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow12_b.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓12_c",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow12_c.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓13",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow13.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓13_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow13_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓13_b",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow13_b.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓13_c",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow13_c.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓14",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow14.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓14_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow14_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓14_b",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow14_b.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓14_c",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow14_c.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓15",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow15.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓15_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow15_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓15_b",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow15_b.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓15_c",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow15_c.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓16",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow16.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓16_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow16_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弓17",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Bow17.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩1",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩1_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow1_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩2",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩2_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow2_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩3",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow3.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩3_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow3_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩4",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow4.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩4_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow4_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩5",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow5.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩5_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow5_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩6",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow6.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩6_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow6_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩6_b",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow6_b.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩6_c",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow6_c.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩7",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow7.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩7_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow7_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩7_b",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow7_b.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩7_c",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow7_c.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩8",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow8.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩9",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow9.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩9_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow9_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "弩10",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Crossbow10.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首1",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首2",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首3",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger3.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首4",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger4.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首5",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger5.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首6",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger6.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首7",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger7.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首8",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger8.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首9",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger9.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首10",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger10.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首11",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger11.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首12",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger12.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首12_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger12_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首13",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger13.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首14",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger14.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首15",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger15.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首16",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger16.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首17",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger17.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首18",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger18.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首19",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger19.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首20",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger20.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首21",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger21.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首21_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger21_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首21_b",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger21_b.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首22",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger22.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首23",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger23.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首24",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger24.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首24_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger24_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首25",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger25.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首25_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger25_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首25_b",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger25_b.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首26",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger26.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "匕首27",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Dagger27.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖1",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖2",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖3",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace3.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖4",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace4.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖5",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace5.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖6",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace6.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖7",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace7.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖8",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace8.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖9",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace9.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖10",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace10.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖11",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace11.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖12",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace12.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖12_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace12_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖13",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace13.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖14",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace14.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖14_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace14_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖15",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace15.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖15_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace15_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖16",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace16.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖17",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace17.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖18",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace18.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖18_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace18_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖19",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace19.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖20",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace20.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖20_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace20_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖21",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace21.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖21_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Mace21_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_1",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_2",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_3",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace3.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_3_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace3_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_4",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace4.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_5",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace5.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_5_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace5_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_6",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace6.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_7",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace7.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_8",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace8.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_8_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace8_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_9",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace9.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_10",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace10.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_10_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace10_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_10_b",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace10_b.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_11",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace11.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_12",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace12.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_12_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace12_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_13",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace13.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_13_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace13_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_14",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace14.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_14_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace14_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_15",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace15.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_16",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace16.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_17",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace17.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_18",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace18.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "权杖TH_19",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Mace19.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄1",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄2",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄3",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm3.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄4",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm4.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄5",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm5.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄6",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm6.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄7",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm7.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄8",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm8.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄9",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm9.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄10",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm10.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄11",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm11.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄12",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm12.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄12_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm12_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄13",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm13.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄14",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm14.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄15",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm15.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄15_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm15_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄16",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm16.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄17",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm17.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄18",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm18.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄19",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm19.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄20",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm20.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄21",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm21.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄22",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm22.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄23",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm23.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄24",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm24.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "长柄25",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Polearm25.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾1",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾2",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾3",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield3.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾4",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield4.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾5",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield5.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾5_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield5_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾6",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield6.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾6_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield6_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾7",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield7.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾8",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield8.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾9",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield9.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾10",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield10.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾10_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield10_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾11",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield11.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾12",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield12.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾13",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield13.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾14",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield14.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾15",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield15.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾16",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield16.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾17",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield17.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾18",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield18.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾19",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield19.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾20",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield20.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾21",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield21.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾22",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield22.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾23",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield23.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾24",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield24.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾25",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield25.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾26",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield26.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾26_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield26_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "盾27",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Shield27.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑1",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑2",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑3",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword3.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑4",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword4.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑5",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword5.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑6",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword6.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑7",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword7.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑8",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword8.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑9",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword9.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑9_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword9_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑10",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword10.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑10_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword10_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑11",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword11.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑12",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword12.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑13",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword13.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑14",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword14.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑15",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword15.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑16",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword16.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑16_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword16_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑16_b",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword16_b.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑16_c",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword16_c.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑17",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword17.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑18",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword18.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑18_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword18_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑19",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword19.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑20",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword20.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑21",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword21.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑21_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword21_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑22",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword22.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑22_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword22_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑23",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword23.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑24",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword24.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑25",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword25.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑26",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword26.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑26_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword26_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑27",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword27.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑27_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword27_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑28",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword28.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑29",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword29.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑30",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword30.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑31",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Sword31.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_1",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_1_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword1_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_2",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_3",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword3.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_4",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword4.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_5",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword5.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_6",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword6.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_7",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword7.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_8",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword8.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_8_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword8_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_9",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword9.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_10",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword10.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_11",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword11.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_12",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword12.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_12_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword12_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_12_b",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword12_b.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_13",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword13.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_13_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword13_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_14",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword14.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_14_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword14_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_15",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword15.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_16",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword16.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_17",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword17.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_18",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword18.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_18_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword18_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_19",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword19.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_19_a",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword19_a.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_20",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword20.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑TH_21",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_TH_Sword21.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "木棍1",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick01.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "木棍2",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick02.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍3",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick03.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍4",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick04.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍5",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick05.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍6",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick06.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍7",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick07.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍8",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick08.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍9",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick09.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍10",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick10.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍11",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick11.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍12",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick12.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍13",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick13.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍14",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick14.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍15",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick15.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍16",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick16.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍17",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick17.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍18",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick18.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍19",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick19.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍20",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick20.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍21",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick21.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍22",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick22.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍23",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick23.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "棍24",
+    "ModelNote": "右手武器|左手武器",
+    "Url": "Assets/BuildSource/Prefabs/Weapon/wp_Stick24.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "背饰0",
+    "ModelNote": "背后饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/bk_0.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "笛子1",
+    "ModelNote": "背后饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/bk_DiZi1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑鞘1",
+    "ModelNote": "背后饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/bk_JianQiao1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑鞘2",
+    "ModelNote": "背后饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/bk_JianQiao2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑鞘3",
+    "ModelNote": "背后饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/bk_JianQiao3.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑鞘4",
+    "ModelNote": "背后饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/bk_JianQiao4.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑鞘5",
+    "ModelNote": "背后饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/bk_JianQiao5.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑鞘6",
+    "ModelNote": "背后饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/bk_JianQiao6.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "剑鞘7",
+    "ModelNote": "背后饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/bk_JianQiao7.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "毛笔1",
+    "ModelNote": "背后饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/bk_MaoBi1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "披风1",
+    "ModelNote": "背后饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/bk_PiFeng1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "披风1_黑",
+    "ModelNote": "背后饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/bk_PiFeng1_black.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "披风1_深蓝",
+    "ModelNote": "背后饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/bk_PiFeng1_DarkBlue.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "琴1",
+    "ModelNote": "背后饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/bk_Qin1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "伞",
+    "ModelNote": "背后饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/bk_san.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "头盔0",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/hm_0.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斗笠1",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/hm_DouLi1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斗笠1_黑",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/hm_DouLi1_black.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斗笠2",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/hm_DouLi2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斗笠2_黑",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/hm_DouLi2_black .prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斗笠M",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/hm_DouLiM.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斗笠M2",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/hm_DouLiM2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斗笠M_黑",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/hm_DouLiM_black.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "斗笠M_深蓝",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/hm_DouLiM_DarkBlue.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "帽1",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/hm_Mao1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "帽2",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/hm_Mao2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "帽3",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/hm_Mao3.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "帽4",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/hm_Mao4.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "面具0",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/mk_0.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女面罩1",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/mk_female_MianZhao1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女面罩1_1",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/mk_female_MianZhao1_1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女面罩1_2",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/mk_female_MianZhao1_2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女眼罩1",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/mk_female_YanZhao1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女眼罩1_1",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/mk_female_YanZhao1_1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "女眼罩1_2",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/mk_female_YanZhao1_2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男面罩1",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/mk_male_MianZhao1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男面罩1_1",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/mk_male_MianZhao1_1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男面罩1_2",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/mk_male_MianZhao1_2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男眼罩1",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/mk_male_YanZhao1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男眼罩1_1",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/mk_male_YanZhao1_1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "男眼罩1_2",
+    "ModelNote": "头上饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/mk_male_YanZhao1_2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "饰品0",
+    "ModelNote": "右腰部饰品|左腰部饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/om_0.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "袋子1",
+    "ModelNote": "右腰部饰品|左腰部饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/om_Dai1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "罐子1",
+    "ModelNote": "右腰部饰品|左腰部饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/om_Guan1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "罐子2",
+    "ModelNote": "右腰部饰品|左腰部饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/om_Guan2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "罐子3",
+    "ModelNote": "右腰部饰品|左腰部饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/om_Guan3.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "葫芦1",
+    "ModelNote": "右腰部饰品|左腰部饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/om_HuLu1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "葫芦2",
+    "ModelNote": "右腰部饰品|左腰部饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/om_HuLu2.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "酒袋1",
+    "ModelNote": "右腰部饰品|左腰部饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/om_JiuDai1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "笔1",
+    "ModelNote": "右腰部饰品|左腰部饰品",
+    "Url": "Assets/BuildSource/Prefabs/Character/ModelMerge/Garniture/om_MaoBi1.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "Id": "紫电特效",
+    "ModelNote": "无",
+    "Url": "Assets/BuildSource/Effects/Prefabs/Items/ShockAura_purple.prefab",
+    "Scale": 1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  }
+]

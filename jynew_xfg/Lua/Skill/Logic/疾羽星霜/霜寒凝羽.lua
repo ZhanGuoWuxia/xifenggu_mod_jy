@@ -1,0 +1,1 @@
+return passive_define("霜寒凝羽", "霜寒凝羽")

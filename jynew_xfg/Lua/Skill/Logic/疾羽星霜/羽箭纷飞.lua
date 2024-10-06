@@ -1,0 +1,1 @@
+return simple_damage_skill_template("羽箭纷飞", stat_key.Attack, 1, 0.1)

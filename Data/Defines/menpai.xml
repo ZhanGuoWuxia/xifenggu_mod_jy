@@ -1,0 +1,13 @@
+<module name="Backend.Beans">
+	<enum name="MenpaiRelationType" comment="门派关系类型">
+    <var name="Enemy" alias="敌对" value="-1" />
+		<var name="Default" alias="中立" value="0" />
+		<var name="Friend" alias="结盟" value="1" />
+	</enum>
+
+	<enum name="BattleRelationType" comment="门派攻守类型">
+		<var name="Attack" alias="攻击" value="1" />
+    <var name="Default" alias="中立" value="0" />
+		<var name="Defend" alias="防守" value="-1" />
+	</enum>
+</module>

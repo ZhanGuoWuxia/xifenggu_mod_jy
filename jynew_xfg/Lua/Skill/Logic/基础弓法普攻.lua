@@ -1,0 +1,1 @@
+return simple_damage_skill_template("基础弓法普攻", stat_key.Attack, 1)

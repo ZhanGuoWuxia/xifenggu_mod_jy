@@ -1,0 +1,1 @@
+return simple_damage_skill_template("金刚降魔掌", stat_key.Attack, 0.8)

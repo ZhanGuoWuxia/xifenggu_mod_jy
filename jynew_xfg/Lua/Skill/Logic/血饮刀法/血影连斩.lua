@@ -1,0 +1,1 @@
+return passive_define("血影连斩", "血影连斩")

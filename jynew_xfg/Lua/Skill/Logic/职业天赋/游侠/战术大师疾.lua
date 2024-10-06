@@ -1,0 +1,1 @@
+return passive_define("游侠_战术大师疾", "游侠_战术大师疾")

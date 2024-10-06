@@ -1,0 +1,1 @@
+return simple_damage_skill_template("左势猴形", stat_key.Attack, 0.5)

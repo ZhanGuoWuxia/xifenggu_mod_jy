@@ -1,0 +1,1 @@
+return passive_define("两仪生四象", "两仪生四象")

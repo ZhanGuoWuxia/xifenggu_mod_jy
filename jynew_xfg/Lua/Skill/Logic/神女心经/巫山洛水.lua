@@ -1,0 +1,1 @@
+return passive_define("巫山洛水", "巫山洛水")

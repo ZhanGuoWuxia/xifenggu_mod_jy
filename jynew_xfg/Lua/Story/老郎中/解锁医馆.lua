@@ -1,0 +1,43 @@
+show_stage("bg_158.png", "虎焰堂郊外")
+light_scene(0.2)
+
+local situ = actor("司徒来也")
+local qiliuge = actor("齐六哥")
+local doctor = actor("老郎中")
+
+--初始化位置和朝向
+bright_all_actors()
+situ:setPos(500, 75)
+situ:face_left()
+qiliuge:setPos(200, 75)
+qiliuge:face_right()
+doctor:setPos(1500, 75)
+doctor:face_left()
+
+situ:say("六哥，这医馆的修建，关乎我门弟子的安危，务必要精益求精。")
+qiliuge:say("掌门放心，我已督促弟子们日夜赶工，务必在最短时间内完工。")
+doctor:say("虎焰门能有此等胸襟，实乃江湖之福。这医馆一旦建成，必将成为武林中的一处圣地。")
+situ:flip()
+situ:movetoX(1200)
+wait_twn(qiliuge:movetoX(900), qiliuge:daze())
+situ:say("老先生，医馆的图纸和设计，还请您多加指点。")
+doctor:say("掌门客气了。老夫虽不通建筑，但医馆的布局需以方便治病救人为先，我已将心中所想，绘制成图。")
+stage_narration("说着，老郎中展开一张图纸，上面详细标注了医馆的各个部分：药房、诊室、病房、煎药室等。")
+qiliuge:say("老先生真是心思缜密，这医馆设计得既合理又周全。")
+situ:flip()
+situ:say("六哥，传我命令，医馆的建设，务必按照老先生的设计来，不得有丝毫马虎。")
+qiliuge:say("是，大少爷！")
+doctor:say("虎焰门有你们这些年轻人，何愁不能重振雄风？")
+situ:flip()
+situ:say("老先生，待医馆建成之日，便是虎焰门新生之时。届时，还望先生能在此悬壶济世，造福武林。")
+doctor:say("老夫定当竭尽全力，不负大少爷所托。")
+hide_all_stage_bubble()
+
+black_scene(0.25)
+hide_stage()
+set_flag("已解锁医馆")
+
+restore_api.add_fire_point(5)
+light_scene(0.25)
+
+avg_talk("齐六哥", "可以去[医馆]找老神医<color=yellow>批量医治伤患</color>了。")

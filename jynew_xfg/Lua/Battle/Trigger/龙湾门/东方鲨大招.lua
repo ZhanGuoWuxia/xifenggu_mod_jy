@@ -1,0 +1,1 @@
+tgr_api:tgr_bubble_text("东方鲨", "治武功如烹小鲜！火候到了！")

@@ -1,0 +1,58 @@
+
+show_stage("禁地.png", "训练场")
+play_bgm("Music/密谋_夜郎.wav")
+light_scene(0.2)
+
+local situ = actor("司徒来也")
+local qiliuge = actor("齐六哥")
+local npc = actor("朱鹮儿")
+
+--初始化位置和朝向
+bright_all_actors()
+situ:setPos(-300, 75)
+qiliuge:setPos(-600, 75)
+npc:setPos(1300, 75)
+situ:face_right()
+qiliuge:face_right()
+npc:face_right()
+
+situ:offsetX(950)
+wait_twn(qiliuge:offsetX(950), qiliuge:daze())
+
+qiliuge:say("掌门，冒昧提醒一下，您已经盯着朱鹮儿姑娘的背影看了许久了……")
+situ:say("哦，是吗？")
+qiliuge:say("掌门莫非是对朱鹮儿姑娘生了情愫？")
+situ:say("别胡说，我只是在她身上看到了我母亲的影子。")
+stage_narration("朱鹮儿听到这话，转身笑道。")
+npc:flip()
+npc:say("原来如此，看来我叫你“小(player:gname)”真是没有叫错呀。我倒是荣幸，能让你想起娘亲。")
+npc:say("小(player:gname)，我们应该把悲伤化作力量，我练箭就是为了有一天能够保护我们，让那些伤害我们的人后悔。")
+situ:say("我和六哥在这么远的地方说话，你是如何听见的？")
+npc:say("一个真正的射手，感官必须敏锐。眼观六路，耳听八方，这是基本。")
+situ:say("确实，这样才能在江湖中生存。")
+npc:say("有时候，甚至还得用鼻子嗅一嗅。比如你这样的“臭”男人靠近，我一下就能闻出来。")
+situ:say("你才是臭的！")
+qiliuge:say("看来鹮儿姑娘不仅箭术了得，连听觉和嗅觉也是一流。")
+npc:flip()
+npc:say("那当然。为了应对“敌众我寡”的局面，我练就了一项绝技，现在就展示给你们看。")
+npc:spring_scale(1.5, 1.03, 1.03, 0.5)
+stage_narration("她抽出三支箭，瞄准了树枝上的麻雀。三箭齐发，麻雀应声而落，每一只都被箭矢精准地射中。")
+situ:say("小鹮儿，你的箭法真是神乎其技！")
+npc:say("这是我第一次成功，感觉太棒了！")
+qiliuge:say("这招确实厉害，能在危急时刻扭转局势。")
+situ:say("息风谷的第一射手非你莫属！")
+npc:say("小(player:gname)，给我这招绝技取个名字吧！")
+situ:say("就叫它“万雀归西”！")
+
+hide_all_stage_bubble()
+
+roleId_change_affix("朱鹮儿", "欢喜冤家_朱鹮儿", "亲昵无间_朱鹮儿")
+roleId_change_affix("司徒来也", "欢喜冤家_司徒来也", "亲昵无间_司徒来也")
+
+restore_api.add_fire_point(5)
+
+black_scene(0.25)
+hide_stage()
+set_flag("完成朱鹮儿剧情终")
+tgr_achivement("傲娇少女")
+light_scene(0.25)

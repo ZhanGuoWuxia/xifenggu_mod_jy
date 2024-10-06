@@ -1,0 +1,2830 @@
+[
+  {
+    "Id": "inf_基础内功",
+    "ItemId": "基础内功",
+    "Price": 390,
+    "StorageCount": -1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_血河大法",
+    "ItemId": "血河大法",
+    "Price": 975,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_青木功法",
+    "ItemId": "青木功法",
+    "Price": 780,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_回春决",
+    "ItemId": "回春决",
+    "Price": 780,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_少林心法",
+    "ItemId": "少林心法",
+    "Price": 780,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_寒玉诀",
+    "ItemId": "寒玉诀",
+    "Price": 2100,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_龟岩气功",
+    "ItemId": "龟岩气功",
+    "Price": 2100,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_水鳞真诀",
+    "ItemId": "水鳞真诀",
+    "Price": 2100,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_涵阳心法",
+    "ItemId": "涵阳心法",
+    "Price": 2100,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_阴阳护体功",
+    "ItemId": "阴阳护体功",
+    "Price": 2100,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_降魔心法",
+    "ItemId": "降魔心法",
+    "Price": 2100,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "1_罗汉伏魔心法",
+    "ItemId": "罗汉伏魔心法",
+    "Price": 5600,
+    "StorageCount": 1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "1_易筋经",
+    "ItemId": "易筋经",
+    "Price": 14000,
+    "StorageCount": 1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "inf_基础身法",
+    "ItemId": "基础身法",
+    "Price": 390,
+    "StorageCount": -1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_轻身术",
+    "ItemId": "轻身术",
+    "Price": 780,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_少林身法",
+    "ItemId": "少林身法",
+    "Price": 780,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_追风步法",
+    "ItemId": "追风步法",
+    "Price": 2100,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "1_醉蝶舞",
+    "ItemId": "醉蝶舞",
+    "Price": 14000,
+    "StorageCount": 1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "inf_基础拳法",
+    "ItemId": "基础拳法",
+    "Price": 390,
+    "StorageCount": -1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_罗汉拳",
+    "ItemId": "罗汉拳",
+    "Price": 780,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_疯魔拳法",
+    "ItemId": "疯魔拳法",
+    "Price": 3150,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_淬毒掌法",
+    "ItemId": "淬毒掌法",
+    "Price": 2100,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "1_伏虎掌法",
+    "ItemId": "伏虎掌法",
+    "Price": 5600,
+    "StorageCount": 1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "1_降魔袈裟掌",
+    "ItemId": "降魔袈裟掌",
+    "Price": 14000,
+    "StorageCount": 1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "inf_基础刀法",
+    "ItemId": "基础刀法",
+    "Price": 390,
+    "StorageCount": -1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_破风刀法",
+    "ItemId": "破风刀法",
+    "Price": 2100,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "1_血魔刀法",
+    "ItemId": "血魔刀法",
+    "Price": 14000,
+    "StorageCount": 1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "inf_基础剑法",
+    "ItemId": "基础剑法",
+    "Price": 390,
+    "StorageCount": -1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_寒阴剑法",
+    "ItemId": "寒阴剑法",
+    "Price": 2100,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "1_迷踪无影剑",
+    "ItemId": "迷踪无影剑",
+    "Price": 14000,
+    "StorageCount": 1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "inf_基础枪法",
+    "ItemId": "基础枪法",
+    "Price": 390,
+    "StorageCount": -1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "inf_基础棍法",
+    "ItemId": "基础棍法",
+    "Price": 390,
+    "StorageCount": -1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_霸王枪法",
+    "ItemId": "霸王枪法",
+    "Price": 2100,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_回首棍法",
+    "ItemId": "回首棍法",
+    "Price": 2100,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "1_排云枪法",
+    "ItemId": "排云枪法",
+    "Price": 14000,
+    "StorageCount": 1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "inf_基础弓法",
+    "ItemId": "基础弓法",
+    "Price": 390,
+    "StorageCount": -1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_猎鹰弓法",
+    "ItemId": "猎鹰弓法",
+    "Price": 780,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_涟漪箭法",
+    "ItemId": "涟漪箭法",
+    "Price": 780,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_破岳虎弓法",
+    "ItemId": "破岳虎弓法",
+    "Price": 2100,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_流云箭诀",
+    "ItemId": "流云箭诀",
+    "Price": 2100,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "1_疾羽星霜",
+    "ItemId": "疾羽星霜",
+    "Price": 5600,
+    "StorageCount": 1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "1_雀舞乾坤箭",
+    "ItemId": "雀舞乾坤箭",
+    "Price": 5600,
+    "StorageCount": 1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "inf_金疮药",
+    "ItemId": "金疮药",
+    "Price": 50,
+    "StorageCount": -1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "inf_止血丹",
+    "ItemId": "止血丹",
+    "Price": 100,
+    "StorageCount": -1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "inf_十全大补丸",
+    "ItemId": "十全大补丸",
+    "Price": 250,
+    "StorageCount": -1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "inf_白玉断续膏",
+    "ItemId": "白玉断续膏",
+    "Price": 375,
+    "StorageCount": -1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "inf_九转仙露",
+    "ItemId": "九转仙露",
+    "Price": 500,
+    "StorageCount": -1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "inf_绷带",
+    "ItemId": "绷带",
+    "Price": 100,
+    "StorageCount": -1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "inf_大绷带",
+    "ItemId": "大绷带",
+    "Price": 250,
+    "StorageCount": -1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "20_猛虎丹",
+    "ItemId": "猛虎丹",
+    "Price": 300,
+    "StorageCount": 20,
+    "ItemParam": ""
+  },
+  {
+    "Id": "20_灵龟丹",
+    "ItemId": "灵龟丹",
+    "Price": 300,
+    "StorageCount": 20,
+    "ItemParam": ""
+  },
+  {
+    "Id": "20_升龙丹",
+    "ItemId": "升龙丹",
+    "Price": 300,
+    "StorageCount": 20,
+    "ItemParam": ""
+  },
+  {
+    "Id": "50_苍狼丸",
+    "ItemId": "苍狼丸",
+    "Price": 720,
+    "StorageCount": 50,
+    "ItemParam": ""
+  },
+  {
+    "Id": "50_影蛇丸",
+    "ItemId": "影蛇丸",
+    "Price": 720,
+    "StorageCount": 50,
+    "ItemParam": ""
+  },
+  {
+    "Id": "50_地羊丸",
+    "ItemId": "地羊丸",
+    "Price": 720,
+    "StorageCount": 50,
+    "ItemParam": ""
+  },
+  {
+    "Id": "50_豚牙丸",
+    "ItemId": "豚牙丸",
+    "Price": 600,
+    "StorageCount": 50,
+    "ItemParam": ""
+  },
+  {
+    "Id": "50_熊骨丸",
+    "ItemId": "熊骨丸",
+    "Price": 600,
+    "StorageCount": 50,
+    "ItemParam": ""
+  },
+  {
+    "Id": "1_普通剑",
+    "ItemId": "普通剑",
+    "Price": 300,
+    "StorageCount": 1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "1_精良剑",
+    "ItemId": "精良剑",
+    "Price": 600,
+    "StorageCount": 1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "1_稀有剑",
+    "ItemId": "稀有剑",
+    "Price": 1500,
+    "StorageCount": 1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_史诗剑",
+    "ItemId": "史诗剑",
+    "Price": 4000,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "1_传说剑",
+    "ItemId": "传说剑",
+    "Price": 10000,
+    "StorageCount": 1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "2_普通剑",
+    "ItemId": "普通剑",
+    "Price": 300,
+    "StorageCount": 2,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "2_精良剑",
+    "ItemId": "精良剑",
+    "Price": 600,
+    "StorageCount": 2,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "2_稀有剑",
+    "ItemId": "稀有剑",
+    "Price": 1500,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "2_史诗剑",
+    "ItemId": "史诗剑",
+    "Price": 4000,
+    "StorageCount": 2,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "2_传说剑",
+    "ItemId": "传说剑",
+    "Price": 10000,
+    "StorageCount": 2,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "3_普通剑",
+    "ItemId": "普通剑",
+    "Price": 300,
+    "StorageCount": 3,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "3_精良剑",
+    "ItemId": "精良剑",
+    "Price": 600,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_稀有剑",
+    "ItemId": "稀有剑",
+    "Price": 1500,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "3_史诗剑",
+    "ItemId": "史诗剑",
+    "Price": 4000,
+    "StorageCount": 3,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_传说剑",
+    "ItemId": "传说剑",
+    "Price": 10000,
+    "StorageCount": 3,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "inf_普通剑",
+    "ItemId": "普通剑",
+    "Price": 300,
+    "StorageCount": -1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "inf_精良剑",
+    "ItemId": "精良剑",
+    "Price": 600,
+    "StorageCount": -1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "inf_稀有剑",
+    "ItemId": "稀有剑",
+    "Price": 1500,
+    "StorageCount": -1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "inf_史诗剑",
+    "ItemId": "史诗剑",
+    "Price": 4000,
+    "StorageCount": -1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "inf_传说剑",
+    "ItemId": "传说剑",
+    "Price": 10000,
+    "StorageCount": -1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "1_普通刀",
+    "ItemId": "普通刀",
+    "Price": 300,
+    "StorageCount": 1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "1_精良刀",
+    "ItemId": "精良刀",
+    "Price": 600,
+    "StorageCount": 1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "1_稀有刀",
+    "ItemId": "稀有刀",
+    "Price": 1500,
+    "StorageCount": 1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_史诗刀",
+    "ItemId": "史诗刀",
+    "Price": 4000,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "1_传说刀",
+    "ItemId": "传说刀",
+    "Price": 10000,
+    "StorageCount": 1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "2_普通刀",
+    "ItemId": "普通刀",
+    "Price": 300,
+    "StorageCount": 2,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "2_精良刀",
+    "ItemId": "精良刀",
+    "Price": 600,
+    "StorageCount": 2,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "2_稀有刀",
+    "ItemId": "稀有刀",
+    "Price": 1500,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "2_史诗刀",
+    "ItemId": "史诗刀",
+    "Price": 4000,
+    "StorageCount": 2,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "2_传说刀",
+    "ItemId": "传说刀",
+    "Price": 10000,
+    "StorageCount": 2,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "3_普通刀",
+    "ItemId": "普通刀",
+    "Price": 300,
+    "StorageCount": 3,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "3_精良刀",
+    "ItemId": "精良刀",
+    "Price": 600,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_稀有刀",
+    "ItemId": "稀有刀",
+    "Price": 1500,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "3_史诗刀",
+    "ItemId": "史诗刀",
+    "Price": 4000,
+    "StorageCount": 3,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_传说刀",
+    "ItemId": "传说刀",
+    "Price": 10000,
+    "StorageCount": 3,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "inf_普通刀",
+    "ItemId": "普通刀",
+    "Price": 300,
+    "StorageCount": -1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "inf_精良刀",
+    "ItemId": "精良刀",
+    "Price": 600,
+    "StorageCount": -1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "inf_稀有刀",
+    "ItemId": "稀有刀",
+    "Price": 1500,
+    "StorageCount": -1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "inf_史诗刀",
+    "ItemId": "史诗刀",
+    "Price": 4000,
+    "StorageCount": -1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "inf_传说刀",
+    "ItemId": "传说刀",
+    "Price": 10000,
+    "StorageCount": -1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "1_普通枪",
+    "ItemId": "普通枪",
+    "Price": 300,
+    "StorageCount": 1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "1_精良枪",
+    "ItemId": "精良枪",
+    "Price": 600,
+    "StorageCount": 1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "1_稀有枪",
+    "ItemId": "稀有枪",
+    "Price": 1500,
+    "StorageCount": 1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_史诗枪",
+    "ItemId": "史诗枪",
+    "Price": 4000,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "1_传说枪",
+    "ItemId": "传说枪",
+    "Price": 10000,
+    "StorageCount": 1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "2_普通枪",
+    "ItemId": "普通枪",
+    "Price": 300,
+    "StorageCount": 2,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "2_精良枪",
+    "ItemId": "精良枪",
+    "Price": 600,
+    "StorageCount": 2,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "2_稀有枪",
+    "ItemId": "稀有枪",
+    "Price": 1500,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "2_史诗枪",
+    "ItemId": "史诗枪",
+    "Price": 4000,
+    "StorageCount": 2,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "2_传说枪",
+    "ItemId": "传说枪",
+    "Price": 10000,
+    "StorageCount": 2,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "3_普通枪",
+    "ItemId": "普通枪",
+    "Price": 300,
+    "StorageCount": 3,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "3_精良枪",
+    "ItemId": "精良枪",
+    "Price": 600,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_稀有枪",
+    "ItemId": "稀有枪",
+    "Price": 1500,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "3_史诗枪",
+    "ItemId": "史诗枪",
+    "Price": 4000,
+    "StorageCount": 3,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_传说枪",
+    "ItemId": "传说枪",
+    "Price": 10000,
+    "StorageCount": 3,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "inf_普通枪",
+    "ItemId": "普通枪",
+    "Price": 300,
+    "StorageCount": -1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "inf_精良枪",
+    "ItemId": "精良枪",
+    "Price": 600,
+    "StorageCount": -1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "inf_稀有枪",
+    "ItemId": "稀有枪",
+    "Price": 1500,
+    "StorageCount": -1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "inf_史诗枪",
+    "ItemId": "史诗枪",
+    "Price": 4000,
+    "StorageCount": -1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "inf_传说枪",
+    "ItemId": "传说枪",
+    "Price": 10000,
+    "StorageCount": -1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "1_普通棍",
+    "ItemId": "普通棍",
+    "Price": 300,
+    "StorageCount": 1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "1_精良棍",
+    "ItemId": "精良棍",
+    "Price": 600,
+    "StorageCount": 1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "1_稀有棍",
+    "ItemId": "稀有棍",
+    "Price": 1500,
+    "StorageCount": 1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_史诗棍",
+    "ItemId": "史诗棍",
+    "Price": 4000,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "1_传说棍",
+    "ItemId": "传说棍",
+    "Price": 10000,
+    "StorageCount": 1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "2_普通棍",
+    "ItemId": "普通棍",
+    "Price": 300,
+    "StorageCount": 2,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "2_精良棍",
+    "ItemId": "精良棍",
+    "Price": 600,
+    "StorageCount": 2,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "2_稀有棍",
+    "ItemId": "稀有棍",
+    "Price": 1500,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "2_史诗棍",
+    "ItemId": "史诗棍",
+    "Price": 4000,
+    "StorageCount": 2,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "2_传说棍",
+    "ItemId": "传说棍",
+    "Price": 10000,
+    "StorageCount": 2,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "3_普通棍",
+    "ItemId": "普通棍",
+    "Price": 300,
+    "StorageCount": 3,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "3_精良棍",
+    "ItemId": "精良棍",
+    "Price": 600,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_稀有棍",
+    "ItemId": "稀有棍",
+    "Price": 1500,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "3_史诗棍",
+    "ItemId": "史诗棍",
+    "Price": 4000,
+    "StorageCount": 3,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_传说棍",
+    "ItemId": "传说棍",
+    "Price": 10000,
+    "StorageCount": 3,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "inf_普通棍",
+    "ItemId": "普通棍",
+    "Price": 300,
+    "StorageCount": -1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "inf_精良棍",
+    "ItemId": "精良棍",
+    "Price": 600,
+    "StorageCount": -1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "inf_稀有棍",
+    "ItemId": "稀有棍",
+    "Price": 1500,
+    "StorageCount": -1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "inf_史诗棍",
+    "ItemId": "史诗棍",
+    "Price": 4000,
+    "StorageCount": -1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "inf_传说棍",
+    "ItemId": "传说棍",
+    "Price": 10000,
+    "StorageCount": -1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "1_普通手套",
+    "ItemId": "普通手套",
+    "Price": 300,
+    "StorageCount": 1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "1_精良手套",
+    "ItemId": "精良手套",
+    "Price": 600,
+    "StorageCount": 1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "1_稀有手套",
+    "ItemId": "稀有手套",
+    "Price": 1500,
+    "StorageCount": 1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_史诗手套",
+    "ItemId": "史诗手套",
+    "Price": 4000,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "1_传说手套",
+    "ItemId": "传说手套",
+    "Price": 10000,
+    "StorageCount": 1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "2_普通手套",
+    "ItemId": "普通手套",
+    "Price": 300,
+    "StorageCount": 2,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "2_精良手套",
+    "ItemId": "精良手套",
+    "Price": 600,
+    "StorageCount": 2,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "2_稀有手套",
+    "ItemId": "稀有手套",
+    "Price": 1500,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "2_史诗手套",
+    "ItemId": "史诗手套",
+    "Price": 4000,
+    "StorageCount": 2,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "2_传说手套",
+    "ItemId": "传说手套",
+    "Price": 10000,
+    "StorageCount": 2,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "3_普通手套",
+    "ItemId": "普通手套",
+    "Price": 300,
+    "StorageCount": 3,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "3_精良手套",
+    "ItemId": "精良手套",
+    "Price": 600,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_稀有手套",
+    "ItemId": "稀有手套",
+    "Price": 1500,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "3_史诗手套",
+    "ItemId": "史诗手套",
+    "Price": 4000,
+    "StorageCount": 3,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_传说手套",
+    "ItemId": "传说手套",
+    "Price": 10000,
+    "StorageCount": 3,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "inf_普通手套",
+    "ItemId": "普通手套",
+    "Price": 300,
+    "StorageCount": -1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "inf_精良手套",
+    "ItemId": "精良手套",
+    "Price": 600,
+    "StorageCount": -1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "inf_稀有手套",
+    "ItemId": "稀有手套",
+    "Price": 1500,
+    "StorageCount": -1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "inf_史诗手套",
+    "ItemId": "史诗手套",
+    "Price": 4000,
+    "StorageCount": -1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "inf_传说手套",
+    "ItemId": "传说手套",
+    "Price": 10000,
+    "StorageCount": -1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "1_普通爪",
+    "ItemId": "普通爪",
+    "Price": 300,
+    "StorageCount": 1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "1_精良爪",
+    "ItemId": "精良爪",
+    "Price": 600,
+    "StorageCount": 1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "1_稀有爪",
+    "ItemId": "稀有爪",
+    "Price": 1500,
+    "StorageCount": 1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_史诗爪",
+    "ItemId": "史诗爪",
+    "Price": 4000,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "1_传说爪",
+    "ItemId": "传说爪",
+    "Price": 10000,
+    "StorageCount": 1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "2_普通爪",
+    "ItemId": "普通爪",
+    "Price": 300,
+    "StorageCount": 2,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "2_精良爪",
+    "ItemId": "精良爪",
+    "Price": 600,
+    "StorageCount": 2,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "2_稀有爪",
+    "ItemId": "稀有爪",
+    "Price": 1500,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "2_史诗爪",
+    "ItemId": "史诗爪",
+    "Price": 4000,
+    "StorageCount": 2,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "2_传说爪",
+    "ItemId": "传说爪",
+    "Price": 10000,
+    "StorageCount": 2,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "3_普通爪",
+    "ItemId": "普通爪",
+    "Price": 300,
+    "StorageCount": 3,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "3_精良爪",
+    "ItemId": "精良爪",
+    "Price": 600,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_稀有爪",
+    "ItemId": "稀有爪",
+    "Price": 1500,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "3_史诗爪",
+    "ItemId": "史诗爪",
+    "Price": 4000,
+    "StorageCount": 3,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_传说爪",
+    "ItemId": "传说爪",
+    "Price": 10000,
+    "StorageCount": 3,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "inf_普通爪",
+    "ItemId": "普通爪",
+    "Price": 300,
+    "StorageCount": -1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "inf_精良爪",
+    "ItemId": "精良爪",
+    "Price": 600,
+    "StorageCount": -1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "inf_稀有爪",
+    "ItemId": "稀有爪",
+    "Price": 1500,
+    "StorageCount": -1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "inf_史诗爪",
+    "ItemId": "史诗爪",
+    "Price": 4000,
+    "StorageCount": -1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "inf_传说爪",
+    "ItemId": "传说爪",
+    "Price": 10000,
+    "StorageCount": -1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "1_普通弓",
+    "ItemId": "普通弓",
+    "Price": 300,
+    "StorageCount": 1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "1_精良弓",
+    "ItemId": "精良弓",
+    "Price": 600,
+    "StorageCount": 1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "1_稀有弓",
+    "ItemId": "稀有弓",
+    "Price": 1500,
+    "StorageCount": 1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_史诗弓",
+    "ItemId": "史诗弓",
+    "Price": 4000,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "1_传说弓",
+    "ItemId": "传说弓",
+    "Price": 10000,
+    "StorageCount": 1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "2_普通弓",
+    "ItemId": "普通弓",
+    "Price": 300,
+    "StorageCount": 2,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "2_精良弓",
+    "ItemId": "精良弓",
+    "Price": 600,
+    "StorageCount": 2,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "2_稀有弓",
+    "ItemId": "稀有弓",
+    "Price": 1500,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "2_史诗弓",
+    "ItemId": "史诗弓",
+    "Price": 4000,
+    "StorageCount": 2,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "2_传说弓",
+    "ItemId": "传说弓",
+    "Price": 10000,
+    "StorageCount": 2,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "3_普通弓",
+    "ItemId": "普通弓",
+    "Price": 300,
+    "StorageCount": 3,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "3_精良弓",
+    "ItemId": "精良弓",
+    "Price": 600,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_稀有弓",
+    "ItemId": "稀有弓",
+    "Price": 1500,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "3_史诗弓",
+    "ItemId": "史诗弓",
+    "Price": 4000,
+    "StorageCount": 3,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_传说弓",
+    "ItemId": "传说弓",
+    "Price": 10000,
+    "StorageCount": 3,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "inf_普通弓",
+    "ItemId": "普通弓",
+    "Price": 300,
+    "StorageCount": -1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "inf_精良弓",
+    "ItemId": "精良弓",
+    "Price": 600,
+    "StorageCount": -1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "inf_稀有弓",
+    "ItemId": "稀有弓",
+    "Price": 1500,
+    "StorageCount": -1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "inf_史诗弓",
+    "ItemId": "史诗弓",
+    "Price": 4000,
+    "StorageCount": -1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "inf_传说弓",
+    "ItemId": "传说弓",
+    "Price": 10000,
+    "StorageCount": -1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "1_普通轻甲",
+    "ItemId": "普通轻甲",
+    "Price": 270,
+    "StorageCount": 1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "1_精良轻甲",
+    "ItemId": "精良轻甲",
+    "Price": 540,
+    "StorageCount": 1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "1_稀有轻甲",
+    "ItemId": "稀有轻甲",
+    "Price": 1350,
+    "StorageCount": 1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_史诗轻甲",
+    "ItemId": "史诗轻甲",
+    "Price": 3600,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "1_传说轻甲",
+    "ItemId": "传说轻甲",
+    "Price": 9000,
+    "StorageCount": 1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "2_普通轻甲",
+    "ItemId": "普通轻甲",
+    "Price": 270,
+    "StorageCount": 2,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "2_精良轻甲",
+    "ItemId": "精良轻甲",
+    "Price": 540,
+    "StorageCount": 2,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "2_稀有轻甲",
+    "ItemId": "稀有轻甲",
+    "Price": 1350,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "2_史诗轻甲",
+    "ItemId": "史诗轻甲",
+    "Price": 3600,
+    "StorageCount": 2,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "2_传说轻甲",
+    "ItemId": "传说轻甲",
+    "Price": 9000,
+    "StorageCount": 2,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "3_普通轻甲",
+    "ItemId": "普通轻甲",
+    "Price": 270,
+    "StorageCount": 3,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "3_精良轻甲",
+    "ItemId": "精良轻甲",
+    "Price": 540,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_稀有轻甲",
+    "ItemId": "稀有轻甲",
+    "Price": 1350,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "3_史诗轻甲",
+    "ItemId": "史诗轻甲",
+    "Price": 3600,
+    "StorageCount": 3,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_传说轻甲",
+    "ItemId": "传说轻甲",
+    "Price": 9000,
+    "StorageCount": 3,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "inf_普通轻甲",
+    "ItemId": "普通轻甲",
+    "Price": 270,
+    "StorageCount": -1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "inf_精良轻甲",
+    "ItemId": "精良轻甲",
+    "Price": 540,
+    "StorageCount": -1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "inf_稀有轻甲",
+    "ItemId": "稀有轻甲",
+    "Price": 1350,
+    "StorageCount": -1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "inf_史诗轻甲",
+    "ItemId": "史诗轻甲",
+    "Price": 3600,
+    "StorageCount": -1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "inf_传说轻甲",
+    "ItemId": "传说轻甲",
+    "Price": 9000,
+    "StorageCount": -1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "1_普通中甲",
+    "ItemId": "普通中甲",
+    "Price": 270,
+    "StorageCount": 1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "1_精良中甲",
+    "ItemId": "精良中甲",
+    "Price": 540,
+    "StorageCount": 1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "1_稀有中甲",
+    "ItemId": "稀有中甲",
+    "Price": 1350,
+    "StorageCount": 1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_史诗中甲",
+    "ItemId": "史诗中甲",
+    "Price": 3600,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "1_传说中甲",
+    "ItemId": "传说中甲",
+    "Price": 9000,
+    "StorageCount": 1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "2_普通中甲",
+    "ItemId": "普通中甲",
+    "Price": 270,
+    "StorageCount": 2,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "2_精良中甲",
+    "ItemId": "精良中甲",
+    "Price": 540,
+    "StorageCount": 2,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "2_稀有中甲",
+    "ItemId": "稀有中甲",
+    "Price": 1350,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "2_史诗中甲",
+    "ItemId": "史诗中甲",
+    "Price": 3600,
+    "StorageCount": 2,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "2_传说中甲",
+    "ItemId": "传说中甲",
+    "Price": 9000,
+    "StorageCount": 2,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "3_普通中甲",
+    "ItemId": "普通中甲",
+    "Price": 270,
+    "StorageCount": 3,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "3_精良中甲",
+    "ItemId": "精良中甲",
+    "Price": 540,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_稀有中甲",
+    "ItemId": "稀有中甲",
+    "Price": 1350,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "3_史诗中甲",
+    "ItemId": "史诗中甲",
+    "Price": 3600,
+    "StorageCount": 3,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_传说中甲",
+    "ItemId": "传说中甲",
+    "Price": 9000,
+    "StorageCount": 3,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "inf_普通中甲",
+    "ItemId": "普通中甲",
+    "Price": 270,
+    "StorageCount": -1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "inf_精良中甲",
+    "ItemId": "精良中甲",
+    "Price": 540,
+    "StorageCount": -1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "inf_稀有中甲",
+    "ItemId": "稀有中甲",
+    "Price": 1350,
+    "StorageCount": -1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "inf_史诗中甲",
+    "ItemId": "史诗中甲",
+    "Price": 3600,
+    "StorageCount": -1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "inf_传说中甲",
+    "ItemId": "传说中甲",
+    "Price": 9000,
+    "StorageCount": -1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "1_普通重甲",
+    "ItemId": "普通重甲",
+    "Price": 270,
+    "StorageCount": 1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "1_精良重甲",
+    "ItemId": "精良重甲",
+    "Price": 540,
+    "StorageCount": 1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "1_稀有重甲",
+    "ItemId": "稀有重甲",
+    "Price": 1350,
+    "StorageCount": 1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_史诗重甲",
+    "ItemId": "史诗重甲",
+    "Price": 3600,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "1_传说重甲",
+    "ItemId": "传说重甲",
+    "Price": 9000,
+    "StorageCount": 1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "2_普通重甲",
+    "ItemId": "普通重甲",
+    "Price": 270,
+    "StorageCount": 2,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "2_精良重甲",
+    "ItemId": "精良重甲",
+    "Price": 540,
+    "StorageCount": 2,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "2_稀有重甲",
+    "ItemId": "稀有重甲",
+    "Price": 1350,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "2_史诗重甲",
+    "ItemId": "史诗重甲",
+    "Price": 3600,
+    "StorageCount": 2,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "2_传说重甲",
+    "ItemId": "传说重甲",
+    "Price": 9000,
+    "StorageCount": 2,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "3_普通重甲",
+    "ItemId": "普通重甲",
+    "Price": 270,
+    "StorageCount": 3,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "3_精良重甲",
+    "ItemId": "精良重甲",
+    "Price": 540,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_稀有重甲",
+    "ItemId": "稀有重甲",
+    "Price": 1350,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "3_史诗重甲",
+    "ItemId": "史诗重甲",
+    "Price": 3600,
+    "StorageCount": 3,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_传说重甲",
+    "ItemId": "传说重甲",
+    "Price": 9000,
+    "StorageCount": 3,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "inf_普通重甲",
+    "ItemId": "普通重甲",
+    "Price": 270,
+    "StorageCount": -1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "inf_精良重甲",
+    "ItemId": "精良重甲",
+    "Price": 540,
+    "StorageCount": -1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "inf_稀有重甲",
+    "ItemId": "稀有重甲",
+    "Price": 1350,
+    "StorageCount": -1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "inf_史诗重甲",
+    "ItemId": "史诗重甲",
+    "Price": 3600,
+    "StorageCount": -1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "inf_传说重甲",
+    "ItemId": "传说重甲",
+    "Price": 9000,
+    "StorageCount": -1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "1_普通项链",
+    "ItemId": "普通项链",
+    "Price": 240,
+    "StorageCount": 1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "1_精良项链",
+    "ItemId": "精良项链",
+    "Price": 480,
+    "StorageCount": 1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "1_稀有项链",
+    "ItemId": "稀有项链",
+    "Price": 1200,
+    "StorageCount": 1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_史诗项链",
+    "ItemId": "史诗项链",
+    "Price": 3200,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "1_传说项链",
+    "ItemId": "传说项链",
+    "Price": 8000,
+    "StorageCount": 1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "2_普通项链",
+    "ItemId": "普通项链",
+    "Price": 240,
+    "StorageCount": 2,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "2_精良项链",
+    "ItemId": "精良项链",
+    "Price": 480,
+    "StorageCount": 2,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "2_稀有项链",
+    "ItemId": "稀有项链",
+    "Price": 1200,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "2_史诗项链",
+    "ItemId": "史诗项链",
+    "Price": 3200,
+    "StorageCount": 2,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "2_传说项链",
+    "ItemId": "传说项链",
+    "Price": 8000,
+    "StorageCount": 2,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "3_普通项链",
+    "ItemId": "普通项链",
+    "Price": 240,
+    "StorageCount": 3,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "3_精良项链",
+    "ItemId": "精良项链",
+    "Price": 480,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_稀有项链",
+    "ItemId": "稀有项链",
+    "Price": 1200,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "3_史诗项链",
+    "ItemId": "史诗项链",
+    "Price": 3200,
+    "StorageCount": 3,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_传说项链",
+    "ItemId": "传说项链",
+    "Price": 8000,
+    "StorageCount": 3,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "inf_普通项链",
+    "ItemId": "普通项链",
+    "Price": 240,
+    "StorageCount": -1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "inf_精良项链",
+    "ItemId": "精良项链",
+    "Price": 480,
+    "StorageCount": -1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "inf_稀有项链",
+    "ItemId": "稀有项链",
+    "Price": 1200,
+    "StorageCount": -1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "inf_史诗项链",
+    "ItemId": "史诗项链",
+    "Price": 3200,
+    "StorageCount": -1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "inf_传说项链",
+    "ItemId": "传说项链",
+    "Price": 8000,
+    "StorageCount": -1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "1_普通戒指",
+    "ItemId": "普通戒指",
+    "Price": 240,
+    "StorageCount": 1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "1_精良戒指",
+    "ItemId": "精良戒指",
+    "Price": 480,
+    "StorageCount": 1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "1_稀有戒指",
+    "ItemId": "稀有戒指",
+    "Price": 1200,
+    "StorageCount": 1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_史诗戒指",
+    "ItemId": "史诗戒指",
+    "Price": 3200,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "1_传说戒指",
+    "ItemId": "传说戒指",
+    "Price": 8000,
+    "StorageCount": 1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "2_普通戒指",
+    "ItemId": "普通戒指",
+    "Price": 240,
+    "StorageCount": 2,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "2_精良戒指",
+    "ItemId": "精良戒指",
+    "Price": 480,
+    "StorageCount": 2,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "2_稀有戒指",
+    "ItemId": "稀有戒指",
+    "Price": 1200,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "2_史诗戒指",
+    "ItemId": "史诗戒指",
+    "Price": 3200,
+    "StorageCount": 2,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "2_传说戒指",
+    "ItemId": "传说戒指",
+    "Price": 8000,
+    "StorageCount": 2,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "3_普通戒指",
+    "ItemId": "普通戒指",
+    "Price": 240,
+    "StorageCount": 3,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "3_精良戒指",
+    "ItemId": "精良戒指",
+    "Price": 480,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_稀有戒指",
+    "ItemId": "稀有戒指",
+    "Price": 1200,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "3_史诗戒指",
+    "ItemId": "史诗戒指",
+    "Price": 3200,
+    "StorageCount": 3,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_传说戒指",
+    "ItemId": "传说戒指",
+    "Price": 8000,
+    "StorageCount": 3,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "inf_普通戒指",
+    "ItemId": "普通戒指",
+    "Price": 240,
+    "StorageCount": -1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "inf_精良戒指",
+    "ItemId": "精良戒指",
+    "Price": 480,
+    "StorageCount": -1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "inf_稀有戒指",
+    "ItemId": "稀有戒指",
+    "Price": 1200,
+    "StorageCount": -1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "inf_史诗戒指",
+    "ItemId": "史诗戒指",
+    "Price": 3200,
+    "StorageCount": -1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "inf_传说戒指",
+    "ItemId": "传说戒指",
+    "Price": 8000,
+    "StorageCount": -1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "1_普通手镯",
+    "ItemId": "普通手镯",
+    "Price": 240,
+    "StorageCount": 1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "1_精良手镯",
+    "ItemId": "精良手镯",
+    "Price": 480,
+    "StorageCount": 1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "1_稀有手镯",
+    "ItemId": "稀有手镯",
+    "Price": 1200,
+    "StorageCount": 1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_史诗手镯",
+    "ItemId": "史诗手镯",
+    "Price": 3200,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "1_传说手镯",
+    "ItemId": "传说手镯",
+    "Price": 8000,
+    "StorageCount": 1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "2_普通手镯",
+    "ItemId": "普通手镯",
+    "Price": 240,
+    "StorageCount": 2,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "2_精良手镯",
+    "ItemId": "精良手镯",
+    "Price": 480,
+    "StorageCount": 2,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "2_稀有手镯",
+    "ItemId": "稀有手镯",
+    "Price": 1200,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "2_史诗手镯",
+    "ItemId": "史诗手镯",
+    "Price": 3200,
+    "StorageCount": 2,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "2_传说手镯",
+    "ItemId": "传说手镯",
+    "Price": 8000,
+    "StorageCount": 2,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "3_普通手镯",
+    "ItemId": "普通手镯",
+    "Price": 240,
+    "StorageCount": 3,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "3_精良手镯",
+    "ItemId": "精良手镯",
+    "Price": 480,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_稀有手镯",
+    "ItemId": "稀有手镯",
+    "Price": 1200,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "3_史诗手镯",
+    "ItemId": "史诗手镯",
+    "Price": 3200,
+    "StorageCount": 3,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_传说手镯",
+    "ItemId": "传说手镯",
+    "Price": 8000,
+    "StorageCount": 3,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "inf_普通手镯",
+    "ItemId": "普通手镯",
+    "Price": 240,
+    "StorageCount": -1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "inf_精良手镯",
+    "ItemId": "精良手镯",
+    "Price": 480,
+    "StorageCount": -1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "inf_稀有手镯",
+    "ItemId": "稀有手镯",
+    "Price": 1200,
+    "StorageCount": -1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "inf_史诗手镯",
+    "ItemId": "史诗手镯",
+    "Price": 3200,
+    "StorageCount": -1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "inf_传说手镯",
+    "ItemId": "传说手镯",
+    "Price": 8000,
+    "StorageCount": -1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "1_普通护腕",
+    "ItemId": "普通护腕",
+    "Price": 240,
+    "StorageCount": 1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "1_精良护腕",
+    "ItemId": "精良护腕",
+    "Price": 480,
+    "StorageCount": 1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "1_稀有护腕",
+    "ItemId": "稀有护腕",
+    "Price": 1200,
+    "StorageCount": 1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_史诗护腕",
+    "ItemId": "史诗护腕",
+    "Price": 3200,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "1_传说护腕",
+    "ItemId": "传说护腕",
+    "Price": 8000,
+    "StorageCount": 1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "2_普通护腕",
+    "ItemId": "普通护腕",
+    "Price": 240,
+    "StorageCount": 2,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "2_精良护腕",
+    "ItemId": "精良护腕",
+    "Price": 480,
+    "StorageCount": 2,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "2_稀有护腕",
+    "ItemId": "稀有护腕",
+    "Price": 1200,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "2_史诗护腕",
+    "ItemId": "史诗护腕",
+    "Price": 3200,
+    "StorageCount": 2,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "2_传说护腕",
+    "ItemId": "传说护腕",
+    "Price": 8000,
+    "StorageCount": 2,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "3_普通护腕",
+    "ItemId": "普通护腕",
+    "Price": 240,
+    "StorageCount": 3,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "3_精良护腕",
+    "ItemId": "精良护腕",
+    "Price": 480,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_稀有护腕",
+    "ItemId": "稀有护腕",
+    "Price": 1200,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "3_史诗护腕",
+    "ItemId": "史诗护腕",
+    "Price": 3200,
+    "StorageCount": 3,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_传说护腕",
+    "ItemId": "传说护腕",
+    "Price": 8000,
+    "StorageCount": 3,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "inf_普通护腕",
+    "ItemId": "普通护腕",
+    "Price": 240,
+    "StorageCount": -1,
+    "ItemParam": "#(1-1)"
+  },
+  {
+    "Id": "inf_精良护腕",
+    "ItemId": "精良护腕",
+    "Price": 480,
+    "StorageCount": -1,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "inf_稀有护腕",
+    "ItemId": "稀有护腕",
+    "Price": 1200,
+    "StorageCount": -1,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "inf_史诗护腕",
+    "ItemId": "史诗护腕",
+    "Price": 3200,
+    "StorageCount": -1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "inf_传说护腕",
+    "ItemId": "传说护腕",
+    "Price": 8000,
+    "StorageCount": -1,
+    "ItemParam": "#(5-5)"
+  },
+  {
+    "Id": "3_水火棍",
+    "ItemId": "水火棍",
+    "Price": 1875,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "3_桃木剑",
+    "ItemId": "桃木剑",
+    "Price": 1875,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "2_八卦衣",
+    "ItemId": "八卦衣",
+    "Price": 1687,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "3_八卦衣",
+    "ItemId": "八卦衣",
+    "Price": 1687,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "3_云纹冠",
+    "ItemId": "云纹冠",
+    "Price": 1500,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_白玉双鱼佩",
+    "ItemId": "白玉双鱼佩",
+    "Price": 4000,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_乾坤步法",
+    "ItemId": "乾坤步法",
+    "Price": 2625,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_风雷掌法",
+    "ItemId": "风雷掌法",
+    "Price": 2625,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_破岳剑法",
+    "ItemId": "破岳剑法",
+    "Price": 2625,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_八卦棍法",
+    "ItemId": "八卦棍法",
+    "Price": 2625,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "1_两仪四象功",
+    "ItemId": "两仪四象功",
+    "Price": 7000,
+    "StorageCount": 1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "2_千蛛",
+    "ItemId": "千蛛",
+    "Price": 1875,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "3_千蛛",
+    "ItemId": "千蛛",
+    "Price": 1875,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_毒牙龙杖",
+    "ItemId": "毒牙龙杖",
+    "Price": 6000,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_千足蜈蚣衣",
+    "ItemId": "千足蜈蚣衣",
+    "Price": 1687,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_血祭绝蝎甲",
+    "ItemId": "血祭绝蝎甲",
+    "Price": 5400,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_剧毒蜘蛛",
+    "ItemId": "剧毒蜘蛛",
+    "Price": 1500,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_黑水仙",
+    "ItemId": "黑水仙",
+    "Price": 4000,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "1_姑获鸟之瓶",
+    "ItemId": "姑获鸟之瓶",
+    "Price": 4000,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_寄生诀",
+    "ItemId": "寄生诀",
+    "Price": 2625,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_迷魂步",
+    "ItemId": "迷魂步",
+    "Price": 2625,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_蚀骨钩爪",
+    "ItemId": "蚀骨钩爪",
+    "Price": 2625,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "1_天仙万毒术",
+    "ItemId": "天仙万毒术",
+    "Price": 8400,
+    "StorageCount": 1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "1_万蛇嗜毒杖法",
+    "ItemId": "万蛇嗜毒杖法",
+    "Price": 8400,
+    "StorageCount": 1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "2_重山护手",
+    "ItemId": "重山护手",
+    "Price": 2100,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "2_破甲枪",
+    "ItemId": "破甲枪",
+    "Price": 2100,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_铁甲护胸",
+    "ItemId": "铁甲护胸",
+    "Price": 5040,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "2_铁甲护胸",
+    "ItemId": "铁甲护胸",
+    "Price": 5040,
+    "StorageCount": 2,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "2_贪狼戒",
+    "ItemId": "贪狼戒",
+    "Price": 1680,
+    "StorageCount": 2,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "1_福运坠",
+    "ItemId": "福运坠",
+    "Price": 4480,
+    "StorageCount": 1,
+    "ItemParam": "#(4-4)"
+  },
+  {
+    "Id": "3_惊鸿诀",
+    "ItemId": "惊鸿诀",
+    "Price": 2940,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_铁壁玄功",
+    "ItemId": "铁壁玄功",
+    "Price": 2940,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_臭屁箭法",
+    "ItemId": "臭屁箭法",
+    "Price": 2940,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_猹影枪法",
+    "ItemId": "猹影枪法",
+    "Price": 2940,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_铁甲拳法",
+    "ItemId": "铁甲拳法",
+    "Price": 2940,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "1_爱耍剑法",
+    "ItemId": "爱耍剑法",
+    "Price": 7840,
+    "StorageCount": 1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "1_血饮刀法",
+    "ItemId": "血饮刀法",
+    "Price": 7840,
+    "StorageCount": 1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "1_霸绝功",
+    "ItemId": "霸绝功",
+    "Price": 7840,
+    "StorageCount": 1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "1_灵息回天功",
+    "ItemId": "灵息回天功",
+    "Price": 7840,
+    "StorageCount": 1,
+    "ItemParam": ""
+  },
+  {
+    "Id": "2_灵息回天功",
+    "ItemId": "灵息回天功",
+    "Price": 7840,
+    "StorageCount": 2,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_虎焰刀法",
+    "ItemId": "虎焰刀法",
+    "Price": 975,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_火钳刀法",
+    "ItemId": "火钳刀法",
+    "Price": 975,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_烧火棍法",
+    "ItemId": "烧火棍法",
+    "Price": 975,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_探云摘星手",
+    "ItemId": "探云摘星手",
+    "Price": 975,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_削骨刀",
+    "ItemId": "削骨刀",
+    "Price": 750,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_绝命刀",
+    "ItemId": "绝命刀",
+    "Price": 750,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_豪猪甲",
+    "ItemId": "豪猪甲",
+    "Price": 675,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_流血刺戒",
+    "ItemId": "流血刺戒",
+    "Price": 600,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_野猪齿",
+    "ItemId": "野猪齿",
+    "Price": 600,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_福豕镯",
+    "ItemId": "福豕镯",
+    "Price": 600,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_草木枯元功",
+    "ItemId": "草木枯元功",
+    "Price": 975,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_夜影身法",
+    "ItemId": "夜影身法",
+    "Price": 975,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_杀猪刀法",
+    "ItemId": "杀猪刀法",
+    "Price": 975,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_断血刀法",
+    "ItemId": "断血刀法",
+    "Price": 975,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_血戮刀法",
+    "ItemId": "血戮刀法",
+    "Price": 2625,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "2_潜龙心法",
+    "ItemId": "潜龙心法",
+    "Price": 1170,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_从龙秘术",
+    "ItemId": "从龙秘术",
+    "Price": 975,
+    "StorageCount": 2,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_盘龙棍法",
+    "ItemId": "盘龙棍法",
+    "Price": 975,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_蛟龙枪法",
+    "ItemId": "蛟龙枪法",
+    "Price": 975,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_水蛇剑法",
+    "ItemId": "水蛇剑法",
+    "Price": 2625,
+    "StorageCount": 3,
+    "ItemParam": ""
+  },
+  {
+    "Id": "3_蟠蛇剑",
+    "ItemId": "蟠蛇剑",
+    "Price": 750,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_蝮蛇弓",
+    "ItemId": "蝮蛇弓",
+    "Price": 750,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_蛟龙枪",
+    "ItemId": "蛟龙枪",
+    "Price": 750,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_蚑龙爪",
+    "ItemId": "蚑龙爪",
+    "Price": 1875,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  },
+  {
+    "Id": "2_龙蛇袍",
+    "ItemId": "龙蛇袍",
+    "Price": 675,
+    "StorageCount": 2,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_龙蛇袍",
+    "ItemId": "龙蛇袍",
+    "Price": 675,
+    "StorageCount": 3,
+    "ItemParam": "#(2-2)"
+  },
+  {
+    "Id": "3_水龙戒",
+    "ItemId": "水龙戒",
+    "Price": 1500,
+    "StorageCount": 3,
+    "ItemParam": "#(3-3)"
+  }
+]

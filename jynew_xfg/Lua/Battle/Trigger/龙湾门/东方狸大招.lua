@@ -1,0 +1,1 @@
+tgr_api:tgr_bubble_text("东方狸", "拳出风云动，一招定生死！")

@@ -1,0 +1,3950 @@
+[
+  {
+    "Id": "坚韧不拔",
+    "Pic": "坚韧不拔",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/1",
+      "text": "坚韧不拔"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/1",
+      "text": "气血值低于<color=yellow>40%</color>时,受到的伤害降低<color=#00da2e>10%</color>"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "坚韧不拔",
+    "IsInRandom": true
+  },
+  {
+    "Id": "独行侠",
+    "Pic": "独行侠",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/2",
+      "text": "独行侠"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/2",
+      "text": "只上阵一名角色时，对面每上场一个单位，我方则每提升6%攻击和气血值"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "独行侠",
+    "IsInRandom": true
+  },
+  {
+    "Id": "绝脉之人",
+    "Pic": "绝脉之人",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/3",
+      "text": "绝脉之人"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/3",
+      "text": "以<color=red>无法集气</color>为代价，对敌人提升<color=yellow>30%</color>伤害"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "绝脉之人",
+    "IsInRandom": true
+  },
+  {
+    "Id": "觅血者",
+    "Pic": "觅血者",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/4",
+      "text": "觅血者"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/4",
+      "text": "对处于<color=red>流血</color>状态的单位造成的伤害提升<color=yellow>30%</color>"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "觅血者",
+    "IsInRandom": true
+  },
+  {
+    "Id": "放血者",
+    "Pic": "放血者",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/5",
+      "text": "放血者"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/5",
+      "text": "效果:每次攻击命中时，有50%的概率对目标叠加1层<color=red>流血</color>状态"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "放血者",
+    "IsInRandom": true
+  },
+  {
+    "Id": "血之报偿",
+    "Pic": "血之报偿",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/6",
+      "text": "血之报偿"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/6",
+      "text": "效果:攻击处于<color=red>流血</color>状态的单位时，恢复自身已损失气血的<color=#00da2e>15%</color>"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "血之报偿",
+    "IsInRandom": true
+  },
+  {
+    "Id": "见招拆招",
+    "Pic": "见招拆招",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/7",
+      "text": "见招拆招"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/7",
+      "text": "此人练就了一双火眼金睛，能够看破他人的防守架势并利用其弱点\n效果:攻击目标时，目标每触发一次招架，自身下回合提升(5% X 招架次数)的伤害"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "见招拆招",
+    "IsInRandom": true
+  },
+  {
+    "Id": "散功助手",
+    "Pic": "散功助手",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/8",
+      "text": "散功助手"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/8",
+      "text": "每次对目标造成伤害时，有30%的概率击散目标3点内力"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "散功助手",
+    "IsInRandom": true
+  },
+  {
+    "Id": "春风化雨",
+    "Pic": "春风化雨",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/9",
+      "text": "春风化雨"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/9",
+      "text": "战斗中每回合结束时回复5%最大气血值"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "春风化雨",
+    "IsInRandom": true
+  },
+  {
+    "Id": "罡气护体",
+    "Pic": "罡气护体",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/10",
+      "text": "罡气护体"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/10",
+      "text": "战斗中每回合开始获得5%最大气血值的护盾"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "罡气护体",
+    "IsInRandom": true
+  },
+  {
+    "Id": "碎裂者",
+    "Pic": "碎裂者",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/11",
+      "text": "碎裂者"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/11",
+      "text": "对目标造成伤害时，若目标拥有护盾，此次伤害提升10%"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "碎裂者",
+    "IsInRandom": true
+  },
+  {
+    "Id": "刺骨者",
+    "Pic": "刺骨者",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/12",
+      "text": "刺骨者"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/12",
+      "text": "对目标造成伤害时，若目标没有护盾，对其造成的伤害提升10%"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "刺骨者",
+    "IsInRandom": true
+  },
+  {
+    "Id": "百折不挠",
+    "Pic": "百折不挠",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/13",
+      "text": "百折不挠"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/13",
+      "text": "受到伤害时，若自身拥有护盾，提升10%招架率"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "百折不挠",
+    "IsInRandom": true
+  },
+  {
+    "Id": "暂避锋芒",
+    "Pic": "暂避锋芒",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/14",
+      "text": "暂避锋芒"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/14",
+      "text": "受到伤害时，若自身没有护盾，提升5%闪避率"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "暂避锋芒",
+    "IsInRandom": true
+  },
+  {
+    "Id": "乘胜追击",
+    "Pic": "乘胜追击",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/15",
+      "text": "乘胜追击"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/15",
+      "text": "每击败一个单位，则立即回复5点内力"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "乘胜追击",
+    "IsInRandom": true
+  },
+  {
+    "Id": "会心",
+    "Pic": "会心",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/16",
+      "text": "会心"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/16",
+      "text": "普通攻击有15%的概率造成2倍伤害"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "会心",
+    "IsInRandom": true
+  },
+  {
+    "Id": "看破",
+    "Pic": "看破",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/17",
+      "text": "看破"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/17",
+      "text": "当招架成功时，有50%的概率清除自身一个减益buff"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "看破",
+    "IsInRandom": true
+  },
+  {
+    "Id": "坚如磐石",
+    "Pic": "坚如磐石",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/18",
+      "text": "坚如磐石"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/18",
+      "text": "此人免疫流血"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "坚如磐石",
+    "IsInRandom": true
+  },
+  {
+    "Id": "自旋爱好者",
+    "Pic": "自旋爱好者",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/19",
+      "text": "自旋爱好者"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/19",
+      "text": "此人免疫晕眩"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "自旋爱好者",
+    "IsInRandom": true
+  },
+  {
+    "Id": "百毒不侵",
+    "Pic": "百毒不侵",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/20",
+      "text": "百毒不侵"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/20",
+      "text": "此人免疫中毒"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "百毒不侵",
+    "IsInRandom": true
+  },
+  {
+    "Id": "淬毒者",
+    "Pic": "淬毒者",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/21",
+      "text": "淬毒者"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/21",
+      "text": "对处于中毒的单位造成伤害时，施加20层易伤状态，持续3回合\n易伤：每层受到的伤害提升1%"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "淬毒者",
+    "IsInRandom": true
+  },
+  {
+    "Id": "气脉顺畅",
+    "Pic": "气脉顺畅",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/22",
+      "text": "气脉顺畅"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/22",
+      "text": "此人能更快恢复内力"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "sp",
+        2.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "气海浩荡",
+    "Pic": "气海浩荡",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/23",
+      "text": "气海浩荡"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/23",
+      "text": "此人丹田能储存更多的内力"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "mp",
+        10.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "木头人",
+    "Pic": "木头人",
+    "AffixQuality": 1,
+    "AffixName": {
+      "key": "i18n/affix/name/24",
+      "text": "木头人"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/24",
+      "text": "此人无法做任何行动，如同木头人一般"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "defper",
+        0.25
+      ],
+      [
+        "tenper",
+        0.25
+      ],
+      [
+        "hp_percent",
+        0.5
+      ]
+    ],
+    "BattleBuffId": "木头人",
+    "IsInRandom": false
+  },
+  {
+    "Id": "独腿之人",
+    "Pic": "独腿之人",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/25",
+      "text": "独腿之人"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/25",
+      "text": "此人断了一条腿"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "defper",
+        0.25
+      ],
+      [
+        "tenper",
+        0.25
+      ],
+      [
+        "拳法资质",
+        100.0
+      ],
+      [
+        "spdper",
+        -0.5
+      ],
+      [
+        "轻功资质",
+        -100.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "独臂之人",
+    "Pic": "独臂之人",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/26",
+      "text": "独臂之人"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/26",
+      "text": "此人丢失了一条手臂"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "atkper",
+        -0.25
+      ],
+      [
+        "刀法资质",
+        150.0
+      ],
+      [
+        "剑法资质",
+        50.0
+      ],
+      [
+        "拳法资质",
+        -100.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "独眼龙",
+    "Pic": "独眼龙",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/27",
+      "text": "独眼龙"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/27",
+      "text": "此人失去了一只眼睛"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "射术资质",
+        100.0
+      ],
+      [
+        "antidodge",
+        100.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "盲人",
+    "Pic": "盲人",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/28",
+      "text": "盲人"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/28",
+      "text": "此人双目失明"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "dodge",
+        66.0
+      ],
+      [
+        "crt",
+        66.0
+      ],
+      [
+        "刀法资质",
+        60.0
+      ],
+      [
+        "剑法资质",
+        60.0
+      ],
+      [
+        "antidodge",
+        -66.0
+      ],
+      [
+        "射术资质",
+        -200.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "虐待狂",
+    "Pic": "虐待狂",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/29",
+      "text": "虐待狂"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/29",
+      "text": "此人喜好折磨他人并从中受到获得极大满足\n(在战斗中对敌方造成伤害时会提升自身1%伤害施加，每有一名敌方目标死亡，提升10%的伤害加成，最高可获得100%的伤害加成)"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "atkper",
+        0.05
+      ]
+    ],
+    "BattleBuffId": "施虐",
+    "IsInRandom": false
+  },
+  {
+    "Id": "受虐狂",
+    "Pic": "受虐狂",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/30",
+      "text": "受虐狂"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/30",
+      "text": "此人喜欢被殴打折磨，能从中获得极大愉悦\n此外,每当在战斗中受到伤害时会提升自身1%所受伤害,每有一名友方目标死亡，提升10%所受伤害，最高可获得100%易伤, 受到伤害有50%概率会随机为一名队友提供本次伤害50%的治疗回复(包括自己)"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "defper",
+        -0.05
+      ]
+    ],
+    "BattleBuffId": "受虐",
+    "IsInRandom": false
+  },
+  {
+    "Id": "复仇者",
+    "Pic": "复仇者",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/31",
+      "text": "复仇者"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/31",
+      "text": "每有一名友方单位死亡，获得5%伤害加成，最高可获得25%"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "复仇",
+    "IsInRandom": false
+  },
+  {
+    "Id": "荆棘者",
+    "Pic": "荆棘者",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/32",
+      "text": "荆棘者"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/32",
+      "text": "对减益状态目标造成伤害后，附加10层易伤状态\n易伤：每层受到的伤害提升1%"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "荆棘者",
+    "IsInRandom": false
+  },
+  {
+    "Id": "娇艳欲滴",
+    "Pic": "娇艳欲滴",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/33",
+      "text": "娇艳欲滴"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/33",
+      "text": "被击败后会令己方所有男性角色愤怒，提升10%的伤害加成和10%受伤加深"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "娇艳欲滴",
+    "IsInRandom": false
+  },
+  {
+    "Id": "第六感",
+    "Pic": "第六感",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/34",
+      "text": "第六感"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/34",
+      "text": "此人更依赖第六感来躲避他人出招"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "dodge",
+        150.0
+      ],
+      [
+        "hp_percent",
+        -0.1
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "伺机待发",
+    "Pic": "伺机待发",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/35",
+      "text": "伺机待发"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/35",
+      "text": "闪避后提升20点暴击， 最多提升200点"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "伺机待发",
+    "IsInRandom": false
+  },
+  {
+    "Id": "闪转挪腾",
+    "Pic": "闪转挪腾",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/36",
+      "text": "闪转挪腾"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/36",
+      "text": "生命越低，闪避越高，生命每降低1%， 闪避提升3点"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "闪转挪腾",
+    "IsInRandom": false
+  },
+  {
+    "Id": "前有依仗",
+    "Pic": "前有依仗",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/37",
+      "text": "前有依仗"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/37",
+      "text": "前方有队友时，伤害提升10%，没有队友时受到伤害提升10%"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "前有依仗",
+    "IsInRandom": false
+  },
+  {
+    "Id": "机不可失",
+    "Pic": "机不可失",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/38",
+      "text": "机不可失"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/38",
+      "text": "当身前或身旁两侧的队友闪避敌方攻击后，对露出破绽的攻击者进行刺剑追击，造成80%攻击力的外伤"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "机不可失",
+    "IsInRandom": false
+  },
+  {
+    "Id": "奉献者",
+    "Pic": "奉献者",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/39",
+      "text": "奉献者"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/39",
+      "text": "被击败时，随机选择一名受伤的友方角色，治疗其20%最大生命值"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "奉献者",
+    "IsInRandom": false
+  },
+  {
+    "Id": "独眼",
+    "Pic": "独眼龙",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/40",
+      "text": "独眼"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/40",
+      "text": "此人失去了一只眼睛"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "独眼",
+    "IsInRandom": false
+  },
+  {
+    "Id": "去势",
+    "Pic": "去势",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/41",
+      "text": "去势"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/41",
+      "text": "无此物一身轻松"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "hp_percent",
+        -0.3
+      ],
+      [
+        "defper",
+        -0.2
+      ],
+      [
+        "spdper",
+        0.5
+      ],
+      [
+        "crt",
+        100.0
+      ]
+    ],
+    "BattleBuffId": "去势",
+    "IsInRandom": false
+  },
+  {
+    "Id": "熟练火工",
+    "Pic": "熟练火工",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/liuming1",
+      "text": "熟练火工"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/liuming1",
+      "text": "此人经常砍柴烧火，锻炼了一具强健的身躯"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "tenper",
+        0.2
+      ],
+      [
+        "defper",
+        0.2
+      ],
+      [
+        "刀法资质",
+        3.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "天佑之女",
+    "Pic": "天佑之女",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/tianyouzhinv",
+      "text": "天佑之女"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/tianyouzhinv",
+      "text": "少女来历神秘，常常受到上天的庇佑"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "tenper",
+        0.1
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "华茂春松",
+    "Pic": "283",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/huamaochunsong",
+      "text": "华茂春松"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/huamaochunsong",
+      "text": "如同春天里茂盛的松树一样生机勃勃、充满活力\n\n效果: 减免伤害10%"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "华茂春松",
+    "IsInRandom": false
+  },
+  {
+    "Id": "鸳俦凤侣_鹿追",
+    "Pic": "1315",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/yuanchoufenglv",
+      "text": "鸳俦凤侣"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/yuanchoufenglv",
+      "text": "男女欢爱似鸳鸯、凤凰般相偕作伴\n\n效果：和心仪之人同时在场时，自己减免伤害10%，韧性提升10%"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "鸳俦凤侣_鹿追",
+    "IsInRandom": false
+  },
+  {
+    "Id": "鸳俦凤侣_司徒来也",
+    "Pic": "1315",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/yuanchoufenglv",
+      "text": "鸳俦凤侣"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/yuanchoufenglv",
+      "text": "男女欢爱似鸳鸯、凤凰般相偕作伴\n\n效果：和心仪之人同时在场时，自己提升伤害10%，韧性提升10%"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "鸳俦凤侣_司徒来也",
+    "IsInRandom": false
+  },
+  {
+    "Id": "巫山云雨_鹿追",
+    "Pic": "1321",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/name/wushanyunyu",
+      "text": "巫山云雨"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/wushanyunyu",
+      "text": "男女欢爱似巫山神女兴云降雨般激烈\n\n效果：和心仪之人同时在场时，自己减免伤害10%，韧性提升10%，并为心仪之人挡下致命一击"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "巫山云雨_鹿追",
+    "IsInRandom": false
+  },
+  {
+    "Id": "巫山云雨_司徒来也",
+    "Pic": "1321",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/name/wushanyunyu",
+      "text": "巫山云雨"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/wushanyunyu",
+      "text": "男女欢爱似巫山神女兴云降雨般激烈\n\n效果：和心仪之人同时在场时，自己提升伤害10%，韧性提升10%，并为心仪之人挡下致命一击"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "巫山云雨_司徒来也",
+    "IsInRandom": false
+  },
+  {
+    "Id": "灵犀一点",
+    "Pic": "942",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/lingxiyidian",
+      "text": "灵犀一点"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/lingxiyidian",
+      "text": "学习能力极强，悟性奇高"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "武学常识获取",
+        5.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "鹤影随行",
+    "Pic": "1262",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/heyingsuixing",
+      "text": "鹤影随行"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/heyingsuixing",
+      "text": "超凡脱俗、清新高雅，对爱人不离不弃"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "dodge",
+        50.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "虎啸鹤舞_西门香",
+    "Pic": "1310",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/huxiaohewu",
+      "text": "虎啸鹤舞"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/huxiaohewu",
+      "text": "虎啸般的勇猛和力量，鹤舞般的优雅和轻盈\n\n效果：在心仪之人后方时，自己提升伤害20%"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "虎啸鹤舞_西门香",
+    "IsInRandom": false
+  },
+  {
+    "Id": "虎啸鹤舞_司徒来也",
+    "Pic": "1310",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/huxiaohewu",
+      "text": "虎啸鹤舞"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/huxiaohewu",
+      "text": "虎啸般的勇猛和力量，鹤舞般的优雅和轻盈\n\n效果：在心仪之人前方时，自己减免伤害20%"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "虎啸鹤舞_司徒来也",
+    "IsInRandom": false
+  },
+  {
+    "Id": "虎鹤无形_西门香",
+    "Pic": "1313",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/name/huhewuxing",
+      "text": "虎鹤无形"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/huhewuxing",
+      "text": "虎和鹤的特性交织在一起，难以捉摸，变化多端\n\n效果：在心仪之人后方时，自己提升伤害20%，心仪之人攻击时，有概率追击同一目标"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "虎鹤无形_西门香",
+    "IsInRandom": false
+  },
+  {
+    "Id": "虎鹤无形_司徒来也",
+    "Pic": "1313",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/name/huhewuxing",
+      "text": "虎鹤无形"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/huhewuxing",
+      "text": "虎和鹤的特性交织在一起，难以捉摸，变化多端\n\n效果：在心仪之人前方时，自己减免伤害20%，心仪之人攻击时，有概率追击同一目标"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "虎鹤无形_司徒来也",
+    "IsInRandom": false
+  },
+  {
+    "Id": "心比天高",
+    "Pic": "1308",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/xinbitiangao",
+      "text": "心比天高"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/xinbitiangao",
+      "text": "少女心地高傲，心气高了，即便有好事儿也不会欢喜\n\n效果：上场人数越少暴击越高"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "心比天高",
+    "IsInRandom": false
+  },
+  {
+    "Id": "风流灵巧",
+    "Pic": "283",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/fengliulingqiao",
+      "text": "风流灵巧"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/fengliulingqiao",
+      "text": "不受礼法拘束、机灵活泼"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "spdper",
+        0.2
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "亲昵无间_朱鹮儿",
+    "Pic": "1315",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/qinniwujian",
+      "text": "亲昵无间"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/qinniwujian",
+      "text": "男女之间无话不说，没有丝毫隔阂\n\n效果：暴击时给心仪之人加暴击"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "亲昵无间_朱鹮儿",
+    "IsInRandom": false
+  },
+  {
+    "Id": "亲昵无间_司徒来也",
+    "Pic": "1315",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/qinniwujian",
+      "text": "亲昵无间"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/qinniwujian",
+      "text": "男女之间无话不说，没有丝毫隔阂\n\n效果：暴击时给心仪之人加暴击"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "亲昵无间_司徒来也",
+    "IsInRandom": false
+  },
+  {
+    "Id": "欢喜冤家_朱鹮儿",
+    "Pic": "202",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/name/huanxiyuanjia",
+      "text": "欢喜冤家"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/huanxiyuanjia",
+      "text": "似怨恨而实相爱的恋人\n\n效果：给心仪之人加暴击，自己暴击时清除同量护盾值"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "欢喜冤家_朱鹮儿",
+    "IsInRandom": false
+  },
+  {
+    "Id": "欢喜冤家_司徒来也",
+    "Pic": "202",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/name/huanxiyuanjia",
+      "text": "欢喜冤家"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/huanxiyuanjia",
+      "text": "似怨恨而实相爱的恋人\n\n效果：给心仪之人加暴击，自己暴击时清除同量护盾值"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "欢喜冤家_司徒来也",
+    "IsInRandom": false
+  },
+  {
+    "Id": "温柔和顺",
+    "Pic": "494",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/wenrouheshun",
+      "text": "温柔和顺"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/wenrouheshun",
+      "text": "温柔，像春风一样和顺"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "intper",
+        0.1
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "似桂如兰",
+    "Pic": "671",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/siguirulan",
+      "text": "似桂如兰"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/siguirulan",
+      "text": "像桂花、兰草一样拥有美好品德\n\n效果：每回合回复一定量气血值"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "似桂如兰",
+    "IsInRandom": false
+  },
+  {
+    "Id": "凤栖梧",
+    "Pic": "1248",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/dielianhua",
+      "text": "凤栖梧"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/dielianhua",
+      "text": "男女之间甜蜜情意\n\n效果：给心仪之人治疗时加成20%"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "凤栖梧",
+    "IsInRandom": false
+  },
+  {
+    "Id": "彩蝶双飞",
+    "Pic": "1323",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/name/caidieshuangfei",
+      "text": "彩蝶双飞"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/caidieshuangfei",
+      "text": "男女之间成双成对、双宿双飞的爱情\n\n效果：给心仪之人治疗时加成20%，被击败时时给心仪之人补全内力，增加速度"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "彩蝶双飞",
+    "IsInRandom": false
+  },
+  {
+    "Id": "狼血觉醒",
+    "Pic": "768",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/name/wolfblood",
+      "text": "狼血觉醒"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/wolfblood",
+      "text": "此人的血液中流淌着狼的精华，每损失<color=red>3%</color>气血值提升<color=yellow>10</color>点暴击"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "atkper",
+        0.2
+      ],
+      [
+        "intper",
+        0.2
+      ],
+      [
+        "defper",
+        0.05
+      ],
+      [
+        "tenper",
+        0.05
+      ],
+      [
+        "crt",
+        100.0
+      ],
+      [
+        "spd",
+        150.0
+      ]
+    ],
+    "BattleBuffId": "狼血觉醒",
+    "IsInRandom": false
+  },
+  {
+    "Id": "口齿伶俐",
+    "Pic": "267",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/qiliuge1",
+      "text": "口齿伶俐"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/qiliuge1",
+      "text": "此人能言善辩，能够善战群儒"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "intper",
+        0.1
+      ],
+      [
+        "tenper",
+        0.2
+      ],
+      [
+        "sp",
+        2.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "身负血仇",
+    "Pic": "36",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/situ1",
+      "text": "身负血仇"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/situ1",
+      "text": "此人惨遭灭门，内心充满了愤恨。"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "atkper",
+        0.2
+      ],
+      [
+        "tenper",
+        -0.1
+      ],
+      [
+        "sp",
+        1.0
+      ],
+      [
+        "defper",
+        -0.1
+      ],
+      [
+        "mp",
+        3.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "天命之人",
+    "Pic": "229",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/name/situ2",
+      "text": "天命之人"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/situ2",
+      "text": "自身提升<color=#00da2e>10%</color>%造成的伤害，自身降低<color=#00da2e>10%</color>受到的伤害。\n并且当此人在场时，其他所有队友获得<color=red>3%</color>的伤害提升。"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "天命之人",
+    "IsInRandom": false
+  },
+  {
+    "Id": "走火入魔",
+    "Pic": "829",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/situ3",
+      "text": "走火入魔"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/situ3",
+      "text": "气脉混乱<color=red>无法集气</color>，每回合损失<color=red>3%</color>气血值"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "走火入魔",
+    "IsInRandom": false
+  },
+  {
+    "Id": "开智启蒙",
+    "Pic": "829",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/name/situ4",
+      "text": "开智启蒙"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/situ4",
+      "text": "熟读息风谷历史，使得变得明智与豁达"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "武学常识获取",
+        3.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "美娇厨娘",
+    "Pic": "94",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/zhu_san_niang1",
+      "text": "美娇厨娘"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/zhu_san_niang1",
+      "text": "此人美丽大方，厨艺高超，色艺双绝"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "hp_percent",
+        0.05
+      ],
+      [
+        "intper",
+        0.1
+      ],
+      [
+        "内功资质",
+        3.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "孑然一身",
+    "Pic": "65",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/lwy_1",
+      "text": "孑然一身"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/lwy_1",
+      "text": "此人看破红尘，心中已无任何牵挂"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "atkper",
+        1.0
+      ],
+      [
+        "hp_percent",
+        -0.25
+      ],
+      [
+        "defper",
+        -0.2
+      ],
+      [
+        "被治疗修正",
+        -0.75
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "媚蛇之吻",
+    "Pic": "1065",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/name/lwy_2",
+      "text": "媚蛇之吻"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/lwy_2",
+      "text": "与龙万莹共同上场时，攻击会附带魅惑之息，攻击命中后有50%概率会扰乱心智，使其[内息凌乱]被沉默一回合。"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "媚蛇之吻",
+    "IsInRandom": false
+  },
+  {
+    "Id": "蛇舞情浓",
+    "Pic": "114",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/name/lwy_3",
+      "text": "蛇舞情浓"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/lwy_3",
+      "text": "与情郎共同上场时，会获得其庇护，令自身受到的伤害降低25%"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "蛇舞情浓",
+    "IsInRandom": false
+  },
+  {
+    "Id": "高大威猛",
+    "Pic": "203",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/strong",
+      "text": "高大威猛"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/strong",
+      "text": "此人身形高大，自带威压"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "被伤害修正",
+        0.2
+      ],
+      [
+        "hp_percent",
+        0.3
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "患难与共",
+    "Pic": "203",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/huogong",
+      "text": "患难与共"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/huogong",
+      "text": "把伤害分担给同列的其他队友"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "患难与共",
+    "IsInRandom": false
+  },
+  {
+    "Id": "好色之徒",
+    "Pic": "957",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/lust",
+      "text": "好色之徒"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/lust",
+      "text": "对女性角色伤害提高20%"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "好色之徒",
+    "IsInRandom": false
+  },
+  {
+    "Id": "兄弟齐心_何猛",
+    "Pic": "1197",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/hemeng",
+      "text": "兄弟齐心"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/hemeng",
+      "text": "与潘麻子和梁胜共同上场时，提升5%减伤和5%伤害加成"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "兄弟齐心_何猛",
+    "IsInRandom": false
+  },
+  {
+    "Id": "兄弟齐心_潘麻子",
+    "Pic": "1197",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/pmz",
+      "text": "兄弟齐心"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/pmz",
+      "text": "与何猛和梁胜共同上场时，提升10%伤害加成"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "兄弟齐心_潘麻子",
+    "IsInRandom": false
+  },
+  {
+    "Id": "兄弟齐心_梁胜",
+    "Pic": "1197",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/liangsheng",
+      "text": "兄弟齐心"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/liangsheng",
+      "text": "与何猛和潘麻子共同上场时，提升10%减伤"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "兄弟齐心_梁胜",
+    "IsInRandom": false
+  },
+  {
+    "Id": "野心勃勃",
+    "Pic": "694",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/ambitious",
+      "text": "野心勃勃"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/ambitious",
+      "text": "此人精力旺盛，对渴求的东西充满了控制与征服之欲。\n\n效果: 生命值高于80%时，攻击、暴击、内劲会得到一定的提升%。"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "野心勃勃",
+    "IsInRandom": false
+  },
+  {
+    "Id": "暴食",
+    "Pic": "776",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/gluttony",
+      "text": "暴食"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/gluttony",
+      "text": "此人喜好美食，恨不得吞下一切符合自己口味的食材和美酒。"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "hp_percent",
+        0.4
+      ],
+      [
+        "atkper",
+        0.1
+      ],
+      [
+        "spdper",
+        -0.5
+      ],
+      [
+        "dodge",
+        -300.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "龙湾情圣",
+    "Pic": "140",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/casanova",
+      "text": "龙湾情圣"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/casanova",
+      "text": "此人与许多女子的流言蜚语众多。\n\n效果: 对西门香的攻击伤害降低99%， 友方场上每多一个女性角色伤害提升5%"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "龙湾情圣",
+    "IsInRandom": false
+  },
+  {
+    "Id": "孤傲冷峻",
+    "Pic": "45",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/aloof",
+      "text": "孤傲冷峻"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/aloof",
+      "text": "此人孤僻傲慢，对任何弱者都充满不屑。\n\n效果:回合开始时，若位于战场正中心时，所有伤害提升20%，此外己方场上人越少，攻击力越高"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "孤傲冷峻",
+    "IsInRandom": false
+  },
+  {
+    "Id": "眼含秋波",
+    "Pic": "289",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/sultry",
+      "text": "眼含秋波"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/sultry",
+      "text": "此人有一双摄人心魄的媚眼。\n\n效果: 攻击命中后有20%概率会扰乱心智，使其[内息凌乱]被沉默一回合。"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "眼含秋波",
+    "IsInRandom": false
+  },
+  {
+    "Id": "晨光",
+    "Pic": "29",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/morning_light",
+      "text": "晨光"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/name/morning_light",
+      "text": "你轻触那晨光中的影子，感受到一股清新的力量涌入体内，仿佛获得了新的生机"
+    },
+    "LifeType": 2,
+    "RoleAttr": [
+      [
+        "hp",
+        100.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "烈日",
+    "Pic": "120",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/scorching_sun",
+      "text": "烈日"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/name/scorching_sun",
+      "text": "你手掌覆上那烈日下的影子，体温上升，内力在体内沸腾，似乎变得更加强大"
+    },
+    "LifeType": 2,
+    "RoleAttr": [
+      [
+        "atk",
+        50.0
+      ],
+      [
+        "mp",
+        50.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "余晖",
+    "Pic": "38",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/after_glow",
+      "text": "余晖"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/name/after_glow",
+      "text": "你轻抚那余晖中的影子，身体轻盈，心灵宁静，仿佛进入了冥想的状态"
+    },
+    "LifeType": 2,
+    "RoleAttr": [
+      [
+        "def",
+        50.0
+      ],
+      [
+        "spd",
+        50.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "摔断腿",
+    "Pic": "187",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/broken_leg",
+      "text": "摔断腿"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/broken_leg",
+      "text": "从山上摔下来，幸好只断了一条腿，保住了性命"
+    },
+    "LifeType": 2,
+    "RoleAttr": [
+      [
+        "hp",
+        -200.0
+      ],
+      [
+        "atk",
+        -100.0
+      ],
+      [
+        "def",
+        -100.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "寒气刺骨",
+    "Pic": "151",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/broken_leg",
+      "text": "寒气刺骨"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/biting_cold",
+      "text": "河水冰冷刺骨，内力受损"
+    },
+    "LifeType": 2,
+    "RoleAttr": [
+      [
+        "mp",
+        -20.0
+      ],
+      [
+        "sp",
+        -1.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "酒足饭饱",
+    "Pic": "279",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/satiated",
+      "text": "酒足饭饱"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/satiated",
+      "text": "此人大吃大喝了一顿，心满意足。"
+    },
+    "LifeType": 1,
+    "RoleAttr": [
+      [
+        "sp",
+        1.0
+      ],
+      [
+        "mp",
+        5.0
+      ],
+      [
+        "hp_percent",
+        0.1
+      ],
+      [
+        "atkper",
+        0.1
+      ],
+      [
+        "defper",
+        0.1
+      ],
+      [
+        "intper",
+        0.1
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "一成功力",
+    "Pic": "187",
+    "AffixQuality": 1,
+    "AffixName": {
+      "key": "i18n/affix/name/ten_percent_power",
+      "text": "一成功力"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/ten_percent_power",
+      "text": "只使用了一成功力"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "伤害修正",
+        -0.5
+      ],
+      [
+        "startmp",
+        3.0
+      ],
+      [
+        "被伤害修正",
+        -0.5
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "血气旺盛",
+    "Pic": "36",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/vigorous",
+      "text": "血气旺盛"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/vigorous",
+      "text": "血液沸腾，身体仿佛充满了无穷无尽的能量"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "startmp",
+        10.0
+      ],
+      [
+        "被伤害修正",
+        0.5
+      ]
+    ],
+    "BattleBuffId": "血气旺盛",
+    "IsInRandom": false
+  },
+  {
+    "Id": "野兽领主",
+    "Pic": "37",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/animal_boss",
+      "text": "野兽领主"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/animal_boss",
+      "text": "某个野兽群体的老大"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "hp_percent",
+        1.0
+      ],
+      [
+        "atkper",
+        0.25
+      ],
+      [
+        "defper",
+        0.25
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "练刀之人",
+    "Pic": "刀_精良",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/blademaster1",
+      "text": "带刀客"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/des/blademaster1",
+      "text": "此人经常练刀，在刀法上小有所成"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "刀法资质",
+        10.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "练剑之人",
+    "Pic": "剑_精良",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/swordmaster1",
+      "text": "仗剑侠"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/des/swordmaster1",
+      "text": "此人经常练剑，在剑法上小有所成"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "剑法资质",
+        10.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "练棍之人",
+    "Pic": "棍_精良",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/stickmaster1",
+      "text": "棍棒师"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/des/stickmaster1",
+      "text": "此人经常练棍，在棍法上小有所成"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "棍法资质",
+        10.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "练拳之人",
+    "Pic": "拳_精良",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/fistmaster1",
+      "text": "拳法家"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/des/fistmaster1",
+      "text": "此人经常练拳，在拳法上小有所成"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "拳法资质",
+        10.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "练枪之人",
+    "Pic": "spear",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/spearmaster1",
+      "text": "执枪者"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/name/spearmaster1",
+      "text": "此人经常练枪，在枪法上小有所成"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "枪法资质",
+        10.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "练弓之人",
+    "Pic": "弓_精良",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/bowmaster1",
+      "text": "神箭手"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/bowmaster1",
+      "text": "此人经常练箭，在箭法上小有所成"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "射术资质",
+        10.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "行动敏捷",
+    "Pic": "身法_精良",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/qinggong_master1",
+      "text": "行动敏捷"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/qinggong_master1",
+      "text": "此人在轻功研习方面有所造诣"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "轻功资质",
+        10.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "内功雄厚",
+    "Pic": "内功_精良",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/neigong_master1",
+      "text": "内功纯熟"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/neigong_master1",
+      "text": "此人在内功修炼方面有所造诣"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "内功资质",
+        10.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "刀法娴熟",
+    "Pic": "刀_稀有",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/blademaster2",
+      "text": "刀法娴熟"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/des/blademaster2",
+      "text": "此人刀法娴熟，出刀行云流水"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "刀法资质",
+        30.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "剑法精湛",
+    "Pic": "剑_稀有",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/swordmaster2",
+      "text": "剑法精湛"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/des/swordmaster2",
+      "text": "此人剑法精湛，出剑凌厉犀利"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "剑法资质",
+        30.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "棍法娴熟",
+    "Pic": "棍_稀有",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/stickmaster2",
+      "text": "棍法娴熟"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/des/stickmaster2",
+      "text": "此人棍影飘逸，对手难以捉摸"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "棍法资质",
+        30.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "拳路娴熟",
+    "Pic": "拳_稀有",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/fistmaster2",
+      "text": "拳风凌厉"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/des/fistmaster2",
+      "text": "此人拳路迅猛，让人难以抵挡"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "拳法资质",
+        30.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "枪法精湛",
+    "Pic": "441",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/spearmaster2",
+      "text": "枪法精湛"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/name/spearmaster2",
+      "text": "此人枪法精妙，进攻如龙出渊"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "枪法资质",
+        30.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "熟练弓手",
+    "Pic": "弓_稀有",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/bowmaster2",
+      "text": "箭术精湛"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/bowmaster2",
+      "text": "此人箭术醇熟，挽弓百发百中"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "射术资质",
+        30.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "身法轻盈",
+    "Pic": "身法_稀有",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/qinggong_master2",
+      "text": "身法轻盈"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/qinggong_master2",
+      "text": "此人身法轻盈，行动难觅启踪"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "轻功资质",
+        30.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "内功绝伦",
+    "Pic": "内功_稀有",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/neigong_master2",
+      "text": "内力浑厚"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/neigong_mater2",
+      "text": "此人内功绝伦，丹田深沉如海"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "内功资质",
+        30.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "刀刀毙命",
+    "Pic": "刀_史诗",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/blademaster3",
+      "text": "刀刀毙命"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/des/blademaster3",
+      "text": "此人刀法绝伦，如猛虎扑食不可挡也"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "刀法资质",
+        120.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "初窥剑意",
+    "Pic": "剑_史诗",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/swordmaster3",
+      "text": "初窥剑意"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/des/swordmaster3",
+      "text": "此人剑气凌厉，有几分登峰造极之意"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "剑法资质",
+        120.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "通晓百棍",
+    "Pic": "棍_史诗",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/stickmaster3",
+      "text": "通晓百棍"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/des/stickmaster3",
+      "text": "此人通晓百棍，棍法已集百家之所长"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "棍法资质",
+        120.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "拳法登峰",
+    "Pic": "拳_史诗",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/fistmaster3",
+      "text": "拳法登峰"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/des/fistmaster3",
+      "text": "此人拳法登峰，拳风所到处崩山裂石"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "拳法资质",
+        120.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "枪舞翩翩",
+    "Pic": "810",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/spearmaster3",
+      "text": "枪疾如飞"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/name/spearmaster3",
+      "text": "此人枪法灵动，临敌之时矢石莫能摧"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "枪法资质",
+        120.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "百步穿杨",
+    "Pic": "弓_史诗",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/bowmaster3",
+      "text": "百步穿杨"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/bowmaster3",
+      "text": "此人射术高超，挽百斤强弓箭无虚发"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "射术资质",
+        120.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "身轻如燕",
+    "Pic": "身法_史诗",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/qinggong_master3",
+      "text": "身轻如燕"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/qinggong_master3",
+      "text": "此人身轻如燕，步履敏捷，如影随形"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "轻功资质",
+        120.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "丹田丰润",
+    "Pic": "内功_史诗",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/neigong_master3",
+      "text": "丹田丰润"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/neigong_master3",
+      "text": "此人丹田丰润，气力汹涌，无穷无尽"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "内功资质",
+        120.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "刀光震天",
+    "Pic": "刀_传说",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/blademaster4",
+      "text": "刀断星斗"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/des/blademaster4",
+      "text": "此人刀法已天下无双"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "刀法资质",
+        250.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "一剑封喉",
+    "Pic": "剑_传说",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/swordmaster4",
+      "text": "一剑封喉"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/des/swordmaster4",
+      "text": "此人可谓当世之剑仙"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "剑法资质",
+        250.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "棍扫八方",
+    "Pic": "棍_传说",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/stickmaster4",
+      "text": "棍扫八方"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/des/stickmaster4",
+      "text": "此人之棍法威震四海"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "棍法资质",
+        250.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "拳影重重",
+    "Pic": "拳_传说",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/fistmaster4",
+      "text": "拳碎九州"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/des/fistmaster4",
+      "text": "此人拳法如雷霆之击"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "拳法资质",
+        250.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "枪出如龙",
+    "Pic": "1340",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/spearmaster4",
+      "text": "枪出如龙"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/name/spearmaster4",
+      "text": "此人之枪技神化无穷"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "枪法资质",
+        250.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "辕门射戟",
+    "Pic": "弓_传说",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/bowmaster4",
+      "text": "白羽没石"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/bowmaster4",
+      "text": "此人箭法如飞将再世"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "射术资质",
+        250.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "无影无踪",
+    "Pic": "身法_传说",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/qinggong_master4",
+      "text": "飞檐走壁"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/qinggong_master4",
+      "text": "此人轻功世莫有敌者"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "轻功资质",
+        250.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "气贯长虹",
+    "Pic": "内功_传说",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/neigong_master4",
+      "text": "气贯长虹"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/neigong_master4",
+      "text": "此人内力如长虹贯日"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "内功资质",
+        250.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "生命提升1",
+    "Pic": "203",
+    "AffixQuality": 1,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/hp1",
+      "text": "百折不摧·一层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/hp1",
+      "text": "此人天赋异禀，根骨奇精，十分耐打"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "hp_percent",
+        0.03
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "生命提升2",
+    "Pic": "203",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/hp2",
+      "text": "百折不摧·二层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/hp2",
+      "text": "此人天赋异禀，根骨奇精，十分耐打"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "hp_percent",
+        0.06
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "生命提升3",
+    "Pic": "203",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/hp3",
+      "text": "百折不摧·三层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/hp3",
+      "text": "此人天赋异禀，根骨奇精，十分耐打"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "hp_percent",
+        0.12
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "生命提升4",
+    "Pic": "203",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/hp4",
+      "text": "百折不摧·四层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/hp4",
+      "text": "此人天赋异禀，根骨奇精，十分耐打"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "hp_percent",
+        0.2
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "生命提升5",
+    "Pic": "203",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/hp5",
+      "text": "百折不摧·五层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/hp5",
+      "text": "此人天赋异禀，根骨奇精，十分耐打"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "hp_percent",
+        0.3
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "防御提升1",
+    "Pic": "206",
+    "AffixQuality": 1,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/def1",
+      "text": "钢筋铁骨·一层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/def1",
+      "text": "此人如钢筋铁骨，坚实强壮"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "defper",
+        0.03
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "防御提升2",
+    "Pic": "206",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/def2",
+      "text": "钢筋铁骨·二层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/def2",
+      "text": "此人如钢筋铁骨，坚实强壮"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "defper",
+        0.06
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "防御提升3",
+    "Pic": "206",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/def3",
+      "text": "钢筋铁骨·三层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/def3",
+      "text": "此人如钢筋铁骨，坚实强壮"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "defper",
+        0.12
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "防御提升4",
+    "Pic": "206",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/def4",
+      "text": "钢筋铁骨·四层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/def4",
+      "text": "此人如钢筋铁骨，坚实强壮"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "defper",
+        0.2
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "防御提升5",
+    "Pic": "206",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/def5",
+      "text": "钢筋铁骨·五层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/def5",
+      "text": "此人如钢筋铁骨，坚实强壮"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "defper",
+        0.3
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "韧性提升1",
+    "Pic": "204",
+    "AffixQuality": 1,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/ten1",
+      "text": "坚韧不拔·一层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/ten1",
+      "text": "此人意志坚韧，能忍受常人所不能忍受之痛苦"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "tenper",
+        0.03
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "韧性提升2",
+    "Pic": "204",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/ten2",
+      "text": "坚韧不拔·二层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/ten2",
+      "text": "此人意志坚韧，能忍受常人所不能忍受之痛苦"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "tenper",
+        0.06
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "韧性提升3",
+    "Pic": "204",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/ten3",
+      "text": "坚韧不拔·三层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/ten3",
+      "text": "此人意志坚韧，能忍受常人所不能忍受之痛苦"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "tenper",
+        0.12
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "韧性提升4",
+    "Pic": "204",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/ten4",
+      "text": "坚韧不拔·四层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/ten4",
+      "text": "此人意志坚韧，能忍受常人所不能忍受之痛苦"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "tenper",
+        0.2
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "韧性提升5",
+    "Pic": "204",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/ten5",
+      "text": "坚韧不拔·五层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/ten5",
+      "text": "此人意志坚韧，能忍受常人所不能忍受之痛苦"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "tenper",
+        0.3
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "攻击提升1",
+    "Pic": "239",
+    "AffixQuality": 1,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/atk1",
+      "text": "力大无穷·一层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/atk1",
+      "text": "此人力大无比"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "atkper",
+        0.03
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "攻击提升2",
+    "Pic": "239",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/atk2",
+      "text": "力大无穷·二层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/atk2",
+      "text": "此人力大无比"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "atkper",
+        0.06
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "攻击提升3",
+    "Pic": "239",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/atk3",
+      "text": "力大无穷·三层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/atk3",
+      "text": "此人力大无比"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "atkper",
+        0.12
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "攻击提升4",
+    "Pic": "239",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/atk4",
+      "text": "力大无穷·四层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/atk4",
+      "text": "此人力大无比"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "atkper",
+        0.2
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "攻击提升5",
+    "Pic": "239",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/atk5",
+      "text": "力大无穷·五层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/atk5",
+      "text": "此人力大无比"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "atkper",
+        0.3
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "内劲提升1",
+    "Pic": "235",
+    "AffixQuality": 1,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/int1",
+      "text": "气运丹田·一层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/int1",
+      "text": "此人内劲雄厚，出招时内劲凌厉"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "intper",
+        0.03
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "内劲提升2",
+    "Pic": "235",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/int2",
+      "text": "气运丹田·二层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/int2",
+      "text": "此人内劲雄厚，出招时内劲凌厉"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "intper",
+        0.06
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "内劲提升3",
+    "Pic": "235",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/int3",
+      "text": "气运丹田·三层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/int3",
+      "text": "此人内劲雄厚，出招时内劲凌厉"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "intper",
+        0.12
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "内劲提升4",
+    "Pic": "235",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/int4",
+      "text": "气运丹田·四层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/int4",
+      "text": "此人内劲雄厚，出招时内劲凌厉"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "intper",
+        0.2
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "内劲提升5",
+    "Pic": "235",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/int5",
+      "text": "气运丹田·五层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/int5",
+      "text": "此人内劲雄厚，出招时内劲凌厉"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "intper",
+        0.3
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "速度提升1",
+    "Pic": "244",
+    "AffixQuality": 1,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/spd1",
+      "text": "千里神行·一层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/spd1",
+      "text": "此人擅“草上飞”之法，能日行千里"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "spdper",
+        0.03
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "速度提升2",
+    "Pic": "244",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/spd2",
+      "text": "千里神行·二层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/spd2",
+      "text": "此人擅“草上飞”之法，能日行千里"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "spdper",
+        0.06
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "速度提升3",
+    "Pic": "244",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/spd3",
+      "text": "千里神行·三层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/spd3",
+      "text": "此人擅“草上飞”之法，能日行千里"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "spdper",
+        0.12
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "速度提升4",
+    "Pic": "244",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/spd4",
+      "text": "千里神行·四层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/spd4",
+      "text": "此人擅“草上飞”之法，能日行千里"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "spdper",
+        0.2
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "速度提升5",
+    "Pic": "244",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/spd5",
+      "text": "千里神行·五层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/spd5",
+      "text": "此人擅“草上飞”之法，能日行千里"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "spdper",
+        0.3
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "治疗提升1",
+    "Pic": "1291",
+    "AffixQuality": 1,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/healup1",
+      "text": "再造之功·一层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/healup1",
+      "text": "此人悬壶济世，医术超群"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "治疗修正",
+        0.03
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "治疗提升2",
+    "Pic": "1291",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/healup2",
+      "text": "再造之功·二层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/healup2",
+      "text": "此人悬壶济世，医术超群"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "治疗修正",
+        0.06
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "治疗提升3",
+    "Pic": "1291",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/healup3",
+      "text": "再造之功·三层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/healup3",
+      "text": "此人悬壶济世，医术超群"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "治疗修正",
+        0.12
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "治疗提升4",
+    "Pic": "1291",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/healup4",
+      "text": "再造之功·四层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/healup4",
+      "text": "此人悬壶济世，医术超群"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "治疗修正",
+        0.2
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "治疗提升5",
+    "Pic": "1291",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/healup5",
+      "text": "再造之功·五层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/healup5",
+      "text": "此人悬壶济世，医术超群"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "治疗修正",
+        0.3
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "被治疗提升1",
+    "Pic": "1314",
+    "AffixQuality": 1,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/healedUp1",
+      "text": "转危为安·一层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/healedUp1",
+      "text": "此人得药石之效，如枯木逢春"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "被治疗修正",
+        0.03
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "被治疗提升2",
+    "Pic": "1314",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/healedUp2",
+      "text": "转危为安·二层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/healedUp2",
+      "text": "此人得药石之效，如枯木逢春"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "被治疗修正",
+        0.06
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "被治疗提升3",
+    "Pic": "1314",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/healedUp3",
+      "text": "转危为安·三层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/healedUp3",
+      "text": "此人得药石之效，如枯木逢春"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "被治疗修正",
+        0.12
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "被治疗提升4",
+    "Pic": "1314",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/healedUp4",
+      "text": "转危为安·四层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/healedUp4",
+      "text": "此人得药石之效，如枯木逢春"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "被治疗修正",
+        0.2
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "被治疗提升5",
+    "Pic": "1314",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/class_affix/name/healedUp5",
+      "text": "转危为安·五层"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/class_affix/desc/healedUp5",
+      "text": "此人得药石之效，如枯木逢春"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "被治疗修正",
+        0.3
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": true
+  },
+  {
+    "Id": "道具_绷带",
+    "Pic": "1048",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/well-bandaged",
+      "text": "绷带"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/well-bandaged",
+      "text": "在每回合结束时，若处于<color=red>流血</color>状态，则使用绷带包扎去除。\n每场战斗至多包扎10次，每包扎1层流血扣除1次。"
+    },
+    "LifeType": 1,
+    "RoleAttr": [],
+    "BattleBuffId": "道具_绷带",
+    "IsInRandom": false
+  },
+  {
+    "Id": "道具_蛇胆解毒丸",
+    "Pic": "1049",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/detoxification_pill",
+      "text": "解毒丸"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/detoxification_pill",
+      "text": "在每回合结束时，若处于<color=red>中毒</color>状态，则会移除当前一半的<color=#cccc00>中毒</color>层数,至少会移除<color=yellow>1</color>层<color=#cccc00>中毒</color>效果。\n"
+    },
+    "LifeType": 1,
+    "RoleAttr": [],
+    "BattleBuffId": "道具_蛇胆解毒丸",
+    "IsInRandom": false
+  },
+  {
+    "Id": "熊之力",
+    "Pic": "1050",
+    "AffixQuality": 2,
+    "AffixName": {
+      "key": "i18n/affix/name/bear_power",
+      "text": "熊之力"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/bear_power",
+      "text": "此人暂时获得了一部分熊的力量。\n"
+    },
+    "LifeType": 1,
+    "RoleAttr": [
+      [
+        "atkper",
+        0.05
+      ],
+      [
+        "hp_percent",
+        0.1
+      ],
+      [
+        "antidodge",
+        100.0
+      ],
+      [
+        "antiparry",
+        100.0
+      ]
+    ],
+    "BattleBuffId": "",
+    "IsInRandom": false
+  },
+  {
+    "Id": "风水师",
+    "Pic": "886",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/wanque_1",
+      "text": "风水师"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/wanque_1",
+      "text": "回合开始时，随机为一名队友进行占卜，使其有各有50%的概况获得【凶】【吉】，友方身上每有[乾][坤][坎][离][震][艮][巽][兑]中的一种增益，偏向【吉】的权重提升5%。\n  【凶】：1回合内受到伤害提升50%。\n  【吉】：1回合内受到伤害降低50%。"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "风水师",
+    "IsInRandom": false
+  },
+  {
+    "Id": "阵法师",
+    "Pic": "681",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/wanque_2",
+      "text": "阵法师"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/wanque_2",
+      "text": "回合开始时， 根据场上[乾][坤][坎][离][震][艮][巽][兑]的种类数量，获得最多40%的伤害减免"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "阵法师",
+    "IsInRandom": false
+  },
+  {
+    "Id": "温泉师",
+    "Pic": "881",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/wanque_3",
+      "text": "温泉师"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/wanque_3",
+      "text": "自身每有任意[乾][坤][坎][离][震][艮][巽][兑] 一种增益，治疗效果提升10%, 最多提升80%。"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "温泉师",
+    "IsInRandom": false
+  },
+  {
+    "Id": "服侍主人",
+    "Pic": "1122",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/wanque_4",
+      "text": "服侍主人"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/wanque_4",
+      "text": "主人就是一切。\n3回合后，主动牺牲自己，以自身当前<color=red>50%</color>的气血为其他所有人恢复等量的气血和护盾，并使其最大气血值提升<color=green>25%</color>。"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "服侍主人",
+    "IsInRandom": false
+  },
+  {
+    "Id": "唤雷",
+    "Pic": "202",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/wanque_5",
+      "text": "唤雷"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/wanque_5",
+      "text": "每回合结束时，召唤一道落雷随机劈向一名敌人，造成一定量的内伤"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "唤雷",
+    "IsInRandom": false
+  },
+  {
+    "Id": "血色魔阵",
+    "Pic": "666",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/name/wanque_6",
+      "text": "血色魔阵"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/wanque_6",
+      "text": "生命值提高30%，免疫1次致命伤，并瞬间恢复20%生命值"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "血色魔阵",
+    "IsInRandom": false
+  },
+  {
+    "Id": "黑血魔骨",
+    "Pic": "963",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/name/XZM_1",
+      "text": "黑血魔骨"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/XZM_1",
+      "text": "每回合结束时，敌方每有1层减益状态则汲取1层黑血，每次汲取上限为20层。当拥有50层黑血时激活魔物，引动敌方全体单位的[中毒]状态，立即结算1次伤害，且引爆后中毒不会消失。同时根据所引动的总层数恢复自身气血值。"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "hp_percent",
+        0.2
+      ],
+      [
+        "defper",
+        0.3
+      ],
+      [
+        "tenper",
+        0.2
+      ]
+    ],
+    "BattleBuffId": "黑血魔骨",
+    "IsInRandom": false
+  },
+  {
+    "Id": "五毒之身",
+    "Pic": "733",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/XZM_2",
+      "text": "五毒之身"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/XZM_2",
+      "text": "被气血值高于自身的目标攻击时，会令其染上持续2回合的[瘴毒]状态，该减益会令攻击者每次恢复气血时令其中毒2回合"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "五毒之身",
+    "IsInRandom": false
+  },
+  {
+    "Id": "五毒鬼手",
+    "Pic": "736",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/XZM_3",
+      "text": "五毒鬼手"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/XZM_3",
+      "text": "对目标造成伤害后，若目标处于[中毒]状态，则延长1回合中毒"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "五毒鬼手",
+    "IsInRandom": false
+  },
+  {
+    "Id": "领导者",
+    "Pic": "594",
+    "AffixQuality": 5,
+    "AffixName": {
+      "key": "i18n/affix/name/XD1",
+      "text": "领导者"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/XD1",
+      "text": "在场时根据友方职业提升其属性"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "hp_percent",
+        0.2
+      ],
+      [
+        "被伤害修正",
+        0.2
+      ]
+    ],
+    "BattleBuffId": "领导者",
+    "IsInRandom": false
+  },
+  {
+    "Id": "逆境重生",
+    "Pic": "908",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/XD2",
+      "text": "逆境重生"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/XD2",
+      "text": "被击后，若存在护盾，恢复5%最大气血值"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "逆境重生",
+    "IsInRandom": true
+  },
+  {
+    "Id": "狡诈心机",
+    "Pic": "915",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/XD3",
+      "text": "狡诈心机"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/XD3",
+      "text": "善于利用策略和心计，在战斗中总是藏有后手。队友死亡后，将其全部减益状态返还给攻击者"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "intper",
+        0.2
+      ]
+    ],
+    "BattleBuffId": "狡诈心机",
+    "IsInRandom": false
+  },
+  {
+    "Id": "心狠手辣",
+    "Pic": "659",
+    "AffixQuality": 4,
+    "AffixName": {
+      "key": "i18n/affix/name/XD4",
+      "text": "心狠手辣"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/XD4",
+      "text": "出手从不留情，攻击往往带有极大的威慑力，暴击后有50%概率使敌人陷入恐惧状态（回合结束后往空位乱跑）"
+    },
+    "LifeType": 0,
+    "RoleAttr": [
+      [
+        "crt",
+        50.0
+      ]
+    ],
+    "BattleBuffId": "心狠手辣",
+    "IsInRandom": true
+  },
+  {
+    "Id": "自私自利",
+    "Pic": "712",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/XD5",
+      "text": "自私自利"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/XD5",
+      "text": "每回合结束时，将自身所有的减益状态转移给队友"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "自私自利",
+    "IsInRandom": true
+  },
+  {
+    "Id": "自作聪明",
+    "Pic": "663",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/XD6",
+      "text": "自作聪明"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/XD6",
+      "text": "触发招架后，70%概率令攻击者的某个减益状态时长延长1回合。也有可能直接驱散对方1个减益状态"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "自作聪明",
+    "IsInRandom": true
+  },
+  {
+    "Id": "乾坤护体",
+    "Pic": "593",
+    "AffixQuality": 3,
+    "AffixName": {
+      "key": "i18n/affix/name/XD7",
+      "text": "乾坤护体"
+    },
+    "AffixDescription": {
+      "key": "i18n/affix/description/XD7",
+      "text": "被暴击后，获得30%防御力的护盾"
+    },
+    "LifeType": 0,
+    "RoleAttr": [],
+    "BattleBuffId": "乾坤护体",
+    "IsInRandom": true
+  }
+]

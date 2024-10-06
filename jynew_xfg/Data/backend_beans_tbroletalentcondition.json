@@ -1,0 +1,288 @@
+[
+  {
+    "Id": "刺客1_1",
+    "Conditions": [
+      {
+        "CompareSymbol": 6,
+        "ValueToCompare": 1,
+        "$type": "TC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "刺客1_2",
+    "Conditions": [
+      {
+        "CheckType": 1,
+        "TalentId": "1_1",
+        "$type": "TC_UnlockTalent"
+      },
+      {
+        "CompareSymbol": 6,
+        "ValueToCompare": 3,
+        "$type": "TC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "刺客1_3",
+    "Conditions": [
+      {
+        "CheckType": 1,
+        "TalentId": "1_2",
+        "$type": "TC_UnlockTalent"
+      },
+      {
+        "CompareSymbol": 6,
+        "ValueToCompare": 5,
+        "$type": "TC_RoleLevel"
+      },
+      {
+        "AttrId": "spd",
+        "CompareSymbol": 6,
+        "ValueToCompare": 50,
+        "$type": "TC_RoleAttr"
+      }
+    ]
+  },
+  {
+    "Id": "通用3级单解锁1_1",
+    "Conditions": [
+      {
+        "CompareSymbol": 6,
+        "ValueToCompare": 3,
+        "$type": "TC_RoleLevel"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "1_2",
+        "$type": "TC_UnlockTalent"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "1_3",
+        "$type": "TC_UnlockTalent"
+      }
+    ]
+  },
+  {
+    "Id": "通用3级单解锁1_2",
+    "Conditions": [
+      {
+        "CompareSymbol": 6,
+        "ValueToCompare": 3,
+        "$type": "TC_RoleLevel"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "1_1",
+        "$type": "TC_UnlockTalent"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "1_3",
+        "$type": "TC_UnlockTalent"
+      }
+    ]
+  },
+  {
+    "Id": "通用3级单解锁1_3",
+    "Conditions": [
+      {
+        "CompareSymbol": 6,
+        "ValueToCompare": 3,
+        "$type": "TC_RoleLevel"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "1_1",
+        "$type": "TC_UnlockTalent"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "1_2",
+        "$type": "TC_UnlockTalent"
+      }
+    ]
+  },
+  {
+    "Id": "通用10级单解锁2_1",
+    "Conditions": [
+      {
+        "CompareSymbol": 6,
+        "ValueToCompare": 10,
+        "$type": "TC_RoleLevel"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "2_2",
+        "$type": "TC_UnlockTalent"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "2_3",
+        "$type": "TC_UnlockTalent"
+      }
+    ]
+  },
+  {
+    "Id": "通用10级单解锁2_2",
+    "Conditions": [
+      {
+        "CompareSymbol": 6,
+        "ValueToCompare": 10,
+        "$type": "TC_RoleLevel"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "2_1",
+        "$type": "TC_UnlockTalent"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "2_3",
+        "$type": "TC_UnlockTalent"
+      }
+    ]
+  },
+  {
+    "Id": "通用10级单解锁2_3",
+    "Conditions": [
+      {
+        "CompareSymbol": 6,
+        "ValueToCompare": 10,
+        "$type": "TC_RoleLevel"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "2_1",
+        "$type": "TC_UnlockTalent"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "2_2",
+        "$type": "TC_UnlockTalent"
+      }
+    ]
+  },
+  {
+    "Id": "通用20级单解锁3_1",
+    "Conditions": [
+      {
+        "CompareSymbol": 6,
+        "ValueToCompare": 20,
+        "$type": "TC_RoleLevel"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "3_2",
+        "$type": "TC_UnlockTalent"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "3_3",
+        "$type": "TC_UnlockTalent"
+      }
+    ]
+  },
+  {
+    "Id": "通用20级单解锁3_2",
+    "Conditions": [
+      {
+        "CompareSymbol": 6,
+        "ValueToCompare": 20,
+        "$type": "TC_RoleLevel"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "3_1",
+        "$type": "TC_UnlockTalent"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "3_3",
+        "$type": "TC_UnlockTalent"
+      }
+    ]
+  },
+  {
+    "Id": "通用20级单解锁3_3",
+    "Conditions": [
+      {
+        "CompareSymbol": 6,
+        "ValueToCompare": 20,
+        "$type": "TC_RoleLevel"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "3_1",
+        "$type": "TC_UnlockTalent"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "3_2",
+        "$type": "TC_UnlockTalent"
+      }
+    ]
+  },
+  {
+    "Id": "通用30级单解锁4_1",
+    "Conditions": [
+      {
+        "CompareSymbol": 6,
+        "ValueToCompare": 30,
+        "$type": "TC_RoleLevel"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "4_2",
+        "$type": "TC_UnlockTalent"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "4_3",
+        "$type": "TC_UnlockTalent"
+      }
+    ]
+  },
+  {
+    "Id": "通用30级单解锁4_2",
+    "Conditions": [
+      {
+        "CompareSymbol": 6,
+        "ValueToCompare": 30,
+        "$type": "TC_RoleLevel"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "4_1",
+        "$type": "TC_UnlockTalent"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "4_3",
+        "$type": "TC_UnlockTalent"
+      }
+    ]
+  },
+  {
+    "Id": "通用30级单解锁4_3",
+    "Conditions": [
+      {
+        "CompareSymbol": 6,
+        "ValueToCompare": 30,
+        "$type": "TC_RoleLevel"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "4_1",
+        "$type": "TC_UnlockTalent"
+      },
+      {
+        "CheckType": 2,
+        "TalentId": "4_2",
+        "$type": "TC_UnlockTalent"
+      }
+    ]
+  }
+]

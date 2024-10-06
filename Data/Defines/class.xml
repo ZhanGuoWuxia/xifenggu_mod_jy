@@ -1,0 +1,45 @@
+<module name="Backend.Beans">
+
+	<bean name="TalentElement" comment="天赋数据">
+		<var name="TalentId" type="string" comment="天赋Id"/>
+		<var name="TalentIcon" type="string" comment="图标"/>
+		<var name="TalentConditionId" type="string" comment="解锁条件Id"/>
+		<var name="TalentEffect" type="TalentEffectBase" comment="天赋效果"/>
+	</bean>
+
+	<bean name="TalentConditionBase" comment="天赋条件基类" sep=",">
+	</bean>
+
+	<bean name="TC_RoleLevel" alias="角色等级" parent="TalentConditionBase">
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="ValueToCompare" type="int" comment="比较数值"/>
+	</bean>
+
+    <bean name="TC_RoleAttr" alias="角色属性" parent="TalentConditionBase">
+		<var name="AttrId" type="string" comment="属性Id"/>
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="ValueToCompare" type="int" comment="比较数值"/>
+	</bean>
+
+    <bean name="TC_UnlockTalent" alias="解锁天赋" parent="TalentConditionBase">
+		<var name="CheckType" type="AC_ExistCheckType" comment="比较类型"/>
+		<var name="TalentId" type="string" comment="同集合的天赋Id"/>
+	</bean>
+
+
+    <bean name="TalentEffectBase" comment="天赋效果基类" sep="|">
+	</bean>
+
+    <bean name="TE_Skill" alias="技能" parent="TalentEffectBase">
+		<var name="SkillId" type="string" comment="招式技能Id"/>
+	</bean>
+
+	<bean name="TE_Buff" alias="Buff" parent="TalentEffectBase">
+		<var name="BuffId" type="string" comment="Buff表Id"/>
+	</bean>
+
+    <bean name="TE_Attr" alias="属性" parent="TalentEffectBase">
+		<var name="Attrs" type="(map#sep=,;),string,float" comment="属性字典" />
+	</bean>
+
+</module>

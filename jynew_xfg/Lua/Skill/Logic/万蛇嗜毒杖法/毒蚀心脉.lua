@@ -1,0 +1,1 @@
+return passive_define("毒蚀心脉", "毒蚀心脉")

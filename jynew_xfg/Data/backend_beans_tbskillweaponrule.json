@@ -1,0 +1,46 @@
+[
+  {
+    "Id": "全部",
+    "CompatibleTypes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "Id": "拳",
+    "CompatibleTypes": [
+      0,
+      1
+    ]
+  },
+  {
+    "Id": "刀",
+    "CompatibleTypes": [
+      2
+    ]
+  },
+  {
+    "Id": "剑",
+    "CompatibleTypes": [
+      3
+    ]
+  },
+  {
+    "Id": "长柄",
+    "CompatibleTypes": [
+      4,
+      5
+    ]
+  },
+  {
+    "Id": "弓",
+    "CompatibleTypes": [
+      6
+    ]
+  }
+]

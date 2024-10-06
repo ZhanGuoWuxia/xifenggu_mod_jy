@@ -1,0 +1,1 @@
+return passive_define("露滴养心", "露滴养心")

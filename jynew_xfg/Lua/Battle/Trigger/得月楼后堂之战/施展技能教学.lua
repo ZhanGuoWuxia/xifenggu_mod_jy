@@ -1,0 +1,1 @@
+tgr_api:tgr_bubble_text("司徒来也", "聚气完成！看我的<color=red>烈风焰刀</color>！")

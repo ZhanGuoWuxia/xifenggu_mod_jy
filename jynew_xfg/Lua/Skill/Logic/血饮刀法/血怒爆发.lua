@@ -1,0 +1,1 @@
+return passive_define("血怒爆发", "血怒爆发")

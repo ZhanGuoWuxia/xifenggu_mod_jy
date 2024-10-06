@@ -1,0 +1,631 @@
+[
+  {
+    "Id": "铁卫专精",
+    "Name": {
+      "key": "i18n/talent/name/class/ironguard",
+      "text": "铁壁"
+    },
+    "TalentList": [
+      {
+        "TalentId": "1_1",
+        "TalentIcon": "765",
+        "TalentConditionId": "通用3级单解锁1_1",
+        "TalentEffect": {
+          "Attrs": [
+            [
+              "拳法资质",
+              5.0
+            ],
+            [
+              "棍法资质",
+              5.0
+            ],
+            [
+              "atkper",
+              0.1
+            ]
+          ],
+          "$type": "TE_Attr"
+        }
+      },
+      {
+        "TalentId": "1_2",
+        "TalentIcon": "190",
+        "TalentConditionId": "通用3级单解锁1_2",
+        "TalentEffect": {
+          "Attrs": [
+            [
+              "crd",
+              200.0
+            ],
+            [
+              "defper",
+              0.3
+            ],
+            [
+              "tenper",
+              0.3
+            ]
+          ],
+          "$type": "TE_Attr"
+        }
+      },
+      {
+        "TalentId": "1_3",
+        "TalentIcon": "195",
+        "TalentConditionId": "通用3级单解锁1_3",
+        "TalentEffect": {
+          "SkillId": "铁卫_金刚铁壁",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "2_1",
+        "TalentIcon": "218",
+        "TalentConditionId": "通用10级单解锁2_1",
+        "TalentEffect": {
+          "BuffId": "铁卫_刚猛无比",
+          "$type": "TE_Buff"
+        }
+      },
+      {
+        "TalentId": "2_2",
+        "TalentIcon": "197",
+        "TalentConditionId": "通用10级单解锁2_2",
+        "TalentEffect": {
+          "SkillId": "铁卫_以柔克刚",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "2_3",
+        "TalentIcon": "601",
+        "TalentConditionId": "通用10级单解锁2_3",
+        "TalentEffect": {
+          "SkillId": "铁卫_铁血守御",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "3_1",
+        "TalentIcon": "230",
+        "TalentConditionId": "通用20级单解锁3_1",
+        "TalentEffect": {
+          "SkillId": "铁卫_不动如山",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "3_2",
+        "TalentIcon": "806",
+        "TalentConditionId": "通用20级单解锁3_2",
+        "TalentEffect": {
+          "SkillId": "铁卫_血怒之盾",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "3_3",
+        "TalentIcon": "210",
+        "TalentConditionId": "通用20级单解锁3_3",
+        "TalentEffect": {
+          "BuffId": "铁卫_磐石之躯",
+          "$type": "TE_Buff"
+        }
+      },
+      {
+        "TalentId": "4_1",
+        "TalentIcon": "221",
+        "TalentConditionId": "通用30级单解锁4_1",
+        "TalentEffect": {
+          "SkillId": "铁卫_破岳拳",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "4_2",
+        "TalentIcon": "201",
+        "TalentConditionId": "通用30级单解锁4_2",
+        "TalentEffect": {
+          "SkillId": "铁卫_金刚不坏",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "4_3",
+        "TalentIcon": "206",
+        "TalentConditionId": "通用30级单解锁4_3",
+        "TalentEffect": {
+          "BuffId": "铁卫_不屈",
+          "$type": "TE_Buff"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "侠士专精",
+    "Name": {
+      "key": "i18n/talent/name/class/warrior",
+      "text": "千刃"
+    },
+    "TalentList": [
+      {
+        "TalentId": "1_1",
+        "TalentIcon": "580",
+        "TalentConditionId": "通用3级单解锁1_1",
+        "TalentEffect": {
+          "SkillId": "侠士_刀剑好手",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "1_2",
+        "TalentIcon": "581",
+        "TalentConditionId": "通用3级单解锁1_2",
+        "TalentEffect": {
+          "SkillId": "侠士_长兵好手",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "1_3",
+        "TalentIcon": "586",
+        "TalentConditionId": "通用3级单解锁1_3",
+        "TalentEffect": {
+          "SkillId": "侠士_拳脚好手",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "2_1",
+        "TalentIcon": "769",
+        "TalentConditionId": "通用10级单解锁2_1",
+        "TalentEffect": {
+          "SkillId": "侠士_激励",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "2_2",
+        "TalentIcon": "763",
+        "TalentConditionId": "通用10级单解锁2_2",
+        "TalentEffect": {
+          "SkillId": "侠士_主攻",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "2_3",
+        "TalentIcon": "675",
+        "TalentConditionId": "通用10级单解锁2_3",
+        "TalentEffect": {
+          "SkillId": "侠士_主守",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "3_1",
+        "TalentIcon": "596",
+        "TalentConditionId": "通用20级单解锁3_1",
+        "TalentEffect": {
+          "SkillId": "侠士_先发制人",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "3_2",
+        "TalentIcon": "5",
+        "TalentConditionId": "通用20级单解锁3_2",
+        "TalentEffect": {
+          "Attrs": [
+            [
+              "无视武器惩罚",
+              1.0
+            ]
+          ],
+          "$type": "TE_Attr"
+        }
+      },
+      {
+        "TalentId": "3_3",
+        "TalentIcon": "834",
+        "TalentConditionId": "通用20级单解锁3_3",
+        "TalentEffect": {
+          "BuffId": "侠士_遇强则强",
+          "$type": "TE_Buff"
+        }
+      },
+      {
+        "TalentId": "4_1",
+        "TalentIcon": "794",
+        "TalentConditionId": "通用30级单解锁4_1",
+        "TalentEffect": {
+          "SkillId": "侠士_烈酒灼心",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "4_2",
+        "TalentIcon": "112",
+        "TalentConditionId": "通用30级单解锁4_2",
+        "TalentEffect": {
+          "SkillId": "侠士_生生不息",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "4_3",
+        "TalentIcon": "108",
+        "TalentConditionId": "通用30级单解锁4_3",
+        "TalentEffect": {
+          "SkillId": "侠士_武学宗师",
+          "$type": "TE_Skill"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "刺客专精",
+    "Name": {
+      "key": "i18n/talent/name/class/assassin",
+      "text": "诡影"
+    },
+    "TalentList": [
+      {
+        "TalentId": "1_1",
+        "TalentIcon": "713",
+        "TalentConditionId": "通用3级单解锁1_1",
+        "TalentEffect": {
+          "SkillId": "刺客_背刺",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "1_2",
+        "TalentIcon": "721",
+        "TalentConditionId": "通用3级单解锁1_2",
+        "TalentEffect": {
+          "SkillId": "刺客_掠影",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "1_3",
+        "TalentIcon": "734",
+        "TalentConditionId": "通用3级单解锁1_3",
+        "TalentEffect": {
+          "SkillId": "刺客_从不失手",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "2_1",
+        "TalentIcon": "720",
+        "TalentConditionId": "通用10级单解锁2_1",
+        "TalentEffect": {
+          "SkillId": "刺客_以牙还牙",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "2_2",
+        "TalentIcon": "735",
+        "TalentConditionId": "通用10级单解锁2_2",
+        "TalentEffect": {
+          "SkillId": "刺客_无情",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "2_3",
+        "TalentIcon": "666",
+        "TalentConditionId": "通用10级单解锁2_3",
+        "TalentEffect": {
+          "SkillId": "刺客_赶尽杀绝",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "3_1",
+        "TalentIcon": "722",
+        "TalentConditionId": "通用20级单解锁3_1",
+        "TalentEffect": {
+          "SkillId": "刺客_锋芒毕露",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "3_2",
+        "TalentIcon": "748",
+        "TalentConditionId": "通用20级单解锁3_2",
+        "TalentEffect": {
+          "SkillId": "刺客_致命抉择",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "3_3",
+        "TalentIcon": "747",
+        "TalentConditionId": "通用20级单解锁3_3",
+        "TalentEffect": {
+          "SkillId": "刺客_绝命潜袭",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "4_1",
+        "TalentIcon": "750",
+        "TalentConditionId": "通用30级单解锁4_1",
+        "TalentEffect": {
+          "SkillId": "刺客_断魂一击",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "4_2",
+        "TalentIcon": "717",
+        "TalentConditionId": "通用30级单解锁4_2",
+        "TalentEffect": {
+          "SkillId": "刺客_弱点识破",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "4_3",
+        "TalentIcon": "723",
+        "TalentConditionId": "通用30级单解锁4_3",
+        "TalentEffect": {
+          "SkillId": "刺客_身手高超",
+          "$type": "TE_Skill"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "游侠专精",
+    "Name": {
+      "key": "i18n/talent/name/class/ranger",
+      "text": "极目"
+    },
+    "TalentList": [
+      {
+        "TalentId": "1_1",
+        "TalentIcon": "538",
+        "TalentConditionId": "通用3级单解锁1_1",
+        "TalentEffect": {
+          "SkillId": "游侠_箭雨",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "1_2",
+        "TalentIcon": "559",
+        "TalentConditionId": "通用3级单解锁1_2",
+        "TalentEffect": {
+          "SkillId": "游侠_支援",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "1_3",
+        "TalentIcon": "259",
+        "TalentConditionId": "通用3级单解锁1_3",
+        "TalentEffect": {
+          "SkillId": "游侠_缓速箭",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "2_1",
+        "TalentIcon": "821",
+        "TalentConditionId": "通用10级单解锁2_1",
+        "TalentEffect": {
+          "SkillId": "游侠_战术大师疾",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "2_2",
+        "TalentIcon": "260",
+        "TalentConditionId": "通用10级单解锁2_2",
+        "TalentEffect": {
+          "SkillId": "游侠_隐匿",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "2_3",
+        "TalentIcon": "829",
+        "TalentConditionId": "通用10级单解锁2_3",
+        "TalentEffect": {
+          "SkillId": "游侠_战术大师准",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "3_1",
+        "TalentIcon": "560",
+        "TalentConditionId": "通用20级单解锁3_1",
+        "TalentEffect": {
+          "SkillId": "游侠_重创矢",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "3_2",
+        "TalentIcon": "554",
+        "TalentConditionId": "通用20级单解锁3_2",
+        "TalentEffect": {
+          "SkillId": "游侠_锋利矢",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "3_3",
+        "TalentIcon": "838",
+        "TalentConditionId": "通用20级单解锁3_3",
+        "TalentEffect": {
+          "SkillId": "游侠_战术大师破",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "4_1",
+        "TalentIcon": "545",
+        "TalentConditionId": "通用30级单解锁4_1",
+        "TalentEffect": {
+          "SkillId": "游侠_破盾矢",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "4_2",
+        "TalentIcon": "555",
+        "TalentConditionId": "通用30级单解锁4_2",
+        "TalentEffect": {
+          "SkillId": "游侠_破甲箭",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "4_3",
+        "TalentIcon": "558",
+        "TalentConditionId": "通用30级单解锁4_3",
+        "TalentEffect": {
+          "Attrs": [
+            [
+              "crt",
+              150.0
+            ]
+          ],
+          "$type": "TE_Attr"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "医师专精",
+    "Name": {
+      "key": "i18n/talent/name/class/healer",
+      "text": "百草"
+    },
+    "TalentList": [
+      {
+        "TalentId": "1_1",
+        "TalentIcon": "673",
+        "TalentConditionId": "通用3级单解锁1_1",
+        "TalentEffect": {
+          "SkillId": "医师_妙手回春群",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "1_2",
+        "TalentIcon": "671",
+        "TalentConditionId": "通用3级单解锁1_2",
+        "TalentEffect": {
+          "SkillId": "医师_妙手回春单",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "1_3",
+        "TalentIcon": "853",
+        "TalentConditionId": "通用3级单解锁1_3",
+        "TalentEffect": {
+          "SkillId": "医师_毒针",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "2_1",
+        "TalentIcon": "455",
+        "TalentConditionId": "通用10级单解锁2_1",
+        "TalentEffect": {
+          "SkillId": "医师_蛊毒手艺",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "2_2",
+        "TalentIcon": "597",
+        "TalentConditionId": "通用10级单解锁2_2",
+        "TalentEffect": {
+          "SkillId": "医师_医道高明",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "2_3",
+        "TalentIcon": "145",
+        "TalentConditionId": "通用10级单解锁2_3",
+        "TalentEffect": {
+          "SkillId": "医师_炼药师",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "3_1",
+        "TalentIcon": "119",
+        "TalentConditionId": "通用20级单解锁3_1",
+        "TalentEffect": {
+          "SkillId": "医师_神手穴术",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "3_2",
+        "TalentIcon": "770",
+        "TalentConditionId": "通用20级单解锁3_2",
+        "TalentEffect": {
+          "SkillId": "医师_护脉丹",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "3_3",
+        "TalentIcon": "854",
+        "TalentConditionId": "通用20级单解锁3_3",
+        "TalentEffect": {
+          "SkillId": "医师_灵蛇毒针",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "4_1",
+        "TalentIcon": "409",
+        "TalentConditionId": "通用30级单解锁4_1",
+        "TalentEffect": {
+          "SkillId": "医师_净心丹",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "4_2",
+        "TalentIcon": "94",
+        "TalentConditionId": "通用30级单解锁4_2",
+        "TalentEffect": {
+          "SkillId": "医师_再世神医",
+          "$type": "TE_Skill"
+        }
+      },
+      {
+        "TalentId": "4_3",
+        "TalentIcon": "241",
+        "TalentConditionId": "通用30级单解锁4_3",
+        "TalentEffect": {
+          "SkillId": "医师_毒雾弥漫",
+          "$type": "TE_Skill"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "木桩专精",
+    "Name": {
+      "key": "i18n/talent/name/class/dummy",
+      "text": "木桩天赋"
+    },
+    "TalentList": []
+  }
+]

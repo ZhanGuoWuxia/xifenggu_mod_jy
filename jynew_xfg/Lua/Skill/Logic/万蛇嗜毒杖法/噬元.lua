@@ -1,0 +1,1 @@
+return passive_define("噬元", "噬元")

@@ -1,0 +1,1 @@
+return passive_define("万毒浩劫", "万毒浩劫")

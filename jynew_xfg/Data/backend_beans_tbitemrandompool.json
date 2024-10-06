@@ -1,0 +1,565 @@
+[
+  {
+    "Id": "奇遇商人前期",
+    "PoolList": [
+      {
+        "Id": "普通剑",
+        "WeightValue": 200
+      },
+      {
+        "Id": "精良剑",
+        "WeightValue": 100
+      },
+      {
+        "Id": "稀有剑",
+        "WeightValue": 50
+      },
+      {
+        "Id": "普通刀",
+        "WeightValue": 200
+      },
+      {
+        "Id": "精良刀",
+        "WeightValue": 100
+      },
+      {
+        "Id": "稀有刀",
+        "WeightValue": 50
+      },
+      {
+        "Id": "普通枪",
+        "WeightValue": 200
+      },
+      {
+        "Id": "精良枪",
+        "WeightValue": 100
+      },
+      {
+        "Id": "稀有枪",
+        "WeightValue": 50
+      },
+      {
+        "Id": "普通棍",
+        "WeightValue": 200
+      },
+      {
+        "Id": "精良棍",
+        "WeightValue": 100
+      },
+      {
+        "Id": "稀有棍",
+        "WeightValue": 50
+      },
+      {
+        "Id": "普通手套",
+        "WeightValue": 200
+      },
+      {
+        "Id": "精良手套",
+        "WeightValue": 100
+      },
+      {
+        "Id": "稀有手套",
+        "WeightValue": 50
+      },
+      {
+        "Id": "普通爪",
+        "WeightValue": 200
+      },
+      {
+        "Id": "精良爪",
+        "WeightValue": 100
+      },
+      {
+        "Id": "稀有爪",
+        "WeightValue": 50
+      },
+      {
+        "Id": "普通弓",
+        "WeightValue": 200
+      },
+      {
+        "Id": "精良弓",
+        "WeightValue": 100
+      },
+      {
+        "Id": "稀有弓",
+        "WeightValue": 50
+      },
+      {
+        "Id": "普通轻甲",
+        "WeightValue": 200
+      },
+      {
+        "Id": "精良轻甲",
+        "WeightValue": 100
+      },
+      {
+        "Id": "普通中甲",
+        "WeightValue": 50
+      },
+      {
+        "Id": "精良中甲",
+        "WeightValue": 200
+      },
+      {
+        "Id": "普通重甲",
+        "WeightValue": 100
+      },
+      {
+        "Id": "精良重甲",
+        "WeightValue": 50
+      },
+      {
+        "Id": "普通项链",
+        "WeightValue": 200
+      },
+      {
+        "Id": "精良项链",
+        "WeightValue": 100
+      },
+      {
+        "Id": "稀有项链",
+        "WeightValue": 50
+      },
+      {
+        "Id": "普通戒指",
+        "WeightValue": 200
+      },
+      {
+        "Id": "精良戒指",
+        "WeightValue": 100
+      },
+      {
+        "Id": "稀有戒指",
+        "WeightValue": 50
+      },
+      {
+        "Id": "普通手镯",
+        "WeightValue": 200
+      },
+      {
+        "Id": "精良手镯",
+        "WeightValue": 100
+      },
+      {
+        "Id": "稀有手镯",
+        "WeightValue": 50
+      },
+      {
+        "Id": "普通护腕",
+        "WeightValue": 200
+      },
+      {
+        "Id": "精良护腕",
+        "WeightValue": 100
+      },
+      {
+        "Id": "稀有护腕",
+        "WeightValue": 50
+      }
+    ]
+  },
+  {
+    "Id": "奇遇商人中期",
+    "PoolList": [
+      {
+        "Id": "精良剑",
+        "WeightValue": 200
+      },
+      {
+        "Id": "稀有剑",
+        "WeightValue": 70
+      },
+      {
+        "Id": "史诗剑",
+        "WeightValue": 30
+      },
+      {
+        "Id": "精良刀",
+        "WeightValue": 200
+      },
+      {
+        "Id": "稀有刀",
+        "WeightValue": 70
+      },
+      {
+        "Id": "史诗刀",
+        "WeightValue": 30
+      },
+      {
+        "Id": "精良枪",
+        "WeightValue": 200
+      },
+      {
+        "Id": "稀有枪",
+        "WeightValue": 70
+      },
+      {
+        "Id": "史诗枪",
+        "WeightValue": 30
+      },
+      {
+        "Id": "精良棍",
+        "WeightValue": 200
+      },
+      {
+        "Id": "稀有棍",
+        "WeightValue": 70
+      },
+      {
+        "Id": "史诗棍",
+        "WeightValue": 30
+      },
+      {
+        "Id": "精良手套",
+        "WeightValue": 200
+      },
+      {
+        "Id": "稀有手套",
+        "WeightValue": 70
+      },
+      {
+        "Id": "史诗手套",
+        "WeightValue": 30
+      },
+      {
+        "Id": "精良爪",
+        "WeightValue": 200
+      },
+      {
+        "Id": "稀有爪",
+        "WeightValue": 70
+      },
+      {
+        "Id": "史诗爪",
+        "WeightValue": 30
+      },
+      {
+        "Id": "精良弓",
+        "WeightValue": 200
+      },
+      {
+        "Id": "稀有弓",
+        "WeightValue": 70
+      },
+      {
+        "Id": "史诗弓",
+        "WeightValue": 30
+      },
+      {
+        "Id": "精良轻甲",
+        "WeightValue": 200
+      },
+      {
+        "Id": "稀有轻甲",
+        "WeightValue": 70
+      },
+      {
+        "Id": "史诗轻甲",
+        "WeightValue": 30
+      },
+      {
+        "Id": "精良中甲",
+        "WeightValue": 200
+      },
+      {
+        "Id": "稀有中甲",
+        "WeightValue": 70
+      },
+      {
+        "Id": "史诗中甲",
+        "WeightValue": 30
+      },
+      {
+        "Id": "精良重甲",
+        "WeightValue": 200
+      },
+      {
+        "Id": "稀有重甲",
+        "WeightValue": 70
+      },
+      {
+        "Id": "史诗重甲",
+        "WeightValue": 30
+      },
+      {
+        "Id": "精良项链",
+        "WeightValue": 200
+      },
+      {
+        "Id": "稀有项链",
+        "WeightValue": 70
+      },
+      {
+        "Id": "史诗项链",
+        "WeightValue": 30
+      },
+      {
+        "Id": "精良戒指",
+        "WeightValue": 200
+      },
+      {
+        "Id": "稀有戒指",
+        "WeightValue": 70
+      },
+      {
+        "Id": "史诗戒指",
+        "WeightValue": 30
+      },
+      {
+        "Id": "精良手镯",
+        "WeightValue": 200
+      },
+      {
+        "Id": "稀有手镯",
+        "WeightValue": 70
+      },
+      {
+        "Id": "史诗手镯",
+        "WeightValue": 30
+      },
+      {
+        "Id": "精良护腕",
+        "WeightValue": 200
+      },
+      {
+        "Id": "稀有护腕",
+        "WeightValue": 70
+      },
+      {
+        "Id": "史诗护腕",
+        "WeightValue": 30
+      }
+    ]
+  },
+  {
+    "Id": "奇遇商人后期",
+    "PoolList": [
+      {
+        "Id": "精良剑",
+        "WeightValue": 50
+      },
+      {
+        "Id": "稀有剑",
+        "WeightValue": 200
+      },
+      {
+        "Id": "史诗剑",
+        "WeightValue": 50
+      },
+      {
+        "Id": "传说剑",
+        "WeightValue": 5
+      },
+      {
+        "Id": "精良刀",
+        "WeightValue": 50
+      },
+      {
+        "Id": "稀有刀",
+        "WeightValue": 200
+      },
+      {
+        "Id": "史诗刀",
+        "WeightValue": 50
+      },
+      {
+        "Id": "传说刀",
+        "WeightValue": 5
+      },
+      {
+        "Id": "精良枪",
+        "WeightValue": 50
+      },
+      {
+        "Id": "稀有枪",
+        "WeightValue": 200
+      },
+      {
+        "Id": "史诗枪",
+        "WeightValue": 50
+      },
+      {
+        "Id": "传说枪",
+        "WeightValue": 5
+      },
+      {
+        "Id": "精良棍",
+        "WeightValue": 50
+      },
+      {
+        "Id": "稀有棍",
+        "WeightValue": 200
+      },
+      {
+        "Id": "史诗棍",
+        "WeightValue": 50
+      },
+      {
+        "Id": "传说棍",
+        "WeightValue": 5
+      },
+      {
+        "Id": "精良手套",
+        "WeightValue": 50
+      },
+      {
+        "Id": "稀有手套",
+        "WeightValue": 200
+      },
+      {
+        "Id": "史诗手套",
+        "WeightValue": 50
+      },
+      {
+        "Id": "传说手套",
+        "WeightValue": 5
+      },
+      {
+        "Id": "精良爪",
+        "WeightValue": 50
+      },
+      {
+        "Id": "稀有爪",
+        "WeightValue": 200
+      },
+      {
+        "Id": "史诗爪",
+        "WeightValue": 50
+      },
+      {
+        "Id": "传说爪",
+        "WeightValue": 5
+      },
+      {
+        "Id": "精良弓",
+        "WeightValue": 50
+      },
+      {
+        "Id": "稀有弓",
+        "WeightValue": 200
+      },
+      {
+        "Id": "史诗弓",
+        "WeightValue": 50
+      },
+      {
+        "Id": "传说弓",
+        "WeightValue": 5
+      },
+      {
+        "Id": "精良轻甲",
+        "WeightValue": 50
+      },
+      {
+        "Id": "稀有轻甲",
+        "WeightValue": 200
+      },
+      {
+        "Id": "史诗轻甲",
+        "WeightValue": 50
+      },
+      {
+        "Id": "传说轻甲",
+        "WeightValue": 5
+      },
+      {
+        "Id": "精良中甲",
+        "WeightValue": 50
+      },
+      {
+        "Id": "稀有中甲",
+        "WeightValue": 200
+      },
+      {
+        "Id": "史诗中甲",
+        "WeightValue": 50
+      },
+      {
+        "Id": "传说中甲",
+        "WeightValue": 5
+      },
+      {
+        "Id": "精良重甲",
+        "WeightValue": 50
+      },
+      {
+        "Id": "稀有重甲",
+        "WeightValue": 200
+      },
+      {
+        "Id": "史诗重甲",
+        "WeightValue": 50
+      },
+      {
+        "Id": "传说重甲",
+        "WeightValue": 5
+      },
+      {
+        "Id": "精良项链",
+        "WeightValue": 50
+      },
+      {
+        "Id": "稀有项链",
+        "WeightValue": 200
+      },
+      {
+        "Id": "史诗项链",
+        "WeightValue": 50
+      },
+      {
+        "Id": "传说项链",
+        "WeightValue": 5
+      },
+      {
+        "Id": "精良戒指",
+        "WeightValue": 50
+      },
+      {
+        "Id": "稀有戒指",
+        "WeightValue": 200
+      },
+      {
+        "Id": "史诗戒指",
+        "WeightValue": 50
+      },
+      {
+        "Id": "传说戒指",
+        "WeightValue": 5
+      },
+      {
+        "Id": "精良手镯",
+        "WeightValue": 50
+      },
+      {
+        "Id": "稀有手镯",
+        "WeightValue": 200
+      },
+      {
+        "Id": "史诗手镯",
+        "WeightValue": 50
+      },
+      {
+        "Id": "传说手镯",
+        "WeightValue": 5
+      },
+      {
+        "Id": "精良护腕",
+        "WeightValue": 50
+      },
+      {
+        "Id": "稀有护腕",
+        "WeightValue": 200
+      },
+      {
+        "Id": "史诗护腕",
+        "WeightValue": 50
+      },
+      {
+        "Id": "传说护腕",
+        "WeightValue": 5
+      }
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+tgr_api:tgr_bubble_text("丁宣", "大地之怒，风水之威！")

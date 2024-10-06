@@ -1,0 +1,1 @@
+tgr_api:tgr_bubble_text("东方骤雨", "骤雨寒冰，一拳定江山！")

@@ -1,0 +1,1 @@
+tgr_api:tgr_bubble_text("潘麻子", "这迷人的血腥味让我兴奋！")

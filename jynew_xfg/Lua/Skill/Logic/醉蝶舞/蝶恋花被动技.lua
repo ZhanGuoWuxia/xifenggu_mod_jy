@@ -1,0 +1,1 @@
+return passive_define("蝶恋花被动技", "蝶恋花")

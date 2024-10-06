@@ -1,0 +1,132 @@
+show_stage("酒香亭.png", "酒家")
+play_bgm("Music/回忆.wav")
+set_bg_mat("ImgPaperFold")
+light_scene(0.2)
+
+local qiliuge = actor("齐六哥")
+local zhuhuaner = actor("朱鹮儿")
+local lai3 = actor("赖三")
+local situ = actor("司徒来也")
+set_all_actors_mat("ImgPaperFold")
+
+--初始化位置和朝向
+bright_all_actors()
+situ:bright()
+situ:setPos(-400, 75)
+situ:face_right()
+
+qiliuge:bright()
+qiliuge:setPos(-600, 75)
+qiliuge:face_right()
+
+zhuhuaner:face_right()
+zhuhuaner:setPos(1700, -600)
+lai3:face_left()
+if has_flag("酒香亭第一次招募") then
+    lai3:setPos(2400, 75)
+else
+    --不是第一次就赖三别出来了
+    lai3:setPos(4000, 75)
+end
+
+wait_twn(zhuhuaner:movetoY(75))
+
+if not has_flag("酒香亭第一次招募") then
+
+    wait_twn(lai3:movetoX(1500), lai3:offsetY(-50), lai3:flip())
+    lai3:say("客官, 这是你点的酒菜")
+    hide_all_stage_bubble()
+    wait_twn(lai3:daze(0.2), lai3:offsetY(50))
+
+    situ:offsetX(900)
+    wait_twn(qiliuge:offsetX(900), qiliuge:daze())
+
+    lai3:flip()
+
+    qiliuge:say("此处地灵而人杰，便是先前提到过各路英雄豪杰隐逸之所了。")
+    situ:flip()
+    situ:say("难怪父亲闲暇时也常来此处逗留，为此还总被娘亲埋怨，原来是为了物色人才。")
+    qiliuge:say("哈哈，说来惭愧，十年前我也在这里同老掌门聊了很久。")
+    situ:emotion("WeiXiao")
+    situ:say("这一晃，竟然有十年了呀……")
+    wait_twn(lai3:offsetX(-600))
+    situ:emotion()
+    situ:flip()
+    lai3:say("哎呀，竟是虎焰门的稀客！今天的酒记在我账上便是，就当是一点心意了。")
+    qiliuge:say("得了吧老三，你挣点酒钱也不容易，近来道上动荡，很辛苦吧。")
+    lai3:say("唉，若不是虎焰门罩着，我这铺子怕早关张了。这不？今天到现在，就那一位客人。")
+    lai3:say("没什么事小的先退下了")
+    hide_all_stage_bubble()
+    lai3:flip()
+    wait_twn(lai3:daze(0.25), lai3:offsetX(1500))
+else
+    situ:offsetX(900)
+    wait_twn(qiliuge:offsetX(900), qiliuge:daze())
+end
+
+qiliuge:say("掌门注意到了吗？对面那个小姑娘，我看她背的那把弓力道不小，想来是个射术精湛的高手。")
+situ:emotion("WeiSuo")
+situ:say("我看那位姑娘……有点面善。")
+
+hide_all_stage_bubble()
+
+situ:offsetX(860)
+wait_twn(qiliuge:offsetX(860), qiliuge:daze())
+situ:emotion("WeiXiao")
+situ:say("鹮儿姑娘……在下虎焰门(player:fullname)……")
+zhuhuaner:flip()
+zhuhuaner:say("是你？虽然你救过我，可也别指望因为这个，我就会对你感恩戴德！")
+situ:emotion("WeiXiao")
+situ:say("这是自然！在下出手相帮，本就不是为了求得回报。")
+wait_twn(zhuhuaner:offsetX(-100))
+zhuhuaner:say("你这人说话倒有点意思！与那些张口道义闭口公理的伪君子完全不同！")
+qiliuge:offsetX(-100)
+wait_twn(situ:offsetX(-100))
+situ:emotion("HaiXiu")
+situ:say("哦？看来姑娘对这些人颇有怨念啊？")
+zhuhuaner:flip()
+zhuhuaner:say("可不？村子里那些乡亲又怎么会被万壑成捉去献祭？")
+situ:shake()
+situ:emotion("JingYa")
+situ:say("怎么？万雀溪谷竟做这种丧尽天良之事？")
+zhuhuaner:flip()
+zhuhuaner:say("你懂什么！那个老神棍迷信风水，为了什么“血色魔阵”，谋害了我们全村人的性命！")
+situ:emotion()
+situ:say("这……是在下失言了……")
+
+hide_all_stage_bubble()
+--傲娇生气了
+wait_twn(zhuhuaner:jump(50, 8, 1.2), zhuhuaner:daze(0.6), zhuhuaner:offsetX(-1350), zhuhuaner:daze())
+zhuhuaner:say("连我也是村中长老拼死相救才死里逃生！我若不报此仇，如何对得起死去的乡亲。")
+
+wait_twn(situ:flip(), situ:offsetX(-300))
+qiliuge:flip()
+wait_twn(situ:offsetX(-300))
+situ:say("只是报仇也得讲个主意不是？姑娘如此，无异于飞蛾扑火啊。")
+zhuhuaner:say("哼！要是你不信，不妨我们打个赌，赌我朱鹮儿到底能不能击垮万雀溪谷为乡亲们报仇！")
+situ:say("听姑娘所言，在下有个主意，似乎一切都是“血色魔阵”所害？")
+zhuhuaner:flip()
+zhuhuaner:say("早年间，万壑成重病垂危，求医问药时，听信风水师丁宣有以命续命之法。便当即布下血阵。")
+zhuhuaner:say("谁想也是那老神棍命不该绝，起阵不久，那病情就有了起色。")
+situ:say("莫非那丁宣真有起死回生的药石之术？不过这世间当真有邪性这样的法子，为医者仁心，怎么能狠心使出如此手段？")
+zhuhuaner:say("哼！丁宣何谈医者？原是因为万雀溪谷所在易守难攻，周围又多是富饶之地。有势力想要控制此地，便暗中使了手段。")
+situ:say("如此说来，万壑成只一味迷信风水，吞并土地，却不知已经竟成了有心人的傀儡？")
+zhuhuaner:say("万壑成坚信这些怪力乱神能助他功力大增，更想通过借助血阵之力扩张势力。")
+zhuhuaner:say("那血阵需要吸收自然生灵，万雀溪谷便在周边肆意破坏，并掳掠平民用以献祭。")
+situ:say("如此行径，简直禽兽不如！")
+zhuhuaner:say("哼，那老神棍只顾做着称霸武林的春秋大梦，却不知背后势力未尝不是借这“血色魔阵”吸他的血？")
+situ:say("背后势力？莫非这其中另有牵扯？")
+zhuhuaner:say("我能查到的线索也不多，因那老神棍迷信风水时，一直提到是“夜鸦现世”才救他一命。")
+zhuhuaner:say("因此对“夜鸦”颇为痴迷，想来多半与“夜鸦”脱不了干系。可旁得，我却再也查不出来了。")
+situ:say("竟是“夜鸦”！")
+zhuhuaner:say("怎么？你是不是知道些什么？")
+situ:say("“夜鸦”同我虎焰门有不共戴天之仇！我愿意供姑娘驱策，帮姑娘破了这“血阵”之局，拔了万雀溪谷这颗“毒瘤”。")
+zhuhuaner:say("好吧，你既然这么托大，那我当真要看看你有什么本事了。")
+hide_all_stage_bubble()
+player_add_disciple("朱鹮儿")
+
+black_scene(0.25)
+set_flag("完成招募朱鹮儿")
+set_flag("酒香亭第一次招募")
+hide_stage()
+light_scene(0.25)

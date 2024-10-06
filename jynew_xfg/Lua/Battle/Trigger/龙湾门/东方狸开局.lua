@@ -1,0 +1,1 @@
+tgr_api:tgr_bubble_text("东方狸", "东方狸在此，谁敢与我争锋？")

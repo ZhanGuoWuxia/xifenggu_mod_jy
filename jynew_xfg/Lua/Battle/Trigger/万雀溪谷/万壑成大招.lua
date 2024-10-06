@@ -1,0 +1,1 @@
+tgr_api:tgr_bubble_text("万壑成", "雷动九天，掌破苍穹！")

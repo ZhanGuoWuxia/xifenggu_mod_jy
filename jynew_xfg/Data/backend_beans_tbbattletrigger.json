@@ -1,0 +1,568 @@
+[
+  {
+    "Id": "手动战斗教学",
+    "TriggerLogicFile": "得月楼后堂之战/手动战斗教学",
+    "EventNodeType": 1,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/1",
+      "text": "手动战斗教学"
+    },
+    "BattleConditions": [
+      {
+        "CompareSymbol": 3,
+        "Round": 1,
+        "$type": "BC_Round"
+      }
+    ]
+  },
+  {
+    "Id": "施展技能教学",
+    "TriggerLogicFile": "得月楼后堂之战/施展技能教学",
+    "EventNodeType": 4,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/2",
+      "text": "施展技能教学"
+    },
+    "BattleConditions": [
+      {
+        "CheckType": 1,
+        "RoleId": "司徒来也",
+        "$type": "BC_TriggerRole"
+      },
+      {
+        "CheckType": 1,
+        "SkillId": "烈风焰刀",
+        "$type": "BC_TriggerSkill"
+      }
+    ]
+  },
+  {
+    "Id": "委托战斗教学",
+    "TriggerLogicFile": "虎焰堂之战/委托战斗教学",
+    "EventNodeType": 1,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/3",
+      "text": "委托战斗教学"
+    },
+    "BattleConditions": [
+      {
+        "CompareSymbol": 3,
+        "Round": 1,
+        "$type": "BC_Round"
+      }
+    ]
+  },
+  {
+    "Id": "玩家坚持1回合",
+    "TriggerLogicFile": "通用/强制玩家胜利",
+    "EventNodeType": 2,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/4",
+      "text": "坚持1回合你就胜利了"
+    },
+    "BattleConditions": [
+      {
+        "CompareSymbol": 3,
+        "Round": 1,
+        "$type": "BC_Round"
+      }
+    ]
+  },
+  {
+    "Id": "巨熊锁血",
+    "TriggerLogicFile": "巨熊之战/巨熊锁血",
+    "EventNodeType": 1,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/5",
+      "text": "巨熊锁血"
+    },
+    "BattleConditions": [
+      {
+        "CompareSymbol": 3,
+        "Round": 1,
+        "$type": "BC_Round"
+      }
+    ]
+  },
+  {
+    "Id": "血魔老祖开局",
+    "TriggerLogicFile": "血魔老祖之战/血魔老祖开局",
+    "EventNodeType": 1,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/6",
+      "text": "血魔老祖开局"
+    },
+    "BattleConditions": [
+      {
+        "CompareSymbol": 3,
+        "Round": 1,
+        "$type": "BC_Round"
+      }
+    ]
+  },
+  {
+    "Id": "司徒来也_控制开局",
+    "TriggerLogicFile": "搜魂大法之战/司徒来也_控制开局",
+    "EventNodeType": 1,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/7",
+      "text": "司徒来也_控制开局"
+    },
+    "BattleConditions": [
+      {
+        "CompareSymbol": 3,
+        "Round": 1,
+        "$type": "BC_Round"
+      }
+    ]
+  },
+  {
+    "Id": "梁胜开局",
+    "TriggerLogicFile": "豪猪长垄/梁胜开局",
+    "EventNodeType": 1,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/8",
+      "text": "梁胜开局"
+    },
+    "BattleConditions": [
+      {
+        "CompareSymbol": 3,
+        "Round": 1,
+        "$type": "BC_Round"
+      }
+    ]
+  },
+  {
+    "Id": "何猛开局",
+    "TriggerLogicFile": "豪猪长垄/何猛开局",
+    "EventNodeType": 1,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/9",
+      "text": "何猛开局"
+    },
+    "BattleConditions": [
+      {
+        "CompareSymbol": 3,
+        "Round": 1,
+        "$type": "BC_Round"
+      }
+    ]
+  },
+  {
+    "Id": "潘麻子开局",
+    "TriggerLogicFile": "豪猪长垄/潘麻子开局",
+    "EventNodeType": 1,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/10",
+      "text": "潘麻子开局"
+    },
+    "BattleConditions": [
+      {
+        "CompareSymbol": 3,
+        "Round": 1,
+        "$type": "BC_Round"
+      }
+    ]
+  },
+  {
+    "Id": "梁胜大招",
+    "TriggerLogicFile": "豪猪长垄/梁胜大招",
+    "EventNodeType": 5,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/11",
+      "text": "梁胜大招"
+    },
+    "BattleConditions": [
+      {
+        "CheckType": 1,
+        "RoleId": "梁胜",
+        "$type": "BC_TriggerRole"
+      },
+      {
+        "CheckType": 1,
+        "SkillId": "罗汉拳",
+        "$type": "BC_TriggerSkill"
+      }
+    ]
+  },
+  {
+    "Id": "何猛大招",
+    "TriggerLogicFile": "豪猪长垄/何猛大招",
+    "EventNodeType": 5,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/12",
+      "text": "何猛大招"
+    },
+    "BattleConditions": [
+      {
+        "CheckType": 1,
+        "RoleId": "何猛",
+        "$type": "BC_TriggerRole"
+      },
+      {
+        "CheckType": 1,
+        "SkillId": "血腥屠戮",
+        "$type": "BC_TriggerSkill"
+      }
+    ]
+  },
+  {
+    "Id": "潘麻子大招",
+    "TriggerLogicFile": "豪猪长垄/潘麻子大招",
+    "EventNodeType": 5,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/13",
+      "text": "潘麻子大招"
+    },
+    "BattleConditions": [
+      {
+        "CheckType": 1,
+        "RoleId": "潘麻子",
+        "$type": "BC_TriggerRole"
+      },
+      {
+        "CheckType": 1,
+        "SkillId": "断血斩首",
+        "$type": "BC_TriggerSkill"
+      }
+    ]
+  },
+  {
+    "Id": "子瑾风开局",
+    "TriggerLogicFile": "剑心通明之战/子瑾风开局",
+    "EventNodeType": 1,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/14",
+      "text": "子瑾风开局"
+    },
+    "BattleConditions": [
+      {
+        "CompareSymbol": 3,
+        "Round": 1,
+        "$type": "BC_Round"
+      }
+    ]
+  },
+  {
+    "Id": "子瑾风大招",
+    "TriggerLogicFile": "剑心通明之战/子瑾风大招",
+    "EventNodeType": 5,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/15",
+      "text": "子瑾风大招"
+    },
+    "BattleConditions": [
+      {
+        "CheckType": 1,
+        "RoleId": "子瑾风",
+        "$type": "BC_TriggerRole"
+      },
+      {
+        "CheckType": 1,
+        "SkillId": "寒阴气绝剑",
+        "$type": "BC_TriggerSkill"
+      }
+    ]
+  },
+  {
+    "Id": "鲸_残影开局",
+    "TriggerLogicFile": "巨人残影之战/鲸_残影开局",
+    "EventNodeType": 1,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/16",
+      "text": "鲸_残影开局"
+    },
+    "BattleConditions": [
+      {
+        "CompareSymbol": 3,
+        "Round": 1,
+        "$type": "BC_Round"
+      }
+    ]
+  },
+  {
+    "Id": "鲸_残影大招",
+    "TriggerLogicFile": "巨人残影之战/鲸_残影大招",
+    "EventNodeType": 5,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/17",
+      "text": "鲸_残影大招"
+    },
+    "BattleConditions": [
+      {
+        "CheckType": 1,
+        "RoleId": "鲸_残影",
+        "$type": "BC_TriggerRole"
+      },
+      {
+        "CheckType": 1,
+        "SkillId": "血腥屠戮",
+        "$type": "BC_TriggerSkill"
+      }
+    ]
+  },
+  {
+    "Id": "东方狸开局",
+    "TriggerLogicFile": "龙湾门/东方狸开局",
+    "EventNodeType": 1,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/18",
+      "text": "东方狸开局"
+    },
+    "BattleConditions": [
+      {
+        "CompareSymbol": 3,
+        "Round": 1,
+        "$type": "BC_Round"
+      }
+    ]
+  },
+  {
+    "Id": "东方豚开局",
+    "TriggerLogicFile": "龙湾门/东方豚开局",
+    "EventNodeType": 1,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/19",
+      "text": "东方豚开局"
+    },
+    "BattleConditions": [
+      {
+        "CompareSymbol": 3,
+        "Round": 1,
+        "$type": "BC_Round"
+      }
+    ]
+  },
+  {
+    "Id": "东方鲨开局",
+    "TriggerLogicFile": "龙湾门/东方鲨开局",
+    "EventNodeType": 1,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/20",
+      "text": "东方鲨开局"
+    },
+    "BattleConditions": [
+      {
+        "CompareSymbol": 3,
+        "Round": 1,
+        "$type": "BC_Round"
+      }
+    ]
+  },
+  {
+    "Id": "东方骤雨开局",
+    "TriggerLogicFile": "龙湾门/东方骤雨开局",
+    "EventNodeType": 1,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/21",
+      "text": "东方骤雨开局"
+    },
+    "BattleConditions": [
+      {
+        "CompareSymbol": 3,
+        "Round": 1,
+        "$type": "BC_Round"
+      }
+    ]
+  },
+  {
+    "Id": "东方狸大招",
+    "TriggerLogicFile": "龙湾门/东方狸大招",
+    "EventNodeType": 5,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/22",
+      "text": "东方狸大招"
+    },
+    "BattleConditions": [
+      {
+        "CheckType": 1,
+        "RoleId": "东方狸",
+        "$type": "BC_TriggerRole"
+      },
+      {
+        "CheckType": 1,
+        "SkillId": "骤雨寒冰拳",
+        "$type": "BC_TriggerSkill"
+      }
+    ]
+  },
+  {
+    "Id": "东方豚大招",
+    "TriggerLogicFile": "龙湾门/东方豚大招",
+    "EventNodeType": 5,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/23",
+      "text": "东方豚大招"
+    },
+    "BattleConditions": [
+      {
+        "CheckType": 1,
+        "RoleId": "东方豚",
+        "$type": "BC_TriggerRole"
+      },
+      {
+        "CheckType": 1,
+        "SkillId": "蛟龙出海",
+        "$type": "BC_TriggerSkill"
+      }
+    ]
+  },
+  {
+    "Id": "东方鲨大招",
+    "TriggerLogicFile": "龙湾门/东方鲨大招",
+    "EventNodeType": 5,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/24",
+      "text": "东方鲨大招"
+    },
+    "BattleConditions": [
+      {
+        "CheckType": 1,
+        "RoleId": "东方鲨",
+        "$type": "BC_TriggerRole"
+      },
+      {
+        "CheckType": 1,
+        "SkillId": "龙扫尾",
+        "$type": "BC_TriggerSkill"
+      }
+    ]
+  },
+  {
+    "Id": "东方骤雨大招",
+    "TriggerLogicFile": "龙湾门/东方骤雨大招",
+    "EventNodeType": 5,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/25",
+      "text": "东方骤雨大招"
+    },
+    "BattleConditions": [
+      {
+        "CheckType": 1,
+        "RoleId": "东方骤雨",
+        "$type": "BC_TriggerRole"
+      },
+      {
+        "CheckType": 1,
+        "SkillId": "骤雨寒冰拳",
+        "$type": "BC_TriggerSkill"
+      }
+    ]
+  },
+  {
+    "Id": "龙万莹大招",
+    "TriggerLogicFile": "龙湾门/龙万莹大招",
+    "EventNodeType": 5,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/26",
+      "text": "龙万莹大招"
+    },
+    "BattleConditions": [
+      {
+        "CheckType": 1,
+        "RoleId": "龙万莹",
+        "$type": "BC_TriggerRole"
+      },
+      {
+        "CheckType": 1,
+        "SkillId": "水蛇舞",
+        "$type": "BC_TriggerSkill"
+      }
+    ]
+  },
+  {
+    "Id": "万壑成开局",
+    "TriggerLogicFile": "万雀溪谷/万壑成开局",
+    "EventNodeType": 1,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/27",
+      "text": "万壑成开局"
+    },
+    "BattleConditions": [
+      {
+        "CompareSymbol": 3,
+        "Round": 1,
+        "$type": "BC_Round"
+      }
+    ]
+  },
+  {
+    "Id": "丁宣开局",
+    "TriggerLogicFile": "万雀溪谷/丁宣开局",
+    "EventNodeType": 1,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/28",
+      "text": "丁宣开局"
+    },
+    "BattleConditions": [
+      {
+        "CompareSymbol": 3,
+        "Round": 1,
+        "$type": "BC_Round"
+      }
+    ]
+  },
+  {
+    "Id": "万壑成大招",
+    "TriggerLogicFile": "万雀溪谷/万壑成大招",
+    "EventNodeType": 5,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/29",
+      "text": "万壑成大招"
+    },
+    "BattleConditions": [
+      {
+        "CheckType": 1,
+        "RoleId": "万壑成",
+        "$type": "BC_TriggerRole"
+      },
+      {
+        "CheckType": 1,
+        "SkillId": "震雷掌",
+        "$type": "BC_TriggerSkill"
+      }
+    ]
+  },
+  {
+    "Id": "丁宣大招",
+    "TriggerLogicFile": "万雀溪谷/丁宣大招",
+    "EventNodeType": 5,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/30",
+      "text": "丁宣大招"
+    },
+    "BattleConditions": [
+      {
+        "CheckType": 1,
+        "RoleId": "丁宣",
+        "$type": "BC_TriggerRole"
+      },
+      {
+        "CheckType": 1,
+        "SkillId": "裂地一击",
+        "$type": "BC_TriggerSkill"
+      }
+    ]
+  },
+  {
+    "Id": "柔儿大招",
+    "TriggerLogicFile": "万雀溪谷/柔儿大招",
+    "EventNodeType": 5,
+    "TriggerDescription": {
+      "key": "i18n/trigger/desc/31",
+      "text": "柔儿大招"
+    },
+    "BattleConditions": [
+      {
+        "CheckType": 1,
+        "RoleId": "柔儿",
+        "$type": "BC_TriggerRole"
+      },
+      {
+        "CheckType": 1,
+        "SkillId": "阴阳一击",
+        "$type": "BC_TriggerSkill"
+      }
+    ]
+  }
+]

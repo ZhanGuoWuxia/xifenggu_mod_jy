@@ -1,0 +1,90 @@
+<module name="Backend.Beans">
+	<enum name="SkillType" comment="技能类型">
+		<var name="WaiGong" alias="外功" value="0" />
+		<var name="NeiGong" alias="内功" value="1" />
+		<var name="QingGong" alias="轻功" value="2" />
+	</enum>
+
+	<enum name="SubSkillType" comment="技能类型">
+		<var name="None" alias="无" value="0" />
+		<var name="Stick" alias="棍法" value="1" />
+		<var name="Sword" alias="剑法" value="2" />
+		<var name="Blade" alias="刀法" value="3" />
+		<var name="Fist" alias="拳法" value="4" />
+		<var name="Shot" alias="射术" value="5" />
+		<var name="QingGong" alias="轻功" value="6" />
+		<var name="NeiGong" alias="内功" value="7" />
+	</enum>
+
+	<enum name="SkillRangeType" comment="技能作用范围类型" flags="true">
+		<var name="None" alias="无" value="0" comment="说明是个被动技能"/>
+		<var name="Origin" alias="中" value="1" />
+		<var name="Front"  alias="前" value="2" />
+		<var name="Back" alias="后" value="4" />
+		<var name="Top" alias="上" value="8" />
+		<var name="Bottom"  alias="下" value="16" />
+		<var name="FrontTop"  alias="前上" value="32" />
+		<var name="FrontBottom" alias="前下" value="64" />
+		<var name="BackTop" alias="后上" value="128" />
+		<var name="BackBottom" alias="后下" value="256" />
+		<var name="Row" alias="整行" value="512" />
+		<var name="Col" alias="整列" value="1024" />
+		<var name="Cross" alias="十字" value="Top|Bottom|Front|Back|Origin"/>
+		<var name="All"  alias="全部" value="1073741824"/>
+	</enum>
+	
+
+	<enum name="SkillMovePosType" comment="技能施放移动类型">
+		<var name="None" alias="无" value="0"/>
+		<var name="Origin" alias="原地" value="1" />
+		<var name="Melee" alias="近身" value="2" />
+		<var name="BattleCenter"  alias="场地中央" value="3" />
+	</enum>
+
+	<enum name="DamageScaleType" comment="伤害系数类型">
+		<var name="Default" alias="默认" value="1" />
+		<var name="Split"  alias="溅射" value="2" />
+	</enum>
+
+
+	<enum name="SkillCastPosSelectType" comment="技能释放位置选择类型">
+		<var name="Mechanism" alias="机制" comment="一般是Lua侧自定义的" value="-1"/>
+		<var name="None" alias="无" value="0" comment="被动或者自身技能情况"/>
+		<var name="Any" alias="任意" value="1" comment="某一方任选" />
+		<var name="FrontToBack" alias="从前往后" value="2" />
+		<var name="BackToFront"  alias="从后往前" value="3" />
+		<var name="FrontAndMiddle"  alias="前两排" value="4" />
+		<var name="BackAndMiddle"  alias="后两排" value="5" />
+	</enum>
+
+	<enum name="SkillCastTargetType" comment="技能作用目标类型">
+		<var name="None" alias="无" value="0" comment="说明是个被动技能"/>
+		<var name="Self" alias="自身" value="1" />
+		<var name="Enemy"  alias="敌方" value="2" />
+		<var name="Ally" alias="友方" value="3" />
+	</enum>
+
+	<enum name="SkillFormType" comment="技能招式类型">
+		<var name="NormalAtk" alias="普通攻击" value="0"/>
+		<var name="Proactive" alias="主动技能" value="1" />
+		<var name="Passive"  alias="被动技能" value="2" />
+	</enum>
+
+	<enum name="SkillNameDisplayType" comment="技能招式类型">
+		<var name="Default" alias="默认" value="0"/>
+		<var name="CharacterTex" alias="立绘" value="1"/>
+	</enum>
+
+	<bean name="SkillUnlockBean" sep=",">
+		<var name="FormId" type="string" comment="招式Id"/>
+		<var name="UnlockLevel" type="int" comment="解锁等级"/>
+	</bean>
+
+	<bean name="SkillPartialBean">
+    <var name="Id" type="string"/>
+    <var name="Level" type="int"/>
+	<var name="MaxLevel" type="int"/>
+	<var name="IsEquipped" type="bool"/>
+  </bean>
+
+</module>

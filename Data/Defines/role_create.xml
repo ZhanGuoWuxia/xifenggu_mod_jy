@@ -1,0 +1,23 @@
+<module name="Backend.Beans">
+
+
+    <enum name="RCM_CheckType" comment="条件是否存在">
+		<var name="Exist" alias="有" value="1" />
+		<var name="NotExist" alias="没有" value="2" />
+	</enum>
+
+    <enum name="RCModifierType" comment="修改器类型">
+        <var name="None" alias="无" value="0" />
+		<var name="Item" alias="道具" value="1" />
+		<var name="Affix" alias="词缀" value="2" />
+        <var name="Skill" alias="技能" value="3" />
+	</enum>
+
+	<bean name="RCModifierConditionBase" comment="修改器解锁条件基类" sep=",">
+	</bean>
+
+    <bean name="RCM_Condition_Achievement" alias="解锁成就" parent="RCModifierConditionBase">
+        <var name="AchievementId" type="string" comment="成就Id"/>
+	</bean>
+
+</module>

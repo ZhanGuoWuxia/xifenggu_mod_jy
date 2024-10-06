@@ -1,0 +1,1 @@
+return simple_damage_skill_template("岳破天开", stat_key.Attack, 0.7, 0.1)

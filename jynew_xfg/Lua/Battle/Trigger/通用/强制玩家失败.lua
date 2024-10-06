@@ -1,0 +1,1 @@
+tgr_api:player_battle_lose()

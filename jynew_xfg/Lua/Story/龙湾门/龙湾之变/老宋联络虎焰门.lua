@@ -1,0 +1,61 @@
+show_stage("bg_219.png", "虎焰门大堂")
+set_bg_mat("ImgPaperFold")
+play_bgm("Music/密谋_夜郎.wav")
+light_scene(0.2)
+
+local laosong = actor("老宋")
+local qiliuge = actor("齐六哥")
+local situ = actor("司徒来也")
+
+set_all_actors_mat("ImgPaperFold")
+
+--初始化位置和朝向
+qiliuge:setPos(700, 75)
+qiliuge:face_right()
+situ:setPos(1000, 75)
+situ:face_right()
+laosong:setOverrideName("？？？")
+laosong:setPos(2600, 75)
+laosong:face_left()
+
+
+wait_twn(laosong:movetoX(1300), laosong:daze())
+laosong:say("(player:fname)掌门，久闻大名，今日一见，果然名不虚传。")
+situ:say("你是谁？你我素未谋面，今日何事让你踏足我虎焰堂？")
+laosong:setOverrideName("老宋")
+laosong:say("我是龙湾门厨子老宋。此行并非空手而来，更是携来了龙万莹夫人的拳拳诚意，以及一策惊天动地之计。")
+qiliuge:say("龙万莹？龙湾门的女主人？她有何诚意，又有何计？")
+laosong:say("龙夫人欲与贵门联手，共谋一件大事。此事若成，龙湾门的地盘，你我两家平分，岂不美哉？")
+situ:say("平分龙湾门？这倒是个诱人的条件。你且说说，这大事是何计策？")
+laosong:say("攻打海狸湾。东方骤雨虽强，但其在海狸湾之防，薄弱如纸。一旦攻其不备，他必调兵回援。")
+situ:say("调兵回援？那龙湾岂不是一座空城？")
+laosong:say("正是。东方骤雨一走，龙湾门便是无人之境。届时，龙夫人趁机举事，内外夹击，东方骤雨便是瓮中之鳖了。")
+hide_all_stage_bubble()
+local idx = show_quick_selections({"同意", "不同意"})
+if idx == 1 then
+    situ:say("哈哈，妙计！妙计！老宋，你这一出“声东击西”，果然不错。这桩大事，我虎焰门接下了！")
+    laosong:say("那便好。(player:fname)掌门救龙夫人出水火之恩，永志难忘！")
+    situ:say("“一言既出，驷马难追“。老宋，你速回龙湾，告知龙夫人，我虎焰门精兵猛将，已待命出征。")
+    laosong:say("多谢(player:fname)掌门。龙夫人定会感激你的援手，我们江湖再见。")
+    hide_all_stage_bubble()
+    laosong:flip()
+    wait_twn(laosong:movetoX(3000))
+    situ:flip()
+    qiliuge:say("掌门，咱们恐防其中有诈。江湖险恶，万事还需谨慎。")
+    situ:say("六哥提醒的是，江湖之事，确是步步惊心。不过，这龙万莹的计策，倒也并非全无可取之处。")
+    qiliuge:say("是的，掌门。")
+    set_flag("同意帮助龙万莹起义")
+else
+    situ:say("江湖险恶，万事还需谨慎。你且先回，此事还需从长计议。")
+    laosong:say("机会稍纵即逝，望(player:fname)掌门三思。")
+    hide_all_stage_bubble()
+    laosong:flip()
+    laosong:movetoX(3000)
+end
+
+hide_all_stage_bubble()
+
+black_scene(0.25)
+hide_stage()
+set_flag("完成老宋联络虎焰门")
+light_scene(0.25)

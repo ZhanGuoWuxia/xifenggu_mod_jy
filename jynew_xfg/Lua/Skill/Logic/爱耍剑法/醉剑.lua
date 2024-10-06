@@ -1,0 +1,1 @@
+return passive_define("醉剑", "醉剑")

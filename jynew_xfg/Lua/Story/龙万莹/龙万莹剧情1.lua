@@ -1,0 +1,45 @@
+
+show_stage("龙万莹的房间.png", "龙万莹的房间")
+play_bgm("Music/回忆.wav")
+light_scene(0.2)
+
+local situ = actor("司徒来也")
+local npc = actor("龙万莹")
+
+--初始化位置和朝向
+bright_all_actors()
+situ:setPos(-400, 75)
+npc:setPos(1100, 75)
+situ:face_right()
+npc:face_left()
+
+wait_twn(situ:movetoX(800), situ:daze())
+
+situ:say("夫人，不知今日身体可有好转？")
+npc:say("(player:fname)掌门，你总是这般客气。我这身子骨，倒是无甚大碍。只是心中有些旧事，如鲠在喉，难以释怀。")
+situ:say("夫人若是愿意，不妨说来听听。或许倾诉之后，心中会轻松些。")
+npc:say("二十年前，我和宋郎共同经营着食为鲜，我们俩情投意合，恩爱有加，已经到了谈婚论嫁的地步。")
+situ:say("原来你们本来就是一对。")
+npc:say("正是。我们的日子过得虽然简单却是充满了幸福。然而，一场突如其来的祸事，把我们本来平静的生活彻底打破了。")
+situ:say("夫人能否详述那日之事？")
+npc:say("那晚，食为鲜中来了三位客人，一胖一瘦两位书生，还有一位紫衣少女，他们饮酒作乐。")
+npc:say("谁知，一名粗犷汉子闯入，见那紫衣姑娘貌美，便口出脏言秽语调戏，好像还动了手。惹得两个书生拍案而起，双方起了口角。")
+situ:say("那一胖一瘦俩书生竟有如此胆量。")
+npc:say("两个书生虽然以二敌一，但似乎并不占优势。我和宋郎当时都不会武功，在一旁吓得不敢插手。")
+situ:say("那后来呢？")
+npc:say("打斗间，记得是那个瘦书生，突然不知从哪抽出一把小刀，劲直刺入那汉子的眼眶，登时毙命。")
+situ:say("死了？")
+npc:say("两个书生和紫衣女子随即逃走，却给食为鲜惹来了大麻烦。")
+situ:say("此事如何与食为鲜扯上了关系？")
+npc:say("那被杀的汉子，乃是鹤岭门右使韩恭的大弟子铁驴子。韩恭因此事颜面尽失，迁怒于我们，我与宋郎无奈之下，只得远走他乡。")
+situ:say("原来如此，夫人受苦了。今日便到此为止，待你身体康复，我们再谈。")
+hide_all_stage_bubble()
+wait_twn(situ:flip(), situ:movetoX(-500))
+
+change_favor_by_id("龙万莹", 1)
+add_player_item("升龙丹", 1)
+
+black_scene(0.25)
+hide_stage()
+set_flag("完成龙万莹剧情1")
+light_scene(0.25)

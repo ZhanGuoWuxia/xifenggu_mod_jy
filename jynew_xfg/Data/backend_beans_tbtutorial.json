@@ -1,0 +1,523 @@
+[
+  {
+    "TutorialId": "战斗教学",
+    "Title": {
+      "key": "/tutorial/title/tutorial1",
+      "text": "战斗教学"
+    },
+    "StepList": [
+      {
+        "Pic": "Battle/1",
+        "Description": {
+          "key": "tutorial/battle/description1",
+          "text": "《息风谷战略》的战斗为自动战斗，每个角色每回合都能行动一次，每个角色行动之间会穿插技能施放。\n 战斗会持续到回合计数达到上限或者某一方全部倒地为止。"
+        }
+      },
+      {
+        "Pic": "Battle/2",
+        "Description": {
+          "key": "tutorial/battle/description2",
+          "text": "此处为对应角色的可释放技能，每个技能施放需要内力，释放后会进入冷却，任意角色进行一次普通攻击后，所有人的技能冷却会更新，内力也会根据[集气]属性的高低得到恢复。"
+        }
+      },
+      {
+        "Pic": "Battle/3",
+        "Description": {
+          "key": "tutorial/battle/description3",
+          "text": "你可以悬浮鼠标在技能图标上一段时间来查看技能详情。"
+        }
+      },
+      {
+        "Pic": "Battle/4",
+        "Description": {
+          "key": "tutorial/battle/description4",
+          "text": "技能分为外功、内功、轻功三种，可以在战斗外部的角色详情界面可进行配置。\n"
+        }
+      },
+      {
+        "Pic": "Battle/5",
+        "Description": {
+          "key": "tutorial/battle/description5",
+          "text": "技能施放分为手动施放与AI自动施放，手动模式下点击技能按钮后会立即将该技能施法指令插入到最优先执行的队列当中。"
+        }
+      },
+      {
+        "Pic": "Battle/6",
+        "Description": {
+          "key": "tutorial/battle/description6",
+          "text": "AI的自动施放则可以点击对应角色头像来打开AI开关面板,  通过 勾选<color=red>[委托AI]</color>选项来开启。 也可以通过屏幕右下的开关来批量开启/关闭角色AI。"
+        }
+      },
+      {
+        "Pic": "Battle/7",
+        "Description": {
+          "key": "tutorial/battle/description7",
+          "text": "AI的施法策略可以通过在战斗外进行设置，从而一定程度上控制己方AI施法的行为, 详情可参见<color=#FFE48C>战斗-技能策略</color>教程章节。"
+        }
+      }
+    ],
+    "TutorialType": 2
+  },
+  {
+    "TutorialId": "战斗阵型",
+    "Title": {
+      "key": "/tutorial/title/tutorial_formation",
+      "text": "战斗阵型"
+    },
+    "StepList": [
+      {
+        "Pic": "Formation/1",
+        "Description": {
+          "key": "tutorial/Formation/description1",
+          "text": "战斗分为左右半场，左侧一般为你所在阵营，右侧为敌人阵营。"
+        }
+      },
+      {
+        "Pic": "Formation/2",
+        "Description": {
+          "key": "tutorial/Formation/description2",
+          "text": "每个半场为<color=#FFE48C>3x3</color>的网格，垂直方向为三列（图中<color=blue>蓝色竖线</color>标识），水平方向为三行（图中<color=red>红色横线</color>表示）。"
+        }
+      },
+      {
+        "Pic": "Formation/3",
+        "Description": {
+          "key": "tutorial/Formation/description3",
+          "text": "左右半场的站位基于竖直方向呈对称，然后在此基础上可将不同竖列分为前列、中列、后列。抗伤害的<color=#AB6235>防御</color>角色倾向于布置在前列，<color=red>攻击</color>或者<color=green>辅助</color>类型的角色布置在中、后列。"
+        }
+      }
+    ],
+    "TutorialType": 2
+  },
+  {
+    "TutorialId": "战斗视角调整",
+    "Title": {
+      "key": "/tutorial/title/tutorial2",
+      "text": "战斗视角调整"
+    },
+    "StepList": [
+      {
+        "Pic": "BattleCamera/1",
+        "Description": {
+          "key": "tutorial/BattleCamera/description1",
+          "text": "你可以按住<size=64><sprite=\"gui_button\" name=\"mouse_r\"></size>后拖动来调整合适的摄像机角度, 然后点击[保存视角], 这样每次战斗的初始默认视角都会设置为当前视角。"
+        }
+      }
+    ],
+    "TutorialType": 2
+  },
+  {
+    "TutorialId": "战斗技能策略",
+    "Title": {
+      "key": "/tutorial/title/tutorial3",
+      "text": "战斗技能策略"
+    },
+    "StepList": [
+      {
+        "Pic": "SkillStrategy/1",
+        "Description": {
+          "key": "tutorial/SkillStrategy/description1",
+          "text": "技能策略允许你对AI托管模式下的主动技能和普通攻击行为逻辑进行一定程度的控制"
+        }
+      },
+      {
+        "Pic": "SkillStrategy/2",
+        "Description": {
+          "key": "tutorial/SkillStrategy/description2",
+          "text": "对于内功、外功、轻功三大主要类型，你可以设置其施放的优先级顺序。"
+        }
+      },
+      {
+        "Pic": "SkillStrategy/3",
+        "Description": {
+          "key": "tutorial/SkillStrategy/description3",
+          "text": "对于主动技能和普通攻击，你可以设置3个不同的条件来提高技能的可控性, 条件一般用于施放前置判定、目标过滤、目标优先等。"
+        }
+      },
+      {
+        "Pic": "SkillStrategy/4",
+        "Description": {
+          "key": "tutorial/SkillStrategy/description4",
+          "text": "你可以<size=64><sprite=\"gui_button\" name=\"mouse_l\"></size>点击[技能条件槽位]来进行条件的新增或替换，<size=64><sprite=\"gui_button\" name=\"mouse_r\"></size>点击则可以移除对应位置的条件。"
+        }
+      },
+      {
+        "Pic": "SkillStrategy/5",
+        "Description": {
+          "key": "tutorial/SkillStrategy/description5",
+          "text": "注意：<color=blue>[仅AI]</color> 标记的策略只会在AI自动模式下生效"
+        }
+      },
+      {
+        "Pic": "SkillStrategy/6",
+        "Description": {
+          "key": "tutorial/SkillStrategy/description6",
+          "text": "注意：策略条件是对AI施放技能的行为进行约束，并不会改变技能本身的一些机制逻辑，比如索敌范围为<color=red>[最前排]</color>的技能并不会因为设置为[最后排]条件而改变。"
+        }
+      }
+    ],
+    "TutorialType": 2
+  },
+  {
+    "TutorialId": "战斗增益减益",
+    "Title": {
+      "key": "/tutorial/title/tutorial4",
+      "text": "战斗增益减益"
+    },
+    "StepList": [
+      {
+        "Pic": "Buff/1",
+        "Description": {
+          "key": "tutorial/Buff/description1",
+          "text": "不同的天赋、职业、技能、装备等可能会角色提供不同的增益减益(Buff)，它们会以图标的形式显示在角色血条上方，你可以将鼠标悬浮到对应图标上来查看Buff效果"
+        }
+      },
+      {
+        "Pic": "Buff/2",
+        "Description": {
+          "key": "tutorial/Buff/description2",
+          "text": "为了方便区分，不同类型的Buff图标颜色有所不同。\n<color=#078B22>绿色</color>为<color=#078B22>战斗增益</color>  <color=red>红色</color>为<color=red>战斗减益</color>。\n<color=#005B94>蓝色</color>为<color=#005B94>角色特性</color>  <color=#AB6235>棕色</color>为<color=#AB6235>职业天赋</color>。\n<color=#6B1997>紫色</color>为<color=#6B1997>装备效果</color>。\n"
+        }
+      }
+    ],
+    "TutorialType": 2
+  },
+  {
+    "TutorialId": "角色好感",
+    "Title": {
+      "key": "/tutorial/title/tutorial5",
+      "text": "角色好感"
+    },
+    "StepList": [
+      {
+        "Pic": "RoleFavor/1",
+        "Description": {
+          "key": "tutorial/RoleFavor/description1",
+          "text": "角色好感分为三个阶段，每7点好感度代表一个阶段，每达到一个阶段会给予该角色一个气运点进行气运修炼。"
+        }
+      },
+      {
+        "Pic": "RoleFavor/2",
+        "Description": {
+          "key": "tutorial/RoleFavor/description2",
+          "text": "对于主要剧情角色，好感也会影响其对应的剧情推进。"
+        }
+      },
+      {
+        "Pic": "RoleFavor/3",
+        "Description": {
+          "key": "tutorial/RoleFavor/description3",
+          "text": "角色好感可以通过与角色日常互动、推进剧情、好感度道具来进行提升"
+        }
+      }
+    ],
+    "TutorialType": 3
+  },
+  {
+    "TutorialId": "角色天赋",
+    "Title": {
+      "key": "/tutorial/title/tutorial6",
+      "text": "角色天赋"
+    },
+    "StepList": [
+      {
+        "Pic": "RoleTalent/1",
+        "Description": {
+          "key": "tutorial/RoleTalent/description1",
+          "text": "角色天赋是一排排特殊的机制或者强化，会随着等级的提升而逐步解锁。"
+        }
+      },
+      {
+        "Pic": "RoleTalent/2",
+        "Description": {
+          "key": "tutorial/RoleTalent/description2",
+          "text": "你可以悬浮鼠标在技能图标上一段时间来查看对应天赋的解锁条件和效果。\n<color=red>红色</color>代表未满足的条件，一个天赋需要满足所有条件才能解锁。"
+        }
+      }
+    ],
+    "TutorialType": 3
+  },
+  {
+    "TutorialId": "角色武学",
+    "Title": {
+      "key": "/tutorial/title/tutorial7",
+      "text": "角色武学"
+    },
+    "StepList": [
+      {
+        "Pic": "RoleSkill/1",
+        "Description": {
+          "key": "tutorial/RoleSkill/description1",
+          "text": "武学分为外功、内功、轻功三大类，外功侧重进攻，内功侧重防御与治疗辅助，轻功侧重特殊机制，不同的武学有不同的招式。"
+        }
+      },
+      {
+        "Pic": "RoleSkill/2",
+        "Description": {
+          "key": "tutorial/RoleSkill/description2",
+          "text": "角色可以通过参悟秘籍来进行学习新武学，精良品质以上的秘籍参悟后便会消失。"
+        }
+      },
+      {
+        "Pic": "RoleSkill/3",
+        "Description": {
+          "key": "tutorial/RoleSkill/description3",
+          "text": "已经学会某个武学的角色，使用对应秘籍可以对其他满足学习条件的角色传功，武学等级越高，可传功的人数越多。"
+        }
+      }
+    ],
+    "TutorialType": 3
+  },
+  {
+    "TutorialId": "角色职业",
+    "Title": {
+      "key": "/tutorial/title/tutorial8",
+      "text": "角色职业"
+    },
+    "StepList": [
+      {
+        "Pic": "RoleClass/1",
+        "Description": {
+          "key": "tutorial/RoleClass/description1",
+          "text": "角色职业代表不同角色的成长偏重方向，不同的职业，其属性成长、基础武学资质、天赋都会有所不同。"
+        }
+      }
+    ],
+    "TutorialType": 3
+  },
+  {
+    "TutorialId": "角色状态",
+    "Title": {
+      "key": "/tutorial/title/tutorial9",
+      "text": "角色状态"
+    },
+    "StepList": [
+      {
+        "Pic": "RoleStatus/1",
+        "Description": {
+          "key": "tutorial/RoleStatus/description1",
+          "text": "状态最低为<color=red>0%</color>,  最高为<color=green>100%</color>,角色状态代表当前角色的生命健康程度，会影响其进入战斗的最大气血值。（战斗气血值=最大生命值 x 状态百分比)"
+        }
+      },
+      {
+        "Pic": "RoleStatus/2",
+        "Description": {
+          "key": "tutorial/RoleStatus/description2",
+          "text": "角色状态可以通过药品类道具进行恢复，此外不同难度下角色每回合也会恢复不同量级的状态值。"
+        }
+      },
+      {
+        "Pic": "RoleStatus/3",
+        "Description": {
+          "key": "tutorial/RoleStatus/description3",
+          "text": "在<color=red>专家</color>难度下，玩家阵营的低状态非主要剧情角色，在被击败后会有概率永久死亡。"
+        }
+      }
+    ],
+    "TutorialType": 3
+  },
+  {
+    "TutorialId": "地图沙盘",
+    "Title": {
+      "key": "/tutorial/title/tutorial10",
+      "text": "地图沙盘"
+    },
+    "StepList": [
+      {
+        "Pic": "Map/1",
+        "Description": {
+          "key": "tutorial/map/description1",
+          "text": "《息风谷战略》的大地图是一个以据点争夺为核心的策略沙盘地图，你每回合会得到一定量的行动点数来进行策略的抉择。"
+        }
+      },
+      {
+        "Pic": "Map/2",
+        "Description": {
+          "key": "tutorial/map/description2",
+          "text": "此处为地图沙盘，用于查看当前的阵营领地占领情况，地图沙盘会随着游戏进度的推进逐步解锁新的内容。"
+        }
+      },
+      {
+        "Pic": "Map/3",
+        "Description": {
+          "key": "tutorial/map/description3",
+          "text": "点击对应领地后，你可以查看对应领地的基本情况和行动信息。"
+        }
+      },
+      {
+        "Pic": "Map/4",
+        "Description": {
+          "key": "tutorial/map/description4",
+          "text": "这是当前领地的策略行动列表，大部分策略行动会消耗1个行动点执行，请三思而后行。"
+        }
+      },
+      {
+        "Pic": "Map/5",
+        "Description": {
+          "key": "tutorial/map/description5",
+          "text": "此处为回合结束按钮，你可以在消耗完行动点数后结束当前回合来进行下一回合的推演，其他阵营会在此时开始行动。"
+        }
+      },
+      {
+        "Pic": "Map/6",
+        "Description": {
+          "key": "tutorial/map/description6",
+          "text": "点击此处打开角色详情，以查看你的阵营所属角色信息。"
+        }
+      },
+      {
+        "Pic": "Map/7",
+        "Description": {
+          "key": "tutorial/map/description7",
+          "text": "点击此处打开[重燃虎焰]功能, 具体可参见<color=#FFE48C>[其他-重燃虎焰]</color>教程章节。"
+        }
+      },
+      {
+        "Pic": "Map/8",
+        "Description": {
+          "key": "tutorial/map/description8",
+          "text": "点击此处打开[情报页面], 可以查看相关门派的地区和角色列表信息。"
+        }
+      },
+      {
+        "Pic": "Map/9",
+        "Description": {
+          "key": "tutorial/map/description9",
+          "text": "点击此处打开地牢。\n你在战斗胜利后会有一定几率俘虏敌人，他们会被关押在此。"
+        }
+      },
+      {
+        "Pic": "Map/10",
+        "Description": {
+          "key": "tutorial/map/description10",
+          "text": "点击此处打开游戏系统菜单，用于调整游戏设置以及进行加载/保存存档等操作。"
+        }
+      }
+    ],
+    "TutorialType": 1
+  },
+  {
+    "TutorialId": "行动点数",
+    "Title": {
+      "key": "/tutorial/title/tutorial11",
+      "text": "行动点数"
+    },
+    "StepList": [
+      {
+        "Pic": "ActionPoint/1",
+        "Description": {
+          "key": "tutorial/ActionPoint/description1",
+          "text": "<color=#00da2e>行动点数</color>用来执行不同地点的策略行动，大部分行动会消耗<color=red>1</color>点行动点数，消耗的点数会在每回合开始时恢复至上限。"
+        }
+      },
+      {
+        "Pic": "ActionPoint/2",
+        "Description": {
+          "key": "tutorial/ActionPoint/description2",
+          "text": "行动点数可以通过[重燃虎焰]系统来提升点数上限，具体可参见<color=#FFE48C>[其他-重燃虎焰]</color>教程章节。"
+        }
+      }
+    ],
+    "TutorialType": 1
+  },
+  {
+    "TutorialId": "据点攻防",
+    "Title": {
+      "key": "/tutorial/title/tutorial12",
+      "text": "据点攻防"
+    },
+    "StepList": [
+      {
+        "Pic": "AreaBattle/1",
+        "Description": {
+          "key": "tutorial/AreaBattle/description1",
+          "text": "每个地点拥有不同的建筑数，每次进行[攻打据点]时，攻守双方都是围绕当前的建筑归属进行拉锯战。"
+        }
+      },
+      {
+        "Pic": "AreaBattle/2",
+        "Description": {
+          "key": "tutorial/AreaBattle/description2",
+          "text": "当守方的所有建筑被攻方全部占领时，攻方就会完全夺下这个地点。"
+        }
+      },
+      {
+        "Pic": "AreaBattle/3",
+        "Description": {
+          "key": "tutorial/AreaBattle/description3",
+          "text": "攻守双方的阵容由双方自行决定，在[普通]及以上的难度情况下，攻守双方的角色会有<color=yellow>上场次数限制</color>。如果己方攻击时一次性上场太多角色，那么轮到对方回合时可能就会出现己方无人可上场防守的情况，因此需要好好规划攻击和防守时的人员阵容。"
+        }
+      }
+    ],
+    "TutorialType": 1
+  },
+  {
+    "TutorialId": "发展度",
+    "Title": {
+      "key": "/tutorial/title/tutorial13",
+      "text": "发展度"
+    },
+    "StepList": [
+      {
+        "Pic": "Develop/1",
+        "Description": {
+          "key": "tutorial/Develop/description1",
+          "text": "发展度代表一个地点的繁荣程度，它与一个地点的金钱收入成正比"
+        }
+      },
+      {
+        "Pic": "Develop/2",
+        "Description": {
+          "key": "tutorial/Develop/description2",
+          "text": "此外，随着发展度的提升，不同的地点可能还会解锁不同的人物招募、交易商行、特殊事件等行为"
+        }
+      },
+      {
+        "Pic": "Develop/3",
+        "Description": {
+          "key": "tutorial/Develop/description3",
+          "text": "发展度可以通过[大兴土木]行动来进行提升，某些特殊剧情事件也可能降低或者提升发展度。"
+        }
+      }
+    ],
+    "TutorialType": 1
+  },
+  {
+    "TutorialId": "重燃虎焰",
+    "Title": {
+      "key": "/tutorial/title/tutorial14",
+      "text": "重燃虎焰"
+    },
+    "StepList": [
+      {
+        "Pic": "FirePoint/1",
+        "Description": {
+          "key": "tutorial/FirePoint/description1",
+          "text": "重燃虎焰为你提供了各式各样的全局策略，你可以消耗<sprite=\"fire_point\" name=dark>来执行这些策略来获得额外的特殊效果，<sprite=\"fire_point\" name=dark>可以通过首次占领据点、完成隐藏目标、完成特定剧情来获取"
+        }
+      },
+      {
+        "Pic": "FirePoint/2",
+        "Description": {
+          "key": "tutorial/FirePoint/description2",
+          "text": "此处为你当前的策略列表，你可以查看已执行、未执行的策略及其对应的<sprite=\"fire_point\" name=dark>消耗数。"
+        }
+      },
+      {
+        "Pic": "FirePoint/3",
+        "Description": {
+          "key": "tutorial/FirePoint/description3",
+          "text": "在面板右侧你可以查看该策略的详细效果，以及对应的可执行次数。"
+        }
+      },
+      {
+        "Pic": "FirePoint/4",
+        "Description": {
+          "key": "tutorial/FirePoint/description4",
+          "text": "当你确定好需要的策略后，点击<color=red>[执行]</color>按钮即可。"
+        }
+      }
+    ],
+    "TutorialType": 4
+  }
+]

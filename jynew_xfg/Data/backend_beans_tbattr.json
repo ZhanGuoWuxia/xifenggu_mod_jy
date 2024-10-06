@@ -1,0 +1,818 @@
+[
+  {
+    "Id": "hp",
+    "Name": {
+      "key": "i18n/attr/name/1",
+      "text": "气血"
+    },
+    "ShowType": 0,
+    "Icon": "气血",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/1",
+      "text": "角色当前气血上限"
+    },
+    "PriorityOrder": 50
+  },
+  {
+    "Id": "mp",
+    "Name": {
+      "key": "i18n/attr/name/2",
+      "text": "内力"
+    },
+    "ShowType": 0,
+    "Icon": "内力",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/2",
+      "text": "角色当前内力上限"
+    },
+    "PriorityOrder": 30
+  },
+  {
+    "Id": "startmp",
+    "Name": {
+      "key": "i18n/attr/name/3",
+      "text": "初始内力"
+    },
+    "ShowType": 0,
+    "Icon": "初始内力",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/3",
+      "text": "战斗开始的初始内力值"
+    },
+    "PriorityOrder": 30
+  },
+  {
+    "Id": "atk",
+    "Name": {
+      "key": "i18n/attr/name/4",
+      "text": "攻击"
+    },
+    "ShowType": 0,
+    "Icon": "攻击",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/4",
+      "text": "提高角色的外伤招式伤害"
+    },
+    "PriorityOrder": 40
+  },
+  {
+    "Id": "sp",
+    "Name": {
+      "key": "i18n/attr/name/5",
+      "text": "集气"
+    },
+    "ShowType": 0,
+    "Icon": "集气",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/5",
+      "text": "战斗中角色恢复内力的速度"
+    },
+    "PriorityOrder": 29
+  },
+  {
+    "Id": "ten",
+    "Name": {
+      "key": "i18n/attr/name/6",
+      "text": "韧性"
+    },
+    "ShowType": 0,
+    "Icon": "韧性",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/6",
+      "text": "DEBUFF抵抗力"
+    },
+    "PriorityOrder": 20
+  },
+  {
+    "Id": "def",
+    "Name": {
+      "key": "i18n/attr/name/7",
+      "text": "防御"
+    },
+    "ShowType": 0,
+    "Icon": "防御",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/7",
+      "text": "降低角色受到的外伤招式伤害"
+    },
+    "PriorityOrder": 40
+  },
+  {
+    "Id": "crt",
+    "Name": {
+      "key": "i18n/attr/name/8",
+      "text": "暴击"
+    },
+    "ShowType": 0,
+    "Icon": "暴击",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/8",
+      "text": "提高角色触发暴击的概率，暴击会造成150%的效果"
+    },
+    "PriorityOrder": 38
+  },
+  {
+    "Id": "spd",
+    "Name": {
+      "key": "i18n/attr/name/9",
+      "text": "速度"
+    },
+    "ShowType": 0,
+    "Icon": "速度",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/9",
+      "text": "决定角色在战斗中普通攻击的出手顺序，速度越高越优先"
+    },
+    "PriorityOrder": 36
+  },
+  {
+    "Id": "int",
+    "Name": {
+      "key": "i18n/attr/name/10",
+      "text": "内劲"
+    },
+    "ShowType": 0,
+    "Icon": "内劲",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/10",
+      "text": "影响治疗效果和部分特殊武学额外附加的伤害"
+    },
+    "PriorityOrder": 39
+  },
+  {
+    "Id": "crd",
+    "Name": {
+      "key": "i18n/attr/name/11",
+      "text": "暴抗"
+    },
+    "ShowType": 0,
+    "Icon": "暴抗",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": false,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/11",
+      "text": "降低角色受到暴击伤害的几率(此属性已废弃)"
+    },
+    "PriorityOrder": 37
+  },
+  {
+    "Id": "dodge",
+    "Name": {
+      "key": "i18n/attr/name/12",
+      "text": "闪避"
+    },
+    "ShowType": 0,
+    "Icon": "闪避",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/12",
+      "text": "提高角色闪避攻击的几率。闪避时，角色能够回避掉本次伤害"
+    },
+    "PriorityOrder": 10
+  },
+  {
+    "Id": "parry",
+    "Name": {
+      "key": "i18n/attr/name/13",
+      "text": "招架"
+    },
+    "ShowType": 0,
+    "Icon": "招架",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/13",
+      "text": "提高角色招架攻击的几率。招架时，角色仅受到50%伤害"
+    },
+    "PriorityOrder": 5
+  },
+  {
+    "Id": "antidodge",
+    "Name": {
+      "key": "i18n/attr/name/19",
+      "text": "命中"
+    },
+    "ShowType": 0,
+    "Icon": "命中",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/19",
+      "text": "提高角色的命中几率,能够抵消对方的闪避值"
+    },
+    "PriorityOrder": 10
+  },
+  {
+    "Id": "antiparry",
+    "Name": {
+      "key": "i18n/attr/name/20",
+      "text": "破招"
+    },
+    "ShowType": 0,
+    "Icon": "破招",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/20",
+      "text": "提高角色的破开招架的几率,能够抵消对方的招架值"
+    },
+    "PriorityOrder": 5
+  },
+  {
+    "Id": "拳法资质",
+    "Name": {
+      "key": "i18n/attr/name/22",
+      "text": "拳法"
+    },
+    "ShowType": 0,
+    "Icon": "拳法",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/22",
+      "text": "代表此角色学习拳法的资质,每10点资质提升1%的该类武学伤害,最高可提升50%"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "枪法资质",
+    "Name": {
+      "key": "i18n/attr/name/23",
+      "text": "枪法"
+    },
+    "ShowType": 0,
+    "Icon": "枪法",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": false,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/23",
+      "text": "此属性已废弃，由棍法资质合并"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "棍法资质",
+    "Name": {
+      "key": "i18n/attr/name/24",
+      "text": "枪棍"
+    },
+    "ShowType": 0,
+    "Icon": "棍法",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/24",
+      "text": "代表此角色学习枪棍的资质,每10点资质提升1%的该类武学伤害,最高可提升50%"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "刀法资质",
+    "Name": {
+      "key": "i18n/attr/name/25",
+      "text": "刀法"
+    },
+    "ShowType": 0,
+    "Icon": "刀法",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/25",
+      "text": "代表此角色学习刀法的资质,每10点资质提升1%的该类武学伤害,最高可提升50%"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "剑法资质",
+    "Name": {
+      "key": "i18n/attr/name/26",
+      "text": "剑法"
+    },
+    "ShowType": 0,
+    "Icon": "剑法",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/26",
+      "text": "代表此角色学习剑法的资质,每10点资质提升1%的该类武学伤害,最高可提升50%"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "内功资质",
+    "Name": {
+      "key": "i18n/attr/name/27",
+      "text": "内功"
+    },
+    "ShowType": 0,
+    "Icon": "内功",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/27",
+      "text": "代表此角色学习内功的资质,每10点资质提升1%的该类武学伤害或者治疗效果,最高可提升50%"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "轻功资质",
+    "Name": {
+      "key": "i18n/attr/name/28",
+      "text": "轻功"
+    },
+    "ShowType": 0,
+    "Icon": "轻功",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/28",
+      "text": "代表此角色学习轻功的资质,每10点资质提升1%的暴击伤害,最高可提升150%"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "射术资质",
+    "Name": {
+      "key": "i18n/attr/name/29",
+      "text": "射艺"
+    },
+    "ShowType": 0,
+    "Icon": "射艺",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/29",
+      "text": "代表此角色学习射艺的资质,每10点资质提升1%的该类武学伤害,最高可提升50%"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "无视武器惩罚",
+    "Name": {
+      "key": "i18n/attr/name/1000",
+      "text": "无视武器惩罚"
+    },
+    "ShowType": 0,
+    "Icon": "无视武器惩罚",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/1000",
+      "text": "无视武器惩罚"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "额外上场次数",
+    "Name": {
+      "key": "i18n/attr/name/1001",
+      "text": "额外上场次数"
+    },
+    "ShowType": 0,
+    "Icon": "额外上场次数",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/1001",
+      "text": "可额外上场战斗的次数"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "shield",
+    "Name": {
+      "key": "i18n/attr/name/30",
+      "text": "护盾"
+    },
+    "ShowType": 0,
+    "Icon": "护盾",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/30",
+      "text": "护盾能够抵挡所有伤害"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "atkper",
+    "Name": {
+      "key": "i18n/attr/name/31",
+      "text": "攻击"
+    },
+    "ShowType": 1,
+    "Icon": "攻击",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "atk",
+    "Description": {
+      "key": "i18n/attr/des/31",
+      "text": "攻击百分比加成"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "hp_percent",
+    "Name": {
+      "key": "i18n/attr/name/32",
+      "text": "气血"
+    },
+    "ShowType": 1,
+    "Icon": "气血",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "hp",
+    "Description": {
+      "key": "i18n/attr/des/32",
+      "text": "气血百分比加成"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "defper",
+    "Name": {
+      "key": "i18n/attr/name/33",
+      "text": "防御"
+    },
+    "ShowType": 1,
+    "Icon": "防御",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "def",
+    "Description": {
+      "key": "i18n/attr/des/33",
+      "text": "防御百分比加成"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "tenper",
+    "Name": {
+      "key": "i18n/attr/name/34",
+      "text": "韧性"
+    },
+    "ShowType": 1,
+    "Icon": "韧性",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "ten",
+    "Description": {
+      "key": "i18n/attr/des/34",
+      "text": "韧性百分比加成"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "intper",
+    "Name": {
+      "key": "i18n/attr/name/35",
+      "text": "内劲"
+    },
+    "ShowType": 1,
+    "Icon": "内劲",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "int",
+    "Description": {
+      "key": "i18n/attr/des/35",
+      "text": "内劲百分比加成"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "spdper",
+    "Name": {
+      "key": "i18n/attr/name/36",
+      "text": "速度"
+    },
+    "ShowType": 1,
+    "Icon": "速度",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "spd",
+    "Description": {
+      "key": "i18n/attr/des/36",
+      "text": "速度百分比加成"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "金疮药制作",
+    "Name": {
+      "key": "i18n/attr/name/2001",
+      "text": "金疮药制作"
+    },
+    "ShowType": 0,
+    "Icon": "金疮药制作",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/2001",
+      "text": "每回合结算后，该角色会制作金疮药"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "武学常识获取",
+    "Name": {
+      "key": "i18n/attr/name/2002",
+      "text": "武学常识获取"
+    },
+    "ShowType": 0,
+    "Icon": "武学常识获取",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/2002",
+      "text": "每回合结算后，拥有该属性的角色会获取一次武学常识"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "伤害修正",
+    "Name": {
+      "key": "i18n/attr/name/2003",
+      "text": "造成伤害"
+    },
+    "ShowType": 1,
+    "Icon": "造成伤害",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/2003",
+      "text": "角色造成伤害的额外百分比修正"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "被伤害修正",
+    "Name": {
+      "key": "i18n/attr/name/2004",
+      "text": "伤害减免"
+    },
+    "ShowType": 1,
+    "Icon": "所受伤害",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/2004",
+      "text": "角色基础伤害减免计算完毕后，附加的额外减伤百分比修正\\n(范围为-90%到90%,负数情况代表易伤)"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "治疗修正",
+    "Name": {
+      "key": "i18n/attr/name/2005",
+      "text": "治疗加成"
+    },
+    "ShowType": 1,
+    "Icon": "治疗加成",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/2005",
+      "text": "角色造成的治疗效果的百分比修正"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "被治疗修正",
+    "Name": {
+      "key": "i18n/attr/name/2006",
+      "text": "所受治疗"
+    },
+    "ShowType": 1,
+    "Icon": "所受治疗",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/2006",
+      "text": "角色受到的治疗效果百分比修正"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "气运",
+    "Name": {
+      "key": "i18n/attr/name/2007",
+      "text": "气运"
+    },
+    "ShowType": 0,
+    "Icon": "气运",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/2007",
+      "text": "每有1点气运可以使用1次天地灵气进行修炼来强化自身"
+    },
+    "PriorityOrder": 98
+  },
+  {
+    "Id": "武学常识",
+    "Name": {
+      "key": "i18n/attr/name/2008",
+      "text": "武学常识"
+    },
+    "ShowType": 0,
+    "Icon": "武学常识",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": false,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/2008",
+      "text": "战斗后积累的武学经验，可用于修炼未运行的武功"
+    },
+    "PriorityOrder": 99
+  },
+  {
+    "Id": "hpstatus",
+    "Name": {
+      "key": "i18n/attr/name/21",
+      "text": "状态"
+    },
+    "ShowType": 1,
+    "Icon": "状态",
+    "VisibleInRolePanel": true,
+    "VisibleInOtherPanel": false,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/21",
+      "text": "当前角色的状态百分比，进入战斗后的实际生命值=最大生命值 * 状态值(范围0 - 100%）,每回合角色可自动恢复一部分状态，也可以通过伤药道具恢复"
+    },
+    "PriorityOrder": 100
+  },
+  {
+    "Id": "修正中毒伤害",
+    "Name": {
+      "key": "i18n/attr/name/blood_modifier",
+      "text": "受到的中毒伤害"
+    },
+    "ShowType": 1,
+    "Icon": "",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/blood_modifier",
+      "text": "修正受到的中毒伤害"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "修正流血伤害",
+    "Name": {
+      "key": "i18n/attr/name/poison_modifier",
+      "text": "受到的流血伤害"
+    },
+    "ShowType": 1,
+    "Icon": "",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": true,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/poison_modifier",
+      "text": "修正受到的流血伤害"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "jin",
+    "Name": {
+      "key": "i18n/attr/name/14",
+      "text": "金"
+    },
+    "ShowType": 0,
+    "Icon": "",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": false,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/14",
+      "text": "暂时没用上"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "mu",
+    "Name": {
+      "key": "i18n/attr/name/15",
+      "text": "木"
+    },
+    "ShowType": 0,
+    "Icon": "",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": false,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/15",
+      "text": "暂时没用上"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "shui",
+    "Name": {
+      "key": "i18n/attr/name/16",
+      "text": "水"
+    },
+    "ShowType": 0,
+    "Icon": "",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": false,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/16",
+      "text": "暂时没用上"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "huo",
+    "Name": {
+      "key": "i18n/attr/name/17",
+      "text": "火"
+    },
+    "ShowType": 0,
+    "Icon": "",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": false,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/17",
+      "text": "暂时没用上"
+    },
+    "PriorityOrder": 0
+  },
+  {
+    "Id": "tu",
+    "Name": {
+      "key": "i18n/attr/name/18",
+      "text": "土"
+    },
+    "ShowType": 0,
+    "Icon": "",
+    "VisibleInRolePanel": false,
+    "VisibleInOtherPanel": false,
+    "DependedAttrId": "",
+    "Description": {
+      "key": "i18n/attr/des/18",
+      "text": "暂时没用上"
+    },
+    "PriorityOrder": 0
+  }
+]

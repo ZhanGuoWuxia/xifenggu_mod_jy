@@ -1,0 +1,1 @@
+return simple_damage_skill_template("羊_普攻", stat_key.Attack, 1, 0.1)

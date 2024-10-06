@@ -1,0 +1,51 @@
+
+show_stage("酒香亭.png", "酒家")
+play_bgm("Music/回忆.wav")
+light_scene(0.2)
+
+local situ = actor("司徒来也")
+local lai3 = actor("赖三")
+local tangbainiu = actor("汤白牛")
+
+--初始化位置和朝向
+bright_all_actors()
+situ:setPos(-600, 75)
+situ:face_right()
+tangbainiu:setPos(-300, 75)
+tangbainiu:face_right()
+lai3:setPos(3000, 75)
+lai3:face_left()
+
+tangbainiu:movetoX(900)
+wait_twn(situ:movetoX(600), situ:daze())
+
+tangbainiu:say("掌门，你不知道，我真的快要被这家店气死了！")
+situ:say("怎么了？你大老远跑来，就是为了生气？")
+tangbainiu:say("掌门，你评评理，开门做生意的，客人给钱，店家卖货，这是天经地义吧？")
+situ:say("是啊，这是常理。")
+tangbainiu:say("可是他们偏偏不卖给我！你看，我有钱，这一袋子都是钱！")
+situ:say("怎么还有这样的事？你先别急，我帮你问问店家！店家呢？")
+wait_twn(lai3:movetoX(1200), lai3:daze())
+lai3:say("汤小爷，你怎么还没走啊？")
+situ:say("你先别急，告诉我，为什么不卖东西给白牛？")
+lai3:say("冤枉啊！汤小爷要的点心真的卖光了！我们也没办法。")
+tangbainiu:say("骗人！我刚来就说没了？分明就是针对我！")
+lai3:say("您是常客，我骗您干什么？再说，有钱不赚，我傻啊？")
+situ:say("不过就是些点心，没有了就不能再去做些吗？")
+lai3:say("这点心是厨子用了珍贵的菌子做的，菌子一共才得了几两，我们可都是按量做的，从不掺假。")
+situ:say("那确实没办法。")
+lai3:say("咱这招牌挂上也有几天了，汤小爷若真想吃，该早来的……")
+situ:say("算了，白牛，看开些，何必为了吃不到点心这么生气呢？")
+tangbainiu:say("我是想买给阿姊吃的，我攒了这些钱，好些日子了……")
+lai3:say("要不这样，这点心寻常，只是用的菌子难得，我去问厨子菌子是从哪儿得的，或许还能再找些来。")
+situ:say("这样不错！若能找到菌子，我也让三娘帮忙，回头也做些。")
+tangbainiu:say("这样好！我也要跟着三娘学做点心的手艺！这样就能亲手做好吃的点心给阿姊了！")
+
+hide_all_stage_bubble()
+
+change_favor_by_id("汤白牛", 1)
+
+black_scene(0.25)
+hide_stage()
+set_flag("完成汤白牛剧情4")
+light_scene(0.25)

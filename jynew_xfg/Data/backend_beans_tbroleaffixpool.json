@@ -1,0 +1,1787 @@
+[
+  {
+    "Id": "通用角色",
+    "PoolList": [
+      {
+        "Id": "坚韧不拔",
+        "WeightValue": 100
+      },
+      {
+        "Id": "独行侠",
+        "WeightValue": 100
+      },
+      {
+        "Id": "绝脉之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "觅血者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "放血者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "血之报偿",
+        "WeightValue": 100
+      },
+      {
+        "Id": "见招拆招",
+        "WeightValue": 100
+      },
+      {
+        "Id": "散功助手",
+        "WeightValue": 100
+      },
+      {
+        "Id": "春风化雨",
+        "WeightValue": 100
+      },
+      {
+        "Id": "罡气护体",
+        "WeightValue": 100
+      },
+      {
+        "Id": "碎裂者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刺骨者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "百折不挠",
+        "WeightValue": 100
+      },
+      {
+        "Id": "暂避锋芒",
+        "WeightValue": 100
+      },
+      {
+        "Id": "乘胜追击",
+        "WeightValue": 100
+      },
+      {
+        "Id": "会心",
+        "WeightValue": 100
+      },
+      {
+        "Id": "看破",
+        "WeightValue": 100
+      },
+      {
+        "Id": "坚如磐石",
+        "WeightValue": 100
+      },
+      {
+        "Id": "自旋爱好者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "百毒不侵",
+        "WeightValue": 100
+      },
+      {
+        "Id": "淬毒者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "气脉顺畅",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练刀之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练剑之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练棍之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练拳之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练弓之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "行动敏捷",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内功雄厚",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刀法娴熟",
+        "WeightValue": 100
+      },
+      {
+        "Id": "剑法精湛",
+        "WeightValue": 100
+      },
+      {
+        "Id": "棍法娴熟",
+        "WeightValue": 100
+      },
+      {
+        "Id": "拳路娴熟",
+        "WeightValue": 100
+      },
+      {
+        "Id": "熟练弓手",
+        "WeightValue": 100
+      },
+      {
+        "Id": "身法轻盈",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内功绝伦",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刀刀毙命",
+        "WeightValue": 100
+      },
+      {
+        "Id": "初窥剑意",
+        "WeightValue": 100
+      },
+      {
+        "Id": "通晓百棍",
+        "WeightValue": 100
+      },
+      {
+        "Id": "拳法登峰",
+        "WeightValue": 100
+      },
+      {
+        "Id": "百步穿杨",
+        "WeightValue": 100
+      },
+      {
+        "Id": "身轻如燕",
+        "WeightValue": 100
+      },
+      {
+        "Id": "丹田丰润",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刀光震天",
+        "WeightValue": 100
+      },
+      {
+        "Id": "一剑封喉",
+        "WeightValue": 100
+      },
+      {
+        "Id": "棍扫八方",
+        "WeightValue": 100
+      },
+      {
+        "Id": "拳影重重",
+        "WeightValue": 100
+      },
+      {
+        "Id": "辕门射戟",
+        "WeightValue": 100
+      },
+      {
+        "Id": "无影无踪",
+        "WeightValue": 100
+      },
+      {
+        "Id": "气贯长虹",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "攻击提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "攻击提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "攻击提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "攻击提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "攻击提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内劲提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内劲提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内劲提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内劲提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内劲提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "速度提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "速度提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "速度提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "速度提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "速度提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "治疗提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "治疗提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "治疗提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "治疗提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "治疗提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升5",
+        "WeightValue": 100
+      }
+    ]
+  },
+  {
+    "Id": "爆发角色",
+    "PoolList": [
+      {
+        "Id": "坚韧不拔",
+        "WeightValue": 5
+      },
+      {
+        "Id": "独行侠",
+        "WeightValue": 100
+      },
+      {
+        "Id": "绝脉之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "觅血者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "放血者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "血之报偿",
+        "WeightValue": 100
+      },
+      {
+        "Id": "见招拆招",
+        "WeightValue": 100
+      },
+      {
+        "Id": "散功助手",
+        "WeightValue": 100
+      },
+      {
+        "Id": "罡气护体",
+        "WeightValue": 100
+      },
+      {
+        "Id": "碎裂者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刺骨者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "暂避锋芒",
+        "WeightValue": 100
+      },
+      {
+        "Id": "乘胜追击",
+        "WeightValue": 100
+      },
+      {
+        "Id": "会心",
+        "WeightValue": 100
+      },
+      {
+        "Id": "看破",
+        "WeightValue": 100
+      },
+      {
+        "Id": "自旋爱好者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "百毒不侵",
+        "WeightValue": 100
+      },
+      {
+        "Id": "淬毒者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "气脉顺畅",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练刀之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练剑之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练棍之人",
+        "WeightValue": 10
+      },
+      {
+        "Id": "练拳之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练弓之人",
+        "WeightValue": 5
+      },
+      {
+        "Id": "行动敏捷",
+        "WeightValue": 500
+      },
+      {
+        "Id": "内功雄厚",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刀法娴熟",
+        "WeightValue": 500
+      },
+      {
+        "Id": "剑法精湛",
+        "WeightValue": 500
+      },
+      {
+        "Id": "棍法娴熟",
+        "WeightValue": 10
+      },
+      {
+        "Id": "拳路娴熟",
+        "WeightValue": 500
+      },
+      {
+        "Id": "熟练弓手",
+        "WeightValue": 100
+      },
+      {
+        "Id": "身法轻盈",
+        "WeightValue": 400
+      },
+      {
+        "Id": "内功绝伦",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刀刀毙命",
+        "WeightValue": 400
+      },
+      {
+        "Id": "初窥剑意",
+        "WeightValue": 400
+      },
+      {
+        "Id": "通晓百棍",
+        "WeightValue": 100
+      },
+      {
+        "Id": "拳法登峰",
+        "WeightValue": 400
+      },
+      {
+        "Id": "百步穿杨",
+        "WeightValue": 50
+      },
+      {
+        "Id": "身轻如燕",
+        "WeightValue": 300
+      },
+      {
+        "Id": "丹田丰润",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刀光震天",
+        "WeightValue": 300
+      },
+      {
+        "Id": "一剑封喉",
+        "WeightValue": 300
+      },
+      {
+        "Id": "棍扫八方",
+        "WeightValue": 100
+      },
+      {
+        "Id": "拳影重重",
+        "WeightValue": 300
+      },
+      {
+        "Id": "辕门射戟",
+        "WeightValue": 100
+      },
+      {
+        "Id": "无影无踪",
+        "WeightValue": 200
+      },
+      {
+        "Id": "气贯长虹",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升1",
+        "WeightValue": 50
+      },
+      {
+        "Id": "防御提升2",
+        "WeightValue": 40
+      },
+      {
+        "Id": "防御提升3",
+        "WeightValue": 30
+      },
+      {
+        "Id": "防御提升4",
+        "WeightValue": 20
+      },
+      {
+        "Id": "防御提升5",
+        "WeightValue": 10
+      },
+      {
+        "Id": "韧性提升1",
+        "WeightValue": 50
+      },
+      {
+        "Id": "韧性提升2",
+        "WeightValue": 40
+      },
+      {
+        "Id": "韧性提升3",
+        "WeightValue": 30
+      },
+      {
+        "Id": "韧性提升4",
+        "WeightValue": 20
+      },
+      {
+        "Id": "韧性提升5",
+        "WeightValue": 10
+      },
+      {
+        "Id": "攻击提升1",
+        "WeightValue": 500
+      },
+      {
+        "Id": "攻击提升2",
+        "WeightValue": 400
+      },
+      {
+        "Id": "攻击提升3",
+        "WeightValue": 300
+      },
+      {
+        "Id": "攻击提升4",
+        "WeightValue": 200
+      },
+      {
+        "Id": "攻击提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内劲提升1",
+        "WeightValue": 250
+      },
+      {
+        "Id": "内劲提升2",
+        "WeightValue": 150
+      },
+      {
+        "Id": "内劲提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内劲提升4",
+        "WeightValue": 50
+      },
+      {
+        "Id": "内劲提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "速度提升1",
+        "WeightValue": 1000
+      },
+      {
+        "Id": "速度提升2",
+        "WeightValue": 500
+      },
+      {
+        "Id": "速度提升3",
+        "WeightValue": 250
+      },
+      {
+        "Id": "速度提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "速度提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升5",
+        "WeightValue": 100
+      }
+    ]
+  },
+  {
+    "Id": "防御角色",
+    "PoolList": [
+      {
+        "Id": "坚韧不拔",
+        "WeightValue": 100
+      },
+      {
+        "Id": "独行侠",
+        "WeightValue": 100
+      },
+      {
+        "Id": "绝脉之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "觅血者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "放血者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "血之报偿",
+        "WeightValue": 100
+      },
+      {
+        "Id": "见招拆招",
+        "WeightValue": 100
+      },
+      {
+        "Id": "散功助手",
+        "WeightValue": 100
+      },
+      {
+        "Id": "罡气护体",
+        "WeightValue": 100
+      },
+      {
+        "Id": "碎裂者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刺骨者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "百折不挠",
+        "WeightValue": 100
+      },
+      {
+        "Id": "暂避锋芒",
+        "WeightValue": 100
+      },
+      {
+        "Id": "乘胜追击",
+        "WeightValue": 100
+      },
+      {
+        "Id": "会心",
+        "WeightValue": 100
+      },
+      {
+        "Id": "看破",
+        "WeightValue": 100
+      },
+      {
+        "Id": "坚如磐石",
+        "WeightValue": 100
+      },
+      {
+        "Id": "自旋爱好者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "百毒不侵",
+        "WeightValue": 100
+      },
+      {
+        "Id": "淬毒者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "气脉顺畅",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练刀之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练剑之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练棍之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练拳之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练弓之人",
+        "WeightValue": 5
+      },
+      {
+        "Id": "行动敏捷",
+        "WeightValue": 5
+      },
+      {
+        "Id": "内功雄厚",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刀法娴熟",
+        "WeightValue": 100
+      },
+      {
+        "Id": "剑法精湛",
+        "WeightValue": 100
+      },
+      {
+        "Id": "棍法娴熟",
+        "WeightValue": 100
+      },
+      {
+        "Id": "拳路娴熟",
+        "WeightValue": 100
+      },
+      {
+        "Id": "熟练弓手",
+        "WeightValue": 5
+      },
+      {
+        "Id": "身法轻盈",
+        "WeightValue": 5
+      },
+      {
+        "Id": "内功绝伦",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刀刀毙命",
+        "WeightValue": 100
+      },
+      {
+        "Id": "初窥剑意",
+        "WeightValue": 100
+      },
+      {
+        "Id": "通晓百棍",
+        "WeightValue": 100
+      },
+      {
+        "Id": "拳法登峰",
+        "WeightValue": 100
+      },
+      {
+        "Id": "百步穿杨",
+        "WeightValue": 5
+      },
+      {
+        "Id": "身轻如燕",
+        "WeightValue": 5
+      },
+      {
+        "Id": "丹田丰润",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刀光震天",
+        "WeightValue": 100
+      },
+      {
+        "Id": "一剑封喉",
+        "WeightValue": 100
+      },
+      {
+        "Id": "棍扫八方",
+        "WeightValue": 100
+      },
+      {
+        "Id": "拳影重重",
+        "WeightValue": 100
+      },
+      {
+        "Id": "辕门射戟",
+        "WeightValue": 100
+      },
+      {
+        "Id": "无影无踪",
+        "WeightValue": 5
+      },
+      {
+        "Id": "气贯长虹",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升1",
+        "WeightValue": 300
+      },
+      {
+        "Id": "生命提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升1",
+        "WeightValue": 300
+      },
+      {
+        "Id": "防御提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升1",
+        "WeightValue": 300
+      },
+      {
+        "Id": "韧性提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "攻击提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "攻击提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "攻击提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "攻击提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "攻击提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内劲提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内劲提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内劲提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内劲提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内劲提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "速度提升1",
+        "WeightValue": 5
+      },
+      {
+        "Id": "速度提升2",
+        "WeightValue": 5
+      },
+      {
+        "Id": "速度提升3",
+        "WeightValue": 5
+      },
+      {
+        "Id": "速度提升4",
+        "WeightValue": 5
+      },
+      {
+        "Id": "速度提升5",
+        "WeightValue": 5
+      },
+      {
+        "Id": "治疗提升1",
+        "WeightValue": 5
+      },
+      {
+        "Id": "治疗提升2",
+        "WeightValue": 5
+      },
+      {
+        "Id": "治疗提升3",
+        "WeightValue": 5
+      },
+      {
+        "Id": "治疗提升4",
+        "WeightValue": 5
+      },
+      {
+        "Id": "治疗提升5",
+        "WeightValue": 5
+      },
+      {
+        "Id": "被治疗提升1",
+        "WeightValue": 300
+      },
+      {
+        "Id": "被治疗提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升5",
+        "WeightValue": 100
+      }
+    ]
+  },
+  {
+    "Id": "治疗角色",
+    "PoolList": [
+      {
+        "Id": "坚韧不拔",
+        "WeightValue": 100
+      },
+      {
+        "Id": "独行侠",
+        "WeightValue": 100
+      },
+      {
+        "Id": "绝脉之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "觅血者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "放血者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "血之报偿",
+        "WeightValue": 100
+      },
+      {
+        "Id": "见招拆招",
+        "WeightValue": 100
+      },
+      {
+        "Id": "散功助手",
+        "WeightValue": 100
+      },
+      {
+        "Id": "春风化雨",
+        "WeightValue": 300
+      },
+      {
+        "Id": "罡气护体",
+        "WeightValue": 100
+      },
+      {
+        "Id": "碎裂者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刺骨者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "百折不挠",
+        "WeightValue": 100
+      },
+      {
+        "Id": "暂避锋芒",
+        "WeightValue": 100
+      },
+      {
+        "Id": "乘胜追击",
+        "WeightValue": 100
+      },
+      {
+        "Id": "会心",
+        "WeightValue": 100
+      },
+      {
+        "Id": "看破",
+        "WeightValue": 100
+      },
+      {
+        "Id": "坚如磐石",
+        "WeightValue": 100
+      },
+      {
+        "Id": "自旋爱好者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "百毒不侵",
+        "WeightValue": 300
+      },
+      {
+        "Id": "淬毒者",
+        "WeightValue": 300
+      },
+      {
+        "Id": "气脉顺畅",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练刀之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练剑之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练棍之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练拳之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练弓之人",
+        "WeightValue": 5
+      },
+      {
+        "Id": "行动敏捷",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内功雄厚",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刀法娴熟",
+        "WeightValue": 100
+      },
+      {
+        "Id": "剑法精湛",
+        "WeightValue": 100
+      },
+      {
+        "Id": "棍法娴熟",
+        "WeightValue": 100
+      },
+      {
+        "Id": "拳路娴熟",
+        "WeightValue": 100
+      },
+      {
+        "Id": "熟练弓手",
+        "WeightValue": 5
+      },
+      {
+        "Id": "身法轻盈",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内功绝伦",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刀刀毙命",
+        "WeightValue": 100
+      },
+      {
+        "Id": "初窥剑意",
+        "WeightValue": 100
+      },
+      {
+        "Id": "通晓百棍",
+        "WeightValue": 100
+      },
+      {
+        "Id": "拳法登峰",
+        "WeightValue": 100
+      },
+      {
+        "Id": "百步穿杨",
+        "WeightValue": 5
+      },
+      {
+        "Id": "身轻如燕",
+        "WeightValue": 100
+      },
+      {
+        "Id": "丹田丰润",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刀光震天",
+        "WeightValue": 100
+      },
+      {
+        "Id": "一剑封喉",
+        "WeightValue": 100
+      },
+      {
+        "Id": "棍扫八方",
+        "WeightValue": 100
+      },
+      {
+        "Id": "拳影重重",
+        "WeightValue": 100
+      },
+      {
+        "Id": "辕门射戟",
+        "WeightValue": 5
+      },
+      {
+        "Id": "无影无踪",
+        "WeightValue": 100
+      },
+      {
+        "Id": "气贯长虹",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升1",
+        "WeightValue": 250
+      },
+      {
+        "Id": "生命提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "攻击提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "攻击提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "攻击提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "攻击提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "攻击提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内劲提升1",
+        "WeightValue": 300
+      },
+      {
+        "Id": "内劲提升2",
+        "WeightValue": 250
+      },
+      {
+        "Id": "内劲提升3",
+        "WeightValue": 200
+      },
+      {
+        "Id": "内劲提升4",
+        "WeightValue": 150
+      },
+      {
+        "Id": "内劲提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "速度提升1",
+        "WeightValue": 50
+      },
+      {
+        "Id": "速度提升2",
+        "WeightValue": 50
+      },
+      {
+        "Id": "速度提升3",
+        "WeightValue": 50
+      },
+      {
+        "Id": "速度提升4",
+        "WeightValue": 50
+      },
+      {
+        "Id": "速度提升5",
+        "WeightValue": 50
+      },
+      {
+        "Id": "治疗提升1",
+        "WeightValue": 200
+      },
+      {
+        "Id": "治疗提升2",
+        "WeightValue": 175
+      },
+      {
+        "Id": "治疗提升3",
+        "WeightValue": 150
+      },
+      {
+        "Id": "治疗提升4",
+        "WeightValue": 125
+      },
+      {
+        "Id": "治疗提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升1",
+        "WeightValue": 50
+      },
+      {
+        "Id": "被治疗提升2",
+        "WeightValue": 50
+      },
+      {
+        "Id": "被治疗提升3",
+        "WeightValue": 50
+      },
+      {
+        "Id": "被治疗提升4",
+        "WeightValue": 50
+      },
+      {
+        "Id": "被治疗提升5",
+        "WeightValue": 50
+      }
+    ]
+  },
+  {
+    "Id": "输出角色",
+    "PoolList": [
+      {
+        "Id": "坚韧不拔",
+        "WeightValue": 100
+      },
+      {
+        "Id": "独行侠",
+        "WeightValue": 100
+      },
+      {
+        "Id": "绝脉之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "觅血者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "放血者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "血之报偿",
+        "WeightValue": 100
+      },
+      {
+        "Id": "见招拆招",
+        "WeightValue": 100
+      },
+      {
+        "Id": "散功助手",
+        "WeightValue": 100
+      },
+      {
+        "Id": "罡气护体",
+        "WeightValue": 100
+      },
+      {
+        "Id": "碎裂者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刺骨者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "百折不挠",
+        "WeightValue": 100
+      },
+      {
+        "Id": "暂避锋芒",
+        "WeightValue": 100
+      },
+      {
+        "Id": "乘胜追击",
+        "WeightValue": 100
+      },
+      {
+        "Id": "会心",
+        "WeightValue": 100
+      },
+      {
+        "Id": "看破",
+        "WeightValue": 100
+      },
+      {
+        "Id": "坚如磐石",
+        "WeightValue": 100
+      },
+      {
+        "Id": "自旋爱好者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "百毒不侵",
+        "WeightValue": 100
+      },
+      {
+        "Id": "淬毒者",
+        "WeightValue": 100
+      },
+      {
+        "Id": "气脉顺畅",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练刀之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练剑之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练棍之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练拳之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "练弓之人",
+        "WeightValue": 100
+      },
+      {
+        "Id": "行动敏捷",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内功雄厚",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刀法娴熟",
+        "WeightValue": 100
+      },
+      {
+        "Id": "剑法精湛",
+        "WeightValue": 100
+      },
+      {
+        "Id": "棍法娴熟",
+        "WeightValue": 100
+      },
+      {
+        "Id": "拳路娴熟",
+        "WeightValue": 100
+      },
+      {
+        "Id": "熟练弓手",
+        "WeightValue": 100
+      },
+      {
+        "Id": "身法轻盈",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内功绝伦",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刀刀毙命",
+        "WeightValue": 100
+      },
+      {
+        "Id": "初窥剑意",
+        "WeightValue": 100
+      },
+      {
+        "Id": "通晓百棍",
+        "WeightValue": 100
+      },
+      {
+        "Id": "拳法登峰",
+        "WeightValue": 100
+      },
+      {
+        "Id": "百步穿杨",
+        "WeightValue": 100
+      },
+      {
+        "Id": "身轻如燕",
+        "WeightValue": 100
+      },
+      {
+        "Id": "丹田丰润",
+        "WeightValue": 100
+      },
+      {
+        "Id": "刀光震天",
+        "WeightValue": 100
+      },
+      {
+        "Id": "一剑封喉",
+        "WeightValue": 100
+      },
+      {
+        "Id": "棍扫八方",
+        "WeightValue": 100
+      },
+      {
+        "Id": "拳影重重",
+        "WeightValue": 100
+      },
+      {
+        "Id": "辕门射戟",
+        "WeightValue": 100
+      },
+      {
+        "Id": "无影无踪",
+        "WeightValue": 100
+      },
+      {
+        "Id": "气贯长虹",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "生命提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "防御提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "韧性提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "攻击提升1",
+        "WeightValue": 500
+      },
+      {
+        "Id": "攻击提升2",
+        "WeightValue": 250
+      },
+      {
+        "Id": "攻击提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "攻击提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "攻击提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内劲提升1",
+        "WeightValue": 500
+      },
+      {
+        "Id": "内劲提升2",
+        "WeightValue": 250
+      },
+      {
+        "Id": "内劲提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内劲提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "内劲提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "速度提升1",
+        "WeightValue": 300
+      },
+      {
+        "Id": "速度提升2",
+        "WeightValue": 150
+      },
+      {
+        "Id": "速度提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "速度提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "速度提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "治疗提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "治疗提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "治疗提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "治疗提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "治疗提升5",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升1",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升2",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升3",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升4",
+        "WeightValue": 100
+      },
+      {
+        "Id": "被治疗提升5",
+        "WeightValue": 100
+      }
+    ]
+  }
+]

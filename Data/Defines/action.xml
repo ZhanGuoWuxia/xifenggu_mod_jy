@@ -1,0 +1,187 @@
+<module name="Backend.Beans">
+	<enum name="AC_ExistCheckType" comment="条件是否存在">
+		<var name="Exist" alias="有" value="1" />
+		<var name="NotExist" alias="没有" value="2" />
+	</enum>
+
+	<enum name="ActionImportantType" comment="行动重要程度">
+		<var name="None" alias="无" value="0" />
+		<var name="Normal" alias="普通" value="1" />
+		<var name="Important" alias="重要" value="2" />
+	</enum>
+
+	<enum name="ActionClassType" comment="行动类型">
+		<var name="Area" alias="地块" value="0" />
+		<var name="Role" alias="角色" value="1" />
+		<var name="Menpai" alias="门派" value="2" />
+		<var name="Save" alias="存档" value="3" />
+	</enum>
+
+	<bean name="ActionConditionBase" comment="行动条件基类" sep=",">
+	</bean>
+
+	<bean name="AC_Round" alias="回合数" parent="ActionConditionBase">
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="Round" type="int" comment="比较回合数"/>
+	</bean>
+
+	<bean name="AC_ActionCount" alias="行动次数" parent="ActionConditionBase">
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="ActionCount" type="int" comment="比较回合数"/>
+	</bean>
+
+	<bean name="AC_MenpaiHasRole" alias="门派角色判断" parent="ActionConditionBase">
+		<var name="MenpaiId" type="string" comment="门派Id"/>
+		<var name="RoleCheckType" type="AC_ExistCheckType"/>
+		<var name="RoleId" type="string" comment="角色表Id"/>
+	</bean>
+
+	<bean name="AC_MenpaiDestroyed" alias="门派是否灭亡" parent="ActionConditionBase">
+		<var name="MenpaiId" type="string" comment="门派Id"/>
+		<var name="CheckType" type="AC_ExistCheckType"/>
+	</bean>
+
+	<bean name="AC_FlagInt" alias="存档整数标记" parent="ActionConditionBase">
+		<var name="FlagKey" type="string" comment="标记的Key"/>
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="ValueToCompare" type="int" comment="比较数值"/>
+	</bean>
+
+	<bean name="AC_FlagBool" alias="存档标记" parent="ActionConditionBase">
+		<var name="ExistCheckType" type="AC_ExistCheckType"/>
+		<var name="FlagKey" type="string" comment="标记的Key"/>
+	</bean>
+
+	<bean name="AC_MenpaiHasArea" alias="门派地块判断" parent="ActionConditionBase">
+		<var name="MenpaiId" type="string" comment="门派Id"/>
+		<var name="ExistCheckType" type="AC_ExistCheckType"/>
+		<var name="AreaId" type="string" comment="地块Id"/>
+	</bean>
+
+	<bean name="AC_AreaOwnerRelationWithMenpai" alias="地块占领者外交关系" parent="ActionConditionBase">
+		<var name="AreaId" type="string" comment="地块Id"/>
+		<var name="ExistCheckType" type="AC_ExistCheckType"/>
+		<var name="Relation" type="MenpaiRelationType" comment="判断的关系"/>
+		<var name="MenpaiId" type="string" comment="门派Id"/>
+	</bean>
+
+	<bean name="AC_AreaDevelop" alias="地块发展度" parent="ActionConditionBase">
+		<var name="AreaId" type="string" comment="地块Id"/>
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="ValueToCompare" type="int" comment="比较数值"/>
+	</bean>
+
+	<bean name="AC_AreaNeighborWithMenpai" alias="地块相邻判断" parent="ActionConditionBase">
+		<var name="AreaId" type="string" comment="地块Id"/>
+		<var name="ExistCheckType" type="AC_ExistCheckType"/>
+		<var name="MenpaiId" type="string" comment="门派Id"/>
+	</bean>
+
+	<bean name="AC_LuaCondition" alias="Lua条件" parent="ActionConditionBase">
+		<var name="LuaFilePath" type="string" comment="Lua条件"/>
+	</bean>
+
+	<bean name="AC_DungeonTaskProgress" alias="副本任务进度" parent="ActionConditionBase">
+		<var name="DungeonId" type="string" comment="副本Id"/>
+		<var name="TaskId" type="string" comment="任务Id"/>
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="ValueToCompare" type="int" comment="比较数值"/>
+	</bean>
+
+	<bean name="AC_DungeonHasTeam" alias="副本队伍判断" parent="ActionConditionBase">
+		<var name="DungeonId" type="string" comment="副本Id"/>
+		<var name="ExistCheckType" type="AC_ExistCheckType"/>
+		<var name="RoleId" type="string" comment="角色Id"/>
+	</bean>
+
+	<bean name="AC_AreaLostAnyBuilding" alias="地块丢失任意建筑" parent="ActionConditionBase">
+		<var name="AreaId" type="string" comment="地块Id"/>
+		<var name="ExistCheckType" type="AC_ExistCheckType"/>
+	</bean>
+
+	<bean name="AC_AreaLock" alias="地块锁定" parent="ActionConditionBase">
+		<var name="ExistCheckType" type="AC_ExistCheckType"/>
+		<var name="AreaId" type="string" comment="地块Id"/>
+	</bean>
+
+	<bean name="AC_AreaFlagBool" alias="地块标记" parent="ActionConditionBase">
+		<var name="AreaId" type="string" comment="地块Id"/>
+		<var name="ExistCheckType" type="AC_ExistCheckType"/>
+		<var name="FlagKey" type="string" comment="标记的Key"/>
+	</bean>
+
+	<bean name="AC_AreaFlagInt" alias="地块整数标记" parent="ActionConditionBase">
+		<var name="AreaId" type="string" comment="地块Id"/>
+		<var name="FlagKey" type="string" comment="标记的Key"/>
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="ValueToCompare" type="int" comment="比较数值"/>
+	</bean>
+
+	<bean name="AC_RoleFavor" alias="角色好感" parent="ActionConditionBase">
+		<var name="RoleId" type="string" comment="角色Id"/>
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="ValueToCompare" type="int" comment="比较数值"/>
+	</bean>
+
+	<bean name="AC_RoleLevel" alias="角色等级" parent="ActionConditionBase">
+		<var name="RoleId" type="string" comment="角色Id"/>
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="ValueToCompare" type="int" comment="比较数值"/>
+	</bean>
+
+	<bean name="AC_RoleTalentPoint" alias="角色天赋点" parent="ActionConditionBase">
+		<var name="RoleId" type="string" comment="角色Id"/>
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="ValueToCompare" type="int" comment="比较数值"/>
+	</bean>
+
+	<bean name="AC_MenpaiRelation" alias="门派关系判断" parent="ActionConditionBase">
+		<var name="MenpaiId" type="string" comment="门派Id"/>
+		<var name="ExistCheckType" type="AC_ExistCheckType"/>
+		<var name="Relation" type="MenpaiRelationType" comment="判断的关系"/>
+		<var name="TargetMenpaiId" type="string" comment="目标门派Id"/>
+	</bean>
+
+	<bean name="AC_MenpaiFriendship" alias="门派好感度" parent="ActionConditionBase">
+		<var name="AreaId" type="string" comment="地块Id"/>
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="ValueToCompare" type="int" comment="比较数值"/>
+		<var name="MenpaiId" type="string" comment="门派Id"/>
+	</bean>
+
+	<bean name="AC_MenpaiAreaCount" alias="门派地块数量判断" parent="ActionConditionBase">
+		<var name="MenpaiId" type="string" comment="门派Id"/>
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="ValueToCompare" type="int" comment="比较数值"/>
+	</bean>
+
+	<bean name="AC_MenpaiBattle" alias="门派攻守判断" parent="ActionConditionBase">
+		<var name="MenpaiId" type="string" comment="门派Id"/>
+		<var name="ExistCheckType" type="AC_ExistCheckType"/>
+		<var name="BattleRelation" type="BattleRelationType" comment="判断的关系"/>
+		<var name="TargetMenpaiId" type="string" comment="目标门派Id"/>
+	</bean>
+
+	<bean name="AC_MenpaiBuildingCount" alias="门派建筑数量判断" parent="ActionConditionBase">
+		<var name="MenpaiId" type="string" comment="门派Id"/>
+		<var name="CompareSymbol" type="NumberCompareSymbol" comment="比较类型"/>
+		<var name="ValueToCompare" type="int" comment="比较数值"/>
+	</bean>
+
+	<bean name="AC_MenpaiBattleArea" alias="门派攻守地块判断" parent="ActionConditionBase">
+		<var name="ExistCheckType" type="AC_ExistCheckType"/>
+		<var name="AreaId" type="string" comment="地块Id"/>
+	</bean>
+
+	<bean name="AC_MenpaiLosingArea" alias="当前丢失地块的门派" parent="ActionConditionBase">
+		<var name="ExistCheckType" type="AC_ExistCheckType"/>
+		<var name="MenpaiId" type="string" comment="门派Id"/>
+	</bean>
+
+	<bean name="AC_AreaBuildingsOwnerHasMenpai" alias="地块建筑占领者判断" parent="ActionConditionBase">
+		<var name="AreaId" type="string" comment="地块Id"/>
+		<var name="ExistCheckType" type="AC_ExistCheckType"/>
+		<var name="MenpaiId" type="string" comment="门派Id"/>
+	</bean>
+
+</module>

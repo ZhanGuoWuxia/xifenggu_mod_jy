@@ -1,0 +1,30 @@
+<module name="Backend.Beans">
+	<enum name="AffixLifeType" comment="词缀生命周期类型">
+		<var name="Eternal" alias="永久" value="0" />
+		<var name="BattleCount" alias="战斗场次" value="1" />
+		<var name="Dungeon" alias="副本" value="2" />
+  </enum>
+
+	<bean name="ItemAffixEffectBase" comment="道具词缀效果基类" sep=",">
+	</bean>
+
+	<bean name="ItemAffixEffect_Attr" alias="属性" comment="固定属性效果 (格式:数值)" parent="ItemAffixEffectBase">
+		<var name="AttrId" type="string" comment="属性Id"/>
+		<var name="AttrValue" type="float" comment="属性值"/>
+	</bean>
+
+	<bean name="ItemAffixEffect_AttrRange" alias="属性范围" comment="随机属性效果(格式：随机最小值, 随机最大值)" parent="ItemAffixEffectBase">
+		<var name="AttrId" type="string" comment="属性Id"/>
+		<var name="MinValue" type="float" comment="最小值"/>
+		<var name="MaxValue" type="float" comment="最大值"/>
+	</bean>
+
+	<bean name="ItemAffixEffect_Skill" alias="技能" comment="技能Random效果" parent="ItemAffixEffectBase">
+		<var name="SkillId" type="string" comment="技能Id"/>
+	</bean>
+
+	<bean name="ItemAffixEffect_RandomSkill" alias="随机技能" comment="技能效果" parent="ItemAffixEffectBase">
+		<var name="RandomSkills" type="(list#sep=|),string" comment="技能Id随机列表"/>
+	</bean>
+
+</module>

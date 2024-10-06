@@ -1,0 +1,1 @@
+return passive_define("武器_毒化3", "武器_毒化3")

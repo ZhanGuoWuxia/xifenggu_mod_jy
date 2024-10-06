@@ -1,0 +1,1 @@
+return simple_damage_skill_template("无影剑", stat_key.Attack, 1.2, 0.1)

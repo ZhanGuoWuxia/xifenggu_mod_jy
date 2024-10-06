@@ -1,0 +1,156 @@
+[
+  {
+    "Id": "探索烈焰之迹",
+    "Name": {
+      "key": "i18n/dungeon/task/name/1",
+      "text": "探索烈焰之迹"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/task/desc/1",
+      "text": "已经搜寻的地点:{0}"
+    },
+    "TaskType": 0,
+    "LineType": 0,
+    "MaxProgress": 1
+  },
+  {
+    "Id": "寻找小红",
+    "Name": {
+      "key": "i18n/dungeon/task/name/3",
+      "text": "寻找小红"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/task/desc/3",
+      "text": "寻找小红:{0}"
+    },
+    "TaskType": 1,
+    "LineType": 0,
+    "MaxProgress": 0
+  },
+  {
+    "Id": "调查了空身世",
+    "Name": {
+      "key": "i18n/dungeon/task/name/4",
+      "text": "调查了空身世"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/task/desc/4",
+      "text": "调查了空身世:{0}"
+    },
+    "TaskType": 1,
+    "LineType": 1,
+    "MaxProgress": 0
+  },
+  {
+    "Id": "解决马厩麻烦",
+    "Name": {
+      "key": "i18n/dungeon/task/name/5",
+      "text": "解决马厩麻烦"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/task/desc/5",
+      "text": "解决马厩麻烦:{0}"
+    },
+    "TaskType": 1,
+    "LineType": 1,
+    "MaxProgress": 0
+  },
+  {
+    "Id": "捉迷藏",
+    "Name": {
+      "key": "i18n/dungeon/task/name/6",
+      "text": "捉迷藏"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/task/desc/6",
+      "text": "已经找到小女孩的个数:{0}"
+    },
+    "TaskType": 0,
+    "LineType": 1,
+    "MaxProgress": 3
+  },
+  {
+    "Id": "寻找白花",
+    "Name": {
+      "key": "i18n/dungeon/task/name/7",
+      "text": "寻找白花"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/task/desc/7",
+      "text": "寻找白花:{0}"
+    },
+    "TaskType": 1,
+    "LineType": 1,
+    "MaxProgress": 0
+  },
+  {
+    "Id": "真相大白",
+    "Name": {
+      "key": "i18n/dungeon/task/name/8",
+      "text": "真相大白"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/task/desc/8",
+      "text": "真相大白:{0}"
+    },
+    "TaskType": 1,
+    "LineType": 1,
+    "MaxProgress": 0
+  },
+  {
+    "Id": "探索豪猪寨",
+    "Name": {
+      "key": "i18n/dungeon/task/name/9",
+      "text": "探索豪猪寨"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/task/desc/9",
+      "text": "已经搜寻的地点:{0}"
+    },
+    "TaskType": 0,
+    "LineType": 0,
+    "MaxProgress": 5
+  },
+  {
+    "Id": "探索远古遗迹",
+    "Name": {
+      "key": "i18n/dungeon/task/name/10",
+      "text": "探索远古遗迹"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/task/desc/10",
+      "text": "已经搜寻的地点:{0}"
+    },
+    "TaskType": 0,
+    "LineType": 0,
+    "MaxProgress": 6
+  },
+  {
+    "Id": "破坏血色魔阵",
+    "Name": {
+      "key": "i18n/dungeon/task/name/11",
+      "text": "破坏血色魔阵"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/task/desc/11",
+      "text": "破坏血色魔阵:{0}"
+    },
+    "TaskType": 1,
+    "LineType": 0,
+    "MaxProgress": 0
+  },
+  {
+    "Id": "探索血色魔阵",
+    "Name": {
+      "key": "i18n/dungeon/task/name/12",
+      "text": "探索血色魔阵"
+    },
+    "Desc": {
+      "key": "i18n/dungeon/task/desc/12",
+      "text": "已经搜寻的地点:{0}"
+    },
+    "TaskType": 0,
+    "LineType": 1,
+    "MaxProgress": 14
+  }
+]

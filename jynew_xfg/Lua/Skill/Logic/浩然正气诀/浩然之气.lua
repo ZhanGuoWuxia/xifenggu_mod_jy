@@ -1,0 +1,1 @@
+return passive_define("浩然之气", "浩然之气")

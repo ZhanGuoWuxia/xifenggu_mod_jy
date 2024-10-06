@@ -1,0 +1,1 @@
+return simple_damage_skill_template("刺客_掠影", stat_key.Attack, 1.2, 0.1)

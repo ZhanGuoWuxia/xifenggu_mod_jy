@@ -1,0 +1,1 @@
+return passive_define("地崩山摧", "地崩山摧")

@@ -1,0 +1,1 @@
+return passive_define("破风式痕", "破风式痕")

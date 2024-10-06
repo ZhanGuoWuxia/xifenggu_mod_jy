@@ -1,0 +1,1 @@
+return passive_define("蟾毒之气", "蟾毒之气")

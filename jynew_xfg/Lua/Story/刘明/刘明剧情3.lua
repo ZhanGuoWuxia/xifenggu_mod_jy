@@ -1,0 +1,48 @@
+show_stage("厨房.png", "厨房")
+play_bgm("Music/日常_烟火人间.wav", 0.1)
+light_scene(0.2)
+
+local situ = actor("司徒来也")
+local zsniang = actor("朱三娘")
+local liuming = actor("刘明")
+
+--初始化位置和朝向
+bright_all_actors()
+situ:setPos(-400, 75)
+zsniang:setPos(1100, 75)
+liuming:setPos(1400, 75)
+situ:face_right()
+zsniang:face_right()
+liuming:face_left()
+
+liuming:say("三娘，你可千万别跟掌门说去，这事儿传出去可就不好了。")
+zsniang:say("我才不会偏袒你呢！我就是要告诉掌门！")
+
+wait_twn(situ:movetoX(700), situ:daze())
+
+situ:say("你们俩在说什么悄悄话呢？还有什么秘密是我不能知道的？")
+liuming:say("啊，掌门，您什么时候来的……")
+zsniang:flip()
+zsniang:say("掌门掌门，我得跟您说说，这个老刘，最近几天已经弄坏了三把铁钳子了。")
+situ:emotion("KunHuo")
+situ:say("铁钳子？这是玩的哪一出？")
+liuming:say("掌门您大人有大量，肯定不会为了几把铁钳子跟俺计较。")
+situ:emotion()
+zsniang:say("气大肯定是气大，你也不能这么不爱惜东西，老是给弄坏呀，你这样浪费，虎焰门的财产都要被你挥霍光了。")
+liuming:say("得了得了，就你这娘们最能节省。")
+situ:say("老刘，你倒是说说，这铁钳子是怎么给你弄坏的？")
+liuming:say("那天您不是让俺尝试学武嘛，俺就……俺就模仿着您的样子，天天拿着铁钳子比划，有时候手一滑，就给摔坏了。")
+situ:say("原来如此！明天我就去集市上给你弄三十把最好的大铁钳子来，你就放心大胆地练吧！")
+liuming:say("看看，咱掌门就是大气！感谢(player:fname)掌门恩赐！")
+zsniang:say("你得谢谢我说了这个事儿。")
+liuming:say("俺……俺谢谢啊！")
+situ:say("哈哈哈")
+hide_all_stage_bubble()
+
+change_favor_by_id("刘明", 1)
+change_favor_by_id("朱三娘", 1)
+
+black_scene(0.25)
+hide_stage()
+set_flag("完成刘明剧情3")
+light_scene(0.25)

@@ -1,0 +1,20 @@
+<module name="Backend.Beans">
+	<bean name="WeightedBean" sep=",">
+    <var name="Id" type="string" comment="BeanId"/>
+    <var name="WeightValue" type="int" comment="权重值"/>
+  </bean>
+
+	<enum name="PermanentResourceType" comment="常驻显示资源类型">
+		<var name="None" alias="无" value="0" />
+		<var name="Item" alias="道具" value="1" />
+    <var name="FirePoint" alias="虎焰点" value="2" />
+  </enum>
+
+  <bean name="ColorData" sep=",">
+    <var name="R" type="float" />
+    <var name="G" type="float" />
+    <var name="B" type="float" />
+    <var name="A" type="float" />
+  </bean>
+
+</module>

@@ -1,0 +1,1 @@
+return passive_define("云绕明月", "云绕明月")

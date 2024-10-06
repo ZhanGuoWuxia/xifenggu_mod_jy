@@ -1,0 +1,27 @@
+<module name="Backend.Beans">
+	<enum name="AttrShowType" comment="技能类型">
+		<var name="Normal" alias="普通" value="0" />
+		<var name="Percent" alias="百分比" value="1" />
+	</enum>
+
+	<enum name="DamageType" comment="伤害类型">
+		<var name="None" alias="无" value="0" />
+		<var name="Physical" alias="外伤" value="1" />
+		<var name="Magical" alias="内伤" value="2" />
+		<var name="Bleed" alias="流血" value="3" />
+		<var name="Poison" alias="毒伤" value="4" />
+	</enum>
+
+	<bean name="AttrItemBase" comment="属性条目基类" sep=",">
+		<var name="AttrId" type="string" comment="属性Id"/>
+	</bean>
+
+	<bean name="AttrItem_Fix" alias="固定" comment="固定属性条目" parent="AttrItemBase">
+		<var name="AttrValue" type="float" comment="属性值"/>
+	</bean>
+
+	<bean name="AttrItem_LevelGrow" alias="成长" comment="等级成长条目" parent="AttrItemBase">
+		<var name="LuaFormulaFunction" type="string" comment="成长公式"/>
+		<var name="Scale" type="float" comment="缩放系数"/>
+	</bean>
+</module>

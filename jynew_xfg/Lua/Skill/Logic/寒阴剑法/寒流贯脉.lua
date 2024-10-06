@@ -1,0 +1,1 @@
+return passive_define("寒流贯脉", "寒流贯脉")

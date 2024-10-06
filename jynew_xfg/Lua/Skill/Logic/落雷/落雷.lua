@@ -1,0 +1,1 @@
+return simple_damage_skill_template("落雷", stat_key.InnerStrength, 0.35)

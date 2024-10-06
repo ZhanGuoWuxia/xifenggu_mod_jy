@@ -1,0 +1,1 @@
+return passive_define("武器_渗透1", "武器_渗透1")

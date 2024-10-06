@@ -1,0 +1,1 @@
+return passive_define("回天之力", "回天之力")

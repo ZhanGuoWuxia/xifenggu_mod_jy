@@ -1,0 +1,1 @@
+return passive_define("天仙毒咒", "天仙毒咒")

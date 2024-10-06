@@ -1,0 +1,1 @@
+return passive_define("固若金汤", "固若金汤")

@@ -1,0 +1,1 @@
+return simple_damage_skill_template("血饮击", stat_key.Attack, 1)

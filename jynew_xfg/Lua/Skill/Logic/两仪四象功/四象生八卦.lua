@@ -1,0 +1,1 @@
+return passive_define("四象生八卦", "四象生八卦")

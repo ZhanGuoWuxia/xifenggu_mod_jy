@@ -1,0 +1,1 @@
+tgr_api:tgr_bubble_text("鲸_残影", "这一刀你可曾见过？")

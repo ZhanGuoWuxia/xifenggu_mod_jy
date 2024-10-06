@@ -1,0 +1,5 @@
+local parentId = tostring(parenThreadId)
+local currentId = tostring(coroutine.running())
+avg_talk(0, string.format("现在正在运行的是嵌套在父级协程[%s]]调用栈中的子协程[%s]", parentId, currentId))
+avg_talk(0, "执行中")
+avg_talk(0, "子协程[" .. currentId .. "]执行结束")

@@ -1,0 +1,1055 @@
+[
+  {
+    "Id": "燕京",
+    "Name": {
+      "key": "i18n/area/name/0",
+      "text": "燕京"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒",
+      "大本营"
+    ],
+    "Develop": 40,
+    "Pic": "big_city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 674.0,
+      "y": 680.0
+    },
+    "ConnectedNodes": [
+      "雪山",
+      "全真",
+      "雁门关",
+      "恒山"
+    ]
+  },
+  {
+    "Id": "金陵",
+    "Name": {
+      "key": "i18n/area/name/1",
+      "text": "金陵"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒",
+      "大本营"
+    ],
+    "Develop": 40,
+    "Pic": "big_city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 1060.0,
+      "y": -263.0
+    },
+    "ConnectedNodes": [
+      "牛家村",
+      "桃花岛",
+      "霹雳堂",
+      "福州",
+      "云梦泽"
+    ]
+  },
+  {
+    "Id": "西夏",
+    "Name": {
+      "key": "i18n/area/name/2",
+      "text": "西夏"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒",
+      "大本营"
+    ],
+    "Develop": 30,
+    "Pic": "mid_city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -888.0,
+      "y": 507.0
+    },
+    "ConnectedNodes": [
+      "高昌",
+      "灵鹫宫",
+      "西域部落",
+      "长安"
+    ]
+  },
+  {
+    "Id": "洛阳",
+    "Name": {
+      "key": "i18n/area/name/3",
+      "text": "洛阳"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒",
+      "大本营"
+    ],
+    "Develop": 40,
+    "Pic": "big_city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -62.0,
+      "y": 73.0
+    },
+    "ConnectedNodes": [
+      "长安",
+      "剑阁蜀道",
+      "嵩山",
+      "襄阳"
+    ]
+  },
+  {
+    "Id": "大理",
+    "Name": {
+      "key": "i18n/area/name/4",
+      "text": "大理"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒",
+      "大本营"
+    ],
+    "Develop": 30,
+    "Pic": "tower",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -691.0,
+      "y": -607.0
+    },
+    "ConnectedNodes": [
+      "五毒教",
+      "青城",
+      "无量山"
+    ]
+  },
+  {
+    "Id": "五毒教",
+    "Name": {
+      "key": "i18n/area/name/5",
+      "text": "五毒教"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "menpai",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -1047.0,
+      "y": -244.0
+    },
+    "ConnectedNodes": [
+      "昆仑山",
+      "峨眉",
+      "青城",
+      "大理"
+    ]
+  },
+  {
+    "Id": "长安",
+    "Name": {
+      "key": "i18n/area/name/6",
+      "text": "长安"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒",
+      "大本营"
+    ],
+    "Develop": 40,
+    "Pic": "big_city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -508.0,
+      "y": 173.0
+    },
+    "ConnectedNodes": [
+      "西夏",
+      "黑木崖",
+      "五台",
+      "洛阳",
+      "剑阁蜀道"
+    ]
+  },
+  {
+    "Id": "嵩山",
+    "Name": {
+      "key": "i18n/area/name/7",
+      "text": "嵩山"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "menpai",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 162.0,
+      "y": 265.0
+    },
+    "ConnectedNodes": [
+      "华山",
+      "风陵渡",
+      "洛阳"
+    ]
+  },
+  {
+    "Id": "风陵渡",
+    "Name": {
+      "key": "i18n/area/name/8",
+      "text": "风陵渡"
+    },
+    "BuildingList": [
+      "营地",
+      "营地"
+    ],
+    "Develop": 5,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 381.0,
+      "y": 215.0
+    },
+    "ConnectedNodes": [
+      "嵩山",
+      "恒山",
+      "淮南道"
+    ]
+  },
+  {
+    "Id": "雁门关",
+    "Name": {
+      "key": "i18n/area/name/9",
+      "text": "雁门关"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 5,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 299.0,
+      "y": 608.0
+    },
+    "ConnectedNodes": [
+      "燕京",
+      "华山"
+    ]
+  },
+  {
+    "Id": "华山",
+    "Name": {
+      "key": "i18n/area/name/10",
+      "text": "华山"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "menpai",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 129.0,
+      "y": 474.0
+    },
+    "ConnectedNodes": [
+      "塞北",
+      "雁门关",
+      "嵩山"
+    ]
+  },
+  {
+    "Id": "塞北",
+    "Name": {
+      "key": "i18n/area/name/11",
+      "text": "塞北"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 5,
+    "Pic": "zhangpeng",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -172.0,
+      "y": 654.0
+    },
+    "ConnectedNodes": [
+      "五台",
+      "华山",
+      "雁门关"
+    ]
+  },
+  {
+    "Id": "西域部落",
+    "Name": {
+      "key": "i18n/area/name/12",
+      "text": "西域部落"
+    },
+    "BuildingList": [
+      "营地",
+      "营地"
+    ],
+    "Develop": 5,
+    "Pic": "zhangpeng",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -1146.0,
+      "y": 397.0
+    },
+    "ConnectedNodes": [
+      "西夏",
+      "昆仑山"
+    ]
+  },
+  {
+    "Id": "昆仑山",
+    "Name": {
+      "key": "i18n/area/name/13",
+      "text": "昆仑山"
+    },
+    "BuildingList": [
+      "营地",
+      "营地"
+    ],
+    "Develop": 10,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -1012.0,
+      "y": 96.0
+    },
+    "ConnectedNodes": [
+      "西域部落",
+      "五毒教",
+      "长安",
+      "峨眉"
+    ]
+  },
+  {
+    "Id": "灵鹫宫",
+    "Name": {
+      "key": "i18n/area/name/14",
+      "text": "灵鹫宫"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "menpai",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -635.0,
+      "y": 702.0
+    },
+    "ConnectedNodes": [
+      "西夏",
+      "高昌",
+      "塞北"
+    ]
+  },
+  {
+    "Id": "峨眉",
+    "Name": {
+      "key": "i18n/area/name/15",
+      "text": "峨眉"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "menpai",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -519.0,
+      "y": -172.0
+    },
+    "ConnectedNodes": [
+      "五毒教",
+      "青城",
+      "成都"
+    ]
+  },
+  {
+    "Id": "衡阳",
+    "Name": {
+      "key": "i18n/area/name/16",
+      "text": "衡阳"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒",
+      "大本营"
+    ],
+    "Develop": 25,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 397.0,
+      "y": -583.0
+    },
+    "ConnectedNodes": [
+      "衡山",
+      "马王洞"
+    ]
+  },
+  {
+    "Id": "武当",
+    "Name": {
+      "key": "i18n/area/name/17",
+      "text": "武当"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "menpai",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 110.0,
+      "y": -318.0
+    },
+    "ConnectedNodes": [
+      "剑阁蜀道",
+      "江陵",
+      "铁掌山",
+      "衡山"
+    ]
+  },
+  {
+    "Id": "襄阳",
+    "Name": {
+      "key": "i18n/area/name/18",
+      "text": "襄阳"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒",
+      "大本营"
+    ],
+    "Develop": 25,
+    "Pic": "big_city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 511.0,
+      "y": -91.0
+    },
+    "ConnectedNodes": [
+      "洛阳",
+      "江陵",
+      "云梦泽",
+      "淮南道"
+    ]
+  },
+  {
+    "Id": "江陵",
+    "Name": {
+      "key": "i18n/area/name/19",
+      "text": "江陵"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "mid_city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 292.0,
+      "y": -141.0
+    },
+    "ConnectedNodes": [
+      "武当",
+      "襄阳"
+    ]
+  },
+  {
+    "Id": "云梦泽",
+    "Name": {
+      "key": "i18n/area/name/20",
+      "text": "云梦泽"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 703.0,
+      "y": -233.0
+    },
+    "ConnectedNodes": [
+      "衡山",
+      "马王洞",
+      "金陵",
+      "襄阳"
+    ]
+  },
+  {
+    "Id": "青城",
+    "Name": {
+      "key": "i18n/area/name/21",
+      "text": "青城"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "menpai",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -641.0,
+      "y": -339.0
+    },
+    "ConnectedNodes": [
+      "五毒教",
+      "峨眉",
+      "大理"
+    ]
+  },
+  {
+    "Id": "成都",
+    "Name": {
+      "key": "i18n/area/name/22",
+      "text": "成都"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒",
+      "大本营"
+    ],
+    "Develop": 25,
+    "Pic": "mid_city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -302.0,
+      "y": -253.0
+    },
+    "ConnectedNodes": [
+      "峨眉",
+      "无量山",
+      "剑阁蜀道"
+    ]
+  },
+  {
+    "Id": "五台",
+    "Name": {
+      "key": "i18n/area/name/23",
+      "text": "五台"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -356.0,
+      "y": 326.0
+    },
+    "ConnectedNodes": [
+      "长安",
+      "塞北",
+      "嵩山"
+    ]
+  },
+  {
+    "Id": "衡山",
+    "Name": {
+      "key": "i18n/area/name/24",
+      "text": "衡山"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 338.0,
+      "y": -422.0
+    },
+    "ConnectedNodes": [
+      "武当",
+      "衡阳",
+      "云梦泽"
+    ]
+  },
+  {
+    "Id": "无量山",
+    "Name": {
+      "key": "i18n/area/name/25",
+      "text": "无量山"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -430.0,
+      "y": -508.0
+    },
+    "ConnectedNodes": [
+      "大理",
+      "成都",
+      "铁掌山"
+    ]
+  },
+  {
+    "Id": "福州",
+    "Name": {
+      "key": "i18n/area/name/26",
+      "text": "福州"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 1106.0,
+      "y": -562.0
+    },
+    "ConnectedNodes": [
+      "金陵",
+      "马王洞"
+    ]
+  },
+  {
+    "Id": "泰山",
+    "Name": {
+      "key": "i18n/area/name/27",
+      "text": "泰山"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "mid_city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 916.0,
+      "y": 276.0
+    },
+    "ConnectedNodes": [
+      "全真",
+      "淮南道",
+      "牛家村",
+      "恒山"
+    ]
+  },
+  {
+    "Id": "淮南道",
+    "Name": {
+      "key": "i18n/area/name/28",
+      "text": "淮南道"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 663.0,
+      "y": 90.0
+    },
+    "ConnectedNodes": [
+      "襄阳",
+      "泰山"
+    ]
+  },
+  {
+    "Id": "剑阁蜀道",
+    "Name": {
+      "key": "i18n/area/name/29",
+      "text": "剑阁蜀道"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -215.0,
+      "y": -109.0
+    },
+    "ConnectedNodes": [
+      "长安",
+      "洛阳",
+      "成都",
+      "武当"
+    ]
+  },
+  {
+    "Id": "牛家村",
+    "Name": {
+      "key": "i18n/area/name/30",
+      "text": "牛家村"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 1010.0,
+      "y": 7.0
+    },
+    "ConnectedNodes": [
+      "泰山",
+      "金陵",
+      "淮南道"
+    ]
+  },
+  {
+    "Id": "恒山",
+    "Name": {
+      "key": "i18n/area/name/31",
+      "text": "恒山"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 525.0,
+      "y": 424.0
+    },
+    "ConnectedNodes": [
+      "燕京",
+      "风陵渡"
+    ]
+  },
+  {
+    "Id": "马王洞",
+    "Name": {
+      "key": "i18n/area/name/32",
+      "text": "马王洞"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 705.0,
+      "y": -655.0
+    },
+    "ConnectedNodes": [
+      "衡阳",
+      "云梦泽",
+      "福州"
+    ]
+  },
+  {
+    "Id": "药王谷",
+    "Name": {
+      "key": "i18n/area/name/33",
+      "text": "药王谷"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -51.0,
+      "y": -623.0
+    },
+    "ConnectedNodes": [
+      "铁掌山",
+      "衡阳",
+      "无量山"
+    ]
+  },
+  {
+    "Id": "全真",
+    "Name": {
+      "key": "i18n/area/name/34",
+      "text": "全真"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "menpai",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 1014.0,
+      "y": 426.0
+    },
+    "ConnectedNodes": [
+      "燕京",
+      "泰山",
+      "神龙岛"
+    ]
+  },
+  {
+    "Id": "黑木崖",
+    "Name": {
+      "key": "i18n/area/name/35",
+      "text": "黑木崖"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "tower",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -532.0,
+      "y": 438.0
+    },
+    "ConnectedNodes": [
+      "长安"
+    ]
+  },
+  {
+    "Id": "铁掌山",
+    "Name": {
+      "key": "i18n/area/name/36",
+      "text": "铁掌山"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -19.0,
+      "y": -466.0
+    },
+    "ConnectedNodes": [
+      "无量山",
+      "药王谷",
+      "武当"
+    ]
+  },
+  {
+    "Id": "高昌",
+    "Name": {
+      "key": "i18n/area/name/37",
+      "text": "高昌"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": -1082.0,
+      "y": 697.0
+    },
+    "ConnectedNodes": [
+      "西夏"
+    ]
+  },
+  {
+    "Id": "雪山",
+    "Name": {
+      "key": "i18n/area/name/38",
+      "text": "雪山"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 1160.0,
+      "y": 713.0
+    },
+    "ConnectedNodes": [
+      "燕京"
+    ]
+  },
+  {
+    "Id": "霹雳堂",
+    "Name": {
+      "key": "i18n/area/name/39",
+      "text": "霹雳堂"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 1493.0,
+      "y": -233.0
+    },
+    "ConnectedNodes": [
+      "金陵"
+    ]
+  },
+  {
+    "Id": "神龙岛",
+    "Name": {
+      "key": "i18n/area/name/40",
+      "text": "神龙岛"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 1379.0,
+      "y": 324.0
+    },
+    "ConnectedNodes": [
+      "全真",
+      "桃花岛"
+    ]
+  },
+  {
+    "Id": "桃花岛",
+    "Name": {
+      "key": "i18n/area/name/41",
+      "text": "桃花岛"
+    },
+    "BuildingList": [
+      "营地",
+      "营地",
+      "堡垒"
+    ],
+    "Develop": 10,
+    "Pic": "city",
+    "PicScale": 1.0,
+    "ActionTemplate": "通用地块",
+    "MapPosition": {
+      "x": 1385.0,
+      "y": -11.0
+    },
+    "ConnectedNodes": [
+      "金陵",
+      "霹雳堂"
+    ]
+  }
+]
