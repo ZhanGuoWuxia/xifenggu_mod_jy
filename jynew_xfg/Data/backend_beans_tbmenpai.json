@@ -1,770 +1,5 @@
 [
   {
-    "Id": "圣剑门",
-    "Name": {
-      "key": "i18n/menpai/name/1",
-      "text": "圣剑门"
-    },
-    "Pic": "1",
-    "Desc": {
-      "key": "i18n/menpai/desc/1",
-      "text": "巢谷地位最高门派，掌门人赵烟波和四大护法随便拿一个出来都是高手，坊间也有传言圣剑门就是夜鸦组织的首脑"
-    },
-    "AreaSet": [
-      "亮剑阁",
-      "观剑阁",
-      "抚剑阁",
-      "磨剑阁",
-      "执剑阁"
-    ],
-    "RoleList": [
-      "朗自归",
-      "哑童",
-      "范道平",
-      "王珑",
-      "马鞭",
-      "牛锤"
-    ],
-    "RecruitRoles": [
-      "圣剑门侠士_模板",
-      "圣剑门医师_模板",
-      "圣剑门刺客_模板",
-      "圣剑门铁卫_模板",
-      "圣剑门游侠_模板"
-    ],
-    "StartRandromRoleNum": 30,
-    "LeaderId": "朗自归",
-    "RelationDict": [
-      [
-        "龙湾门",
-        -1
-      ],
-      [
-        "暮霭山庄",
-        -1
-      ],
-      [
-        "司南地宫",
-        -1
-      ]
-    ],
-    "FriendShipDict": [
-      [
-        "龙湾门",
-        -100.0
-      ],
-      [
-        "暮霭山庄",
-        -100.0
-      ],
-      [
-        "司南地宫",
-        -100.0
-      ]
-    ],
-    "SectColor": {
-      "R": 0.81,
-      "G": 0.8,
-      "B": 0.81,
-      "A": 1.0
-    },
-    "AIName": "AI/Menpai/圣剑门"
-  },
-  {
-    "Id": "仙竹门",
-    "Name": {
-      "key": "i18n/menpai/name/2",
-      "text": "仙竹门"
-    },
-    "Pic": "2",
-    "Desc": {
-      "key": "i18n/menpai/desc/2",
-      "text": "以妖术威慑江湖，掌门密谋修炼妖术，段小宁因打碎掌门师傅的之瓶犯了大忌，引出主角解救之战。"
-    },
-    "AreaSet": [
-      "芭蕉庵",
-      "芭蕉洞",
-      "泪雨廊坊",
-      "仙竹林"
-    ],
-    "RoleList": [
-      "南宫燕",
-      "阿拉索",
-      "段小年",
-      "绿袍尼",
-      "芍药",
-      "牡丹",
-      "小燕儿"
-    ],
-    "RecruitRoles": [
-      "仙竹门翠竹使_模板",
-      "仙竹门玉竹侍_模板",
-      "仙竹门影竹客_模板",
-      "仙竹门金竹卫_模板",
-      "仙竹门风竹手_模板"
-    ],
-    "StartRandromRoleNum": 22,
-    "LeaderId": "南宫燕",
-    "RelationDict": [
-      [
-        "灵猹仙洞",
-        -1
-      ]
-    ],
-    "FriendShipDict": [
-      [
-        "灵猹仙洞",
-        -100.0
-      ],
-      [
-        "虎焰门",
-        50.0
-      ]
-    ],
-    "SectColor": {
-      "R": 0.71,
-      "G": 0.91,
-      "B": 0.52,
-      "A": 1.0
-    },
-    "AIName": "AI/Menpai/仙竹门"
-  },
-  {
-    "Id": "龙湾门",
-    "Name": {
-      "key": "i18n/menpai/name/3",
-      "text": "龙湾门"
-    },
-    "Pic": "3",
-    "Desc": {
-      "key": "i18n/menpai/desc/3",
-      "text": "虎焰门的死对头，掌门人东方骤雨和司徒雷原为师兄弟，后结下深仇大恨，一直都得不可开交。"
-    },
-    "AreaSet": [
-      "海狸湾",
-      "海豚湾",
-      "海鲨湾",
-      "龙湾"
-    ],
-    "RoleList": [
-      "东方骤雨",
-      "东方鲨",
-      "东方豚",
-      "东方狸",
-      "龙万莹"
-    ],
-    "RecruitRoles": [
-      "龙湾突袭者_模板",
-      "龙湾门下人_模板",
-      "龙湾舞女_模板",
-      "龙湾重弓手_模板",
-      "龙湾大厨_模板"
-    ],
-    "StartRandromRoleNum": 20,
-    "LeaderId": "东方骤雨",
-    "RelationDict": [
-      [
-        "圣剑门",
-        -1
-      ],
-      [
-        "食为鲜",
-        -1
-      ]
-    ],
-    "FriendShipDict": [
-      [
-        "圣剑门",
-        -100.0
-      ],
-      [
-        "虎焰门",
-        -50.0
-      ],
-      [
-        "食为鲜",
-        -100.0
-      ]
-    ],
-    "SectColor": {
-      "R": 0.29,
-      "G": 0.56,
-      "B": 0.87,
-      "A": 1.0
-    },
-    "AIName": "AI/Menpai/龙湾门"
-  },
-  {
-    "Id": "虎焰门",
-    "Name": {
-      "key": "i18n/menpai/name/4",
-      "text": "虎焰门"
-    },
-    "Pic": "4",
-    "Desc": {
-      "key": "i18n/menpai/desc/4",
-      "text": "原掌门将掌门之位传给主角后，当天就被屈鸦灭门，老掌门遭杀害，成为息风谷第一个被灭的“门”。"
-    },
-    "AreaSet": [
-      "虎苇地",
-      "虎焰堂",
-      "火神树林",
-      "酒香亭"
-    ],
-    "RoleList": [
-      "司徒来也",
-      "齐六哥"
-    ],
-    "RecruitRoles": [
-      "随机坦克",
-      "随机医师",
-      "随机刺客",
-      "随机侠士",
-      "随机游侠"
-    ],
-    "StartRandromRoleNum": 0,
-    "LeaderId": "司徒来也",
-    "RelationDict": [
-      [
-        "鹤岭门",
-        1
-      ]
-    ],
-    "FriendShipDict": [
-      [
-        "龙湾门",
-        -50.0
-      ],
-      [
-        "鹤岭门",
-        100.0
-      ],
-      [
-        "仙竹门",
-        50.0
-      ]
-    ],
-    "SectColor": {
-      "R": 0.95,
-      "G": 0.64,
-      "B": 0.13,
-      "A": 1.0
-    },
-    "AIName": "AI/template/attacker_ai"
-  },
-  {
-    "Id": "鹤岭门",
-    "Name": {
-      "key": "i18n/menpai/name/5",
-      "text": "鹤岭门"
-    },
-    "Pic": "5",
-    "Desc": {
-      "key": "i18n/menpai/desc/5",
-      "text": "掌门人陆半生的女儿陆雪桥本来已和司徒来也订下婚事，但如今虎焰门被灭，陆半生嫌弃司徒来也是丧家之犬而不认数。"
-    },
-    "AreaSet": [
-      "日影潭",
-      "穿云斜塔",
-      "牛斗矿藏",
-      "鹤汀崖"
-    ],
-    "RoleList": [
-      "西门坡",
-      "西门霆",
-      "西门香",
-      "韩恭",
-      "赵让"
-    ],
-    "RecruitRoles": [
-      "随机坦克",
-      "随机医师",
-      "随机刺客",
-      "随机侠士",
-      "随机游侠"
-    ],
-    "StartRandromRoleNum": 15,
-    "LeaderId": "西门坡",
-    "RelationDict": [
-      [
-        "虎焰门",
-        1
-      ]
-    ],
-    "FriendShipDict": [
-      [
-        "飞星云顶",
-        10.0
-      ],
-      [
-        "虎焰门",
-        100.0
-      ]
-    ],
-    "SectColor": {
-      "R": 0.93,
-      "G": 0.68,
-      "B": 0.93,
-      "A": 1.0
-    },
-    "AIName": "AI/Menpai/鹤岭门"
-  },
-  {
-    "Id": "飞星云顶",
-    "Name": {
-      "key": "i18n/menpai/name/6",
-      "text": "飞星云顶"
-    },
-    "Pic": "6",
-    "Desc": {
-      "key": "i18n/menpai/desc/6",
-      "text": "巢谷各“派”中相对最强势力，在虎焰门被灭之后，有望晋升为“门”。"
-    },
-    "AreaSet": [
-      "摘星殿",
-      "观星亭",
-      "飞星云顶"
-    ],
-    "RoleList": [
-      "贺如烟",
-      "墨光",
-      "墨影"
-    ],
-    "RecruitRoles": [
-      "飞星云顶侠士_模板",
-      "飞星云顶医师_模板",
-      "飞星云顶刺客_模板",
-      "飞星云顶铁卫_模板",
-      "飞星云顶游侠_模板"
-    ],
-    "StartRandromRoleNum": 10,
-    "LeaderId": "贺如烟",
-    "RelationDict": [],
-    "FriendShipDict": [],
-    "SectColor": {
-      "R": 1.0,
-      "G": 0.96,
-      "B": 0.43,
-      "A": 1.0
-    },
-    "AIName": "AI/Menpai/飞星云顶"
-  },
-  {
-    "Id": "司南地宫",
-    "Name": {
-      "key": "i18n/menpai/name/7",
-      "text": "司南地宫"
-    },
-    "Pic": "7",
-    "Desc": {
-      "key": "i18n/menpai/desc/7",
-      "text": "已灭之派"
-    },
-    "AreaSet": [
-      "遗迹一",
-      "遗迹二",
-      "遗迹三"
-    ],
-    "RoleList": [],
-    "RecruitRoles": [
-      "随机坦克",
-      "随机医师",
-      "随机刺客",
-      "随机侠士",
-      "随机游侠"
-    ],
-    "StartRandromRoleNum": 11,
-    "LeaderId": "2",
-    "RelationDict": [
-      [
-        "圣剑门",
-        -1
-      ]
-    ],
-    "FriendShipDict": [
-      [
-        "圣剑门",
-        -100.0
-      ]
-    ],
-    "SectColor": {
-      "R": 0.43,
-      "G": 0.27,
-      "B": 0.13,
-      "A": 1.0
-    },
-    "AIName": "AI/template/attacker_ai"
-  },
-  {
-    "Id": "万雀溪谷",
-    "Name": {
-      "key": "i18n/menpai/name/8",
-      "text": "万雀溪谷"
-    },
-    "Pic": "8",
-    "Desc": {
-      "key": "i18n/menpai/desc/8",
-      "text": "破坏息风谷河流生态"
-    },
-    "AreaSet": [
-      "百草青涧",
-      "千鲤红池",
-      "万雀温泉"
-    ],
-    "RoleList": [
-      "万壑成",
-      "丁宣",
-      "柔儿"
-    ],
-    "RecruitRoles": [
-      "万雀溪谷风水师_模板",
-      "万雀溪谷侍女_模板",
-      "万雀溪谷祭司_模板",
-      "万雀溪谷温泉师_模板",
-      "万雀溪谷秘阵师_模板"
-    ],
-    "StartRandromRoleNum": 10,
-    "LeaderId": "万壑成",
-    "RelationDict": [],
-    "FriendShipDict": [],
-    "SectColor": {
-      "R": 0.39,
-      "G": 0.72,
-      "B": 0.65,
-      "A": 1.0
-    },
-    "AIName": "AI/Menpai/万雀溪谷"
-  },
-  {
-    "Id": "暮霭山庄",
-    "Name": {
-      "key": "i18n/menpai/name/9",
-      "text": "暮霭山庄"
-    },
-    "Pic": "9",
-    "Desc": {
-      "key": "i18n/menpai/desc/9",
-      "text": "已灭之派"
-    },
-    "AreaSet": [
-      "暮霭山庄",
-      "晚宁塔",
-      "望尘崖"
-    ],
-    "RoleList": [
-      "苏半见",
-      "白十八"
-    ],
-    "RecruitRoles": [
-      "暮霭山庄侠士_模板",
-      "暮霭山庄医师_模板",
-      "暮霭山庄刺客_模板",
-      "暮霭山庄铁卫_模板",
-      "暮霭山庄游侠_模板"
-    ],
-    "StartRandromRoleNum": 13,
-    "LeaderId": "苏半见",
-    "RelationDict": [
-      [
-        "圣剑门",
-        -1
-      ]
-    ],
-    "FriendShipDict": [
-      [
-        "圣剑门",
-        -100.0
-      ]
-    ],
-    "SectColor": {
-      "R": 1.0,
-      "G": 1.0,
-      "B": 1.0,
-      "A": 1.0
-    },
-    "AIName": "AI/template/暮霭山庄"
-  },
-  {
-    "Id": "摇舟半岛",
-    "Name": {
-      "key": "i18n/menpai/name/10",
-      "text": "摇舟半岛"
-    },
-    "Pic": "10",
-    "Desc": {
-      "key": "i18n/menpai/desc/10",
-      "text": "已灭之派"
-    },
-    "AreaSet": [
-      "熊岛",
-      "猴岛"
-    ],
-    "RoleList": [],
-    "RecruitRoles": [
-      "随机坦克",
-      "随机医师",
-      "随机刺客",
-      "随机侠士",
-      "随机游侠"
-    ],
-    "StartRandromRoleNum": 14,
-    "LeaderId": "2",
-    "RelationDict": [],
-    "FriendShipDict": [],
-    "SectColor": {
-      "R": 0.8,
-      "G": 0.7,
-      "B": 0.55,
-      "A": 1.0
-    },
-    "AIName": "AI/template/evener_ai"
-  },
-  {
-    "Id": "画桥书苑",
-    "Name": {
-      "key": "i18n/menpai/name/11",
-      "text": "画桥书苑"
-    },
-    "Pic": "11",
-    "Desc": {
-      "key": "i18n/menpai/desc/11",
-      "text": "妙手丹青何惧风。"
-    },
-    "AreaSet": [
-      "愚堂",
-      "陋堂"
-    ],
-    "RoleList": [
-      "何惧风",
-      "阿生",
-      "李场师"
-    ],
-    "RecruitRoles": [
-      "画桥书苑侠士_模板",
-      "画桥书苑医师_模板",
-      "画桥书苑刺客_模板",
-      "画桥书苑铁卫_模板",
-      "画桥书苑游侠_模板"
-    ],
-    "StartRandromRoleNum": 15,
-    "LeaderId": "何惧风",
-    "RelationDict": [],
-    "FriendShipDict": [],
-    "SectColor": {
-      "R": 0.0,
-      "G": 1.0,
-      "B": 0.2,
-      "A": 1.0
-    },
-    "AIName": "AI/template/画桥书苑"
-  },
-  {
-    "Id": "灵猹仙洞",
-    "Name": {
-      "key": "i18n/menpai/name/12",
-      "text": "灵猹仙洞"
-    },
-    "Pic": "12",
-    "Desc": {
-      "key": "i18n/menpai/desc/12",
-      "text": "灵猹六怪。"
-    },
-    "AreaSet": [
-      "茅屋",
-      "灵猹仙洞"
-    ],
-    "RoleList": [
-      "夏大",
-      "夏二",
-      "夏三",
-      "夏四",
-      "夏五",
-      "夏六"
-    ],
-    "RecruitRoles": [
-      "灵猹仙洞侠士_模板",
-      "灵猹仙洞医师_模板",
-      "灵猹仙洞刺客_模板",
-      "灵猹仙洞铁卫_模板",
-      "灵猹仙洞游侠_模板"
-    ],
-    "StartRandromRoleNum": 15,
-    "LeaderId": "夏大",
-    "RelationDict": [
-      [
-        "仙竹门",
-        -1
-      ]
-    ],
-    "FriendShipDict": [
-      [
-        "仙竹门",
-        -100.0
-      ]
-    ],
-    "SectColor": {
-      "R": 0.81,
-      "G": 0.0,
-      "B": 0.1,
-      "A": 1.0
-    },
-    "AIName": "AI/Menpai/灵猹仙洞"
-  },
-  {
-    "Id": "豪猪长垄",
-    "Name": {
-      "key": "i18n/menpai/name/13",
-      "text": "豪猪长垄"
-    },
-    "Pic": "13",
-    "Desc": {
-      "key": "i18n/menpai/desc/13",
-      "text": "何猛和他的逗比兄弟们。"
-    },
-    "AreaSet": [
-      "窑洞",
-      "豪猪寨",
-      "选妃桥"
-    ],
-    "RoleList": [
-      "何猛",
-      "潘麻子",
-      "梁胜"
-    ],
-    "RecruitRoles": [
-      "豪猪弓箭手_模板",
-      "豪猪土匪_模板",
-      "豪猪刺客_模板",
-      "被解救的女子_模板",
-      "豪猪堂主_模板"
-    ],
-    "StartRandromRoleNum": 15,
-    "LeaderId": "何猛",
-    "RelationDict": [],
-    "FriendShipDict": [],
-    "SectColor": {
-      "R": 0.753,
-      "G": 0.24,
-      "B": 0.839,
-      "A": 1.0
-    },
-    "AIName": "AI/Menpai/豪猪长垄"
-  },
-  {
-    "Id": "夜鸦",
-    "Name": {
-      "key": "i18n/menpai/name/14",
-      "text": "夜鸦"
-    },
-    "Pic": "14",
-    "Desc": {
-      "key": "i18n/menpai/desc/14",
-      "text": "息风谷背后的神秘势力"
-    },
-    "AreaSet": [],
-    "RoleList": [
-      "夜郎",
-      "鲸"
-    ],
-    "RecruitRoles": [
-      "随机坦克",
-      "随机医师",
-      "随机刺客",
-      "随机侠士",
-      "随机游侠"
-    ],
-    "StartRandromRoleNum": 30,
-    "LeaderId": "夜郎",
-    "RelationDict": [],
-    "FriendShipDict": [],
-    "SectColor": {
-      "R": 0.718,
-      "G": 0.016,
-      "B": 0.38,
-      "A": 1.0
-    },
-    "AIName": "AI/template/attacker_ai"
-  },
-  {
-    "Id": "抚剑阁",
-    "Name": {
-      "key": "i18n/menpai/name/15",
-      "text": "抚剑阁"
-    },
-    "Pic": "15",
-    "Desc": {
-      "key": "i18n/menpai/desc/15",
-      "text": "姬野蔓率领的一众圣剑门弟子，负责探索司南地宫遗迹"
-    },
-    "AreaSet": [],
-    "RoleList": [
-      "姬野蔓"
-    ],
-    "RecruitRoles": [
-      "随机坦克",
-      "随机医师",
-      "随机刺客",
-      "随机侠士",
-      "随机游侠"
-    ],
-    "StartRandromRoleNum": 8,
-    "LeaderId": "姬野蔓",
-    "RelationDict": [],
-    "FriendShipDict": [
-      [
-        "圣剑门",
-        50.0
-      ]
-    ],
-    "SectColor": {
-      "R": 0.588,
-      "G": 0.333,
-      "B": 0.816,
-      "A": 1.0
-    },
-    "AIName": "AI/template/attacker_ai"
-  },
-  {
-    "Id": "食为鲜",
-    "Name": {
-      "key": "i18n/menpai/name/16",
-      "text": "食为鲜"
-    },
-    "Pic": "16",
-    "Desc": {
-      "key": "i18n/menpai/desc/16",
-      "text": "龙万莹领导的一群反抗者"
-    },
-    "AreaSet": [],
-    "RoleList": [],
-    "RecruitRoles": [
-      "龙湾门下人_模板",
-      "龙湾舞女_模板",
-      "龙湾大厨_模板"
-    ],
-    "StartRandromRoleNum": 0,
-    "LeaderId": "",
-    "RelationDict": [
-      [
-        "龙湾门",
-        -1
-      ]
-    ],
-    "FriendShipDict": [
-      [
-        "龙湾门",
-        -100.0
-      ]
-    ],
-    "SectColor": {
-      "R": 0.643,
-      "G": 0.282,
-      "B": 0.329,
-      "A": 1.0
-    },
-    "AIName": "AI/template/defender_ai"
-  },
-  {
     "Id": "少林",
     "Name": {
       "key": "i18n/menpai/name/1",
@@ -788,8 +23,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 20,
     "LeaderId": "方证",
@@ -825,8 +59,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 20,
     "LeaderId": "张三丰",
@@ -862,8 +95,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 5,
     "LeaderId": "岳不群",
@@ -899,8 +131,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 30,
     "LeaderId": "完颜烈",
@@ -936,8 +167,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 10,
     "LeaderId": "余沧海",
@@ -972,8 +202,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 10,
     "LeaderId": "蓝凤凰",
@@ -1009,8 +238,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 10,
     "LeaderId": "莫大",
@@ -1049,8 +277,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 40,
     "LeaderId": "东方不败",
@@ -1086,8 +313,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 15,
     "LeaderId": "洪大猛",
@@ -1123,8 +349,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 10,
     "LeaderId": "洪通天",
@@ -1160,8 +385,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 40,
     "LeaderId": "徐小侠",
@@ -1197,8 +421,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 20,
     "LeaderId": "沙通天",
@@ -1234,8 +457,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 15,
     "LeaderId": "段正淳",
@@ -1270,8 +492,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 12,
     "LeaderId": "何足道",
@@ -1307,8 +528,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 20,
     "LeaderId": "天山童姥",
@@ -1344,8 +564,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 15,
     "LeaderId": "司空玄",
@@ -1382,8 +601,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 40,
     "LeaderId": "史火龙",
@@ -1419,8 +637,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 25,
     "LeaderId": "丘处机",
@@ -1455,8 +672,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 5,
     "LeaderId": "金轮法王",
@@ -1491,8 +707,7 @@
       "随机坦克",
       "随机医师",
       "随机刺客",
-      "随机侠士",
-      "随机游侠"
+      "随机侠士"
     ],
     "StartRandromRoleNum": 0,
     "LeaderId": "小虾米",

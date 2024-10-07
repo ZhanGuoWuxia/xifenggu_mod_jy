@@ -2,12 +2,12 @@
   {
     "Id": "基础棍法",
     "Name": {
-      "key": "i18/wuxue/name/1",
+      "key": "i18/skill/name1",
       "text": "基础棍法"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/1",
-      "text": "行走江湖的基础棍法"
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
     "SubSkillType": 1,
@@ -33,12 +33,12 @@
   {
     "Id": "基础剑法",
     "Name": {
-      "key": "i18/wuxue/name/2",
+      "key": "i18/skill/name2",
       "text": "基础剑法"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/2",
-      "text": "行走江湖的基础剑法"
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
     "SubSkillType": 2,
@@ -64,12 +64,12 @@
   {
     "Id": "基础刀法",
     "Name": {
-      "key": "i18/wuxue/name/3",
+      "key": "i18/skill/name3",
       "text": "基础刀法"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/3",
-      "text": "行走江湖的基础刀法"
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
     "SubSkillType": 3,
@@ -95,12 +95,12 @@
   {
     "Id": "基础拳法",
     "Name": {
-      "key": "i18/wuxue/name/4",
+      "key": "i18/skill/name4",
       "text": "基础拳法"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/4",
-      "text": "行走江湖的基础拳法"
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
     "SubSkillType": 4,
@@ -124,402 +124,98 @@
     ]
   },
   {
-    "Id": "基础枪法",
+    "Id": "基础内功",
     "Name": {
-      "key": "i18/wuxue/name/5",
-      "text": "基础枪法"
+      "key": "i18/skill/name5",
+      "text": "基础内功"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/5",
-      "text": "行走江湖的基础枪法"
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 1,
+    "SubSkillType": 7,
+    "CompatibleRuleId": "",
+    "DefaultWeaponItemId": "",
+    "ItemLevel": 1,
+    "IdleFileName": "",
+    "SprintFileName": "",
+    "Pic": "基础内功",
+    "Hard": 0.8,
+    "SkillAptitudePerLevel": "普通内功每级资质成长",
+    "AttrTemplate": "普通内功模板",
+    "NormalFormId": "",
+    "AdvanceForms": [],
+    "LearnConditions": [
+      {
+        "AttrId": "内功资质",
+        "ValueToCompare": 1,
+        "$type": "SC_RoleAttr"
+      }
+    ]
+  },
+  {
+    "Id": "基础身法",
+    "Name": {
+      "key": "i18/skill/name6",
+      "text": "基础身法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 2,
+    "SubSkillType": 6,
+    "CompatibleRuleId": "",
+    "DefaultWeaponItemId": "",
+    "ItemLevel": 1,
+    "IdleFileName": "",
+    "SprintFileName": "",
+    "Pic": "基础身法",
+    "Hard": 0.8,
+    "SkillAptitudePerLevel": "普通轻功每级资质成长",
+    "AttrTemplate": "普通轻功模板",
+    "NormalFormId": "",
+    "AdvanceForms": [],
+    "LearnConditions": [
+      {
+        "AttrId": "轻功资质",
+        "ValueToCompare": 1,
+        "$type": "SC_RoleAttr"
+      }
+    ]
+  },
+  {
+    "Id": "少林棍法",
+    "Name": {
+      "key": "i18/skill/name7",
+      "text": "少林棍法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
     "SubSkillType": 1,
     "CompatibleRuleId": "长柄",
-    "DefaultWeaponItemId": "普通枪",
-    "ItemLevel": 1,
-    "IdleFileName": "基础枪法",
+    "DefaultWeaponItemId": "普通棍",
+    "ItemLevel": 2,
+    "IdleFileName": "烧火棍法",
     "SprintFileName": "",
-    "Pic": "基础枪法",
-    "Hard": 0.8,
-    "SkillAptitudePerLevel": "普通棍法每级资质成长",
-    "AttrTemplate": "普通棍法模板",
-    "NormalFormId": "基础枪法普攻",
-    "AdvanceForms": [],
-    "LearnConditions": [
-      {
-        "AttrId": "棍法资质",
-        "ValueToCompare": 1,
-        "$type": "SC_RoleAttr"
-      }
-    ]
-  },
-  {
-    "Id": "基础弓法",
-    "Name": {
-      "key": "i18/wuxue/name/6",
-      "text": "基础弓法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/6",
-      "text": "行走江湖的基础弓法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 5,
-    "CompatibleRuleId": "弓",
-    "DefaultWeaponItemId": "普通弓",
-    "ItemLevel": 1,
-    "IdleFileName": "基础弓法",
-    "SprintFileName": "",
-    "Pic": "基础弓法",
-    "Hard": 0.8,
-    "SkillAptitudePerLevel": "普通射术每级资质成长",
-    "AttrTemplate": "普通射术模板",
-    "NormalFormId": "基础弓法普攻",
-    "AdvanceForms": [],
-    "LearnConditions": [
-      {
-        "AttrId": "射术资质",
-        "ValueToCompare": 1,
-        "$type": "SC_RoleAttr"
-      }
-    ]
-  },
-  {
-    "Id": "疯魔拳法",
-    "Name": {
-      "key": "i18/wuxue/name/7",
-      "text": "疯魔拳法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/7",
-      "text": "疯魔拳法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 4,
-    "CompatibleRuleId": "拳",
-    "DefaultWeaponItemId": "普通手套",
-    "ItemLevel": 3,
-    "IdleFileName": "疯魔拳法",
-    "SprintFileName": "",
-    "Pic": "疯魔拳法",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "稀有拳法每级资质成长",
-    "AttrTemplate": "稀有拳法模板",
-    "NormalFormId": "疯魔一击",
-    "AdvanceForms": [
-      {
-        "FormId": "疯魔乱拳",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "疯疯癫癫",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "疯不所知",
-        "UnlockLevel": 6
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "拳法资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "伏虎掌法",
-    "Name": {
-      "key": "i18/wuxue/name/8",
-      "text": "伏虎掌法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/8",
-      "text": "伏虎掌法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 4,
-    "CompatibleRuleId": "拳",
-    "DefaultWeaponItemId": "普通手套",
-    "ItemLevel": 4,
-    "IdleFileName": "伏虎掌法",
-    "SprintFileName": "",
-    "Pic": "伏虎掌法",
+    "Pic": "烧火棍法",
     "Hard": 1.0,
-    "SkillAptitudePerLevel": "史诗拳法每级资质成长",
-    "AttrTemplate": "史诗拳法模板",
-    "NormalFormId": "基础拳法普攻",
+    "SkillAptitudePerLevel": "精良棍法每级资质成长",
+    "AttrTemplate": "精良棍法模板",
+    "NormalFormId": "基础棍法普攻",
     "AdvanceForms": [
       {
-        "FormId": "伏虎掌",
+        "FormId": "挑火",
         "UnlockLevel": 1
-      },
-      {
-        "FormId": "虎骨强体",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "伏虎威压",
-        "UnlockLevel": 10
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "拳法资质",
-        "ValueToCompare": 60,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 20,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "降魔袈裟掌",
-    "Name": {
-      "key": "i18/wuxue/name/9",
-      "text": "降魔袈裟掌"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/9",
-      "text": "降魔袈裟掌"
-    },
-    "SkillType": 0,
-    "SubSkillType": 4,
-    "CompatibleRuleId": "拳",
-    "DefaultWeaponItemId": "普通手套",
-    "ItemLevel": 5,
-    "IdleFileName": "降魔袈裟掌",
-    "SprintFileName": "",
-    "Pic": "降魔袈裟掌",
-    "Hard": 1.3,
-    "SkillAptitudePerLevel": "传说拳法每级资质成长",
-    "AttrTemplate": "传说拳法模板",
-    "NormalFormId": "降魔掌",
-    "AdvanceForms": [
-      {
-        "FormId": "金刚降魔掌",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "降魔内劲",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "降妖伏魔",
-        "UnlockLevel": 6
-      },
-      {
-        "FormId": "护体袈裟",
-        "UnlockLevel": 10
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "拳法资质",
-        "ValueToCompare": 100,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 25,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "血魔刀法",
-    "Name": {
-      "key": "i18/wuxue/name/10",
-      "text": "血魔刀法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/10",
-      "text": "血魔刀法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 3,
-    "CompatibleRuleId": "刀",
-    "DefaultWeaponItemId": "普通刀",
-    "ItemLevel": 5,
-    "IdleFileName": "血魔刀法",
-    "SprintFileName": "",
-    "Pic": "血魔刀法",
-    "Hard": 1.3,
-    "SkillAptitudePerLevel": "传说刀法每级资质成长",
-    "AttrTemplate": "传说刀法模板",
-    "NormalFormId": "嗜血魔刀",
-    "AdvanceForms": [
-      {
-        "FormId": "血煞斩空",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "血怒之力",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "魔血连击",
-        "UnlockLevel": 10
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "刀法资质",
-        "ValueToCompare": 100,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 25,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "迷踪无影剑",
-    "Name": {
-      "key": "i18/wuxue/name/11",
-      "text": "迷踪无影剑"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/11",
-      "text": "迷踪无影剑"
-    },
-    "SkillType": 0,
-    "SubSkillType": 2,
-    "CompatibleRuleId": "剑",
-    "DefaultWeaponItemId": "普通剑",
-    "ItemLevel": 5,
-    "IdleFileName": "迷踪无影剑",
-    "SprintFileName": "",
-    "Pic": "迷踪无影剑",
-    "Hard": 1.3,
-    "SkillAptitudePerLevel": "传说剑法每级资质成长",
-    "AttrTemplate": "传说剑法模板",
-    "NormalFormId": "迷踪剑",
-    "AdvanceForms": [
-      {
-        "FormId": "无影剑",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "暗影之力",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "暗藏杀机",
-        "UnlockLevel": 6
-      },
-      {
-        "FormId": "血影重重",
-        "UnlockLevel": 10
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "剑法资质",
-        "ValueToCompare": 100,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 25,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "排云枪",
-    "Name": {
-      "key": "i18/wuxue/name/12",
-      "text": "排云枪"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/12",
-      "text": "排云枪"
-    },
-    "SkillType": 0,
-    "SubSkillType": 1,
-    "CompatibleRuleId": "长柄",
-    "DefaultWeaponItemId": "普通枪",
-    "ItemLevel": 5,
-    "IdleFileName": "排云枪",
-    "SprintFileName": "",
-    "Pic": "排云枪",
-    "Hard": 1.3,
-    "SkillAptitudePerLevel": "传说枪法每级资质成长",
-    "AttrTemplate": "传说枪法模板",
-    "NormalFormId": "梨花式",
-    "AdvanceForms": [
-      {
-        "FormId": "穿云式",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "破云式",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "回马式",
-        "UnlockLevel": 6
-      },
-      {
-        "FormId": "穿云破雾",
-        "UnlockLevel": 10
       }
     ],
     "LearnConditions": [
       {
         "AttrId": "棍法资质",
-        "ValueToCompare": 100,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 25,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "探云摘星手",
-    "Name": {
-      "key": "i18/wuxue/name/13",
-      "text": "探云手"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/13",
-      "text": "齐六哥的祖传绝艺"
-    },
-    "SkillType": 0,
-    "SubSkillType": 4,
-    "CompatibleRuleId": "拳",
-    "DefaultWeaponItemId": "普通手套",
-    "ItemLevel": 2,
-    "IdleFileName": "探云摘星手",
-    "SprintFileName": "",
-    "Pic": "探云摘星手",
-    "Hard": 1.1,
-    "SkillAptitudePerLevel": "精良拳法每级资质成长",
-    "AttrTemplate": "精良拳法模板",
-    "NormalFormId": "探云手",
-    "AdvanceForms": [
-      {
-        "FormId": "妙手摘星",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "君子爱财",
-        "UnlockLevel": 5
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "拳法资质",
         "ValueToCompare": 10,
         "$type": "SC_RoleAttr"
       },
@@ -530,40 +226,36 @@
     ]
   },
   {
-    "Id": "虎焰刀法",
+    "Id": "乞丐棍法",
     "Name": {
-      "key": "i18/wuxue/name/14",
-      "text": "虎焰刀法"
+      "key": "i18/skill/name8",
+      "text": "乞丐棍法"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/14",
-      "text": "虎焰刀法"
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
-    "SubSkillType": 3,
-    "CompatibleRuleId": "刀",
-    "DefaultWeaponItemId": "普通刀",
+    "SubSkillType": 1,
+    "CompatibleRuleId": "长柄",
+    "DefaultWeaponItemId": "普通棍",
     "ItemLevel": 2,
-    "IdleFileName": "虎焰刀法",
+    "IdleFileName": "烧火棍法",
     "SprintFileName": "",
-    "Pic": "虎焰刀法",
-    "Hard": 1.05,
-    "SkillAptitudePerLevel": "精良刀法每级资质成长",
-    "AttrTemplate": "精良刀法模板",
-    "NormalFormId": "基础刀法普攻",
+    "Pic": "烧火棍法",
+    "Hard": 1.0,
+    "SkillAptitudePerLevel": "精良棍法每级资质成长",
+    "AttrTemplate": "精良棍法模板",
+    "NormalFormId": "基础棍法普攻",
     "AdvanceForms": [
       {
-        "FormId": "烈风焰刀",
+        "FormId": "挑火",
         "UnlockLevel": 1
-      },
-      {
-        "FormId": "虎焰刀势",
-        "UnlockLevel": 5
       }
     ],
     "LearnConditions": [
       {
-        "AttrId": "刀法资质",
+        "AttrId": "棍法资质",
         "ValueToCompare": 10,
         "$type": "SC_RoleAttr"
       },
@@ -574,14 +266,14 @@
     ]
   },
   {
-    "Id": "神女剑法",
+    "Id": "昆仑剑法",
     "Name": {
-      "key": "i18/wuxue/name/15",
-      "text": "神女剑法"
+      "key": "i18/skill/name9",
+      "text": "昆仑剑法"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/15",
-      "text": "神女剑法"
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
     "SubSkillType": 2,
@@ -591,7 +283,7 @@
     "IdleFileName": "神女剑法",
     "SprintFileName": "",
     "Pic": "神女剑法",
-    "Hard": 1.05,
+    "Hard": 1.0,
     "SkillAptitudePerLevel": "精良剑法每级资质成长",
     "AttrTemplate": "精良剑法模板",
     "NormalFormId": "飞星",
@@ -618,35 +310,347 @@
     ]
   },
   {
-    "Id": "狼爪功",
+    "Id": "华山剑法",
     "Name": {
-      "key": "i18/wuxue/name/16",
-      "text": "狼爪功"
+      "key": "i18/skill/name10",
+      "text": "华山剑法"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/16",
-      "text": "狼爪功"
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 2,
+    "CompatibleRuleId": "剑",
+    "DefaultWeaponItemId": "普通剑",
+    "ItemLevel": 2,
+    "IdleFileName": "神女剑法",
+    "SprintFileName": "",
+    "Pic": "神女剑法",
+    "Hard": 1.0,
+    "SkillAptitudePerLevel": "精良剑法每级资质成长",
+    "AttrTemplate": "精良剑法模板",
+    "NormalFormId": "飞星",
+    "AdvanceForms": [
+      {
+        "FormId": "洛神凌波",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "神女弄珠",
+        "UnlockLevel": 5
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "剑法资质",
+        "ValueToCompare": 10,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 5,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "全真剑法",
+    "Name": {
+      "key": "i18/skill/name11",
+      "text": "全真剑法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 2,
+    "CompatibleRuleId": "剑",
+    "DefaultWeaponItemId": "普通剑",
+    "ItemLevel": 2,
+    "IdleFileName": "神女剑法",
+    "SprintFileName": "",
+    "Pic": "神女剑法",
+    "Hard": 1.0,
+    "SkillAptitudePerLevel": "精良剑法每级资质成长",
+    "AttrTemplate": "精良剑法模板",
+    "NormalFormId": "飞星",
+    "AdvanceForms": [
+      {
+        "FormId": "洛神凌波",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "神女弄珠",
+        "UnlockLevel": 5
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "剑法资质",
+        "ValueToCompare": 10,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 5,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "松风剑法",
+    "Name": {
+      "key": "i18/skill/name12",
+      "text": "松风剑法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 2,
+    "CompatibleRuleId": "剑",
+    "DefaultWeaponItemId": "普通剑",
+    "ItemLevel": 2,
+    "IdleFileName": "神女剑法",
+    "SprintFileName": "",
+    "Pic": "神女剑法",
+    "Hard": 1.0,
+    "SkillAptitudePerLevel": "精良剑法每级资质成长",
+    "AttrTemplate": "精良剑法模板",
+    "NormalFormId": "飞星",
+    "AdvanceForms": [
+      {
+        "FormId": "洛神凌波",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "神女弄珠",
+        "UnlockLevel": 5
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "剑法资质",
+        "ValueToCompare": 10,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 5,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "泰山十八盘",
+    "Name": {
+      "key": "i18/skill/name13",
+      "text": "泰山十八盘"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 2,
+    "CompatibleRuleId": "剑",
+    "DefaultWeaponItemId": "普通剑",
+    "ItemLevel": 2,
+    "IdleFileName": "神女剑法",
+    "SprintFileName": "",
+    "Pic": "神女剑法",
+    "Hard": 1.0,
+    "SkillAptitudePerLevel": "精良剑法每级资质成长",
+    "AttrTemplate": "精良剑法模板",
+    "NormalFormId": "飞星",
+    "AdvanceForms": [
+      {
+        "FormId": "洛神凌波",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "神女弄珠",
+        "UnlockLevel": 5
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "剑法资质",
+        "ValueToCompare": 10,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 5,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "西瓜刀法",
+    "Name": {
+      "key": "i18/skill/name14",
+      "text": "西瓜刀法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 3,
+    "CompatibleRuleId": "刀",
+    "DefaultWeaponItemId": "普通刀",
+    "ItemLevel": 2,
+    "IdleFileName": "虎焰刀法",
+    "SprintFileName": "",
+    "Pic": "虎焰刀法",
+    "Hard": 1.0,
+    "SkillAptitudePerLevel": "精良刀法每级资质成长",
+    "AttrTemplate": "精良刀法模板",
+    "NormalFormId": "基础刀法普攻",
+    "AdvanceForms": [
+      {
+        "FormId": "烈风焰刀",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "虎焰刀势",
+        "UnlockLevel": 5
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "刀法资质",
+        "ValueToCompare": 10,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 5,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "血刀刀法",
+    "Name": {
+      "key": "i18/skill/name15",
+      "text": "血刀刀法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 3,
+    "CompatibleRuleId": "刀",
+    "DefaultWeaponItemId": "普通刀",
+    "ItemLevel": 2,
+    "IdleFileName": "虎焰刀法",
+    "SprintFileName": "",
+    "Pic": "虎焰刀法",
+    "Hard": 1.0,
+    "SkillAptitudePerLevel": "精良刀法每级资质成长",
+    "AttrTemplate": "精良刀法模板",
+    "NormalFormId": "基础刀法普攻",
+    "AdvanceForms": [
+      {
+        "FormId": "烈风焰刀",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "虎焰刀势",
+        "UnlockLevel": 5
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "刀法资质",
+        "ValueToCompare": 10,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 5,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "河洛刀法",
+    "Name": {
+      "key": "i18/skill/name16",
+      "text": "河洛刀法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 3,
+    "CompatibleRuleId": "刀",
+    "DefaultWeaponItemId": "普通刀",
+    "ItemLevel": 2,
+    "IdleFileName": "虎焰刀法",
+    "SprintFileName": "",
+    "Pic": "虎焰刀法",
+    "Hard": 1.0,
+    "SkillAptitudePerLevel": "精良刀法每级资质成长",
+    "AttrTemplate": "精良刀法模板",
+    "NormalFormId": "基础刀法普攻",
+    "AdvanceForms": [
+      {
+        "FormId": "烈风焰刀",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "虎焰刀势",
+        "UnlockLevel": 5
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "刀法资质",
+        "ValueToCompare": 10,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 5,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "毒砂掌",
+    "Name": {
+      "key": "i18/skill/name17",
+      "text": "毒砂掌"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
     "SubSkillType": 4,
     "CompatibleRuleId": "拳",
-    "DefaultWeaponItemId": "普通爪",
+    "DefaultWeaponItemId": "普通手套",
     "ItemLevel": 2,
-    "IdleFileName": "狼爪功",
+    "IdleFileName": "伏虎掌法",
     "SprintFileName": "",
-    "Pic": "狼爪功",
-    "Hard": 1.05,
+    "Pic": "伏虎掌法",
+    "Hard": 1.0,
     "SkillAptitudePerLevel": "精良拳法每级资质成长",
-    "AttrTemplate": "精良爪法模板",
-    "NormalFormId": "血爪击",
+    "AttrTemplate": "精良拳法模板",
+    "NormalFormId": "基础拳法普攻",
     "AdvanceForms": [
       {
-        "FormId": "狼影血爪",
+        "FormId": "伏虎掌",
         "UnlockLevel": 1
       },
       {
-        "FormId": "狼影暴舞",
-        "UnlockLevel": 5
+        "FormId": "虎骨强体",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "伏虎威压",
+        "UnlockLevel": 10
       }
     ],
     "LearnConditions": [
@@ -662,370 +666,44 @@
     ]
   },
   {
-    "Id": "烧火棍法",
+    "Id": "华山拳法",
     "Name": {
-      "key": "i18/wuxue/name/17",
-      "text": "烧火棍法"
+      "key": "i18/skill/name18",
+      "text": "华山拳法"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/17",
-      "text": "烧火棍法"
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
-    "SubSkillType": 1,
-    "CompatibleRuleId": "长柄",
-    "DefaultWeaponItemId": "普通棍",
+    "SubSkillType": 4,
+    "CompatibleRuleId": "拳",
+    "DefaultWeaponItemId": "普通手套",
     "ItemLevel": 2,
-    "IdleFileName": "烧火棍法",
+    "IdleFileName": "伏虎掌法",
     "SprintFileName": "",
-    "Pic": "烧火棍法",
-    "Hard": 1.05,
-    "SkillAptitudePerLevel": "精良棍法每级资质成长",
-    "AttrTemplate": "精良棍法模板",
-    "NormalFormId": "基础棍法普攻",
+    "Pic": "伏虎掌法",
+    "Hard": 1.0,
+    "SkillAptitudePerLevel": "精良拳法每级资质成长",
+    "AttrTemplate": "精良拳法模板",
+    "NormalFormId": "基础拳法普攻",
     "AdvanceForms": [
       {
-        "FormId": "挑火",
-        "UnlockLevel": 1
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "棍法资质",
-        "ValueToCompare": 10,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 5,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "基础内功",
-    "Name": {
-      "key": "i18/wuxue/name/18",
-      "text": "基础内功"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/18",
-      "text": "基础内功"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 1,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "基础内功",
-    "Hard": 0.8,
-    "SkillAptitudePerLevel": "普通内功每级资质成长",
-    "AttrTemplate": "普通内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 1,
-        "$type": "SC_RoleAttr"
-      }
-    ]
-  },
-  {
-    "Id": "血河大法",
-    "Name": {
-      "key": "i18/wuxue/name/19",
-      "text": "血河大法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/19",
-      "text": "血河大法"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 2,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "血河大法",
-    "Hard": 1.1,
-    "SkillAptitudePerLevel": "精良内功每级资质成长",
-    "AttrTemplate": "精良内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "血潮涌动",
+        "FormId": "伏虎掌",
         "UnlockLevel": 1
       },
       {
-        "FormId": "气海浩荡",
-        "UnlockLevel": 5
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 5,
-        "$type": "SC_RoleAttr"
-      }
-    ]
-  },
-  {
-    "Id": "少林心法",
-    "Name": {
-      "key": "i18/wuxue/name/20",
-      "text": "少林心法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/20",
-      "text": "少林心法"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 2,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "少林心法",
-    "Hard": 1.1,
-    "SkillAptitudePerLevel": "精良内功每级资质成长",
-    "AttrTemplate": "精良内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 8,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 3,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "降魔心法",
-    "Name": {
-      "key": "i18/wuxue/name/21",
-      "text": "降魔心法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/21",
-      "text": "降魔心法"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 3,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "降魔心法",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "稀有内功每级资质成长",
-    "AttrTemplate": "稀有内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "气力雄厚",
+        "FormId": "虎骨强体",
         "UnlockLevel": 3
       },
       {
-        "FormId": "身似铁打",
-        "UnlockLevel": 6
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "罗汉伏魔心法",
-    "Name": {
-      "key": "i18/wuxue/name/22",
-      "text": "罗汉伏魔心法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/22",
-      "text": "罗汉伏魔心法"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 4,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "罗汉伏魔心法",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "史诗内功每级资质成长",
-    "AttrTemplate": "史诗内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "气海浩荡",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "魔念不侵",
-        "UnlockLevel": 6
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 60,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 20,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "易筋经",
-    "Name": {
-      "key": "i18/wuxue/name/23",
-      "text": "易筋经"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/23",
-      "text": "易筋经"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 5,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "易筋经",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "传说内功每级资质成长",
-    "AttrTemplate": "传说内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "洗筋伐髓",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "气沉丹田",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "钢筋铁骨",
-        "UnlockLevel": 6
-      },
-      {
-        "FormId": "以气御身",
+        "FormId": "伏虎威压",
         "UnlockLevel": 10
       }
     ],
     "LearnConditions": [
       {
-        "AttrId": "内功资质",
-        "ValueToCompare": 100,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 25,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "扔肉包",
-    "Name": {
-      "key": "i18/wuxue/name/24",
-      "text": "投掷肉包"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/24",
-      "text": "肉包扔得准也是一门技术"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 3,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "扔肉包",
-    "Hard": 0.75,
-    "SkillAptitudePerLevel": "精良内功每级资质成长",
-    "AttrTemplate": "精良治疗内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "扔肉包",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "更多肉包",
-        "UnlockLevel": 5
-      },
-      {
-        "FormId": "灌汤肉包",
-        "UnlockLevel": 9
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 5,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "潜龙心法",
-    "Name": {
-      "key": "i18/wuxue/name/25",
-      "text": "潜龙心法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/25",
-      "text": "龙湾门人人必备的基础心法"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 2,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "潜龙心法",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "精良内功每级资质成长",
-    "AttrTemplate": "精良内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "潜龙术",
-        "UnlockLevel": 1
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
+        "AttrId": "拳法资质",
         "ValueToCompare": 10,
         "$type": "SC_RoleAttr"
       },
@@ -1036,76 +714,44 @@
     ]
   },
   {
-    "Id": "回春决",
+    "Id": "灵蛇掌法",
     "Name": {
-      "key": "i18/wuxue/name/26",
-      "text": "回春决"
+      "key": "i18/skill/name19",
+      "text": "灵蛇掌法"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/26",
-      "text": "江湖常见的恢复术"
+      "key": "",
+      "text": ""
     },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
+    "SkillType": 0,
+    "SubSkillType": 4,
+    "CompatibleRuleId": "拳",
+    "DefaultWeaponItemId": "普通手套",
     "ItemLevel": 2,
-    "IdleFileName": "",
+    "IdleFileName": "伏虎掌法",
     "SprintFileName": "",
-    "Pic": "回春决",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "精良内功每级资质成长",
-    "AttrTemplate": "精良治疗内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "枯木逢春",
-        "UnlockLevel": 1
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 10,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 5,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "回春决_弱",
-    "Name": {
-      "key": "i18/wuxue/name/27",
-      "text": "回春决·残缺"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/27",
-      "text": "江湖常见的恢复术，不过是残缺版本"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 1,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "回春决_弱",
+    "Pic": "伏虎掌法",
     "Hard": 1.0,
-    "SkillAptitudePerLevel": "普通内功每级资质成长",
-    "AttrTemplate": "普通治疗内功模板",
-    "NormalFormId": "",
+    "SkillAptitudePerLevel": "精良拳法每级资质成长",
+    "AttrTemplate": "精良拳法模板",
+    "NormalFormId": "基础拳法普攻",
     "AdvanceForms": [
       {
-        "FormId": "枯木逢春",
+        "FormId": "伏虎掌",
         "UnlockLevel": 1
+      },
+      {
+        "FormId": "虎骨强体",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "伏虎威压",
+        "UnlockLevel": 10
       }
     ],
     "LearnConditions": [
       {
-        "AttrId": "内功资质",
+        "AttrId": "拳法资质",
         "ValueToCompare": 10,
         "$type": "SC_RoleAttr"
       },
@@ -1116,14 +762,158 @@
     ]
   },
   {
-    "Id": "青木功法",
+    "Id": "武当掌法",
     "Name": {
-      "key": "i18/wuxue/name/28",
-      "text": "青木功法"
+      "key": "i18/skill/name20",
+      "text": "武当掌法"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/28",
-      "text": "一种传递内力的功法"
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 4,
+    "CompatibleRuleId": "拳",
+    "DefaultWeaponItemId": "普通手套",
+    "ItemLevel": 2,
+    "IdleFileName": "伏虎掌法",
+    "SprintFileName": "",
+    "Pic": "伏虎掌法",
+    "Hard": 1.0,
+    "SkillAptitudePerLevel": "精良拳法每级资质成长",
+    "AttrTemplate": "精良拳法模板",
+    "NormalFormId": "基础拳法普攻",
+    "AdvanceForms": [
+      {
+        "FormId": "伏虎掌",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "虎骨强体",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "伏虎威压",
+        "UnlockLevel": 10
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "拳法资质",
+        "ValueToCompare": 10,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 5,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "乞丐拳法",
+    "Name": {
+      "key": "i18/skill/name21",
+      "text": "乞丐拳法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 4,
+    "CompatibleRuleId": "拳",
+    "DefaultWeaponItemId": "普通手套",
+    "ItemLevel": 2,
+    "IdleFileName": "伏虎掌法",
+    "SprintFileName": "",
+    "Pic": "伏虎掌法",
+    "Hard": 1.0,
+    "SkillAptitudePerLevel": "精良拳法每级资质成长",
+    "AttrTemplate": "精良拳法模板",
+    "NormalFormId": "基础拳法普攻",
+    "AdvanceForms": [
+      {
+        "FormId": "伏虎掌",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "虎骨强体",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "伏虎威压",
+        "UnlockLevel": 10
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "拳法资质",
+        "ValueToCompare": 10,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 5,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "罗汉拳法",
+    "Name": {
+      "key": "i18/skill/name22",
+      "text": "罗汉拳法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 4,
+    "CompatibleRuleId": "拳",
+    "DefaultWeaponItemId": "普通手套",
+    "ItemLevel": 2,
+    "IdleFileName": "伏虎掌法",
+    "SprintFileName": "",
+    "Pic": "伏虎掌法",
+    "Hard": 1.0,
+    "SkillAptitudePerLevel": "精良拳法每级资质成长",
+    "AttrTemplate": "精良拳法模板",
+    "NormalFormId": "基础拳法普攻",
+    "AdvanceForms": [
+      {
+        "FormId": "伏虎掌",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "虎骨强体",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "伏虎威压",
+        "UnlockLevel": 10
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "拳法资质",
+        "ValueToCompare": 10,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 5,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "江湖心法",
+    "Name": {
+      "key": "i18/skill/name23",
+      "text": "江湖心法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
     },
     "SkillType": 1,
     "SubSkillType": 7,
@@ -1133,7 +923,7 @@
     "IdleFileName": "",
     "SprintFileName": "",
     "Pic": "青木功法",
-    "Hard": 1.35,
+    "Hard": 1.0,
     "SkillAptitudePerLevel": "精良内功每级资质成长",
     "AttrTemplate": "精良内功模板",
     "NormalFormId": "",
@@ -1150,50 +940,6 @@
     "LearnConditions": [
       {
         "AttrId": "内功资质",
-        "ValueToCompare": 8,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 3,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "神女心经",
-    "Name": {
-      "key": "i18/wuxue/name/29",
-      "text": "神女心经"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/29",
-      "text": "群体增益"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 2,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "神女心经",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "精良内功每级资质成长",
-    "AttrTemplate": "精良内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "月华如练",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "巫山洛水",
-        "UnlockLevel": 5
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
         "ValueToCompare": 10,
         "$type": "SC_RoleAttr"
       },
@@ -1204,305 +950,14 @@
     ]
   },
   {
-    "Id": "从龙秘术",
+    "Id": "江湖身法",
     "Name": {
-      "key": "i18/wuxue/name/30",
-      "text": "从龙秘术"
+      "key": "i18/skill/name24",
+      "text": "江湖身法"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/30",
-      "text": "龙湾门仆从的心法口诀"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 3,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "从龙秘术",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "精良内功每级资质成长",
-    "AttrTemplate": "精良内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "从龙诀",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "从龙之术",
-        "UnlockLevel": 5
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 11,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 6,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "寒玉诀",
-    "Name": {
-      "key": "i18/wuxue/name/31",
-      "text": "寒玉诀"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/31",
-      "text": "寒玉诀"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 3,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "寒玉诀",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "稀有内功每级资质成长",
-    "AttrTemplate": "稀有内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "寒气冻魂",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "寒玉翠凛",
-        "UnlockLevel": 5
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "龟岩气功",
-    "Name": {
-      "key": "i18/wuxue/name/32",
-      "text": "龟岩气功"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/32",
-      "text": "龟岩气功"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 3,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "龟岩气功",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "稀有内功每级资质成长",
-    "AttrTemplate": "稀有内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "龟岩防御",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "岩石之躯",
-        "UnlockLevel": 5
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "水鳞真诀",
-    "Name": {
-      "key": "i18/wuxue/name/33",
-      "text": "水鳞真诀"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/33",
-      "text": "水鳞真诀"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 3,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "水鳞真诀",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "稀有内功每级资质成长",
-    "AttrTemplate": "稀有内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "水鳞诀",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "水鳞诀精通",
-        "UnlockLevel": 6
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "涵阳心法",
-    "Name": {
-      "key": "i18/wuxue/name/34",
-      "text": "涵阳心法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/34",
-      "text": "涵阳心法"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 3,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "涵阳心法",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "稀有内功每级资质成长",
-    "AttrTemplate": "稀有内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "涵阳法",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "涵阳法精通",
-        "UnlockLevel": 6
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "阴阳护体功",
-    "Name": {
-      "key": "i18/wuxue/name/35",
-      "text": "阴阳护体功"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/35",
-      "text": "阴阳护体功"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 3,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "阴阳护体功",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "稀有内功每级资质成长",
-    "AttrTemplate": "稀有内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "阴阳生息",
-        "UnlockLevel": 3
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "基础身法",
-    "Name": {
-      "key": "i18/wuxue/name/36",
-      "text": "基础身法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/36",
-      "text": "基础身法"
-    },
-    "SkillType": 2,
-    "SubSkillType": 6,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 1,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "基础身法",
-    "Hard": 0.8,
-    "SkillAptitudePerLevel": "普通轻功每级资质成长",
-    "AttrTemplate": "普通轻功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [],
-    "LearnConditions": [
-      {
-        "AttrId": "轻功资质",
-        "ValueToCompare": 1,
-        "$type": "SC_RoleAttr"
-      }
-    ]
-  },
-  {
-    "Id": "轻身术",
-    "Name": {
-      "key": "i18/wuxue/name/37",
-      "text": "轻身术"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/37",
-      "text": "轻身术"
+      "key": "",
+      "text": ""
     },
     "SkillType": 2,
     "SubSkillType": 6,
@@ -1535,26 +990,926 @@
     ]
   },
   {
-    "Id": "少林身法",
+    "Id": "罗汉棍法",
     "Name": {
-      "key": "i18/wuxue/name/38",
-      "text": "少林身法"
+      "key": "i18/skill/name25",
+      "text": "罗汉棍法"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/38",
-      "text": "少林身法"
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 1,
+    "CompatibleRuleId": "长柄",
+    "DefaultWeaponItemId": "普通棍",
+    "ItemLevel": 3,
+    "IdleFileName": "回首棍法",
+    "SprintFileName": "",
+    "Pic": "回首棍法",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有棍法每级资质成长",
+    "AttrTemplate": "稀有棍法模板",
+    "NormalFormId": "回首棍",
+    "AdvanceForms": [
+      {
+        "FormId": "拨云见日",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "固若金汤",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "回首一棍",
+        "UnlockLevel": 8
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "棍法资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "千钧棍法",
+    "Name": {
+      "key": "i18/skill/name26",
+      "text": "千钧棍法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 1,
+    "CompatibleRuleId": "长柄",
+    "DefaultWeaponItemId": "普通棍",
+    "ItemLevel": 3,
+    "IdleFileName": "回首棍法",
+    "SprintFileName": "",
+    "Pic": "回首棍法",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有棍法每级资质成长",
+    "AttrTemplate": "稀有棍法模板",
+    "NormalFormId": "回首棍",
+    "AdvanceForms": [
+      {
+        "FormId": "拨云见日",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "固若金汤",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "回首一棍",
+        "UnlockLevel": 8
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "棍法资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "天山杖法",
+    "Name": {
+      "key": "i18/skill/name27",
+      "text": "天山杖法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 1,
+    "CompatibleRuleId": "长柄",
+    "DefaultWeaponItemId": "普通棍",
+    "ItemLevel": 3,
+    "IdleFileName": "回首棍法",
+    "SprintFileName": "",
+    "Pic": "回首棍法",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有棍法每级资质成长",
+    "AttrTemplate": "稀有棍法模板",
+    "NormalFormId": "回首棍",
+    "AdvanceForms": [
+      {
+        "FormId": "拨云见日",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "固若金汤",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "回首一棍",
+        "UnlockLevel": 8
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "棍法资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "一字电剑",
+    "Name": {
+      "key": "i18/skill/name28",
+      "text": "一字电剑"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 2,
+    "CompatibleRuleId": "剑",
+    "DefaultWeaponItemId": "普通剑",
+    "ItemLevel": 3,
+    "IdleFileName": "水蛇剑法",
+    "SprintFileName": "",
+    "Pic": "水蛇剑法",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有剑法每级资质成长",
+    "AttrTemplate": "稀有剑法模板",
+    "NormalFormId": "水蛇吻",
+    "AdvanceForms": [
+      {
+        "FormId": "水蛇舞",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "水蛇之姿",
+        "UnlockLevel": 3
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "剑法资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "夺命连环三仙剑",
+    "Name": {
+      "key": "i18/skill/name29",
+      "text": "夺命连环三仙剑"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 2,
+    "CompatibleRuleId": "剑",
+    "DefaultWeaponItemId": "普通剑",
+    "ItemLevel": 3,
+    "IdleFileName": "水蛇剑法",
+    "SprintFileName": "",
+    "Pic": "水蛇剑法",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有剑法每级资质成长",
+    "AttrTemplate": "稀有剑法模板",
+    "NormalFormId": "水蛇吻",
+    "AdvanceForms": [
+      {
+        "FormId": "水蛇舞",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "水蛇之姿",
+        "UnlockLevel": 3
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "剑法资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "重阳剑法",
+    "Name": {
+      "key": "i18/skill/name30",
+      "text": "重阳剑法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 2,
+    "CompatibleRuleId": "剑",
+    "DefaultWeaponItemId": "普通剑",
+    "ItemLevel": 3,
+    "IdleFileName": "水蛇剑法",
+    "SprintFileName": "",
+    "Pic": "水蛇剑法",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有剑法每级资质成长",
+    "AttrTemplate": "稀有剑法模板",
+    "NormalFormId": "水蛇吻",
+    "AdvanceForms": [
+      {
+        "FormId": "水蛇舞",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "水蛇之姿",
+        "UnlockLevel": 3
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "剑法资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "回风落雁剑",
+    "Name": {
+      "key": "i18/skill/name31",
+      "text": "回风落雁剑"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 2,
+    "CompatibleRuleId": "剑",
+    "DefaultWeaponItemId": "普通剑",
+    "ItemLevel": 3,
+    "IdleFileName": "水蛇剑法",
+    "SprintFileName": "",
+    "Pic": "水蛇剑法",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有剑法每级资质成长",
+    "AttrTemplate": "稀有剑法模板",
+    "NormalFormId": "水蛇吻",
+    "AdvanceForms": [
+      {
+        "FormId": "水蛇舞",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "水蛇之姿",
+        "UnlockLevel": 3
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "剑法资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "柔云剑法",
+    "Name": {
+      "key": "i18/skill/name32",
+      "text": "柔云剑法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 2,
+    "CompatibleRuleId": "剑",
+    "DefaultWeaponItemId": "普通剑",
+    "ItemLevel": 3,
+    "IdleFileName": "水蛇剑法",
+    "SprintFileName": "",
+    "Pic": "水蛇剑法",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有剑法每级资质成长",
+    "AttrTemplate": "稀有剑法模板",
+    "NormalFormId": "水蛇吻",
+    "AdvanceForms": [
+      {
+        "FormId": "水蛇舞",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "水蛇之姿",
+        "UnlockLevel": 3
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "剑法资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "狂风刀法",
+    "Name": {
+      "key": "i18/skill/name33",
+      "text": "狂风刀法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 3,
+    "CompatibleRuleId": "刀",
+    "DefaultWeaponItemId": "普通刀",
+    "ItemLevel": 3,
+    "IdleFileName": "破风刀法",
+    "SprintFileName": "",
+    "Pic": "破风刀法",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有刀法每级资质成长",
+    "AttrTemplate": "稀有刀法模板",
+    "NormalFormId": "破风击",
+    "AdvanceForms": [
+      {
+        "FormId": "破风式斩",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "破风式痕",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "风影千重斩",
+        "UnlockLevel": 10
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "刀法资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "金乌刀法",
+    "Name": {
+      "key": "i18/skill/name34",
+      "text": "金乌刀法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 3,
+    "CompatibleRuleId": "刀",
+    "DefaultWeaponItemId": "普通刀",
+    "ItemLevel": 3,
+    "IdleFileName": "火钳刀法",
+    "SprintFileName": "",
+    "Pic": "火钳刀法",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有刀法每级资质成长",
+    "AttrTemplate": "稀有刀法模板",
+    "NormalFormId": "基础刀法普攻",
+    "AdvanceForms": [
+      {
+        "FormId": "夹火刀",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "火钳不留命",
+        "UnlockLevel": 5
+      },
+      {
+        "FormId": "火钳留命",
+        "UnlockLevel": 10
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "刀法资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "霹雳刀法",
+    "Name": {
+      "key": "i18/skill/name35",
+      "text": "霹雳刀法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 3,
+    "CompatibleRuleId": "刀",
+    "DefaultWeaponItemId": "普通刀",
+    "ItemLevel": 3,
+    "IdleFileName": "火钳刀法",
+    "SprintFileName": "",
+    "Pic": "火钳刀法",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有刀法每级资质成长",
+    "AttrTemplate": "稀有刀法模板",
+    "NormalFormId": "基础刀法普攻",
+    "AdvanceForms": [
+      {
+        "FormId": "夹火刀",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "火钳不留命",
+        "UnlockLevel": 5
+      },
+      {
+        "FormId": "火钳留命",
+        "UnlockLevel": 10
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "刀法资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "绵掌",
+    "Name": {
+      "key": "i18/skill/name36",
+      "text": "绵掌"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 4,
+    "CompatibleRuleId": "拳",
+    "DefaultWeaponItemId": "普通手套",
+    "ItemLevel": 3,
+    "IdleFileName": "春风化雨掌",
+    "SprintFileName": "",
+    "Pic": "春风化雨掌",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有拳法每级资质成长",
+    "AttrTemplate": "稀有拳法模板",
+    "NormalFormId": "基础拳法普攻",
+    "AdvanceForms": [
+      {
+        "FormId": "春风拂柳",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "细雨润花",
+        "UnlockLevel": 5
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "拳法资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "伏虎掌法",
+    "Name": {
+      "key": "i18/skill/name37",
+      "text": "伏虎掌法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 4,
+    "CompatibleRuleId": "拳",
+    "DefaultWeaponItemId": "普通手套",
+    "ItemLevel": 3,
+    "IdleFileName": "春风化雨掌",
+    "SprintFileName": "",
+    "Pic": "春风化雨掌",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有拳法每级资质成长",
+    "AttrTemplate": "稀有拳法模板",
+    "NormalFormId": "基础拳法普攻",
+    "AdvanceForms": [
+      {
+        "FormId": "春风拂柳",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "细雨润花",
+        "UnlockLevel": 5
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "拳法资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "铜锤手",
+    "Name": {
+      "key": "i18/skill/name38",
+      "text": "铜锤手"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 4,
+    "CompatibleRuleId": "拳",
+    "DefaultWeaponItemId": "普通手套",
+    "ItemLevel": 3,
+    "IdleFileName": "春风化雨掌",
+    "SprintFileName": "",
+    "Pic": "春风化雨掌",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有拳法每级资质成长",
+    "AttrTemplate": "稀有拳法模板",
+    "NormalFormId": "基础拳法普攻",
+    "AdvanceForms": [
+      {
+        "FormId": "春风拂柳",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "细雨润花",
+        "UnlockLevel": 5
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "拳法资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "般若掌",
+    "Name": {
+      "key": "i18/skill/name39",
+      "text": "般若掌"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 4,
+    "CompatibleRuleId": "拳",
+    "DefaultWeaponItemId": "普通手套",
+    "ItemLevel": 3,
+    "IdleFileName": "春风化雨掌",
+    "SprintFileName": "",
+    "Pic": "春风化雨掌",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有拳法每级资质成长",
+    "AttrTemplate": "稀有拳法模板",
+    "NormalFormId": "基础拳法普攻",
+    "AdvanceForms": [
+      {
+        "FormId": "春风拂柳",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "细雨润花",
+        "UnlockLevel": 5
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "拳法资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "五毒掌法",
+    "Name": {
+      "key": "i18/skill/name40",
+      "text": "五毒掌法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 4,
+    "CompatibleRuleId": "拳",
+    "DefaultWeaponItemId": "普通手套",
+    "ItemLevel": 3,
+    "IdleFileName": "春风化雨掌",
+    "SprintFileName": "",
+    "Pic": "春风化雨掌",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有拳法每级资质成长",
+    "AttrTemplate": "稀有拳法模板",
+    "NormalFormId": "基础拳法普攻",
+    "AdvanceForms": [
+      {
+        "FormId": "春风拂柳",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "细雨润花",
+        "UnlockLevel": 5
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "拳法资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "龙虎心法",
+    "Name": {
+      "key": "i18/skill/name41",
+      "text": "龙虎心法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 1,
+    "SubSkillType": 7,
+    "CompatibleRuleId": "",
+    "DefaultWeaponItemId": "",
+    "ItemLevel": 3,
+    "IdleFileName": "",
+    "SprintFileName": "",
+    "Pic": "浩然正气诀",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有内功每级资质成长",
+    "AttrTemplate": "稀有内功模板",
+    "NormalFormId": "",
+    "AdvanceForms": [
+      {
+        "FormId": "浩然之气",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "朗朗乾坤",
+        "UnlockLevel": 5
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "内功资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "恒山心法",
+    "Name": {
+      "key": "i18/skill/name42",
+      "text": "恒山心法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 1,
+    "SubSkillType": 7,
+    "CompatibleRuleId": "",
+    "DefaultWeaponItemId": "",
+    "ItemLevel": 3,
+    "IdleFileName": "",
+    "SprintFileName": "",
+    "Pic": "草木枯元功",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有内功每级资质成长",
+    "AttrTemplate": "稀有内功模板",
+    "NormalFormId": "",
+    "AdvanceForms": [
+      {
+        "FormId": "露滴养心",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "铁杉护体",
+        "UnlockLevel": 5
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "内功资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "铁布衫",
+    "Name": {
+      "key": "i18/skill/name43",
+      "text": "铁布衫"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 1,
+    "SubSkillType": 7,
+    "CompatibleRuleId": "",
+    "DefaultWeaponItemId": "",
+    "ItemLevel": 3,
+    "IdleFileName": "",
+    "SprintFileName": "",
+    "Pic": "阴阳护体功",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有内功每级资质成长",
+    "AttrTemplate": "稀有内功模板",
+    "NormalFormId": "",
+    "AdvanceForms": [
+      {
+        "FormId": "阴阳生息",
+        "UnlockLevel": 3
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "内功资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "寒冰心法",
+    "Name": {
+      "key": "i18/skill/name44",
+      "text": "寒冰心法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 1,
+    "SubSkillType": 7,
+    "CompatibleRuleId": "",
+    "DefaultWeaponItemId": "",
+    "ItemLevel": 3,
+    "IdleFileName": "",
+    "SprintFileName": "",
+    "Pic": "水鳞真诀",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有内功每级资质成长",
+    "AttrTemplate": "稀有内功模板",
+    "NormalFormId": "",
+    "AdvanceForms": [
+      {
+        "FormId": "水鳞诀",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "水鳞诀精通",
+        "UnlockLevel": 6
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "内功资质",
+        "ValueToCompare": 30,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 10,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "游龙身法",
+    "Name": {
+      "key": "i18/skill/name45",
+      "text": "游龙身法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
     },
     "SkillType": 2,
     "SubSkillType": 6,
     "CompatibleRuleId": "",
     "DefaultWeaponItemId": "",
-    "ItemLevel": 2,
+    "ItemLevel": 3,
     "IdleFileName": "",
     "SprintFileName": "Baise/TY_Sprint.prefab",
     "Pic": "少林身法",
-    "Hard": 1.0,
-    "SkillAptitudePerLevel": "精良轻功每级资质成长",
-    "AttrTemplate": "精良轻功模板",
+    "Hard": 1.2,
+    "SkillAptitudePerLevel": "稀有轻功每级资质成长",
+    "AttrTemplate": "稀有轻功模板",
     "NormalFormId": "",
     "AdvanceForms": [
       {
@@ -1565,24 +1920,24 @@
     "LearnConditions": [
       {
         "AttrId": "轻功资质",
-        "ValueToCompare": 8,
+        "ValueToCompare": 30,
         "$type": "SC_RoleAttr"
       },
       {
-        "ValueToCompare": 3,
+        "ValueToCompare": 10,
         "$type": "SC_RoleLevel"
       }
     ]
   },
   {
-    "Id": "追风步法",
+    "Id": "云雾十三式",
     "Name": {
-      "key": "i18/wuxue/name/39",
-      "text": "追风步"
+      "key": "i18/skill/name46",
+      "text": "云雾十三式"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/39",
-      "text": "追风步法"
+      "key": "",
+      "text": ""
     },
     "SkillType": 2,
     "SubSkillType": 6,
@@ -1619,70 +1974,26 @@
     ]
   },
   {
-    "Id": "醉蝶舞",
+    "Id": "罗汉伏魔棍法",
     "Name": {
-      "key": "i18/wuxue/name/40",
-      "text": "醉蝶舞"
+      "key": "i18/skill/name47",
+      "text": "罗汉伏魔棍法"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/40",
-      "text": "醉蝶舞"
-    },
-    "SkillType": 2,
-    "SubSkillType": 6,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 5,
-    "IdleFileName": "",
-    "SprintFileName": "Baise/TY_Sprint.prefab",
-    "Pic": "醉蝶舞",
-    "Hard": 1.4,
-    "SkillAptitudePerLevel": "传说轻功每级资质成长",
-    "AttrTemplate": "传说轻功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "醉花阴",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "蝶恋花",
-        "UnlockLevel": 10
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "轻功资质",
-        "ValueToCompare": 100,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 25,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "盘龙棍法",
-    "Name": {
-      "key": "i18/wuxue/name/41",
-      "text": "盘龙棍"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/41",
-      "text": "盘龙棍"
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
     "SubSkillType": 1,
     "CompatibleRuleId": "长柄",
     "DefaultWeaponItemId": "普通棍",
-    "ItemLevel": 2,
+    "ItemLevel": 4,
     "IdleFileName": "盘龙棍法",
     "SprintFileName": "",
     "Pic": "盘龙棍法",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "精良棍法每级资质成长",
-    "AttrTemplate": "精良棍法模板",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗棍法每级资质成长",
+    "AttrTemplate": "史诗棍法模板",
     "NormalFormId": "基础棍法普攻",
     "AdvanceForms": [
       {
@@ -1693,156 +2004,36 @@
     "LearnConditions": [
       {
         "AttrId": "棍法资质",
-        "ValueToCompare": 10,
+        "ValueToCompare": 60,
         "$type": "SC_RoleAttr"
       },
       {
-        "ValueToCompare": 5,
+        "ValueToCompare": 20,
         "$type": "SC_RoleLevel"
       }
     ]
   },
   {
-    "Id": "盘龙棍法_改",
+    "Id": "韦陀杵",
     "Name": {
-      "key": "i18/wuxue/name/42",
-      "text": "盘龙棍"
+      "key": "i18/skill/name48",
+      "text": "韦陀杵"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/42",
-      "text": "对敌使用的盘龙棍法，属性上要弱一点"
-    },
-    "SkillType": 0,
-    "SubSkillType": 1,
-    "CompatibleRuleId": "长柄",
-    "DefaultWeaponItemId": "普通棍",
-    "ItemLevel": 2,
-    "IdleFileName": "盘龙棍法",
-    "SprintFileName": "",
-    "Pic": "盘龙棍法",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "普通棍法每级资质成长",
-    "AttrTemplate": "普通棍法模板",
-    "NormalFormId": "基础棍法普攻",
-    "AdvanceForms": [
-      {
-        "FormId": "龙扫尾",
-        "UnlockLevel": 1
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "棍法资质",
-        "ValueToCompare": 10,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 5,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "杀猪刀法",
-    "Name": {
-      "key": "i18/wuxue/name/43",
-      "text": "杀猪刀法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/43",
-      "text": "非常适合对付野猪的刀法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 3,
-    "CompatibleRuleId": "刀",
-    "DefaultWeaponItemId": "普通刀",
-    "ItemLevel": 2,
-    "IdleFileName": "杀猪刀法",
-    "SprintFileName": "",
-    "Pic": "杀猪刀法",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "精良刀法每级资质成长",
-    "AttrTemplate": "精良刀法模板",
-    "NormalFormId": "屠宰",
-    "AdvanceForms": [
-      {
-        "FormId": "放血",
-        "UnlockLevel": 1
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "刀法资质",
-        "ValueToCompare": 10,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 5,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "杀猪刀法_弱",
-    "Name": {
-      "key": "i18/wuxue/name/44",
-      "text": "杀猪刀法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/44",
-      "text": "非常适合对付野猪的刀法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 3,
-    "CompatibleRuleId": "刀",
-    "DefaultWeaponItemId": "普通刀",
-    "ItemLevel": 2,
-    "IdleFileName": "杀猪刀法",
-    "SprintFileName": "",
-    "Pic": "杀猪刀法",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "普通刀法每级资质成长",
-    "AttrTemplate": "普通刀法模板",
-    "NormalFormId": "屠宰",
-    "AdvanceForms": [
-      {
-        "FormId": "放血",
-        "UnlockLevel": 1
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "刀法资质",
-        "ValueToCompare": 10,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 5,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "蛟龙枪法",
-    "Name": {
-      "key": "i18/wuxue/name/45",
-      "text": "蛟龙枪法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/45",
-      "text": "东方豚在盘龙棍法上自行改造并领悟的一套枪法"
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
     "SubSkillType": 1,
     "CompatibleRuleId": "长柄",
     "DefaultWeaponItemId": "普通枪",
-    "ItemLevel": 2,
+    "ItemLevel": 4,
     "IdleFileName": "蛟龙枪法",
     "SprintFileName": "",
     "Pic": "蛟龙枪法",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "精良枪法每级资质成长",
-    "AttrTemplate": "精良枪法模板",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗枪法每级资质成长",
+    "AttrTemplate": "史诗枪法模板",
     "NormalFormId": "基础枪法普攻",
     "AdvanceForms": [
       {
@@ -1853,93 +2044,285 @@
     "LearnConditions": [
       {
         "AttrId": "棍法资质",
-        "ValueToCompare": 10,
+        "ValueToCompare": 60,
         "$type": "SC_RoleAttr"
       },
       {
-        "ValueToCompare": 5,
+        "ValueToCompare": 20,
         "$type": "SC_RoleLevel"
       }
     ]
   },
   {
-    "Id": "水蛇剑法",
+    "Id": "达摩剑法",
     "Name": {
-      "key": "i18/wuxue/name/46",
-      "text": "水蛇剑法"
+      "key": "i18/skill/name49",
+      "text": "达摩剑法"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/46",
-      "text": "此剑法善于利用妖媚的姿态和剑招来引诱对手，使其陷入错觉和沉迷之中。然后在对手放松警惕的瞬间，以快速而致命的一击结束战斗"
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
     "SubSkillType": 2,
     "CompatibleRuleId": "剑",
     "DefaultWeaponItemId": "普通剑",
-    "ItemLevel": 3,
-    "IdleFileName": "水蛇剑法",
+    "ItemLevel": 4,
+    "IdleFileName": "迷踪无影剑",
     "SprintFileName": "",
-    "Pic": "水蛇剑法",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "稀有剑法每级资质成长",
-    "AttrTemplate": "稀有剑法模板",
-    "NormalFormId": "水蛇吻",
+    "Pic": "迷踪无影剑",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗剑法每级资质成长",
+    "AttrTemplate": "史诗剑法模板",
+    "NormalFormId": "迷踪剑",
     "AdvanceForms": [
       {
-        "FormId": "水蛇舞",
+        "FormId": "无影剑",
         "UnlockLevel": 1
       },
       {
-        "FormId": "水蛇之姿",
+        "FormId": "暗影之力",
         "UnlockLevel": 3
+      },
+      {
+        "FormId": "暗藏杀机",
+        "UnlockLevel": 6
+      },
+      {
+        "FormId": "血影重重",
+        "UnlockLevel": 10
       }
     ],
     "LearnConditions": [
       {
         "AttrId": "剑法资质",
-        "ValueToCompare": 30,
+        "ValueToCompare": 60,
         "$type": "SC_RoleAttr"
       },
       {
-        "ValueToCompare": 10,
+        "ValueToCompare": 20,
         "$type": "SC_RoleLevel"
       }
     ]
   },
   {
-    "Id": "疾风烈焰掌",
+    "Id": "玉箫剑法",
     "Name": {
-      "key": "i18/wuxue/name/47",
-      "text": "疾风烈焰掌"
+      "key": "i18/skill/name50",
+      "text": "玉箫剑法"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/47",
-      "text": "虎焰门秘传武学，此功法会让修炼者在战斗中越战越勇"
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 2,
+    "CompatibleRuleId": "剑",
+    "DefaultWeaponItemId": "普通剑",
+    "ItemLevel": 4,
+    "IdleFileName": "迷踪无影剑",
+    "SprintFileName": "",
+    "Pic": "迷踪无影剑",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗剑法每级资质成长",
+    "AttrTemplate": "史诗剑法模板",
+    "NormalFormId": "迷踪剑",
+    "AdvanceForms": [
+      {
+        "FormId": "无影剑",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "暗影之力",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "暗藏杀机",
+        "UnlockLevel": 6
+      },
+      {
+        "FormId": "血影重重",
+        "UnlockLevel": 10
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "剑法资质",
+        "ValueToCompare": 60,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 20,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "太极剑法",
+    "Name": {
+      "key": "i18/skill/name51",
+      "text": "太极剑法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 2,
+    "CompatibleRuleId": "剑",
+    "DefaultWeaponItemId": "普通剑",
+    "ItemLevel": 4,
+    "IdleFileName": "迷踪无影剑",
+    "SprintFileName": "",
+    "Pic": "迷踪无影剑",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗剑法每级资质成长",
+    "AttrTemplate": "史诗剑法模板",
+    "NormalFormId": "迷踪剑",
+    "AdvanceForms": [
+      {
+        "FormId": "无影剑",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "暗影之力",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "暗藏杀机",
+        "UnlockLevel": 6
+      },
+      {
+        "FormId": "血影重重",
+        "UnlockLevel": 10
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "剑法资质",
+        "ValueToCompare": 60,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 20,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "玄虚刀法",
+    "Name": {
+      "key": "i18/skill/name52",
+      "text": "玄虚刀法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 3,
+    "CompatibleRuleId": "刀",
+    "DefaultWeaponItemId": "普通刀",
+    "ItemLevel": 4,
+    "IdleFileName": "杀猪刀法",
+    "SprintFileName": "",
+    "Pic": "杀猪刀法",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗刀法每级资质成长",
+    "AttrTemplate": "史诗刀法模板",
+    "NormalFormId": "屠宰",
+    "AdvanceForms": [
+      {
+        "FormId": "放血",
+        "UnlockLevel": 1
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "刀法资质",
+        "ValueToCompare": 60,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 20,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "燃木刀法",
+    "Name": {
+      "key": "i18/skill/name53",
+      "text": "燃木刀法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 3,
+    "CompatibleRuleId": "刀",
+    "DefaultWeaponItemId": "普通刀",
+    "ItemLevel": 4,
+    "IdleFileName": "杀猪刀法",
+    "SprintFileName": "",
+    "Pic": "杀猪刀法",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗刀法每级资质成长",
+    "AttrTemplate": "史诗刀法模板",
+    "NormalFormId": "屠宰",
+    "AdvanceForms": [
+      {
+        "FormId": "放血",
+        "UnlockLevel": 1
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "刀法资质",
+        "ValueToCompare": 60,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 20,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "七伤拳",
+    "Name": {
+      "key": "i18/skill/name54",
+      "text": "七伤拳"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
     "SubSkillType": 4,
     "CompatibleRuleId": "拳",
     "DefaultWeaponItemId": "普通手套",
     "ItemLevel": 4,
-    "IdleFileName": "疾风烈焰掌",
+    "IdleFileName": "疯魔拳法",
     "SprintFileName": "",
-    "Pic": "疾风烈焰掌",
-    "Hard": 1.4,
+    "Pic": "疯魔拳法",
+    "Hard": 1.5,
     "SkillAptitudePerLevel": "史诗拳法每级资质成长",
     "AttrTemplate": "史诗拳法模板",
-    "NormalFormId": "烈焰掌",
+    "NormalFormId": "疯魔一击",
     "AdvanceForms": [
       {
-        "FormId": "疾风烈焰掌",
+        "FormId": "疯魔乱拳",
         "UnlockLevel": 1
       },
       {
-        "FormId": "其疾如风",
-        "UnlockLevel": 5
+        "FormId": "疯疯癫癫",
+        "UnlockLevel": 3
       },
       {
-        "FormId": "侵略如火",
-        "UnlockLevel": 8
+        "FormId": "疯不所知",
+        "UnlockLevel": 6
       }
     ],
     "LearnConditions": [
@@ -1955,14 +2338,14 @@
     ]
   },
   {
-    "Id": "骤雨寒冰拳",
+    "Id": "四象掌",
     "Name": {
-      "key": "i18/wuxue/name/48",
-      "text": "骤雨寒冰拳"
+      "key": "i18/skill/name55",
+      "text": "四象掌"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/48",
-      "text": "为了对抗疾风烈焰掌而创造的拳法，每一拳似乎都释放出冰封之力，寒意弥漫。"
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
     "SubSkillType": 4,
@@ -1972,7 +2355,7 @@
     "IdleFileName": "骤雨寒冰拳",
     "SprintFileName": "",
     "Pic": "骤雨寒冰拳",
-    "Hard": 1.4,
+    "Hard": 1.5,
     "SkillAptitudePerLevel": "史诗拳法每级资质成长",
     "AttrTemplate": "史诗拳法模板",
     "NormalFormId": "寒冰拳",
@@ -2003,560 +2386,48 @@
     ]
   },
   {
-    "Id": "破风刀法",
+    "Id": "降龙十八缺三掌",
     "Name": {
-      "key": "i18/wuxue/name/49",
-      "text": "破风刀法"
+      "key": "i18/skill/name56",
+      "text": "降龙十八缺三掌"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/49",
-      "text": "破风刀法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 3,
-    "CompatibleRuleId": "刀",
-    "DefaultWeaponItemId": "普通刀",
-    "ItemLevel": 3,
-    "IdleFileName": "破风刀法",
-    "SprintFileName": "",
-    "Pic": "破风刀法",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "稀有刀法每级资质成长",
-    "AttrTemplate": "稀有刀法模板",
-    "NormalFormId": "破风击",
-    "AdvanceForms": [
-      {
-        "FormId": "破风式斩",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "破风式痕",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "风影千重斩",
-        "UnlockLevel": 10
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "刀法资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "淬毒掌法",
-    "Name": {
-      "key": "i18/wuxue/name/50",
-      "text": "淬毒掌法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/50",
-      "text": "淬毒掌法"
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
     "SubSkillType": 4,
     "CompatibleRuleId": "拳",
     "DefaultWeaponItemId": "普通手套",
-    "ItemLevel": 3,
-    "IdleFileName": "淬毒掌法",
+    "ItemLevel": 4,
+    "IdleFileName": "降魔袈裟掌",
     "SprintFileName": "",
-    "Pic": "淬毒掌法",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "稀有拳法每级资质成长",
-    "AttrTemplate": "稀有拳法模板",
-    "NormalFormId": "淬毒掌",
+    "Pic": "降魔袈裟掌",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗拳法每级资质成长",
+    "AttrTemplate": "史诗拳法模板",
+    "NormalFormId": "降魔掌",
     "AdvanceForms": [
       {
-        "FormId": "毒影漫舞",
+        "FormId": "金刚降魔掌",
         "UnlockLevel": 1
       },
       {
-        "FormId": "鬼手毒掌",
+        "FormId": "降魔内劲",
         "UnlockLevel": 3
       },
       {
-        "FormId": "淬毒掌影",
+        "FormId": "降妖伏魔",
         "UnlockLevel": 6
+      },
+      {
+        "FormId": "护体袈裟",
+        "UnlockLevel": 10
       }
     ],
     "LearnConditions": [
       {
         "AttrId": "拳法资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "寒阴剑法",
-    "Name": {
-      "key": "i18/wuxue/name/51",
-      "text": "寒阴剑法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/51",
-      "text": "寒阴剑法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 2,
-    "CompatibleRuleId": "剑",
-    "DefaultWeaponItemId": "普通剑",
-    "ItemLevel": 3,
-    "IdleFileName": "寒阴剑法",
-    "SprintFileName": "",
-    "Pic": "寒阴剑法",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "稀有剑法每级资质成长",
-    "AttrTemplate": "稀有剑法模板",
-    "NormalFormId": "寒阴刺",
-    "AdvanceForms": [
-      {
-        "FormId": "寒阴气绝剑",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "寒流贯脉",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "剑雪千里",
-        "UnlockLevel": 10
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "剑法资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "回首棍法",
-    "Name": {
-      "key": "i18/wuxue/name/52",
-      "text": "回首棍法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/52",
-      "text": "回首棍法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 1,
-    "CompatibleRuleId": "长柄",
-    "DefaultWeaponItemId": "普通棍",
-    "ItemLevel": 3,
-    "IdleFileName": "回首棍法",
-    "SprintFileName": "",
-    "Pic": "回首棍法",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "稀有棍法每级资质成长",
-    "AttrTemplate": "稀有棍法模板",
-    "NormalFormId": "回首棍",
-    "AdvanceForms": [
-      {
-        "FormId": "拨云见日",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "固若金汤",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "回首一棍",
-        "UnlockLevel": 8
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "棍法资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "霸王枪法",
-    "Name": {
-      "key": "i18/wuxue/name/53",
-      "text": "霸王枪法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/53",
-      "text": "霸王枪法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 1,
-    "CompatibleRuleId": "长柄",
-    "DefaultWeaponItemId": "普通枪",
-    "ItemLevel": 3,
-    "IdleFileName": "霸王枪法",
-    "SprintFileName": "",
-    "Pic": "霸王枪法",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "稀有枪法每级资质成长",
-    "AttrTemplate": "稀有枪法模板",
-    "NormalFormId": "霸王突刺",
-    "AdvanceForms": [
-      {
-        "FormId": "霸王横扫",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "万夫莫敌",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "霸王再世",
-        "UnlockLevel": 10
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "棍法资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "火钳刀法",
-    "Name": {
-      "key": "i18/wuxue/name/54",
-      "text": "火钳刀法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/54",
-      "text": "火钳刀法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 3,
-    "CompatibleRuleId": "刀",
-    "DefaultWeaponItemId": "普通刀",
-    "ItemLevel": 2,
-    "IdleFileName": "火钳刀法",
-    "SprintFileName": "",
-    "Pic": "火钳刀法",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "精良刀法每级资质成长",
-    "AttrTemplate": "精良刀法模板",
-    "NormalFormId": "基础刀法普攻",
-    "AdvanceForms": [
-      {
-        "FormId": "夹火刀",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "火钳不留命",
-        "UnlockLevel": 5
-      },
-      {
-        "FormId": "火钳留命",
-        "UnlockLevel": 10
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "刀法资质",
-        "ValueToCompare": 10,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 5,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "朱鹮箭语",
-    "Name": {
-      "key": "i18/wuxue/name/59",
-      "text": "朱鹮箭语"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/59",
-      "text": "朱鹮箭语"
-    },
-    "SkillType": 0,
-    "SubSkillType": 5,
-    "CompatibleRuleId": "弓",
-    "DefaultWeaponItemId": "普通弓",
-    "ItemLevel": 3,
-    "IdleFileName": "朱鹮箭语",
-    "SprintFileName": "",
-    "Pic": "朱鹮箭语",
-    "Hard": 1.1,
-    "SkillAptitudePerLevel": "稀有射术每级资质成长",
-    "AttrTemplate": "稀有射术模板",
-    "NormalFormId": "羽箭轻舞",
-    "AdvanceForms": [
-      {
-        "FormId": "涟漪千层",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "翎羽双箭",
-        "UnlockLevel": 5
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "射术资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "朱雀灵焰诀",
-    "Name": {
-      "key": "i18/wuxue/name/60",
-      "text": "朱雀灵焰诀"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/60",
-      "text": "朱雀灵焰诀"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 3,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "朱雀灵焰诀",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "稀有内功每级资质成长",
-    "AttrTemplate": "稀有内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "凌云破空",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "涅槃重生",
-        "UnlockLevel": 5
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "猎鹰弓法",
-    "Name": {
-      "key": "i18/wuxue/name/61",
-      "text": "猎鹰弓法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/61",
-      "text": "猎鹰弓法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 5,
-    "CompatibleRuleId": "弓",
-    "DefaultWeaponItemId": "普通弓",
-    "ItemLevel": 2,
-    "IdleFileName": "猎鹰弓法",
-    "SprintFileName": "",
-    "Pic": "猎鹰弓法",
-    "Hard": 1.1,
-    "SkillAptitudePerLevel": "精良射术每级资质成长",
-    "AttrTemplate": "精良射术模板",
-    "NormalFormId": "速射",
-    "AdvanceForms": [
-      {
-        "FormId": "猎鹰破空",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "猎鹰之眼",
-        "UnlockLevel": 5
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "射术资质",
-        "ValueToCompare": 10,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 5,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "流云箭诀",
-    "Name": {
-      "key": "i18/wuxue/name/62",
-      "text": "流云箭诀"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/62",
-      "text": "流云箭诀"
-    },
-    "SkillType": 0,
-    "SubSkillType": 5,
-    "CompatibleRuleId": "弓",
-    "DefaultWeaponItemId": "普通弓",
-    "ItemLevel": 3,
-    "IdleFileName": "流云箭诀",
-    "SprintFileName": "",
-    "Pic": "流云箭诀",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "稀有射术每级资质成长",
-    "AttrTemplate": "稀有射术模板",
-    "NormalFormId": "流云箭",
-    "AdvanceForms": [
-      {
-        "FormId": "流云箭影",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "云隐月影",
-        "UnlockLevel": 5
-      },
-      {
-        "FormId": "云绕明月",
-        "UnlockLevel": 10
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "射术资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "破岳虎弓法",
-    "Name": {
-      "key": "i18/wuxue/name/63",
-      "text": "破岳虎弓法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/63",
-      "text": "破岳虎弓法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 5,
-    "CompatibleRuleId": "弓",
-    "DefaultWeaponItemId": "普通弓",
-    "ItemLevel": 3,
-    "IdleFileName": "破岳虎弓法",
-    "SprintFileName": "",
-    "Pic": "破岳虎弓法",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "稀有射术每级资质成长",
-    "AttrTemplate": "稀有射术模板",
-    "NormalFormId": "虎啸箭",
-    "AdvanceForms": [
-      {
-        "FormId": "岳破天开",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "猛虎之力",
-        "UnlockLevel": 5
-      },
-      {
-        "FormId": "虎啸穿云",
-        "UnlockLevel": 10
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "射术资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "疾羽星霜",
-    "Name": {
-      "key": "i18/wuxue/name/64",
-      "text": "疾羽星霜"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/64",
-      "text": "疾羽星霜"
-    },
-    "SkillType": 0,
-    "SubSkillType": 5,
-    "CompatibleRuleId": "弓",
-    "DefaultWeaponItemId": "普通弓",
-    "ItemLevel": 4,
-    "IdleFileName": "疾羽星霜",
-    "SprintFileName": "",
-    "Pic": "疾羽星霜",
-    "Hard": 1.3,
-    "SkillAptitudePerLevel": "史诗射术每级资质成长",
-    "AttrTemplate": "史诗射术模板",
-    "NormalFormId": "羽箭纷飞",
-    "AdvanceForms": [
-      {
-        "FormId": "星霜箭雨",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "穿甲霜魄",
-        "UnlockLevel": 5
-      },
-      {
-        "FormId": "霜寒凝羽",
-        "UnlockLevel": 10
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "射术资质",
         "ValueToCompare": 60,
         "$type": "SC_RoleAttr"
       },
@@ -2567,44 +2438,48 @@
     ]
   },
   {
-    "Id": "雀舞乾坤箭",
+    "Id": "太极拳",
     "Name": {
-      "key": "i18/wuxue/name/65",
-      "text": "雀舞乾坤箭"
+      "key": "i18/skill/name57",
+      "text": "太极拳"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/65",
-      "text": "雀舞乾坤箭"
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
-    "SubSkillType": 5,
-    "CompatibleRuleId": "弓",
-    "DefaultWeaponItemId": "普通弓",
+    "SubSkillType": 4,
+    "CompatibleRuleId": "拳",
+    "DefaultWeaponItemId": "普通手套",
     "ItemLevel": 4,
-    "IdleFileName": "雀舞乾坤箭",
+    "IdleFileName": "降魔袈裟掌",
     "SprintFileName": "",
-    "Pic": "雀舞乾坤箭",
-    "Hard": 1.3,
-    "SkillAptitudePerLevel": "史诗射术每级资质成长",
-    "AttrTemplate": "史诗射术模板",
-    "NormalFormId": "雀舞箭",
+    "Pic": "降魔袈裟掌",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗拳法每级资质成长",
+    "AttrTemplate": "史诗拳法模板",
+    "NormalFormId": "降魔掌",
     "AdvanceForms": [
       {
-        "FormId": "雀翎风暴",
+        "FormId": "金刚降魔掌",
         "UnlockLevel": 1
       },
       {
-        "FormId": "雀影之舞",
-        "UnlockLevel": 5
+        "FormId": "降魔内劲",
+        "UnlockLevel": 3
       },
       {
-        "FormId": "乾坤同调",
+        "FormId": "降妖伏魔",
+        "UnlockLevel": 6
+      },
+      {
+        "FormId": "护体袈裟",
         "UnlockLevel": 10
       }
     ],
     "LearnConditions": [
       {
-        "AttrId": "射术资质",
+        "AttrId": "拳法资质",
         "ValueToCompare": 60,
         "$type": "SC_RoleAttr"
       },
@@ -2615,774 +2490,130 @@
     ]
   },
   {
-    "Id": "血戮刀法",
+    "Id": "天山六阳掌",
     "Name": {
-      "key": "i18/wuxue/name/66",
-      "text": "血戮刀法"
+      "key": "i18/skill/name58",
+      "text": "天山六阳掌"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/66",
-      "text": "血戮刀法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 3,
-    "CompatibleRuleId": "刀",
-    "DefaultWeaponItemId": "普通刀",
-    "ItemLevel": 3,
-    "IdleFileName": "血戮刀法",
-    "SprintFileName": "",
-    "Pic": "血戮刀法",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "稀有刀法每级资质成长",
-    "AttrTemplate": "稀有刀法模板",
-    "NormalFormId": "血腥斩",
-    "AdvanceForms": [
-      {
-        "FormId": "血腥屠戮",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "屠戮技艺",
-        "UnlockLevel": 4
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "刀法资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 5,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "草木枯元功",
-    "Name": {
-      "key": "i18/wuxue/name/67",
-      "text": "草木枯元功"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/67",
-      "text": "草木枯元功"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 2,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "草木枯元功",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "精良内功每级资质成长",
-    "AttrTemplate": "精良内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "露滴养心",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "铁杉护体",
-        "UnlockLevel": 5
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 10,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 5,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "断血刀法",
-    "Name": {
-      "key": "i18/wuxue/name/68",
-      "text": "断血刀法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/68",
-      "text": "断血刀法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 3,
-    "CompatibleRuleId": "刀",
-    "DefaultWeaponItemId": "普通刀",
-    "ItemLevel": 2,
-    "IdleFileName": "断血刀法",
-    "SprintFileName": "",
-    "Pic": "断血刀法",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "精良刀法每级资质成长",
-    "AttrTemplate": "精良刀法模板",
-    "NormalFormId": "屠宰",
-    "AdvanceForms": [
-      {
-        "FormId": "断血斩首",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "刀口舔血",
-        "UnlockLevel": 5
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "刀法资质",
-        "ValueToCompare": 10,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 5,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "夜影身法",
-    "Name": {
-      "key": "i18/wuxue/name/69",
-      "text": "夜影身法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/69",
-      "text": "夜影身法"
-    },
-    "SkillType": 2,
-    "SubSkillType": 6,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 2,
-    "IdleFileName": "",
-    "SprintFileName": "Baise/TY_Sprint.prefab",
-    "Pic": "夜影身法",
-    "Hard": 1.0,
-    "SkillAptitudePerLevel": "精良轻功每级资质成长",
-    "AttrTemplate": "精良轻功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "夜影步法",
-        "UnlockLevel": 3
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "轻功资质",
-        "ValueToCompare": 10,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 5,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "涟漪箭法",
-    "Name": {
-      "key": "i18/wuxue/name/70",
-      "text": "涟漪箭法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/70",
-      "text": "涟漪箭法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 5,
-    "CompatibleRuleId": "弓",
-    "DefaultWeaponItemId": "普通弓",
-    "ItemLevel": 2,
-    "IdleFileName": "涟漪箭法",
-    "SprintFileName": "",
-    "Pic": "涟漪箭法",
-    "Hard": 1.1,
-    "SkillAptitudePerLevel": "精良射术每级资质成长",
-    "AttrTemplate": "精良射术模板",
-    "NormalFormId": "基础弓法普攻",
-    "AdvanceForms": [
-      {
-        "FormId": "涟漪飞溅",
-        "UnlockLevel": 1
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "射术资质",
-        "ValueToCompare": 10,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 5,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "鹤舞霜华剑",
-    "Name": {
-      "key": "i18/wuxue/name/71",
-      "text": "鹤舞霜华剑"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/71",
-      "text": "鹤舞霜华剑"
-    },
-    "SkillType": 0,
-    "SubSkillType": 2,
-    "CompatibleRuleId": "剑",
-    "DefaultWeaponItemId": "普通剑",
-    "ItemLevel": 3,
-    "IdleFileName": "鹤舞霜华剑",
-    "SprintFileName": "",
-    "Pic": "鹤舞霜华剑",
-    "Hard": 1.05,
-    "SkillAptitudePerLevel": "稀有剑法每级资质成长",
-    "AttrTemplate": "稀有剑法模板",
-    "NormalFormId": "鹤舞",
-    "AdvanceForms": [
-      {
-        "FormId": "一剑穿灵",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "鹤鸣九天",
-        "UnlockLevel": 5
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "剑法资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "冰心玉鹤功",
-    "Name": {
-      "key": "i18/wuxue/name/72",
-      "text": "冰心玉鹤功"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/72",
-      "text": "冰心玉鹤功"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 3,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "冰心玉鹤功",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "稀有内功每级资质成长",
-    "AttrTemplate": "稀有内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "一片冰心",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "玉鹤翔云",
-        "UnlockLevel": 5
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "春风化雨掌",
-    "Name": {
-      "key": "i18/wuxue/name/73",
-      "text": "春风化雨掌"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/73",
-      "text": "春风化雨掌"
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
     "SubSkillType": 4,
     "CompatibleRuleId": "拳",
     "DefaultWeaponItemId": "普通手套",
-    "ItemLevel": 2,
-    "IdleFileName": "春风化雨掌",
-    "SprintFileName": "",
-    "Pic": "春风化雨掌",
-    "Hard": 1.1,
-    "SkillAptitudePerLevel": "精良拳法每级资质成长",
-    "AttrTemplate": "精良拳法模板",
-    "NormalFormId": "基础拳法普攻",
-    "AdvanceForms": [
-      {
-        "FormId": "春风拂柳",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "细雨润花",
-        "UnlockLevel": 5
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "拳法资质",
-        "ValueToCompare": 10,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 5,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "百草心经",
-    "Name": {
-      "key": "i18/wuxue/name/74",
-      "text": "百草心经"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/74",
-      "text": "百草心经"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 2,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "百草心经",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "精良内功每级资质成长",
-    "AttrTemplate": "精良治疗内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "万叶护身",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "万象回春",
-        "UnlockLevel": 5
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 10,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 5,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "血海魔功",
-    "Name": {
-      "key": "i18/wuxue/name/75",
-      "text": "血海魔功"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/75",
-      "text": "血海魔功"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 2,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "血海魔功",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "精良内功每级资质成长",
-    "AttrTemplate": "精良内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "仇深血海",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "魔梵般若",
-        "UnlockLevel": 5
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 10,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 5,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "浩然正气诀",
-    "Name": {
-      "key": "i18/wuxue/name/76",
-      "text": "浩然正气诀"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/76",
-      "text": "浩然正气诀"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 2,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "浩然正气诀",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "精良内功每级资质成长",
-    "AttrTemplate": "精良内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "浩然之气",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "朗朗乾坤",
-        "UnlockLevel": 5
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 10,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 5,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "罗汉拳",
-    "Name": {
-      "key": "i18/wuxue/name/77",
-      "text": "罗汉拳"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/77",
-      "text": "罗汉拳"
-    },
-    "SkillType": 0,
-    "SubSkillType": 4,
-    "CompatibleRuleId": "拳",
-    "DefaultWeaponItemId": "普通手套",
-    "ItemLevel": 2,
-    "IdleFileName": "罗汉拳",
-    "SprintFileName": "",
-    "Pic": "罗汉拳",
-    "Hard": 1.1,
-    "SkillAptitudePerLevel": "精良拳法每级资质成长",
-    "AttrTemplate": "精良拳法模板",
-    "NormalFormId": "基础拳法普攻",
-    "AdvanceForms": [
-      {
-        "FormId": "罗汉拳",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "罗汉金身",
-        "UnlockLevel": 3
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "拳法资质",
-        "ValueToCompare": 8,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 3,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "风雷掌法",
-    "Name": {
-      "key": "i18/wuxue/name/WindThunderFist",
-      "text": "风雷掌法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/WindThunderFist",
-      "text": "修炼此法出拳会变得风驰电掣，威力巨大"
-    },
-    "SkillType": 0,
-    "SubSkillType": 4,
-    "CompatibleRuleId": "拳",
-    "DefaultWeaponItemId": "普通手套",
-    "ItemLevel": 3,
-    "IdleFileName": "风雷掌法",
-    "SprintFileName": "",
-    "Pic": "风雷掌法",
-    "Hard": 1.5,
-    "SkillAptitudePerLevel": "稀有拳法每级资质成长",
-    "AttrTemplate": "稀有拳法模板",
-    "NormalFormId": "巽风掌",
-    "AdvanceForms": [
-      {
-        "FormId": "震雷掌",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "风雷交加",
-        "UnlockLevel": 6
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "拳法资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "破岳剑法",
-    "Name": {
-      "key": "i18/wuxue/name/BrokenMountain_Sword",
-      "text": "破岳剑法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/BrokenMountain_Sword",
-      "text": "破岳剑法以其震撼力和无坚不摧的气势著称，汲取山岳的雄浑与磅礴，以一剑破山岳之势，力透千军"
-    },
-    "SkillType": 0,
-    "SubSkillType": 2,
-    "CompatibleRuleId": "剑",
-    "DefaultWeaponItemId": "普通剑",
-    "ItemLevel": 3,
-    "IdleFileName": "破岳剑法",
-    "SprintFileName": "",
-    "Pic": "破岳剑法",
-    "Hard": 1.5,
-    "SkillAptitudePerLevel": "稀有剑法每级资质成长",
-    "AttrTemplate": "稀有剑法模板",
-    "NormalFormId": "破岳",
-    "AdvanceForms": [
-      {
-        "FormId": "裂地一击",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "地崩山摧",
-        "UnlockLevel": 6
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "剑法资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "八卦棍法",
-    "Name": {
-      "key": "i18/wuxue/name/BaGua_Stick",
-      "text": "八卦棍法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/BaGua_Stick",
-      "text": "一种源自传统武术中的棍术体系，融合了八卦掌的步法与圆滑的棍法技巧"
-    },
-    "SkillType": 0,
-    "SubSkillType": 1,
-    "CompatibleRuleId": "长柄",
-    "DefaultWeaponItemId": "普通棍",
-    "ItemLevel": 3,
-    "IdleFileName": "八卦棍法",
-    "SprintFileName": "",
-    "Pic": "八卦棍法",
-    "Hard": 1.5,
-    "SkillAptitudePerLevel": "稀有棍法每级资质成长",
-    "AttrTemplate": "稀有棍法模板",
-    "NormalFormId": "八卦棍",
-    "AdvanceForms": [
-      {
-        "FormId": "阴阳一击",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "阴阳一体",
-        "UnlockLevel": 6
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "棍法资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "两仪四象功",
-    "Name": {
-      "key": "i18/wuxue/name/Taichi_NeiGong",
-      "text": "两仪四象功"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/Taichi_NeiGong",
-      "text": "一种古老的道家修炼秘术"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
     "ItemLevel": 4,
-    "IdleFileName": "",
+    "IdleFileName": "降魔袈裟掌",
     "SprintFileName": "",
-    "Pic": "两仪四象功",
-    "Hard": 1.8,
-    "SkillAptitudePerLevel": "史诗内功每级资质成长",
-    "AttrTemplate": "史诗内功模板",
-    "NormalFormId": "",
+    "Pic": "降魔袈裟掌",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗拳法每级资质成长",
+    "AttrTemplate": "史诗拳法模板",
+    "NormalFormId": "降魔掌",
     "AdvanceForms": [
       {
-        "FormId": "挪转乾坤",
+        "FormId": "金刚降魔掌",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "降魔内劲",
         "UnlockLevel": 3
       },
       {
-        "FormId": "两仪生四象",
-        "UnlockLevel": 5
+        "FormId": "降妖伏魔",
+        "UnlockLevel": 6
       },
       {
-        "FormId": "四象生八卦",
-        "UnlockLevel": 8
+        "FormId": "护体袈裟",
+        "UnlockLevel": 10
       }
     ],
     "LearnConditions": [
       {
-        "AttrId": "内功资质",
+        "AttrId": "拳法资质",
         "ValueToCompare": 60,
         "$type": "SC_RoleAttr"
       },
       {
-        "ValueToCompare": 15,
+        "ValueToCompare": 20,
         "$type": "SC_RoleLevel"
       }
     ]
   },
   {
-    "Id": "乾坤步法",
+    "Id": "混元掌",
     "Name": {
-      "key": "i18/wuxue/name/QianKun_Step",
-      "text": "乾坤步法"
+      "key": "i18/skill/name59",
+      "text": "混元掌"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/QianKun_Step",
-      "text": "此功法强调在动中求静，通过连续不断的步伐变换来掌控战斗的节奏和方向，使对手难以捕捉行踪"
-    },
-    "SkillType": 2,
-    "SubSkillType": 6,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 3,
-    "IdleFileName": "",
-    "SprintFileName": "Baise/TY_Sprint.prefab",
-    "Pic": "乾坤步法",
-    "Hard": 1.4,
-    "SkillAptitudePerLevel": "稀有轻功每级资质成长",
-    "AttrTemplate": "稀有轻功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "乾坤步",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "乾宫",
-        "UnlockLevel": 5
-      },
-      {
-        "FormId": "坤阙",
-        "UnlockLevel": 8
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "轻功资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "蚀骨钩爪",
-    "Name": {
-      "key": "i18/wuxue/name/BoneErodingClaw",
-      "text": "蚀骨钩爪"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/BoneErodingClaw",
-      "text": "蚀骨钩爪"
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
     "SubSkillType": 4,
     "CompatibleRuleId": "拳",
     "DefaultWeaponItemId": "普通手套",
-    "ItemLevel": 3,
+    "ItemLevel": 4,
+    "IdleFileName": "降魔袈裟掌",
+    "SprintFileName": "",
+    "Pic": "降魔袈裟掌",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗拳法每级资质成长",
+    "AttrTemplate": "史诗拳法模板",
+    "NormalFormId": "降魔掌",
+    "AdvanceForms": [
+      {
+        "FormId": "金刚降魔掌",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "降魔内劲",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "降妖伏魔",
+        "UnlockLevel": 6
+      },
+      {
+        "FormId": "护体袈裟",
+        "UnlockLevel": 10
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "拳法资质",
+        "ValueToCompare": 60,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 20,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "寂灭爪",
+    "Name": {
+      "key": "i18/skill/name60",
+      "text": "寂灭爪"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 4,
+    "CompatibleRuleId": "拳",
+    "DefaultWeaponItemId": "普通手套",
+    "ItemLevel": 4,
     "IdleFileName": "蚀骨钩爪",
     "SprintFileName": "",
     "Pic": "蚀骨钩爪",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "稀有拳法每级资质成长",
-    "AttrTemplate": "稀有拳法模板",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗拳法每级资质成长",
+    "AttrTemplate": "史诗拳法模板",
     "NormalFormId": "基础拳法普攻",
     "AdvanceForms": [
       {
@@ -3405,58 +2636,6 @@
     "LearnConditions": [
       {
         "AttrId": "拳法资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "万蛇嗜毒杖法",
-    "Name": {
-      "key": "i18/wuxue/name/MyriadSerpentsPoisonStaffTechnique",
-      "text": "万蛇嗜毒杖法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/MyriadSerpentsPoisonStaffTechnique",
-      "text": "万蛇嗜毒杖法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 1,
-    "CompatibleRuleId": "长柄",
-    "DefaultWeaponItemId": "普通棍",
-    "ItemLevel": 4,
-    "IdleFileName": "万蛇嗜毒杖法",
-    "SprintFileName": "",
-    "Pic": "万蛇嗜毒杖法",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "史诗棍法每级资质成长",
-    "AttrTemplate": "史诗棍法模板",
-    "NormalFormId": "毒杖横扫",
-    "AdvanceForms": [
-      {
-        "FormId": "万蛇噬魂",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "毒影随形",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "噬元",
-        "UnlockLevel": 5
-      },
-      {
-        "FormId": "毒蚀心脉",
-        "UnlockLevel": 10
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "棍法资质",
         "ValueToCompare": 60,
         "$type": "SC_RoleAttr"
       },
@@ -3467,58 +2646,66 @@
     ]
   },
   {
-    "Id": "寄生诀",
+    "Id": "大力金刚指",
     "Name": {
-      "key": "i18/wuxue/name/ParasiticTechnique",
-      "text": "寄生诀"
+      "key": "i18/skill/name61",
+      "text": "大力金刚指"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/ParasiticTechnique",
-      "text": "寄生诀"
+      "key": "",
+      "text": ""
     },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 3,
-    "IdleFileName": "",
+    "SkillType": 0,
+    "SubSkillType": 4,
+    "CompatibleRuleId": "拳",
+    "DefaultWeaponItemId": "普通手套",
+    "ItemLevel": 4,
+    "IdleFileName": "降魔袈裟掌",
     "SprintFileName": "",
-    "Pic": "寄生诀",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "稀有内功每级资质成长",
-    "AttrTemplate": "稀有内功模板",
-    "NormalFormId": "",
+    "Pic": "降魔袈裟掌",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗拳法每级资质成长",
+    "AttrTemplate": "史诗拳法模板",
+    "NormalFormId": "降魔掌",
     "AdvanceForms": [
       {
-        "FormId": "寄生",
+        "FormId": "金刚降魔掌",
         "UnlockLevel": 1
       },
       {
-        "FormId": "寄生蔓延",
+        "FormId": "降魔内劲",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "降妖伏魔",
+        "UnlockLevel": 6
+      },
+      {
+        "FormId": "护体袈裟",
         "UnlockLevel": 10
       }
     ],
     "LearnConditions": [
       {
-        "AttrId": "内功资质",
-        "ValueToCompare": 30,
+        "AttrId": "拳法资质",
+        "ValueToCompare": 60,
         "$type": "SC_RoleAttr"
       },
       {
-        "ValueToCompare": 10,
+        "ValueToCompare": 20,
         "$type": "SC_RoleLevel"
       }
     ]
   },
   {
-    "Id": "天仙万毒术",
+    "Id": "少林九阳功",
     "Name": {
-      "key": "i18/wuxue/name/CelestialPoisonArt",
-      "text": "天仙万毒术"
+      "key": "i18/skill/name62",
+      "text": "少林九阳功"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/CelestialPoisonArt",
-      "text": "天仙万毒术"
+      "key": "",
+      "text": ""
     },
     "SkillType": 1,
     "SubSkillType": 7,
@@ -3527,23 +2714,19 @@
     "ItemLevel": 4,
     "IdleFileName": "",
     "SprintFileName": "",
-    "Pic": "天仙万毒术",
-    "Hard": 1.2,
+    "Pic": "降魔心法",
+    "Hard": 1.5,
     "SkillAptitudePerLevel": "史诗内功每级资质成长",
     "AttrTemplate": "史诗内功模板",
     "NormalFormId": "",
     "AdvanceForms": [
       {
-        "FormId": "万毒噬心",
-        "UnlockLevel": 1
+        "FormId": "气力雄厚",
+        "UnlockLevel": 3
       },
       {
-        "FormId": "万毒浩劫",
-        "UnlockLevel": 5
-      },
-      {
-        "FormId": "天仙毒咒",
-        "UnlockLevel": 10
+        "FormId": "身似铁打",
+        "UnlockLevel": 6
       }
     ],
     "LearnConditions": [
@@ -3559,26 +2742,562 @@
     ]
   },
   {
-    "Id": "迷魂步法",
+    "Id": "神照功",
     "Name": {
-      "key": "i18/wuxue/name/BewitchingSteps",
-      "text": "迷魂步法"
+      "key": "i18/skill/name63",
+      "text": "神照功"
     },
     "Desc": {
-      "key": "i18/wuxue/desc/BewitchingSteps",
-      "text": "迷魂步法"
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 1,
+    "SubSkillType": 7,
+    "CompatibleRuleId": "",
+    "DefaultWeaponItemId": "",
+    "ItemLevel": 4,
+    "IdleFileName": "",
+    "SprintFileName": "",
+    "Pic": "罗汉伏魔心法",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗内功每级资质成长",
+    "AttrTemplate": "史诗内功模板",
+    "NormalFormId": "",
+    "AdvanceForms": [
+      {
+        "FormId": "气海浩荡",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "魔念不侵",
+        "UnlockLevel": 6
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "内功资质",
+        "ValueToCompare": 60,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 20,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "紫霞神功",
+    "Name": {
+      "key": "i18/skill/name64",
+      "text": "紫霞神功"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 1,
+    "SubSkillType": 7,
+    "CompatibleRuleId": "",
+    "DefaultWeaponItemId": "",
+    "ItemLevel": 4,
+    "IdleFileName": "",
+    "SprintFileName": "",
+    "Pic": "降魔心法",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗内功每级资质成长",
+    "AttrTemplate": "史诗内功模板",
+    "NormalFormId": "",
+    "AdvanceForms": [
+      {
+        "FormId": "气力雄厚",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "身似铁打",
+        "UnlockLevel": 6
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "内功资质",
+        "ValueToCompare": 60,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 20,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "罗汉伏魔神功",
+    "Name": {
+      "key": "i18/skill/name65",
+      "text": "罗汉伏魔神功"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 1,
+    "SubSkillType": 7,
+    "CompatibleRuleId": "",
+    "DefaultWeaponItemId": "",
+    "ItemLevel": 4,
+    "IdleFileName": "",
+    "SprintFileName": "",
+    "Pic": "罗汉伏魔心法",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗内功每级资质成长",
+    "AttrTemplate": "史诗内功模板",
+    "NormalFormId": "",
+    "AdvanceForms": [
+      {
+        "FormId": "气海浩荡",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "魔念不侵",
+        "UnlockLevel": 6
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "内功资质",
+        "ValueToCompare": 60,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 20,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "纯阳无极功",
+    "Name": {
+      "key": "i18/skill/name66",
+      "text": "纯阳无极功"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 1,
+    "SubSkillType": 7,
+    "CompatibleRuleId": "",
+    "DefaultWeaponItemId": "",
+    "ItemLevel": 4,
+    "IdleFileName": "",
+    "SprintFileName": "",
+    "Pic": "神女心经",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗内功每级资质成长",
+    "AttrTemplate": "史诗内功模板",
+    "NormalFormId": "",
+    "AdvanceForms": [
+      {
+        "FormId": "月华如练",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "巫山洛水",
+        "UnlockLevel": 5
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "内功资质",
+        "ValueToCompare": 60,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 20,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "逍遥游身法",
+    "Name": {
+      "key": "i18/skill/name67",
+      "text": "逍遥游身法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
     },
     "SkillType": 2,
     "SubSkillType": 6,
     "CompatibleRuleId": "",
     "DefaultWeaponItemId": "",
-    "ItemLevel": 3,
+    "ItemLevel": 4,
+    "IdleFileName": "",
+    "SprintFileName": "Baise/TY_Sprint.prefab",
+    "Pic": "夜影身法",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗轻功每级资质成长",
+    "AttrTemplate": "史诗轻功模板",
+    "NormalFormId": "",
+    "AdvanceForms": [
+      {
+        "FormId": "夜影步法",
+        "UnlockLevel": 3
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "轻功资质",
+        "ValueToCompare": 60,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 20,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "梯云纵",
+    "Name": {
+      "key": "i18/skill/name68",
+      "text": "梯云纵"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 2,
+    "SubSkillType": 6,
+    "CompatibleRuleId": "",
+    "DefaultWeaponItemId": "",
+    "ItemLevel": 4,
+    "IdleFileName": "",
+    "SprintFileName": "Baise/TY_Sprint.prefab",
+    "Pic": "夜影身法",
+    "Hard": 1.5,
+    "SkillAptitudePerLevel": "史诗轻功每级资质成长",
+    "AttrTemplate": "史诗轻功模板",
+    "NormalFormId": "",
+    "AdvanceForms": [
+      {
+        "FormId": "夜影步法",
+        "UnlockLevel": 3
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "轻功资质",
+        "ValueToCompare": 60,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 20,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "打狗棒法",
+    "Name": {
+      "key": "i18/skill/name69",
+      "text": "打狗棒法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 1,
+    "CompatibleRuleId": "长柄",
+    "DefaultWeaponItemId": "普通棍",
+    "ItemLevel": 5,
+    "IdleFileName": "回首棍法",
+    "SprintFileName": "",
+    "Pic": "回首棍法",
+    "Hard": 2.0,
+    "SkillAptitudePerLevel": "传说棍法每级资质成长",
+    "AttrTemplate": "传说棍法模板",
+    "NormalFormId": "回首棍",
+    "AdvanceForms": [
+      {
+        "FormId": "拨云见日",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "固若金汤",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "回首一棍",
+        "UnlockLevel": 8
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "棍法资质",
+        "ValueToCompare": 100,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 25,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "独孤九剑",
+    "Name": {
+      "key": "i18/skill/name70",
+      "text": "独孤九剑"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 2,
+    "CompatibleRuleId": "剑",
+    "DefaultWeaponItemId": "普通剑",
+    "ItemLevel": 5,
+    "IdleFileName": "破岳剑法",
+    "SprintFileName": "",
+    "Pic": "破岳剑法",
+    "Hard": 2.0,
+    "SkillAptitudePerLevel": "传说剑法每级资质成长",
+    "AttrTemplate": "传说剑法模板",
+    "NormalFormId": "破岳",
+    "AdvanceForms": [
+      {
+        "FormId": "裂地一击",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "地崩山摧",
+        "UnlockLevel": 6
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "剑法资质",
+        "ValueToCompare": 100,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 25,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "血魔刀法",
+    "Name": {
+      "key": "i18/skill/name71",
+      "text": "血魔刀法"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 3,
+    "CompatibleRuleId": "刀",
+    "DefaultWeaponItemId": "普通刀",
+    "ItemLevel": 5,
+    "IdleFileName": "血魔刀法",
+    "SprintFileName": "",
+    "Pic": "血魔刀法",
+    "Hard": 2.0,
+    "SkillAptitudePerLevel": "传说刀法每级资质成长",
+    "AttrTemplate": "传说刀法模板",
+    "NormalFormId": "嗜血魔刀",
+    "AdvanceForms": [
+      {
+        "FormId": "血煞斩空",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "血怒之力",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "魔血连击",
+        "UnlockLevel": 10
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "刀法资质",
+        "ValueToCompare": 100,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 25,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "降龙十八掌",
+    "Name": {
+      "key": "i18/skill/name72",
+      "text": "降龙十八掌"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 0,
+    "SubSkillType": 4,
+    "CompatibleRuleId": "拳",
+    "DefaultWeaponItemId": "普通手套",
+    "ItemLevel": 5,
+    "IdleFileName": "疾风烈焰掌",
+    "SprintFileName": "",
+    "Pic": "疾风烈焰掌",
+    "Hard": 2.0,
+    "SkillAptitudePerLevel": "传说拳法每级资质成长",
+    "AttrTemplate": "传说拳法模板",
+    "NormalFormId": "烈焰掌",
+    "AdvanceForms": [
+      {
+        "FormId": "疾风烈焰掌",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "其疾如风",
+        "UnlockLevel": 5
+      },
+      {
+        "FormId": "侵略如火",
+        "UnlockLevel": 8
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "拳法资质",
+        "ValueToCompare": 100,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 25,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "九阳神功",
+    "Name": {
+      "key": "i18/skill/name73",
+      "text": "九阳神功"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 1,
+    "SubSkillType": 7,
+    "CompatibleRuleId": "",
+    "DefaultWeaponItemId": "",
+    "ItemLevel": 5,
+    "IdleFileName": "",
+    "SprintFileName": "",
+    "Pic": "朱雀灵焰诀",
+    "Hard": 2.0,
+    "SkillAptitudePerLevel": "传说内功每级资质成长",
+    "AttrTemplate": "传说内功模板",
+    "NormalFormId": "",
+    "AdvanceForms": [
+      {
+        "FormId": "凌云破空",
+        "UnlockLevel": 1
+      },
+      {
+        "FormId": "涅槃重生",
+        "UnlockLevel": 5
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "内功资质",
+        "ValueToCompare": 100,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 25,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "九阴神功",
+    "Name": {
+      "key": "i18/skill/name74",
+      "text": "九阴神功"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 1,
+    "SubSkillType": 7,
+    "CompatibleRuleId": "",
+    "DefaultWeaponItemId": "",
+    "ItemLevel": 5,
+    "IdleFileName": "",
+    "SprintFileName": "",
+    "Pic": "两仪四象功",
+    "Hard": 2.0,
+    "SkillAptitudePerLevel": "传说内功每级资质成长",
+    "AttrTemplate": "传说内功模板",
+    "NormalFormId": "",
+    "AdvanceForms": [
+      {
+        "FormId": "挪转乾坤",
+        "UnlockLevel": 3
+      },
+      {
+        "FormId": "两仪生四象",
+        "UnlockLevel": 5
+      },
+      {
+        "FormId": "四象生八卦",
+        "UnlockLevel": 8
+      }
+    ],
+    "LearnConditions": [
+      {
+        "AttrId": "内功资质",
+        "ValueToCompare": 100,
+        "$type": "SC_RoleAttr"
+      },
+      {
+        "ValueToCompare": 25,
+        "$type": "SC_RoleLevel"
+      }
+    ]
+  },
+  {
+    "Id": "神行百变",
+    "Name": {
+      "key": "i18/skill/name75",
+      "text": "神行百变"
+    },
+    "Desc": {
+      "key": "",
+      "text": ""
+    },
+    "SkillType": 2,
+    "SubSkillType": 6,
+    "CompatibleRuleId": "",
+    "DefaultWeaponItemId": "",
+    "ItemLevel": 5,
     "IdleFileName": "",
     "SprintFileName": "Baise/TY_Sprint.prefab",
     "Pic": "迷魂步法",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "稀有轻功每级资质成长",
-    "AttrTemplate": "稀有轻功模板",
+    "Hard": 2.0,
+    "SkillAptitudePerLevel": "传说轻功每级资质成长",
+    "AttrTemplate": "传说轻功模板",
     "NormalFormId": "",
     "AdvanceForms": [
       {
@@ -3589,731 +3308,51 @@
     "LearnConditions": [
       {
         "AttrId": "轻功资质",
-        "ValueToCompare": 30,
+        "ValueToCompare": 100,
         "$type": "SC_RoleAttr"
       },
       {
-        "ValueToCompare": 10,
+        "ValueToCompare": 25,
         "$type": "SC_RoleLevel"
       }
     ]
   },
   {
-    "Id": "熊_外功",
+    "Id": "野球拳",
     "Name": {
-      "key": "i18/wuxue/name/bear_attack",
-      "text": "熊攻击"
+      "key": "i18/skill/name76",
+      "text": "野球拳"
     },
     "Desc": {
-      "key": "i18/wuxue/name/bear_attack",
-      "text": "来自熊的攻击"
-    },
-    "SkillType": 0,
-    "SubSkillType": 4,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 1,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "763",
-    "Hard": 0.8,
-    "SkillAptitudePerLevel": "普通拳法每级资质成长",
-    "AttrTemplate": "普通拳法模板",
-    "NormalFormId": "熊_普攻",
-    "AdvanceForms": [
-      {
-        "FormId": "熊_愤怒一击",
-        "UnlockLevel": 1
-      }
-    ],
-    "LearnConditions": []
-  },
-  {
-    "Id": "野猪_外功",
-    "Name": {
-      "key": "i18/wuxue/name/boar_attack",
-      "text": "野猪攻击"
-    },
-    "Desc": {
-      "key": "i18/wuxue/name/boar_attack",
-      "text": "来自野猪的攻击"
-    },
-    "SkillType": 0,
-    "SubSkillType": 4,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 1,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "763",
-    "Hard": 0.8,
-    "SkillAptitudePerLevel": "普通拳法每级资质成长",
-    "AttrTemplate": "普通拳法模板",
-    "NormalFormId": "野猪_普攻",
-    "AdvanceForms": [
-      {
-        "FormId": "野猪_冲刺",
-        "UnlockLevel": 1
-      }
-    ],
-    "LearnConditions": []
-  },
-  {
-    "Id": "羊_外功",
-    "Name": {
-      "key": "i18/wuxue/name/goat_attack",
-      "text": "羚羊攻击"
-    },
-    "Desc": {
-      "key": "i18/wuxue/name/goat_attack",
-      "text": "来自羚羊的攻击"
-    },
-    "SkillType": 0,
-    "SubSkillType": 1,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 1,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "763",
-    "Hard": 0.8,
-    "SkillAptitudePerLevel": "普通枪法每级资质成长",
-    "AttrTemplate": "普通枪法模板",
-    "NormalFormId": "羊_普攻",
-    "AdvanceForms": [
-      {
-        "FormId": "羊_冲锋",
-        "UnlockLevel": 1
-      }
-    ],
-    "LearnConditions": []
-  },
-  {
-    "Id": "狼_外功",
-    "Name": {
-      "key": "i18/wuxue/name/wolf_attack",
-      "text": "狼攻击"
-    },
-    "Desc": {
-      "key": "i18/wuxue/name/wolf_attack",
-      "text": "来自狼的攻击"
-    },
-    "SkillType": 0,
-    "SubSkillType": 3,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 1,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "763",
-    "Hard": 0.8,
-    "SkillAptitudePerLevel": "普通刀法每级资质成长",
-    "AttrTemplate": "普通刀法模板",
-    "NormalFormId": "狼_普攻",
-    "AdvanceForms": [
-      {
-        "FormId": "狼_撕咬",
-        "UnlockLevel": 1
-      }
-    ],
-    "LearnConditions": []
-  },
-  {
-    "Id": "蛇_外功",
-    "Name": {
-      "key": "i18/wuxue/name/snake_attack",
-      "text": "蛇攻击"
-    },
-    "Desc": {
-      "key": "i18/wuxue/name/snake_attack",
-      "text": "来自狼的攻击"
-    },
-    "SkillType": 0,
-    "SubSkillType": 2,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 1,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "763",
-    "Hard": 0.8,
-    "SkillAptitudePerLevel": "普通剑法每级资质成长",
-    "AttrTemplate": "普通剑法模板",
-    "NormalFormId": "蛇_普攻",
-    "AdvanceForms": [
-      {
-        "FormId": "蛇_毒牙",
-        "UnlockLevel": 1
-      }
-    ],
-    "LearnConditions": []
-  },
-  {
-    "Id": "猴_外功",
-    "Name": {
-      "key": "i18/wuxue/name/monkey_attack",
-      "text": "猴攻击"
-    },
-    "Desc": {
-      "key": "i18/wuxue/name/monkey_attack",
-      "text": "来自猴的攻击"
-    },
-    "SkillType": 0,
-    "SubSkillType": 4,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 1,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "763",
-    "Hard": 0.8,
-    "SkillAptitudePerLevel": "普通拳法每级资质成长",
-    "AttrTemplate": "普通拳法模板",
-    "NormalFormId": "猴_普攻",
-    "AdvanceForms": [
-      {
-        "FormId": "猴_扔石子",
-        "UnlockLevel": 1
-      }
-    ],
-    "LearnConditions": []
-  },
-  {
-    "Id": "猴王拳",
-    "Name": {
-      "key": "i18/wuxue/name/MonkeyKingFist",
-      "text": "猴王拳"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/MonkeyKingFist",
-      "text": "外应其动，内应其静，意发神速，乘机取胜，以巧破。"
+      "key": "",
+      "text": ""
     },
     "SkillType": 0,
     "SubSkillType": 4,
     "CompatibleRuleId": "拳",
     "DefaultWeaponItemId": "普通手套",
-    "ItemLevel": 4,
-    "IdleFileName": "猴王拳",
+    "ItemLevel": 1,
+    "IdleFileName": "基础拳法",
     "SprintFileName": "",
-    "Pic": "猴王拳",
-    "Hard": 1.15,
-    "SkillAptitudePerLevel": "史诗拳法每级资质成长",
-    "AttrTemplate": "史诗拳法模板",
-    "NormalFormId": "左势猴形",
-    "AdvanceForms": [
-      {
-        "FormId": "白猿献果",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "猿猴蹬枝",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "猿猴托印",
-        "UnlockLevel": 5
-      },
-      {
-        "FormId": "右势猴形",
-        "UnlockLevel": 10
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "拳法资质",
-        "ValueToCompare": 60,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 20,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "蛤蟆功",
-    "Name": {
-      "key": "i18/wuxue/name/ToadGong",
-      "text": "蛤蟆功"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/ToadGong",
-      "text": "以静制动，全身涵劲蓄势蕴力不吐。"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 4,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "蛤蟆功",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "史诗内功每级资质成长",
-    "AttrTemplate": "史诗内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "蛤蟆功",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "蟾飞九天",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "蛤蟆蓄势",
-        "UnlockLevel": 6
-      },
-      {
-        "FormId": "蟾毒之气",
-        "UnlockLevel": 10
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 60,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 20,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "爱耍剑法",
-    "Name": {
-      "key": "i18/wuxue/name/cha_1",
-      "text": "爱耍剑法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/cha_1",
-      "text": "爱耍剑法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 2,
-    "CompatibleRuleId": "剑",
-    "DefaultWeaponItemId": "普通剑",
-    "ItemLevel": 4,
-    "IdleFileName": "爱耍剑法",
-    "SprintFileName": "",
-    "Pic": "爱耍剑法",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "史诗剑法每级资质成长",
-    "AttrTemplate": "史诗剑法模板",
-    "NormalFormId": "基础剑法普攻",
-    "AdvanceForms": [
-      {
-        "FormId": "下剑",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "银剑",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "醉剑",
-        "UnlockLevel": 6
-      },
-      {
-        "FormId": "剑人",
-        "UnlockLevel": 10
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "剑法资质",
-        "ValueToCompare": 60,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 20,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "血饮刀法",
-    "Name": {
-      "key": "i18/wuxue/name/cha_2",
-      "text": "血饮刀法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/cha_2",
-      "text": "血饮刀法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 3,
-    "CompatibleRuleId": "刀",
-    "DefaultWeaponItemId": "普通刀",
-    "ItemLevel": 4,
-    "IdleFileName": "血饮刀法",
-    "SprintFileName": "",
-    "Pic": "血饮刀法",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "史诗刀法每级资质成长",
-    "AttrTemplate": "史诗刀法模板",
-    "NormalFormId": "血饮击",
-    "AdvanceForms": [
-      {
-        "FormId": "血饮斩",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "血怒爆发",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "蚀血刀影",
-        "UnlockLevel": 6
-      },
-      {
-        "FormId": "血影连斩",
-        "UnlockLevel": 10
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "刀法资质",
-        "ValueToCompare": 60,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 20,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "臭屁箭法",
-    "Name": {
-      "key": "i18/wuxue/name/cha_3",
-      "text": "臭屁箭法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/cha_3",
-      "text": "臭屁箭法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 5,
-    "CompatibleRuleId": "弓",
-    "DefaultWeaponItemId": "普通弓",
-    "ItemLevel": 3,
-    "IdleFileName": "臭屁箭法",
-    "SprintFileName": "",
-    "Pic": "臭屁箭法",
-    "Hard": 1.1,
-    "SkillAptitudePerLevel": "稀有射术每级资质成长",
-    "AttrTemplate": "稀有射术模板",
-    "NormalFormId": "基础弓法普攻",
-    "AdvanceForms": [
-      {
-        "FormId": "臭屁箭",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "臭气弥漫",
-        "UnlockLevel": 4
-      },
-      {
-        "FormId": "臭屁熏天",
-        "UnlockLevel": 8
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "射术资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "猹影枪法",
-    "Name": {
-      "key": "i18/wuxue/name/cha_4",
-      "text": "猹影枪法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/cha_4",
-      "text": "猹影枪法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 1,
-    "CompatibleRuleId": "长柄",
-    "DefaultWeaponItemId": "普通枪",
-    "ItemLevel": 3,
-    "IdleFileName": "猹影枪法",
-    "SprintFileName": "",
-    "Pic": "猹影枪法",
-    "Hard": 1.1,
-    "SkillAptitudePerLevel": "稀有枪法每级资质成长",
-    "AttrTemplate": "稀有枪法模板",
-    "NormalFormId": "基础枪法普攻",
-    "AdvanceForms": [
-      {
-        "FormId": "影穿云",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "反击突刺",
-        "UnlockLevel": 4
-      },
-      {
-        "FormId": "影御敌",
-        "UnlockLevel": 8
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "枪法资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "铁甲拳法",
-    "Name": {
-      "key": "i18/wuxue/name/cha_5",
-      "text": "铁甲拳法"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/cha_5",
-      "text": "铁甲拳法"
-    },
-    "SkillType": 0,
-    "SubSkillType": 4,
-    "CompatibleRuleId": "拳",
-    "DefaultWeaponItemId": "普通手套",
-    "ItemLevel": 3,
-    "IdleFileName": "铁甲拳法",
-    "SprintFileName": "",
-    "Pic": "铁甲拳法",
-    "Hard": 1.1,
-    "SkillAptitudePerLevel": "稀有拳法每级资质成长",
-    "AttrTemplate": "稀有拳法模板",
+    "Pic": "基础拳法",
+    "Hard": 2.5,
+    "SkillAptitudePerLevel": "普通拳法每级资质成长",
+    "AttrTemplate": "普通拳法模板",
     "NormalFormId": "基础拳法普攻",
     "AdvanceForms": [
       {
-        "FormId": "铁甲重拳",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "钢劲强袭",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "铁甲坚韧",
-        "UnlockLevel": 6
+        "FormId": "疾风烈焰掌",
+        "UnlockLevel": 10
       }
     ],
     "LearnConditions": [
       {
         "AttrId": "拳法资质",
-        "ValueToCompare": 30,
+        "ValueToCompare": 100,
         "$type": "SC_RoleAttr"
       },
       {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "霸绝功",
-    "Name": {
-      "key": "i18/wuxue/name/cha_6",
-      "text": "霸绝功"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/cha_6",
-      "text": "霸绝功"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 4,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "霸绝功",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "史诗内功每级资质成长",
-    "AttrTemplate": "史诗治疗内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "霸绝",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "霸绝内劲",
-        "UnlockLevel": 4
-      },
-      {
-        "FormId": "太玄",
-        "UnlockLevel": 8
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 60,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 20,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "灵息回天功",
-    "Name": {
-      "key": "i18/wuxue/name/cha_7",
-      "text": "灵息回天功"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/cha_7",
-      "text": "灵息回天功"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 4,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "灵息回天功",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "史诗内功每级资质成长",
-    "AttrTemplate": "史诗治疗内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "天玄回元",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "丹田强劲",
-        "UnlockLevel": 4
-      },
-      {
-        "FormId": "回天之力",
-        "UnlockLevel": 8
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 60,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 20,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "惊鸿诀",
-    "Name": {
-      "key": "i18/wuxue/name/cha_8",
-      "text": "惊鸿诀"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/cha_8",
-      "text": "惊鸿诀"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 3,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "惊鸿诀",
-    "Hard": 1.1,
-    "SkillAptitudePerLevel": "稀有内功每级资质成长",
-    "AttrTemplate": "稀有内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "惊鸿破影",
-        "UnlockLevel": 3
-      },
-      {
-        "FormId": "惊鸿掠月",
-        "UnlockLevel": 8
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
-        "$type": "SC_RoleLevel"
-      }
-    ]
-  },
-  {
-    "Id": "铁壁玄功",
-    "Name": {
-      "key": "i18/wuxue/name/cha_9",
-      "text": "铁壁玄功"
-    },
-    "Desc": {
-      "key": "i18/wuxue/desc/cha_9",
-      "text": "铁壁玄功"
-    },
-    "SkillType": 1,
-    "SubSkillType": 7,
-    "CompatibleRuleId": "",
-    "DefaultWeaponItemId": "",
-    "ItemLevel": 3,
-    "IdleFileName": "",
-    "SprintFileName": "",
-    "Pic": "铁壁玄功",
-    "Hard": 1.2,
-    "SkillAptitudePerLevel": "稀有内功每级资质成长",
-    "AttrTemplate": "稀有内功模板",
-    "NormalFormId": "",
-    "AdvanceForms": [
-      {
-        "FormId": "铁壁",
-        "UnlockLevel": 1
-      },
-      {
-        "FormId": "血气方刚",
-        "UnlockLevel": 4
-      },
-      {
-        "FormId": "金刚护体",
-        "UnlockLevel": 8
-      }
-    ],
-    "LearnConditions": [
-      {
-        "AttrId": "内功资质",
-        "ValueToCompare": 30,
-        "$type": "SC_RoleAttr"
-      },
-      {
-        "ValueToCompare": 10,
+        "ValueToCompare": 25,
         "$type": "SC_RoleLevel"
       }
     ]
