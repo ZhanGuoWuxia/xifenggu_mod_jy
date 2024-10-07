@@ -23,13 +23,5 @@ function aiManager:removeAI(aiName)
     self.allAI[aiName] = nil
 end
 
-aiManager:addAIFromPath("AI/template/attacker_ai")
-aiManager:addAIFromPath("AI/template/defender_ai")
-aiManager:addAIFromPath("AI/template/evener_ai")
-aiManager:addAIFromPath("AI/Menpai/豪猪长垄")
-aiManager:addAIFromPath("AI/Menpai/鹤岭门")
-aiManager:addAIFromPath("AI/Menpai/龙湾门")
-aiManager:addAIFromPath("AI/Menpai/万雀溪谷")
-aiManager:addAIFromPath("AI/Menpai/仙竹门")
-aiManager:addAIFromPath("AI/Menpai/灵猹仙洞")
+aiManager:addAIFromPath("AI/Menpai/jy_menpai_ai")
 return aiManager

@@ -456,6 +456,27 @@
     ]
   },
   {
+    "Id": "探索",
+    "Icon": "event",
+    "Prefix": "<color=white>[探索]</color>",
+    "ImportanceType": 2,
+    "Name": {
+      "key": "i18n/action/name/explorer",
+      "text": "探索"
+    },
+    "LuaCommandFile": "Area/jy_探索",
+    "CostActionCount": 1,
+    "ActionType": 0,
+    "ActionConditions": [
+      {
+        "MenpaiId": "玩家",
+        "ExistCheckType": 1,
+        "AreaId": "当前地块",
+        "$type": "AC_MenpaiHasArea"
+      }
+    ]
+  },
+  {
     "Id": "俘虏招募",
     "Icon": "",
     "Prefix": "",

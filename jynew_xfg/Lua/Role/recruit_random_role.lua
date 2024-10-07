@@ -25,9 +25,9 @@ if money < cost then
     return -1
 end
 
-local selectedRoleIds = {"随机坦克", "随机侠士", "随机游侠", "随机刺客", "随机医师"}
+local selectedRoleIds = {"随机坦克", "随机侠士", "随机刺客", "随机医师"}
 
-local options = {"坚不可摧之人",  "江湖多面手", "百步穿杨之人", "精通暗杀之人", "妙手回春之人", "算了，我暂时不打算招募了"}
+local options = {"坚不可摧之人",  "江湖多面手", "精通暗杀之人", "妙手回春之人", "算了，我暂时不打算招募了"}
 local msg = string.i18_format("掌门，我准备在此处地界发布新的招贤令了，你希望招募怎样的人才?\n(当前地块发布招募令需要消耗 <color=#ff2400>银两 x {0}</color>，人才实力和当前地块发展度正相关)", cost)
 local idx = show_avg_select("齐六哥", msg, options)
 local ret = -1

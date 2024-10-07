@@ -27,15 +27,29 @@
     ],
     "StartRandromRoleNum": 20,
     "LeaderId": "方证",
-    "RelationDict": [],
-    "FriendShipDict": [],
+    "RelationDict": [
+      [
+        "日月神教",
+        -1
+      ]
+    ],
+    "FriendShipDict": [
+      [
+        "日月神教",
+        -100.0
+      ],
+      [
+        "武当派",
+        50.0
+      ]
+    ],
     "SectColor": {
       "R": 0.81,
       "G": 0.8,
       "B": 0.81,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "武当派",
@@ -63,15 +77,29 @@
     ],
     "StartRandromRoleNum": 20,
     "LeaderId": "张三丰",
-    "RelationDict": [],
-    "FriendShipDict": [],
+    "RelationDict": [
+      [
+        "日月神教",
+        -1
+      ]
+    ],
+    "FriendShipDict": [
+      [
+        "日月神教",
+        -100.0
+      ],
+      [
+        "少林",
+        50.0
+      ]
+    ],
     "SectColor": {
       "R": 0.71,
       "G": 0.91,
       "B": 0.52,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "华山派",
@@ -99,7 +127,12 @@
     ],
     "StartRandromRoleNum": 5,
     "LeaderId": "岳不群",
-    "RelationDict": [],
+    "RelationDict": [
+      [
+        "日月神教",
+        -1
+      ]
+    ],
     "FriendShipDict": [],
     "SectColor": {
       "R": 0.29,
@@ -107,7 +140,7 @@
       "B": 0.87,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "一品堂",
@@ -143,7 +176,7 @@
       "B": 0.13,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "青城派",
@@ -179,7 +212,7 @@
       "B": 0.93,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "五毒教",
@@ -214,7 +247,7 @@
       "B": 0.43,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "衡山派",
@@ -250,7 +283,7 @@
       "B": 0.13,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "日月神教",
@@ -281,15 +314,41 @@
     ],
     "StartRandromRoleNum": 40,
     "LeaderId": "东方不败",
-    "RelationDict": [],
-    "FriendShipDict": [],
+    "RelationDict": [
+      [
+        "少林",
+        -1
+      ],
+      [
+        "武当派",
+        -1
+      ],
+      [
+        "华山派",
+        -1
+      ]
+    ],
+    "FriendShipDict": [
+      [
+        "少林",
+        -100.0
+      ],
+      [
+        "武当",
+        -100.0
+      ],
+      [
+        "华山派",
+        -100.0
+      ]
+    ],
     "SectColor": {
       "R": 0.39,
       "G": 0.72,
       "B": 0.65,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "南少林",
@@ -317,15 +376,20 @@
     ],
     "StartRandromRoleNum": 15,
     "LeaderId": "洪大猛",
-    "RelationDict": [],
+    "RelationDict": [
+      [
+        "河洛帮",
+        -1
+      ]
+    ],
     "FriendShipDict": [],
     "SectColor": {
-      "R": 1.0,
-      "G": 1.0,
-      "B": 1.0,
+      "R": 0.39,
+      "G": 0.12,
+      "B": 0.65,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "神龙教",
@@ -361,7 +425,7 @@
       "B": 0.55,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "河洛帮",
@@ -389,15 +453,25 @@
     ],
     "StartRandromRoleNum": 40,
     "LeaderId": "徐小侠",
-    "RelationDict": [],
-    "FriendShipDict": [],
+    "RelationDict": [
+      [
+        "南少林",
+        -1
+      ]
+    ],
+    "FriendShipDict": [
+      [
+        "南少林",
+        -100.0
+      ]
+    ],
     "SectColor": {
       "R": 0.0,
       "G": 1.0,
       "B": 0.2,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "海鲨帮",
@@ -433,7 +507,7 @@
       "B": 0.1,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "段家",
@@ -469,7 +543,7 @@
       "B": 0.839,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "昆仑派",
@@ -504,7 +578,7 @@
       "B": 0.38,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "灵鹫宫",
@@ -540,7 +614,7 @@
       "B": 0.816,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "神农帮",
@@ -576,7 +650,7 @@
       "B": 0.329,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "丐帮",
@@ -613,7 +687,7 @@
       "B": 0.9,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "全真教",
@@ -649,7 +723,7 @@
       "B": 0.5,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "大轮寺",
@@ -684,7 +758,7 @@
       "B": 0.5,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   },
   {
     "Id": "虾米帮",
@@ -719,6 +793,6 @@
       "B": 1.0,
       "A": 1.0
     },
-    "AIName": "AI/template/attacker_ai"
+    "AIName": "AI/Menpai/jy_menpai_ai"
   }
 ]

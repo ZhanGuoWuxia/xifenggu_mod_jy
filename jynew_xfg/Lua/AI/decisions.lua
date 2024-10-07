@@ -173,14 +173,14 @@ end
 local function add_new_disciple(menpai, id)
     local role = add_disciple_by_id(menpai, id)
     if role then
-        show_menpai_action(menpai, string.i18_format("{0} 加入了 {1}", role.Name, menpai.Name))
+        show_menpai_action(menpai, string.i18_format("[quick]{0} 加入了 {1}", role.Name, menpai.Name))
     end
 end
 
 local function decision_add_random_disciple(menpai)
     local role = add_random_disciple(menpai)
     if role then
-        show_menpai_action(menpai, string.i18_format("{0} 加入了 {1}", role.Name, menpai.Name))
+        show_menpai_action(menpai, string.i18_format("[quick]{0} 加入了 {1}", role.Name, menpai.Name))
     end
 end
 

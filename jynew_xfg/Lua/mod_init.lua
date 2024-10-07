@@ -16,3 +16,9 @@ ask_player_create_role = function ()
     trigger_event(0)
 end
 
+
+function getRandomElement(t)
+    local key = math.random(#t)
+    -- 返回键对应的值
+    return t[key]
+end
