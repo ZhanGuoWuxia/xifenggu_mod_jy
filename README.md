@@ -1,6 +1,8 @@
 # 金庸乱斗
 
-本项目是steam游戏《息风谷战略》的一个开源MOD，旨在实现一个玩家可以扮演“小虾米”开设门派，与各武侠门派争霸一统江湖的体验。
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)
+
+本项目是steam游戏[《息风谷战略》](https://store.steampowered.com/app/2646320/_/)的一个开源MOD，旨在实现一个玩家可以扮演“小虾米”开设门派，与各武侠门派争霸一统江湖的体验。
 
 ![0a32ebc9-b7ac-4a15-9736-149a77515514](https://github.com/user-attachments/assets/4fa024cf-a4ee-4186-a927-11dcaa093936)
 ![image](https://github.com/user-attachments/assets/5fa4cce7-c821-45ce-8357-9e94b5fb22e3)
@@ -70,6 +72,8 @@
 
 QQ 897933161 
 
-## 资源引用和说明
-本项目使用了[《群侠传，启动！》](https://github.com/jynew/jynew)的美术素材，并获得授权
-但不可在其他任意处进行再次商用
+## 补充说明
+
+- 本项目使用了[《群侠传，启动！》](https://github.com/jynew/jynew)的美术素材，并获得授权。但不可在其他任意处进行再次商用
+- 本项目无任何商用，仅用于学习制作《息风谷战略》的MOD，以及致敬金庸先生以及河洛工作室！
+- 有任何疑问欢迎留言联系
